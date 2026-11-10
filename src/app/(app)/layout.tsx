@@ -6,6 +6,7 @@ import { signOut } from "../actions";
 import { getDictionary } from "@/lib/i18n";
 import { requireProfile } from "@/lib/data";
 import { createClient } from "@/lib/supabase/server";
+import { autoImportUpdatedPacks } from "@/lib/packs/autoImport";
 
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   const profile = await requireProfile();
@@ -13,6 +14,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
 
   const supabase = await createClient();
   await supabase.rpc("touch_last_seen");
+  if (profile.role === "admin") await autoImportUpdatedPacks(supabase);
 
   const links = [
     { href: "/home", label: t.nav.home, icon: "🏔️" },

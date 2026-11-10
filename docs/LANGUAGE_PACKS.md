@@ -35,3 +35,7 @@ Re-importing a pack updates the content. Nothing is deleted, so learners keep th
 
 ## Adding a sixth base language
 Base languages live in the `base_languages` table. Add a row in Supabase (Table editor → base_languages → Insert), then add that language's key to the `translations` in the packs. Missing translations fall back to English.
+
+## Checking and publishing
+- Run `npm run validate-packs` before committing: it checks references, missing translations, duplicate words and that the pack is registered.
+- Bump `version` whenever a pack changes. When an admin next opens the site, packs whose version differs from the database are imported automatically. A brand-new language still needs one manual **Import**.
