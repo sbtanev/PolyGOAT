@@ -27,7 +27,16 @@ npm install
 npm run dev
 ```
 
-## Roadmap
-- **Stage 1, part 1 (done):** accounts, invite codes, language + source selection, profiles, avatars, community.
-- **Stage 1, next parts:** lessons, phrase packs, dialogues, spaced repetition (FSRS), notebook, reading, audio, journey map, XP/streaks/leaderboard, admin content editor, Spanish A1 + Finnish exam prep.
-- **Stage 2 / 3:** duels, word map, French, German, Latin, AI conversation partner, Asian languages.
+## What's in Stage 1
+- Accounts with invite codes, profiles with avatars, community, public profiles
+- Lessons (auto-generated + hand-written exercises), practice-your-mistakes, phrase packs with native/slang versions, dialogues
+- Spaced repetition (FSRS), personal notebook, click-to-translate reading
+- Journey map per language (places unlock with lessons)
+- XP, streaks with a weekly freeze, weekly leaderboard, GOAT of the week
+- Admin: invite codes, pack import/export, content editor, users, statistics
+- Content: Spanish A1 and Finnish exam prep, translated into BG/EN/DE/FR(/ES)
+- Audio: recorded MP3s via `scripts/generate-audio.mjs` (GitHub Action "Generate audio"), browser voice as fallback
+
+## Next
+- **Stage 2:** duels, word map, etymologies, false friends, dictation & shadowing, graded/parallel texts, own-text import, French, German, Latin, badges and cosmetics, activity feed.
+- **Stage 3:** AI conversation partner, speech recognition, level tests, offline mode, Anki export, Asian languages.

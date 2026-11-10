@@ -1,0 +1,3012 @@
+{
+ "version": "1.0.0",
+ "language": {
+  "code": "fi",
+  "name": {
+   "en": "Finnish",
+   "bg": "Фински",
+   "de": "Finnisch",
+   "fr": "finnois",
+   "es": "finés"
+  },
+  "nativeName": "Suomi",
+  "flag": "🇫🇮",
+  "script": "latin",
+  "features": [
+   "cases",
+   "consonant_gradation",
+   "vowel_harmony"
+  ],
+  "mascotAccessory": "beanie",
+  "ttsLocale": "fi-FI",
+  "active": true,
+  "mapBounds": [
+   [
+    19.0,
+    59.3
+   ],
+   [
+    31.8,
+    68.5
+   ]
+  ]
+ },
+ "sections": [
+  {
+   "slug": "core",
+   "title": {
+    "en": "Core course",
+    "bg": "Основен курс",
+    "de": "Grundkurs",
+    "fr": "Cours principal",
+    "es": "Curso principal"
+   }
+  },
+  {
+   "slug": "exam",
+   "title": {
+    "en": "Exam prep (beginner level)",
+    "bg": "Подготовка за изпит (начално ниво)",
+    "de": "Prüfungsvorbereitung (Anfänger)",
+    "fr": "Préparation à l'examen (débutant)",
+    "es": "Preparación para el examen (inicial)"
+   },
+   "description": {
+    "en": "Greetings, numbers, family, where you're from, weather and core verbs",
+    "bg": "Поздрави, числа, семейство, откъде си, времето и основни глаголи",
+    "de": "Begrüßungen, Zahlen, Familie, Herkunft, Wetter und wichtige Verben",
+    "fr": "Salutations, nombres, famille, origine, météo et verbes de base",
+    "es": "Saludos, números, familia, origen, tiempo y verbos básicos"
+   }
+  }
+ ],
+ "items": [
+  {
+   "id": "fi-hei",
+   "text": "hei",
+   "kind": "word",
+   "translations": {
+    "en": "hi",
+    "bg": "здрасти",
+    "de": "hallo",
+    "fr": "salut",
+    "es": "hola"
+   },
+   "frequencyRank": 1,
+   "native": "moi",
+   "notes": {
+    "en": "“Moi” and “moikka” are even more casual and very common.",
+    "bg": "„Moi“ и „moikka“ са още по-неформални и много често срещани.",
+    "de": "„Moi“ und „moikka“ sind noch lockerer und sehr häufig.",
+    "fr": "« Moi » et « moikka » sont encore plus familiers et très courants.",
+    "es": "«Moi» y «moikka» son aún más informales y muy frecuentes."
+   }
+  },
+  {
+   "id": "fi-hyvaa-huomenta",
+   "text": "hyvää huomenta",
+   "kind": "phrase",
+   "translations": {
+    "en": "good morning",
+    "bg": "добро утро",
+    "de": "guten Morgen",
+    "fr": "bonjour (le matin)",
+    "es": "buenos días"
+   },
+   "frequencyRank": 2
+  },
+  {
+   "id": "fi-hyvaa-paivaa",
+   "text": "hyvää päivää",
+   "kind": "phrase",
+   "translations": {
+    "en": "good day",
+    "bg": "добър ден",
+    "de": "guten Tag",
+    "fr": "bonjour",
+    "es": "buenos días / buenas tardes"
+   },
+   "frequencyRank": 3,
+   "notes": {
+    "en": "Quite formal. In everyday life people just say “hei” or “moi”.",
+    "bg": "Доста официално. В ежедневието казват просто „hei“ или „moi“.",
+    "de": "Ziemlich förmlich. Im Alltag sagt man einfach „hei“ oder „moi“.",
+    "fr": "Assez formel. Au quotidien on dit simplement « hei » ou « moi ».",
+    "es": "Bastante formal. En el día a día se dice «hei» o «moi»."
+   }
+  },
+  {
+   "id": "fi-hyvaa-iltaa",
+   "text": "hyvää iltaa",
+   "kind": "phrase",
+   "translations": {
+    "en": "good evening",
+    "bg": "добър вечер",
+    "de": "guten Abend",
+    "fr": "bonsoir",
+    "es": "buenas tardes / buenas noches"
+   },
+   "frequencyRank": 4
+  },
+  {
+   "id": "fi-hyvaa-yota",
+   "text": "hyvää yötä",
+   "kind": "phrase",
+   "translations": {
+    "en": "good night",
+    "bg": "лека нощ",
+    "de": "gute Nacht",
+    "fr": "bonne nuit",
+    "es": "buenas noches"
+   },
+   "frequencyRank": 5
+  },
+  {
+   "id": "fi-nakemiin",
+   "text": "näkemiin",
+   "kind": "word",
+   "translations": {
+    "en": "goodbye",
+    "bg": "довиждане",
+    "de": "auf Wiedersehen",
+    "fr": "au revoir",
+    "es": "adiós"
+   },
+   "frequencyRank": 6,
+   "native": "moikka / heippa"
+  },
+  {
+   "id": "fi-kiitos",
+   "text": "kiitos",
+   "kind": "word",
+   "translations": {
+    "en": "thank you",
+    "bg": "благодаря",
+    "de": "danke",
+    "fr": "merci",
+    "es": "gracias"
+   },
+   "frequencyRank": 7
+  },
+  {
+   "id": "fi-ole-hyva",
+   "text": "ole hyvä",
+   "kind": "phrase",
+   "translations": {
+    "en": "you're welcome / here you go",
+    "bg": "моля / заповядай",
+    "de": "bitte / bitte schön",
+    "fr": "de rien / tenez",
+    "es": "de nada / aquí tienes"
+   },
+   "frequencyRank": 8
+  },
+  {
+   "id": "fi-anteeksi",
+   "text": "anteeksi",
+   "kind": "word",
+   "translations": {
+    "en": "sorry / excuse me",
+    "bg": "извинете / съжалявам",
+    "de": "Entschuldigung",
+    "fr": "pardon / excusez-moi",
+    "es": "perdón / disculpe"
+   },
+   "frequencyRank": 9
+  },
+  {
+   "id": "fi-mita-kuuluu",
+   "text": "mitä kuuluu?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how are you?",
+    "bg": "как си?",
+    "de": "wie geht's?",
+    "fr": "comment ça va ?",
+    "es": "¿qué tal?"
+   },
+   "frequencyRank": 10
+  },
+  {
+   "id": "fi-hyvaa-kiitos",
+   "text": "hyvää, kiitos",
+   "kind": "phrase",
+   "translations": {
+    "en": "fine, thanks",
+    "bg": "добре, благодаря",
+    "de": "gut, danke",
+    "fr": "bien, merci",
+    "es": "bien, gracias"
+   },
+   "frequencyRank": 11
+  },
+  {
+   "id": "fi-minun-nimeni-on",
+   "text": "minun nimeni on",
+   "kind": "phrase",
+   "translations": {
+    "en": "my name is",
+    "bg": "казвам се",
+    "de": "ich heiße",
+    "fr": "je m'appelle",
+    "es": "me llamo"
+   },
+   "frequencyRank": 12,
+   "native": "mä oon …"
+  },
+  {
+   "id": "fi-mika-sinun-nimesi-on",
+   "text": "mikä sinun nimesi on?",
+   "kind": "phrase",
+   "translations": {
+    "en": "what's your name?",
+    "bg": "как се казваш?",
+    "de": "wie heißt du?",
+    "fr": "comment tu t'appelles ?",
+    "es": "¿cómo te llamas?"
+   },
+   "frequencyRank": 13
+  },
+  {
+   "id": "fi-hauska-tutustua",
+   "text": "hauska tutustua",
+   "kind": "phrase",
+   "translations": {
+    "en": "nice to meet you",
+    "bg": "приятно ми е",
+    "de": "freut mich",
+    "fr": "enchanté",
+    "es": "mucho gusto"
+   },
+   "frequencyRank": 14
+  },
+  {
+   "id": "fi-mina",
+   "text": "minä",
+   "kind": "word",
+   "translations": {
+    "en": "I",
+    "bg": "аз",
+    "de": "ich",
+    "fr": "je / moi",
+    "es": "yo"
+   },
+   "frequencyRank": 15,
+   "native": "mä",
+   "pos": "pronoun"
+  },
+  {
+   "id": "fi-sina",
+   "text": "sinä",
+   "kind": "word",
+   "translations": {
+    "en": "you (one person)",
+    "bg": "ти",
+    "de": "du",
+    "fr": "tu / toi",
+    "es": "tú"
+   },
+   "frequencyRank": 16,
+   "native": "sä",
+   "pos": "pronoun"
+  },
+  {
+   "id": "fi-han",
+   "text": "hän",
+   "kind": "word",
+   "translations": {
+    "en": "he / she",
+    "bg": "той / тя",
+    "de": "er / sie",
+    "fr": "il / elle",
+    "es": "él / ella"
+   },
+   "frequencyRank": 17,
+   "native": "se",
+   "notes": {
+    "en": "Finnish has one word for he and she. In speech people often say “se”.",
+    "bg": "Финският има една дума за той и тя. В говоримия език често казват „se“.",
+    "de": "Finnisch hat ein Wort für er und sie. Gesprochen sagt man oft „se“.",
+    "fr": "Le finnois a un seul mot pour il et elle. À l'oral on dit souvent « se ».",
+    "es": "El finés tiene una sola palabra para él y ella. Hablando se dice a menudo «se»."
+   },
+   "pos": "pronoun"
+  },
+  {
+   "id": "fi-me",
+   "text": "me",
+   "kind": "word",
+   "translations": {
+    "en": "we",
+    "bg": "ние",
+    "de": "wir",
+    "fr": "nous",
+    "es": "nosotros"
+   },
+   "frequencyRank": 18,
+   "pos": "pronoun"
+  },
+  {
+   "id": "fi-te",
+   "text": "te",
+   "kind": "word",
+   "translations": {
+    "en": "you (plural / formal)",
+    "bg": "вие",
+    "de": "ihr / Sie",
+    "fr": "vous",
+    "es": "vosotros / ustedes"
+   },
+   "frequencyRank": 19,
+   "pos": "pronoun"
+  },
+  {
+   "id": "fi-he",
+   "text": "he",
+   "kind": "word",
+   "translations": {
+    "en": "they",
+    "bg": "те",
+    "de": "sie (Plural)",
+    "fr": "ils / elles",
+    "es": "ellos / ellas"
+   },
+   "frequencyRank": 20,
+   "pos": "pronoun"
+  },
+  {
+   "id": "fi-nolla",
+   "text": "nolla",
+   "kind": "word",
+   "translations": {
+    "en": "0",
+    "bg": "0",
+    "de": "0",
+    "fr": "0",
+    "es": "0"
+   },
+   "frequencyRank": 30,
+   "pos": "number"
+  },
+  {
+   "id": "fi-yksi",
+   "text": "yksi",
+   "kind": "word",
+   "translations": {
+    "en": "1",
+    "bg": "1",
+    "de": "1",
+    "fr": "1",
+    "es": "1"
+   },
+   "frequencyRank": 31,
+   "pos": "number"
+  },
+  {
+   "id": "fi-kaksi",
+   "text": "kaksi",
+   "kind": "word",
+   "translations": {
+    "en": "2",
+    "bg": "2",
+    "de": "2",
+    "fr": "2",
+    "es": "2"
+   },
+   "frequencyRank": 32,
+   "pos": "number"
+  },
+  {
+   "id": "fi-kolme",
+   "text": "kolme",
+   "kind": "word",
+   "translations": {
+    "en": "3",
+    "bg": "3",
+    "de": "3",
+    "fr": "3",
+    "es": "3"
+   },
+   "frequencyRank": 33,
+   "pos": "number"
+  },
+  {
+   "id": "fi-nelja",
+   "text": "neljä",
+   "kind": "word",
+   "translations": {
+    "en": "4",
+    "bg": "4",
+    "de": "4",
+    "fr": "4",
+    "es": "4"
+   },
+   "frequencyRank": 34,
+   "pos": "number"
+  },
+  {
+   "id": "fi-viisi",
+   "text": "viisi",
+   "kind": "word",
+   "translations": {
+    "en": "5",
+    "bg": "5",
+    "de": "5",
+    "fr": "5",
+    "es": "5"
+   },
+   "frequencyRank": 35,
+   "pos": "number"
+  },
+  {
+   "id": "fi-kuusi",
+   "text": "kuusi",
+   "kind": "word",
+   "translations": {
+    "en": "6",
+    "bg": "6",
+    "de": "6",
+    "fr": "6",
+    "es": "6"
+   },
+   "frequencyRank": 36,
+   "pos": "number"
+  },
+  {
+   "id": "fi-seitseman",
+   "text": "seitsemän",
+   "kind": "word",
+   "translations": {
+    "en": "7",
+    "bg": "7",
+    "de": "7",
+    "fr": "7",
+    "es": "7"
+   },
+   "frequencyRank": 37,
+   "pos": "number"
+  },
+  {
+   "id": "fi-kahdeksan",
+   "text": "kahdeksan",
+   "kind": "word",
+   "translations": {
+    "en": "8",
+    "bg": "8",
+    "de": "8",
+    "fr": "8",
+    "es": "8"
+   },
+   "frequencyRank": 38,
+   "pos": "number"
+  },
+  {
+   "id": "fi-yhdeksan",
+   "text": "yhdeksän",
+   "kind": "word",
+   "translations": {
+    "en": "9",
+    "bg": "9",
+    "de": "9",
+    "fr": "9",
+    "es": "9"
+   },
+   "frequencyRank": 39,
+   "pos": "number"
+  },
+  {
+   "id": "fi-kymmenen",
+   "text": "kymmenen",
+   "kind": "word",
+   "translations": {
+    "en": "10",
+    "bg": "10",
+    "de": "10",
+    "fr": "10",
+    "es": "10"
+   },
+   "frequencyRank": 40,
+   "pos": "number"
+  },
+  {
+   "id": "fi-yksitoista",
+   "text": "yksitoista",
+   "kind": "word",
+   "translations": {
+    "en": "11",
+    "bg": "11",
+    "de": "11",
+    "fr": "11",
+    "es": "11"
+   },
+   "frequencyRank": 41,
+   "pos": "number"
+  },
+  {
+   "id": "fi-kaksitoista",
+   "text": "kaksitoista",
+   "kind": "word",
+   "translations": {
+    "en": "12",
+    "bg": "12",
+    "de": "12",
+    "fr": "12",
+    "es": "12"
+   },
+   "frequencyRank": 42,
+   "pos": "number"
+  },
+  {
+   "id": "fi-kaksikymmenta",
+   "text": "kaksikymmentä",
+   "kind": "word",
+   "translations": {
+    "en": "20",
+    "bg": "20",
+    "de": "20",
+    "fr": "20",
+    "es": "20"
+   },
+   "frequencyRank": 43,
+   "pos": "number"
+  },
+  {
+   "id": "fi-sata",
+   "text": "sata",
+   "kind": "word",
+   "translations": {
+    "en": "100",
+    "bg": "100",
+    "de": "100",
+    "fr": "100",
+    "es": "100"
+   },
+   "frequencyRank": 44,
+   "pos": "number"
+  },
+  {
+   "id": "fi-puhelinnumero",
+   "text": "puhelinnumero",
+   "kind": "word",
+   "translations": {
+    "en": "phone number",
+    "bg": "телефонен номер",
+    "de": "Telefonnummer",
+    "fr": "numéro de téléphone",
+    "es": "número de teléfono"
+   }
+  },
+  {
+   "id": "fi-kuinka-vanha-olet",
+   "text": "kuinka vanha olet?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how old are you?",
+    "bg": "на колко години си?",
+    "de": "wie alt bist du?",
+    "fr": "quel âge as-tu ?",
+    "es": "¿cuántos años tienes?"
+   }
+  },
+  {
+   "id": "fi-olen-vuotta-vanha",
+   "text": "olen … vuotta vanha",
+   "kind": "phrase",
+   "translations": {
+    "en": "I am … years old",
+    "bg": "на … години съм",
+    "de": "ich bin … Jahre alt",
+    "fr": "j'ai … ans",
+    "es": "tengo … años"
+   }
+  },
+  {
+   "id": "fi-perhe",
+   "text": "perhe",
+   "kind": "word",
+   "translations": {
+    "en": "family",
+    "bg": "семейство",
+    "de": "Familie",
+    "fr": "famille",
+    "es": "familia"
+   },
+   "frequencyRank": 50,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-aiti",
+   "text": "äiti",
+   "kind": "word",
+   "translations": {
+    "en": "mother",
+    "bg": "майка",
+    "de": "Mutter",
+    "fr": "mère",
+    "es": "madre"
+   },
+   "frequencyRank": 51,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-isa",
+   "text": "isä",
+   "kind": "word",
+   "translations": {
+    "en": "father",
+    "bg": "баща",
+    "de": "Vater",
+    "fr": "père",
+    "es": "padre"
+   },
+   "frequencyRank": 52,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-veli",
+   "text": "veli",
+   "kind": "word",
+   "translations": {
+    "en": "brother",
+    "bg": "брат",
+    "de": "Bruder",
+    "fr": "frère",
+    "es": "hermano"
+   },
+   "frequencyRank": 53,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-sisko",
+   "text": "sisko",
+   "kind": "word",
+   "translations": {
+    "en": "sister",
+    "bg": "сестра",
+    "de": "Schwester",
+    "fr": "sœur",
+    "es": "hermana"
+   },
+   "frequencyRank": 54,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-lapsi",
+   "text": "lapsi",
+   "kind": "word",
+   "translations": {
+    "en": "child",
+    "bg": "дете",
+    "de": "Kind",
+    "fr": "enfant",
+    "es": "niño / niña"
+   },
+   "frequencyRank": 55,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-poika",
+   "text": "poika",
+   "kind": "word",
+   "translations": {
+    "en": "son / boy",
+    "bg": "син / момче",
+    "de": "Sohn / Junge",
+    "fr": "fils / garçon",
+    "es": "hijo / chico"
+   },
+   "frequencyRank": 56,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-tytar",
+   "text": "tytär",
+   "kind": "word",
+   "translations": {
+    "en": "daughter",
+    "bg": "дъщеря",
+    "de": "Tochter",
+    "fr": "fille",
+    "es": "hija"
+   },
+   "frequencyRank": 57,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-vaimo",
+   "text": "vaimo",
+   "kind": "word",
+   "translations": {
+    "en": "wife",
+    "bg": "съпруга",
+    "de": "Ehefrau",
+    "fr": "épouse",
+    "es": "esposa"
+   },
+   "frequencyRank": 58,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-mies",
+   "text": "mies",
+   "kind": "word",
+   "translations": {
+    "en": "husband / man",
+    "bg": "съпруг / мъж",
+    "de": "Ehemann / Mann",
+    "fr": "mari / homme",
+    "es": "marido / hombre"
+   },
+   "frequencyRank": 59,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-isoaiti",
+   "text": "isoäiti",
+   "kind": "word",
+   "translations": {
+    "en": "grandmother",
+    "bg": "баба",
+    "de": "Großmutter",
+    "fr": "grand-mère",
+    "es": "abuela"
+   },
+   "frequencyRank": 60,
+   "native": "mummo",
+   "pos": "noun"
+  },
+  {
+   "id": "fi-isoisa",
+   "text": "isoisä",
+   "kind": "word",
+   "translations": {
+    "en": "grandfather",
+    "bg": "дядо",
+    "de": "Großvater",
+    "fr": "grand-père",
+    "es": "abuelo"
+   },
+   "frequencyRank": 61,
+   "native": "vaari / pappa",
+   "pos": "noun"
+  },
+  {
+   "id": "fi-minulla-on",
+   "text": "minulla on",
+   "kind": "phrase",
+   "translations": {
+    "en": "I have",
+    "bg": "имам",
+    "de": "ich habe",
+    "fr": "j'ai",
+    "es": "tengo"
+   },
+   "frequencyRank": 62,
+   "native": "mulla on",
+   "notes": {
+    "en": "Finnish has no verb “to have”: it says “at me is” — minulla on veli = I have a brother.",
+    "bg": "Във финския няма глагол „имам“: казва се „при мен има“ — minulla on veli = имам брат.",
+    "de": "Finnisch hat kein Verb „haben“: man sagt „bei mir ist“ — minulla on veli = ich habe einen Bruder.",
+    "fr": "Le finnois n'a pas de verbe « avoir » : on dit « chez moi est » — minulla on veli = j'ai un frère.",
+    "es": "El finés no tiene verbo «tener»: dice «en mí hay» — minulla on veli = tengo un hermano."
+   }
+  },
+  {
+   "id": "fi-mista-olet-kotoisin",
+   "text": "mistä sinä olet kotoisin?",
+   "kind": "phrase",
+   "translations": {
+    "en": "where are you from?",
+    "bg": "откъде си?",
+    "de": "woher kommst du?",
+    "fr": "d'où viens-tu ?",
+    "es": "¿de dónde eres?"
+   },
+   "frequencyRank": 70,
+   "native": "mistä sä oot kotoisin?"
+  },
+  {
+   "id": "fi-olen-kotoisin-bulgariasta",
+   "text": "olen kotoisin Bulgariasta",
+   "kind": "sentence",
+   "translations": {
+    "en": "I am from Bulgaria",
+    "bg": "от България съм",
+    "de": "ich komme aus Bulgarien",
+    "fr": "je viens de Bulgarie",
+    "es": "soy de Bulgaria"
+   },
+   "frequencyRank": 71
+  },
+  {
+   "id": "fi-suomi",
+   "text": "Suomi",
+   "kind": "word",
+   "translations": {
+    "en": "Finland",
+    "bg": "Финландия",
+    "de": "Finnland",
+    "fr": "Finlande",
+    "es": "Finlandia"
+   },
+   "frequencyRank": 72,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-suomesta",
+   "text": "Suomesta",
+   "kind": "word",
+   "translations": {
+    "en": "from Finland",
+    "bg": "от Финландия",
+    "de": "aus Finnland",
+    "fr": "de Finlande",
+    "es": "de Finlandia"
+   },
+   "frequencyRank": 73
+  },
+  {
+   "id": "fi-saksasta",
+   "text": "Saksasta",
+   "kind": "word",
+   "translations": {
+    "en": "from Germany",
+    "bg": "от Германия",
+    "de": "aus Deutschland",
+    "fr": "d'Allemagne",
+    "es": "de Alemania"
+   },
+   "frequencyRank": 74
+  },
+  {
+   "id": "fi-espanjasta",
+   "text": "Espanjasta",
+   "kind": "word",
+   "translations": {
+    "en": "from Spain",
+    "bg": "от Испания",
+    "de": "aus Spanien",
+    "fr": "d'Espagne",
+    "es": "de España"
+   },
+   "frequencyRank": 75
+  },
+  {
+   "id": "fi-ranskasta",
+   "text": "Ranskasta",
+   "kind": "word",
+   "translations": {
+    "en": "from France",
+    "bg": "от Франция",
+    "de": "aus Frankreich",
+    "fr": "de France",
+    "es": "de Francia"
+   },
+   "frequencyRank": 76
+  },
+  {
+   "id": "fi-asun-suomessa",
+   "text": "asun Suomessa",
+   "kind": "sentence",
+   "translations": {
+    "en": "I live in Finland",
+    "bg": "живея във Финландия",
+    "de": "ich wohne in Finnland",
+    "fr": "j'habite en Finlande",
+    "es": "vivo en Finlandia"
+   },
+   "frequencyRank": 77
+  },
+  {
+   "id": "fi-puhun-suomea",
+   "text": "puhun vähän suomea",
+   "kind": "sentence",
+   "translations": {
+    "en": "I speak a little Finnish",
+    "bg": "говоря малко финландски",
+    "de": "ich spreche ein bisschen Finnisch",
+    "fr": "je parle un peu finnois",
+    "es": "hablo un poco de finés"
+   },
+   "frequencyRank": 78
+  },
+  {
+   "id": "fi-suomalainen",
+   "text": "suomalainen",
+   "kind": "word",
+   "translations": {
+    "en": "Finnish (person) / a Finn",
+    "bg": "финландец / финландка",
+    "de": "finnisch / Finne",
+    "fr": "finlandais(e)",
+    "es": "finlandés / finlandesa"
+   },
+   "frequencyRank": 79
+  },
+  {
+   "id": "fi-bulgarialainen",
+   "text": "bulgarialainen",
+   "kind": "word",
+   "translations": {
+    "en": "Bulgarian (person)",
+    "bg": "българин / българка",
+    "de": "bulgarisch / Bulgare",
+    "fr": "bulgare",
+    "es": "búlgaro / búlgara"
+   },
+   "frequencyRank": 80
+  },
+  {
+   "id": "fi-saa",
+   "text": "sää",
+   "kind": "word",
+   "translations": {
+    "en": "weather",
+    "bg": "време (метео)",
+    "de": "Wetter",
+    "fr": "temps (météo)",
+    "es": "tiempo (clima)"
+   },
+   "frequencyRank": 90,
+   "pos": "noun"
+  },
+  {
+   "id": "fi-millainen-saa",
+   "text": "millainen sää tänään on?",
+   "kind": "phrase",
+   "translations": {
+    "en": "what's the weather like today?",
+    "bg": "какво е времето днес?",
+    "de": "wie ist das Wetter heute?",
+    "fr": "quel temps fait-il aujourd'hui ?",
+    "es": "¿qué tiempo hace hoy?"
+   },
+   "frequencyRank": 91
+  },
+  {
+   "id": "fi-aurinko-paistaa",
+   "text": "aurinko paistaa",
+   "kind": "phrase",
+   "translations": {
+    "en": "the sun is shining",
+    "bg": "слънцето грее",
+    "de": "die Sonne scheint",
+    "fr": "le soleil brille",
+    "es": "hace sol"
+   },
+   "frequencyRank": 92
+  },
+  {
+   "id": "fi-sataa",
+   "text": "sataa",
+   "kind": "word",
+   "translations": {
+    "en": "it's raining",
+    "bg": "вали",
+    "de": "es regnet",
+    "fr": "il pleut",
+    "es": "llueve"
+   },
+   "frequencyRank": 93
+  },
+  {
+   "id": "fi-sataa-lunta",
+   "text": "sataa lunta",
+   "kind": "phrase",
+   "translations": {
+    "en": "it's snowing",
+    "bg": "вали сняг",
+    "de": "es schneit",
+    "fr": "il neige",
+    "es": "nieva"
+   },
+   "frequencyRank": 94
+  },
+  {
+   "id": "fi-on-kylma",
+   "text": "on kylmä",
+   "kind": "phrase",
+   "translations": {
+    "en": "it's cold",
+    "bg": "студено е",
+    "de": "es ist kalt",
+    "fr": "il fait froid",
+    "es": "hace frío"
+   },
+   "frequencyRank": 95
+  },
+  {
+   "id": "fi-on-lammin",
+   "text": "on lämmin",
+   "kind": "phrase",
+   "translations": {
+    "en": "it's warm",
+    "bg": "топло е",
+    "de": "es ist warm",
+    "fr": "il fait chaud",
+    "es": "hace calor"
+   },
+   "frequencyRank": 96
+  },
+  {
+   "id": "fi-tuulee",
+   "text": "tuulee",
+   "kind": "word",
+   "translations": {
+    "en": "it's windy",
+    "bg": "духа вятър",
+    "de": "es ist windig",
+    "fr": "il y a du vent",
+    "es": "hace viento"
+   },
+   "frequencyRank": 97
+  },
+  {
+   "id": "fi-pilvista",
+   "text": "on pilvistä",
+   "kind": "phrase",
+   "translations": {
+    "en": "it's cloudy",
+    "bg": "облачно е",
+    "de": "es ist bewölkt",
+    "fr": "c'est nuageux",
+    "es": "está nublado"
+   },
+   "frequencyRank": 98
+  },
+  {
+   "id": "fi-pakkanen",
+   "text": "pakkanen",
+   "kind": "word",
+   "translations": {
+    "en": "frost (below zero)",
+    "bg": "студ под нулата",
+    "de": "Frost",
+    "fr": "gel (sous zéro)",
+    "es": "helada (bajo cero)"
+   },
+   "frequencyRank": 99,
+   "notes": {
+    "en": "Finns say “on kymmenen astetta pakkasta” = it's minus ten.",
+    "bg": "Финландците казват „on kymmenen astetta pakkasta“ = минус десет градуса е.",
+    "de": "Man sagt „on kymmenen astetta pakkasta“ = es hat minus zehn Grad.",
+    "fr": "On dit « on kymmenen astetta pakkasta » = il fait moins dix.",
+    "es": "Se dice «on kymmenen astetta pakkasta» = hace diez bajo cero."
+   },
+   "pos": "noun"
+  },
+  {
+   "id": "fi-olla",
+   "text": "olla",
+   "kind": "word",
+   "translations": {
+    "en": "to be",
+    "bg": "съм",
+    "de": "sein",
+    "fr": "être",
+    "es": "ser / estar"
+   },
+   "frequencyRank": 100,
+   "pos": "verb"
+  },
+  {
+   "id": "fi-asua",
+   "text": "asua",
+   "kind": "word",
+   "translations": {
+    "en": "to live (somewhere)",
+    "bg": "живея (някъде)",
+    "de": "wohnen",
+    "fr": "habiter",
+    "es": "vivir (en un lugar)"
+   },
+   "frequencyRank": 101,
+   "pos": "verb"
+  },
+  {
+   "id": "fi-puhua",
+   "text": "puhua",
+   "kind": "word",
+   "translations": {
+    "en": "to speak",
+    "bg": "говоря",
+    "de": "sprechen",
+    "fr": "parler",
+    "es": "hablar"
+   },
+   "frequencyRank": 102,
+   "pos": "verb"
+  },
+  {
+   "id": "fi-tulla",
+   "text": "tulla",
+   "kind": "word",
+   "translations": {
+    "en": "to come",
+    "bg": "идвам",
+    "de": "kommen",
+    "fr": "venir",
+    "es": "venir"
+   },
+   "frequencyRank": 103,
+   "pos": "verb"
+  },
+  {
+   "id": "fi-opiskella",
+   "text": "opiskella",
+   "kind": "word",
+   "translations": {
+    "en": "to study",
+    "bg": "уча (следвам)",
+    "de": "studieren / lernen",
+    "fr": "étudier",
+    "es": "estudiar"
+   },
+   "frequencyRank": 104,
+   "pos": "verb"
+  },
+  {
+   "id": "fi-olen",
+   "text": "olen",
+   "kind": "word",
+   "translations": {
+    "en": "I am",
+    "bg": "аз съм",
+    "de": "ich bin",
+    "fr": "je suis",
+    "es": "soy / estoy"
+   },
+   "frequencyRank": 105,
+   "native": "oon"
+  },
+  {
+   "id": "fi-asun",
+   "text": "asun",
+   "kind": "word",
+   "translations": {
+    "en": "I live",
+    "bg": "живея",
+    "de": "ich wohne",
+    "fr": "j'habite",
+    "es": "vivo"
+   },
+   "frequencyRank": 106
+  },
+  {
+   "id": "fi-puhun",
+   "text": "puhun",
+   "kind": "word",
+   "translations": {
+    "en": "I speak",
+    "bg": "говоря",
+    "de": "ich spreche",
+    "fr": "je parle",
+    "es": "hablo"
+   },
+   "frequencyRank": 107
+  },
+  {
+   "id": "fi-tulen",
+   "text": "tulen",
+   "kind": "word",
+   "translations": {
+    "en": "I come",
+    "bg": "идвам",
+    "de": "ich komme",
+    "fr": "je viens",
+    "es": "vengo"
+   },
+   "frequencyRank": 108
+  },
+  {
+   "id": "fi-en-ymmarra",
+   "text": "en ymmärrä",
+   "kind": "phrase",
+   "translations": {
+    "en": "I don't understand",
+    "bg": "не разбирам",
+    "de": "ich verstehe nicht",
+    "fr": "je ne comprends pas",
+    "es": "no entiendo"
+   },
+   "frequencyRank": 109
+  },
+  {
+   "id": "fi-voitko-toistaa",
+   "text": "voitko toistaa?",
+   "kind": "phrase",
+   "translations": {
+    "en": "can you repeat?",
+    "bg": "можеш ли да повториш?",
+    "de": "kannst du das wiederholen?",
+    "fr": "tu peux répéter ?",
+    "es": "¿puedes repetir?"
+   },
+   "frequencyRank": 110
+  },
+  {
+   "id": "fi-puhu-hitaammin",
+   "text": "puhu hitaammin, kiitos",
+   "kind": "phrase",
+   "translations": {
+    "en": "speak more slowly, please",
+    "bg": "говори по-бавно, моля",
+    "de": "sprich bitte langsamer",
+    "fr": "parle plus lentement, s'il te plaît",
+    "es": "habla más despacio, por favor"
+   },
+   "frequencyRank": 111
+  },
+  {
+   "id": "fi-mita-tarkoittaa",
+   "text": "mitä … tarkoittaa?",
+   "kind": "phrase",
+   "translations": {
+    "en": "what does … mean?",
+    "bg": "какво означава …?",
+    "de": "was bedeutet …?",
+    "fr": "que veut dire … ?",
+    "es": "¿qué significa …?"
+   },
+   "frequencyRank": 112
+  },
+  {
+   "id": "fi-kylla",
+   "text": "kyllä",
+   "kind": "word",
+   "translations": {
+    "en": "yes",
+    "bg": "да",
+    "de": "ja",
+    "fr": "oui",
+    "es": "sí"
+   },
+   "frequencyRank": 113,
+   "native": "joo"
+  },
+  {
+   "id": "fi-ei",
+   "text": "ei",
+   "kind": "word",
+   "translations": {
+    "en": "no",
+    "bg": "не",
+    "de": "nein",
+    "fr": "non",
+    "es": "no"
+   },
+   "frequencyRank": 114
+  }
+ ],
+ "grammarNotes": [
+  {
+   "id": "fi-g-pronouns",
+   "level": "A1",
+   "title": {
+    "en": "Personal pronouns",
+    "bg": "Лични местоимения",
+    "de": "Personalpronomen",
+    "fr": "Pronoms personnels",
+    "es": "Pronombres personales"
+   },
+   "body": {
+    "en": "- **minä** = I (spoken: *mä*)\n- **sinä** = you (spoken: *sä*)\n- **hän** = he / she (spoken: *se*)\n- **me** = we\n- **te** = you (plural, or polite)\n- **he** = they\n\nThe verb ending already shows the person, so *minä* is often dropped: **(Minä) olen Stoyan.**",
+    "bg": "- **minä** = аз (говоримо: *mä*)\n- **sinä** = ти (говоримо: *sä*)\n- **hän** = той / тя (говоримо: *se*)\n- **me** = ние\n- **te** = вие (и учтивото „Вие“)\n- **he** = те\n\nОкончанието на глагола показва лицето, затова *minä* често се изпуска, точно както в българския: **(Minä) olen Stoyan.** = (Аз) съм Стоян.",
+    "de": "- **minä** = ich (gesprochen: *mä*)\n- **sinä** = du (gesprochen: *sä*)\n- **hän** = er / sie (gesprochen: *se*)\n- **me** = wir\n- **te** = ihr / Sie\n- **he** = sie (Plural)\n\nDie Verbendung zeigt die Person, daher fällt *minä* oft weg: **(Minä) olen Stoyan.**",
+    "fr": "- **minä** = je (oral : *mä*)\n- **sinä** = tu (oral : *sä*)\n- **hän** = il / elle (oral : *se*)\n- **me** = nous\n- **te** = vous\n- **he** = ils / elles\n\nLa terminaison du verbe indique la personne, donc *minä* est souvent omis : **(Minä) olen Stoyan.**",
+    "es": "- **minä** = yo (hablado: *mä*)\n- **sinä** = tú (hablado: *sä*)\n- **hän** = él / ella (hablado: *se*)\n- **me** = nosotros\n- **te** = vosotros / ustedes\n- **he** = ellos / ellas\n\nLa terminación del verbo ya indica la persona, así que *minä* se omite a menudo: **(Minä) olen Stoyan.**"
+   }
+  },
+  {
+   "id": "fi-g-olla",
+   "level": "A1",
+   "title": {
+    "en": "The verb olla (to be)",
+    "bg": "Глаголът olla (съм)",
+    "de": "Das Verb olla (sein)",
+    "fr": "Le verbe olla (être)",
+    "es": "El verbo olla (ser/estar)"
+   },
+   "body": {
+    "en": "**olla** is irregular. Learn it by heart:\n\n- minä **olen** = I am\n- sinä **olet** = you are\n- hän **on** = he/she is\n- me **olemme** = we are\n- te **olette** = you are\n- he **ovat** = they are\n\nNegative: **en ole, et ole, ei ole, emme ole, ette ole, eivät ole**. Example: *En ole suomalainen.* = I'm not Finnish.",
+    "bg": "**olla** е неправилен глагол. Научи го наизуст:\n\n- minä **olen** = аз съм\n- sinä **olet** = ти си\n- hän **on** = той/тя е\n- me **olemme** = ние сме\n- te **olette** = вие сте\n- he **ovat** = те са\n\nОтрицание: **en ole, et ole, ei ole, emme ole, ette ole, eivät ole**. Пример: *En ole suomalainen.* = Не съм финландец.",
+    "de": "**olla** ist unregelmäßig:\n\n- minä **olen** = ich bin\n- sinä **olet** = du bist\n- hän **on** = er/sie ist\n- me **olemme** = wir sind\n- te **olette** = ihr seid / Sie sind\n- he **ovat** = sie sind\n\nVerneinung: **en ole, et ole, ei ole, emme ole, ette ole, eivät ole**. *En ole suomalainen.* = Ich bin kein Finne.",
+    "fr": "**olla** est irrégulier :\n\n- minä **olen** = je suis\n- sinä **olet** = tu es\n- hän **on** = il/elle est\n- me **olemme** = nous sommes\n- te **olette** = vous êtes\n- he **ovat** = ils/elles sont\n\nNégation : **en ole, et ole, ei ole, emme ole, ette ole, eivät ole**. *En ole suomalainen.* = Je ne suis pas finlandais.",
+    "es": "**olla** es irregular:\n\n- minä **olen** = yo soy\n- sinä **olet** = tú eres\n- hän **on** = él/ella es\n- me **olemme** = somos\n- te **olette** = sois / ustedes son\n- he **ovat** = son\n\nNegación: **en ole, et ole, ei ole, emme ole, ette ole, eivät ole**. *En ole suomalainen.* = No soy finlandés."
+   }
+  },
+  {
+   "id": "fi-g-type1",
+   "level": "A1",
+   "title": {
+    "en": "Verb type 1: asua, puhua",
+    "bg": "Глаголи тип 1: asua, puhua",
+    "de": "Verbtyp 1: asua, puhua",
+    "fr": "Verbes du type 1 : asua, puhua",
+    "es": "Verbos del tipo 1: asua, puhua"
+   },
+   "body": {
+    "en": "Type 1 verbs end in two vowels (*asua, puhua, ymmärtää*). Drop the last **-a/-ä** and add the ending:\n\n- minä asu**n**, puhu**n**\n- sinä asu**t**, puhu**t**\n- hän asu**u**, puhu**u** (the vowel doubles)\n- me asu**mme**, puhu**mme**\n- te asu**tte**, puhu**tte**\n- he asu**vat**, puhu**vat**\n\n*Asun Suomessa. Puhutko englantia?* (-ko = question)",
+    "bg": "Глаголите от тип 1 завършват на две гласни (*asua, puhua, ymmärtää*). Махаш последното **-a/-ä** и слагаш окончанието:\n\n- minä asu**n**, puhu**n**\n- sinä asu**t**, puhu**t**\n- hän asu**u**, puhu**u** (гласната се удвоява)\n- me asu**mme**, puhu**mme**\n- te asu**tte**, puhu**tte**\n- he asu**vat**, puhu**vat**\n\n*Asun Suomessa.* = Живея във Финландия. *Puhutko englantia?* = Говориш ли английски? (-ko прави въпрос)",
+    "de": "Typ-1-Verben enden auf zwei Vokale (*asua, puhua*). Letztes **-a/-ä** weg, Endung dran:\n\n- minä asu**n**, puhu**n**\n- sinä asu**t**, puhu**t**\n- hän asu**u**, puhu**u** (Vokal verdoppelt)\n- me asu**mme**\n- te asu**tte**\n- he asu**vat**\n\n*Asun Suomessa. Puhutko englantia?* (-ko = Frage)",
+    "fr": "Les verbes du type 1 finissent par deux voyelles (*asua, puhua*). On enlève le dernier **-a/-ä** et on ajoute :\n\n- minä asu**n**, puhu**n**\n- sinä asu**t**, puhu**t**\n- hän asu**u**, puhu**u** (voyelle doublée)\n- me asu**mme**\n- te asu**tte**\n- he asu**vat**\n\n*Asun Suomessa. Puhutko englantia?* (-ko = question)",
+    "es": "Los verbos del tipo 1 terminan en dos vocales (*asua, puhua*). Quita la última **-a/-ä** y añade:\n\n- minä asu**n**, puhu**n**\n- sinä asu**t**, puhu**t**\n- hän asu**u**, puhu**u** (la vocal se duplica)\n- me asu**mme**\n- te asu**tte**\n- he asu**vat**\n\n*Asun Suomessa. Puhutko englantia?* (-ko = pregunta)"
+   }
+  },
+  {
+   "id": "fi-g-type3",
+   "level": "A1",
+   "title": {
+    "en": "Verb type 3: tulla, opiskella",
+    "bg": "Глаголи тип 3: tulla, opiskella",
+    "de": "Verbtyp 3: tulla, opiskella",
+    "fr": "Verbes du type 3 : tulla, opiskella",
+    "es": "Verbos del tipo 3: tulla, opiskella"
+   },
+   "body": {
+    "en": "Type 3 verbs end in **-lla, -nna, -rra, -sta** (*tulla, mennä, opiskella*). Drop the last two letters, add **-e-** and the ending:\n\n- minä tul**en**, opiskel**en**\n- sinä tul**et**\n- hän tul**ee**\n- me tul**emme**\n- te tul**ette**\n- he tul**evat**\n\n*Tulen Bulgariasta. Opiskelen suomea.*",
+    "bg": "Глаголите от тип 3 завършват на **-lla, -nna, -rra, -sta** (*tulla, mennä, opiskella*). Махаш последните две букви, добавяш **-e-** и окончанието:\n\n- minä tul**en**, opiskel**en**\n- sinä tul**et**\n- hän tul**ee**\n- me tul**emme**\n- te tul**ette**\n- he tul**evat**\n\n*Tulen Bulgariasta.* = Идвам от България. *Opiskelen suomea.* = Уча финландски.",
+    "de": "Typ-3-Verben enden auf **-lla, -nna, -rra, -sta**. Die letzten zwei Buchstaben weg, **-e-** + Endung:\n\n- minä tul**en**\n- sinä tul**et**\n- hän tul**ee**\n- me tul**emme**\n- te tul**ette**\n- he tul**evat**\n\n*Tulen Bulgariasta. Opiskelen suomea.*",
+    "fr": "Les verbes du type 3 finissent en **-lla, -nna, -rra, -sta**. On enlève les deux dernières lettres, on ajoute **-e-** et la terminaison :\n\n- minä tul**en**\n- sinä tul**et**\n- hän tul**ee**\n- me tul**emme**\n- te tul**ette**\n- he tul**evat**\n\n*Tulen Bulgariasta. Opiskelen suomea.*",
+    "es": "Los verbos del tipo 3 terminan en **-lla, -nna, -rra, -sta**. Quita las dos últimas letras, añade **-e-** y la terminación:\n\n- minä tul**en**\n- sinä tul**et**\n- hän tul**ee**\n- me tul**emme**\n- te tul**ette**\n- he tul**evat**\n\n*Tulen Bulgariasta. Opiskelen suomea.*"
+   }
+  },
+  {
+   "id": "fi-g-from",
+   "level": "A1",
+   "title": {
+    "en": "From where? -sta / -stä",
+    "bg": "Откъде? -sta / -stä",
+    "de": "Woher? -sta / -stä",
+    "fr": "D'où ? -sta / -stä",
+    "es": "¿De dónde? -sta / -stä"
+   },
+   "body": {
+    "en": "“From” is an ending: **-sta** or **-stä** (vowel harmony: *ä, ö, y* words take -stä).\n\n- Bulgaria → Bulgaria**sta**\n- Saksa → Saksa**sta**\n- Suomi → Suome**sta** (i → e)\n\n“In” a country is **-ssa / -ssä**: *Asun Suome**ssa**.*",
+    "bg": "„От“ е окончание: **-sta** или **-stä** (гласна хармония: думи с *ä, ö, y* взимат -stä).\n\n- Bulgaria → Bulgaria**sta** = от България\n- Saksa → Saksa**sta** = от Германия\n- Suomi → Suome**sta** = от Финландия (i → e)\n\n„В“ държава е **-ssa / -ssä**: *Asun Suome**ssa**.* = Живея във Финландия.",
+    "de": "„Aus“ ist eine Endung: **-sta** oder **-stä** (Vokalharmonie).\n\n- Bulgaria → Bulgaria**sta**\n- Saksa → Saksa**sta**\n- Suomi → Suome**sta** (i → e)\n\n„In“ einem Land: **-ssa / -ssä**: *Asun Suome**ssa**.*",
+    "fr": "« De » est une terminaison : **-sta** ou **-stä** (harmonie vocalique).\n\n- Bulgaria → Bulgaria**sta**\n- Saksa → Saksa**sta**\n- Suomi → Suome**sta** (i → e)\n\n« En/dans » un pays : **-ssa / -ssä** : *Asun Suome**ssa**.*",
+    "es": "«De» es una terminación: **-sta** o **-stä** (armonía vocálica).\n\n- Bulgaria → Bulgaria**sta**\n- Saksa → Saksa**sta**\n- Suomi → Suome**sta** (i → e)\n\n«En» un país: **-ssa / -ssä**: *Asun Suome**ssa**.*"
+   }
+  },
+  {
+   "id": "fi-g-numbers",
+   "level": "A1",
+   "title": {
+    "en": "Numbers 11–100",
+    "bg": "Числата 11–100",
+    "de": "Zahlen 11–100",
+    "fr": "Les nombres 11–100",
+    "es": "Los números 11–100"
+   },
+   "body": {
+    "en": "- 11–19: number + **toista**: yksi**toista**, kaksi**toista** … yhdeksän**toista**\n- tens: number + **kymmentä**: kaksi**kymmentä** (20), kolme**kymmentä** (30)\n- 21 = kaksikymmentä**yksi** (written as one word)\n- 100 = **sata**",
+    "bg": "- 11–19: число + **toista**: yksi**toista** (11), kaksi**toista** (12) … yhdeksän**toista** (19)\n- десетици: число + **kymmentä**: kaksi**kymmentä** (20), kolme**kymmentä** (30)\n- 21 = kaksikymmentä**yksi** (пише се слято)\n- 100 = **sata**",
+    "de": "- 11–19: Zahl + **toista**: yksi**toista**, kaksi**toista** …\n- Zehner: Zahl + **kymmentä**: kaksi**kymmentä** (20)\n- 21 = kaksikymmentä**yksi** (zusammengeschrieben)\n- 100 = **sata**",
+    "fr": "- 11–19 : nombre + **toista** : yksi**toista**, kaksi**toista** …\n- dizaines : nombre + **kymmentä** : kaksi**kymmentä** (20)\n- 21 = kaksikymmentä**yksi** (en un seul mot)\n- 100 = **sata**",
+    "es": "- 11–19: número + **toista**: yksi**toista**, kaksi**toista** …\n- decenas: número + **kymmentä**: kaksi**kymmentä** (20)\n- 21 = kaksikymmentä**yksi** (todo junto)\n- 100 = **sata**"
+   }
+  }
+ ],
+ "cultureNotes": [
+  {
+   "id": "fi-c-silence",
+   "title": {
+    "en": "Silence is fine",
+    "bg": "Мълчанието е нормално",
+    "de": "Schweigen ist okay",
+    "fr": "Le silence, c'est normal",
+    "es": "El silencio está bien"
+   },
+   "body": {
+    "en": "Finns are comfortable with silence. A pause in a conversation is not awkward, so you don't need to fill it with small talk.",
+    "bg": "Финландците се чувстват добре в тишина. Паузата в разговора не е неловка, така че няма нужда да я запълваш с празни приказки.",
+    "de": "Finnen fühlen sich mit Stille wohl. Eine Pause im Gespräch ist nicht peinlich, du musst sie nicht mit Smalltalk füllen.",
+    "fr": "Les Finlandais sont à l'aise avec le silence. Une pause dans la conversation n'est pas gênante.",
+    "es": "Los finlandeses están cómodos con el silencio. Una pausa en la conversación no es incómoda."
+   }
+  },
+  {
+   "id": "fi-c-sauna",
+   "title": {
+    "en": "Sauna",
+    "bg": "Сауна",
+    "de": "Sauna",
+    "fr": "Sauna",
+    "es": "Sauna"
+   },
+   "body": {
+    "en": "There are millions of saunas in Finland. Being invited to sauna is a sign of friendship. “Löyly” is the steam from water thrown on the stones.",
+    "bg": "Във Финландия има милиони сауни. Покана за сауна е знак за приятелство. „Löyly“ е парата от водата, хвърлена върху камъните.",
+    "de": "In Finnland gibt es Millionen Saunas. Eine Sauna-Einladung ist ein Zeichen von Freundschaft. „Löyly“ ist der Dampf vom Aufguss.",
+    "fr": "Il y a des millions de saunas en Finlande. Être invité au sauna est un signe d'amitié. « Löyly », c'est la vapeur de l'eau jetée sur les pierres.",
+    "es": "En Finlandia hay millones de saunas. Que te inviten a la sauna es señal de amistad. «Löyly» es el vapor del agua sobre las piedras."
+   }
+  },
+  {
+   "id": "fi-c-sina",
+   "title": {
+    "en": "Sinä, not Te",
+    "bg": "Sinä, а не Te",
+    "de": "Sinä statt Te",
+    "fr": "Sinä plutôt que Te",
+    "es": "Sinä, no Te"
+   },
+   "body": {
+    "en": "Finns use the informal “sinä” with almost everyone, even teachers and bosses. The polite “Te” is mostly for very old people or formal service.",
+    "bg": "Финландците говорят на „ти“ (sinä) почти с всички, дори с учители и шефове. Учтивото „Вие“ (Te) е предимно за много възрастни хора или официално обслужване.",
+    "de": "Finnen duzen fast alle, auch Lehrer und Chefs. Das höfliche „Te“ ist eher für sehr alte Menschen oder formellen Service.",
+    "fr": "Les Finlandais tutoient presque tout le monde, même les professeurs et les chefs. Le « Te » poli sert surtout avec les personnes âgées.",
+    "es": "Los finlandeses tutean a casi todos, incluso a profesores y jefes. El «Te» formal es sobre todo para personas mayores."
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "fi-exam-01",
+   "section": "exam",
+   "level": "A1",
+   "title": {
+    "en": "Hello! Greetings",
+    "bg": "Здравей! Поздрави",
+    "de": "Hallo! Begrüßungen",
+    "fr": "Salut ! Les salutations",
+    "es": "¡Hola! Saludos"
+   },
+   "description": {
+    "en": "Greet people at any time of day",
+    "bg": "Поздрави хората по всяко време на деня",
+    "de": "Begrüße Menschen zu jeder Tageszeit",
+    "fr": "Saluer à toute heure",
+    "es": "Saludar a cualquier hora"
+   },
+   "items": [
+    "fi-hei",
+    "fi-hyvaa-huomenta",
+    "fi-hyvaa-paivaa",
+    "fi-hyvaa-iltaa",
+    "fi-hyvaa-yota",
+    "fi-nakemiin",
+    "fi-kiitos",
+    "fi-ole-hyva",
+    "fi-anteeksi"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "It's 8 in the morning. You meet your teacher. What do you say?",
+      "bg": "Часът е 8 сутринта. Срещаш учителя си. Какво казваш?",
+      "de": "Es ist 8 Uhr morgens. Du triffst deine Lehrerin. Was sagst du?",
+      "fr": "Il est 8 h du matin. Tu croises ton professeur. Que dis-tu ?",
+      "es": "Son las 8 de la mañana. Ves a tu profesora. ¿Qué dices?"
+     },
+     "options": [
+      "hyvää huomenta",
+      "hyvää iltaa",
+      "hyvää yötä"
+     ],
+     "answer": "hyvää huomenta",
+     "itemId": "fi-hyvaa-huomenta"
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "Someone holds the door for you. You say…",
+      "bg": "Някой ти задържа вратата. Казваш…",
+      "de": "Jemand hält dir die Tür auf. Du sagst…",
+      "fr": "Quelqu'un te tient la porte. Tu dis…",
+      "es": "Alguien te sujeta la puerta. Dices…"
+     },
+     "options": [
+      "kiitos",
+      "anteeksi",
+      "näkemiin"
+     ],
+     "answer": "kiitos",
+     "itemId": "fi-kiitos"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hyvää ___ ! (good evening)",
+     "answer": "iltaa",
+     "itemId": "fi-hyvaa-iltaa",
+     "options": [
+      "iltaa",
+      "yötä",
+      "päivää"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fi-exam-02",
+   "section": "exam",
+   "level": "A1",
+   "title": {
+    "en": "Nice to meet you",
+    "bg": "Приятно ми е",
+    "de": "Freut mich",
+    "fr": "Enchanté",
+    "es": "Mucho gusto"
+   },
+   "description": {
+    "en": "Introduce yourself; pronouns and the verb olla",
+    "bg": "Представи се; местоимения и глаголът olla",
+    "de": "Sich vorstellen; Pronomen und olla",
+    "fr": "Se présenter ; pronoms et le verbe olla",
+    "es": "Presentarse; pronombres y el verbo olla"
+   },
+   "items": [
+    "fi-mita-kuuluu",
+    "fi-hyvaa-kiitos",
+    "fi-minun-nimeni-on",
+    "fi-mika-sinun-nimesi-on",
+    "fi-hauska-tutustua",
+    "fi-mina",
+    "fi-sina",
+    "fi-han",
+    "fi-me",
+    "fi-te",
+    "fi-he",
+    "fi-olla",
+    "fi-olen"
+   ],
+   "grammar": [
+    "fi-g-pronouns",
+    "fi-g-olla"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Minä ___ Stoyan.",
+     "answer": "olen",
+     "itemId": "fi-olen",
+     "hint": {
+      "en": "I am",
+      "bg": "аз съм",
+      "de": "ich bin",
+      "fr": "je suis",
+      "es": "yo soy"
+     }
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Sinä ___ opiskelija.",
+     "answer": "olet",
+     "itemId": "fi-olla",
+     "options": [
+      "olen",
+      "olet",
+      "on"
+     ],
+     "explanation": {
+      "en": "sinä → olet",
+      "bg": "sinä → olet",
+      "de": "sinä → olet",
+      "fr": "sinä → olet",
+      "es": "sinä → olet"
+     }
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hän ___ suomalainen.",
+     "answer": "on",
+     "itemId": "fi-olla",
+     "options": [
+      "on",
+      "olet",
+      "ovat"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Me ___ ystäviä.",
+     "answer": "olemme",
+     "itemId": "fi-olla",
+     "hint": {
+      "en": "we are",
+      "bg": "ние сме",
+      "de": "wir sind",
+      "fr": "nous sommes",
+      "es": "somos"
+     }
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "He ___ Helsingissä.",
+     "answer": "ovat",
+     "itemId": "fi-olla",
+     "options": [
+      "olette",
+      "ovat",
+      "on"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Te ___ hauskoja!",
+     "answer": "olette",
+     "itemId": "fi-olla",
+     "options": [
+      "olette",
+      "olemme",
+      "olet"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "hauska tutustua",
+     "translation": {
+      "en": "nice to meet you",
+      "bg": "приятно ми е",
+      "de": "freut mich",
+      "fr": "enchanté",
+      "es": "mucho gusto"
+     }
+    },
+    {
+     "type": "order_words",
+     "sentence": "minun nimeni on Anna",
+     "translation": {
+      "en": "my name is Anna",
+      "bg": "казвам се Анна",
+      "de": "ich heiße Anna",
+      "fr": "je m'appelle Anna",
+      "es": "me llamo Anna"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fi-exam-03",
+   "section": "exam",
+   "level": "A1",
+   "title": {
+    "en": "Numbers 0–10",
+    "bg": "Числа 0–10",
+    "de": "Zahlen 0–10",
+    "fr": "Les nombres 0–10",
+    "es": "Los números 0–10"
+   },
+   "description": {
+    "en": "Count to ten and give your phone number",
+    "bg": "Брой до десет и кажи телефонния си номер",
+    "de": "Bis zehn zählen und die Telefonnummer sagen",
+    "fr": "Compter jusqu'à dix et donner son numéro",
+    "es": "Contar hasta diez y dar tu número"
+   },
+   "items": [
+    "fi-nolla",
+    "fi-yksi",
+    "fi-kaksi",
+    "fi-kolme",
+    "fi-nelja",
+    "fi-viisi",
+    "fi-kuusi",
+    "fi-seitseman",
+    "fi-kahdeksan",
+    "fi-yhdeksan",
+    "fi-kymmenen",
+    "fi-puhelinnumero"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "3 + 4 = ___",
+     "answer": "seitsemän",
+     "itemId": "fi-seitseman",
+     "options": [
+      "seitsemän",
+      "kahdeksan",
+      "kuusi"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "5 + 5 = ___",
+     "answer": "kymmenen",
+     "itemId": "fi-kymmenen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "2 + 2 = ___",
+     "answer": "neljä",
+     "itemId": "fi-nelja",
+     "options": [
+      "neljä",
+      "viisi",
+      "kolme"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fi-exam-03b",
+   "section": "exam",
+   "level": "A1",
+   "title": {
+    "en": "Numbers 11–100 and age",
+    "bg": "Числа 11–100 и възраст",
+    "de": "Zahlen 11–100 und Alter",
+    "fr": "Les nombres 11–100 et l'âge",
+    "es": "Los números 11–100 y la edad"
+   },
+   "description": {
+    "en": "-toista, -kymmentä and “how old are you?”",
+    "bg": "-toista, -kymmentä и „на колко си години?“",
+    "de": "-toista, -kymmentä und „wie alt bist du?“",
+    "fr": "-toista, -kymmentä et « quel âge as-tu ? »",
+    "es": "-toista, -kymmentä y «¿cuántos años tienes?»"
+   },
+   "items": [
+    "fi-yksitoista",
+    "fi-kaksitoista",
+    "fi-kaksikymmenta",
+    "fi-sata",
+    "fi-kuinka-vanha-olet",
+    "fi-olen-vuotta-vanha"
+   ],
+   "grammar": [
+    "fi-g-numbers"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "10 + 2 = ___",
+     "answer": "kaksitoista",
+     "itemId": "fi-kaksitoista",
+     "hint": {
+      "en": "2 + …toista",
+      "bg": "2 + …toista",
+      "de": "2 + …toista",
+      "fr": "2 + …toista",
+      "es": "2 + …toista"
+     }
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Olen kaksikymmentä___ vuotta vanha. (21)",
+     "answer": "yksi",
+     "options": [
+      "yksi",
+      "kaksi",
+      "toista"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "13 = kolme___",
+     "answer": "toista",
+     "options": [
+      "toista",
+      "kymmentä",
+      "sata"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "30 = kolme___",
+     "answer": "kymmentä",
+     "options": [
+      "kymmentä",
+      "toista",
+      "sata"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "kuinka vanha olet",
+     "translation": {
+      "en": "how old are you?",
+      "bg": "на колко години си?",
+      "de": "wie alt bist du?",
+      "fr": "quel âge as-tu ?",
+      "es": "¿cuántos años tienes?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fi-exam-04",
+   "section": "exam",
+   "level": "A1",
+   "title": {
+    "en": "My family",
+    "bg": "Моето семейство",
+    "de": "Meine Familie",
+    "fr": "Ma famille",
+    "es": "Mi familia"
+   },
+   "description": {
+    "en": "Family members and “I have”",
+    "bg": "Членове на семейството и „имам“",
+    "de": "Familienmitglieder und „ich habe“",
+    "fr": "Les membres de la famille et « j'ai »",
+    "es": "Miembros de la familia y «tengo»"
+   },
+   "items": [
+    "fi-perhe",
+    "fi-aiti",
+    "fi-isa",
+    "fi-veli",
+    "fi-sisko",
+    "fi-lapsi",
+    "fi-poika",
+    "fi-tytar",
+    "fi-vaimo",
+    "fi-mies",
+    "fi-isoaiti",
+    "fi-isoisa",
+    "fi-minulla-on"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Minulla on ___ ja sisko. (a brother)",
+     "answer": "veli",
+     "itemId": "fi-veli",
+     "options": [
+      "veli",
+      "isä",
+      "vaimo"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ on äidin äiti.",
+     "answer": "isoäiti",
+     "itemId": "fi-isoaiti",
+     "options": [
+      "isoäiti",
+      "tytär",
+      "sisko"
+     ],
+     "explanation": {
+      "en": "The mother's mother is the grandmother.",
+      "bg": "Майката на майката е бабата.",
+      "de": "Die Mutter der Mutter ist die Großmutter.",
+      "fr": "La mère de la mère est la grand-mère.",
+      "es": "La madre de la madre es la abuela."
+     }
+    },
+    {
+     "type": "order_words",
+     "sentence": "minulla on kaksi lasta",
+     "translation": {
+      "en": "I have two children",
+      "bg": "имам две деца",
+      "de": "ich habe zwei Kinder",
+      "fr": "j'ai deux enfants",
+      "es": "tengo dos hijos"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fi-exam-05",
+   "section": "exam",
+   "level": "A1",
+   "title": {
+    "en": "Where are you from?",
+    "bg": "Откъде си?",
+    "de": "Woher kommst du?",
+    "fr": "D'où viens-tu ?",
+    "es": "¿De dónde eres?"
+   },
+   "description": {
+    "en": "Countries, nationalities and -sta/-stä",
+    "bg": "Държави, националности и -sta/-stä",
+    "de": "Länder, Nationalitäten und -sta/-stä",
+    "fr": "Pays, nationalités et -sta/-stä",
+    "es": "Países, nacionalidades y -sta/-stä"
+   },
+   "items": [
+    "fi-mista-olet-kotoisin",
+    "fi-olen-kotoisin-bulgariasta",
+    "fi-suomi",
+    "fi-suomesta",
+    "fi-saksasta",
+    "fi-espanjasta",
+    "fi-ranskasta",
+    "fi-asun-suomessa",
+    "fi-puhun-suomea",
+    "fi-suomalainen",
+    "fi-bulgarialainen"
+   ],
+   "grammar": [
+    "fi-g-from"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Olen kotoisin Bulgaria___.",
+     "answer": "sta",
+     "itemId": "fi-olen-kotoisin-bulgariasta",
+     "options": [
+      "sta",
+      "ssa",
+      "stä"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Asun Suome___.",
+     "answer": "ssa",
+     "itemId": "fi-asun-suomessa",
+     "options": [
+      "ssa",
+      "sta",
+      "stä"
+     ],
+     "explanation": {
+      "en": "In = -ssa, from = -sta.",
+      "bg": "В = -ssa, от = -sta.",
+      "de": "In = -ssa, aus = -sta.",
+      "fr": "En/dans = -ssa, de = -sta.",
+      "es": "En = -ssa, de = -sta."
+     }
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hän on kotoisin ___. (from Spain)",
+     "answer": "Espanjasta",
+     "itemId": "fi-espanjasta",
+     "options": [
+      "Espanjasta",
+      "Espanjassa",
+      "Espanja"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "mistä sinä olet kotoisin",
+     "translation": {
+      "en": "where are you from?",
+      "bg": "откъде си?",
+      "de": "woher kommst du?",
+      "fr": "d'où viens-tu ?",
+      "es": "¿de dónde eres?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fi-exam-06",
+   "section": "exam",
+   "level": "A1",
+   "title": {
+    "en": "What's the weather like?",
+    "bg": "Какво е времето?",
+    "de": "Wie ist das Wetter?",
+    "fr": "Quel temps fait-il ?",
+    "es": "¿Qué tiempo hace?"
+   },
+   "description": {
+    "en": "Talk about the weather like a Finn",
+    "bg": "Говори за времето като финландец",
+    "de": "Über das Wetter reden wie ein Finne",
+    "fr": "Parler météo comme un Finlandais",
+    "es": "Hablar del tiempo como un finlandés"
+   },
+   "items": [
+    "fi-saa",
+    "fi-millainen-saa",
+    "fi-aurinko-paistaa",
+    "fi-sataa",
+    "fi-sataa-lunta",
+    "fi-on-kylma",
+    "fi-on-lammin",
+    "fi-tuulee",
+    "fi-pilvista",
+    "fi-pakkanen"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "−15 °C and snow. Which fits?",
+      "bg": "−15 °C и сняг. Кое пасва?",
+      "de": "−15 °C und Schnee. Was passt?",
+      "fr": "−15 °C et de la neige. Qu'est-ce qui convient ?",
+      "es": "−15 °C y nieve. ¿Qué encaja?"
+     },
+     "options": [
+      "on kylmä",
+      "on lämmin",
+      "aurinko paistaa kuumasti"
+     ],
+     "answer": "on kylmä",
+     "itemId": "fi-on-kylma"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Tänään ___ lunta.",
+     "answer": "sataa",
+     "itemId": "fi-sataa-lunta",
+     "options": [
+      "sataa",
+      "tuulee",
+      "paistaa"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "millainen sää tänään on",
+     "translation": {
+      "en": "what's the weather like today?",
+      "bg": "какво е времето днес?",
+      "de": "wie ist das Wetter heute?",
+      "fr": "quel temps fait-il aujourd'hui ?",
+      "es": "¿qué tiempo hace hoy?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fi-exam-07",
+   "section": "exam",
+   "level": "A1",
+   "title": {
+    "en": "Verbs: asua, puhua, tulla",
+    "bg": "Глаголи: asua, puhua, tulla",
+    "de": "Verben: asua, puhua, tulla",
+    "fr": "Verbes : asua, puhua, tulla",
+    "es": "Verbos: asua, puhua, tulla"
+   },
+   "description": {
+    "en": "Present tense of the most useful verbs",
+    "bg": "Сегашно време на най-полезните глаголи",
+    "de": "Präsens der wichtigsten Verben",
+    "fr": "Le présent des verbes les plus utiles",
+    "es": "Presente de los verbos más útiles"
+   },
+   "items": [
+    "fi-asua",
+    "fi-puhua",
+    "fi-tulla",
+    "fi-opiskella",
+    "fi-asun",
+    "fi-puhun",
+    "fi-tulen",
+    "fi-en-ymmarra",
+    "fi-voitko-toistaa",
+    "fi-kylla",
+    "fi-ei"
+   ],
+   "grammar": [
+    "fi-g-type1",
+    "fi-g-type3"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Minä ___ Suomessa. (asua)",
+     "answer": "asun",
+     "itemId": "fi-asun"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Sinä ___ hyvin suomea. (puhua)",
+     "answer": "puhut",
+     "itemId": "fi-puhua",
+     "hint": {
+      "en": "sinä → -t",
+      "bg": "sinä → -t",
+      "de": "sinä → -t",
+      "fr": "sinä → -t",
+      "es": "sinä → -t"
+     }
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hän ___ Tampereella. (asua)",
+     "answer": "asuu",
+     "itemId": "fi-asua",
+     "options": [
+      "asuu",
+      "asun",
+      "asuvat"
+     ],
+     "explanation": {
+      "en": "hän: the last vowel doubles → asuu.",
+      "bg": "hän: последната гласна се удвоява → asuu.",
+      "de": "hän: der letzte Vokal verdoppelt sich → asuu.",
+      "fr": "hän : la dernière voyelle double → asuu.",
+      "es": "hän: la última vocal se duplica → asuu."
+     }
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Me ___ englantia. (puhua)",
+     "answer": "puhumme",
+     "itemId": "fi-puhua"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "He ___ Ruotsista. (tulla)",
+     "answer": "tulevat",
+     "itemId": "fi-tulla",
+     "options": [
+      "tulevat",
+      "tulemme",
+      "tulee"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Minä ___ Bulgariasta. (tulla)",
+     "answer": "tulen",
+     "itemId": "fi-tulen"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hän ___ yliopistossa. (opiskella)",
+     "answer": "opiskelee",
+     "itemId": "fi-opiskella",
+     "options": [
+      "opiskelee",
+      "opiskelen",
+      "opiskella"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Te ___ Helsingissä. (asua)",
+     "answer": "asutte",
+     "itemId": "fi-asua",
+     "options": [
+      "asutte",
+      "asumme",
+      "asuvat"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "puhun vähän suomea",
+     "translation": {
+      "en": "I speak a little Finnish",
+      "bg": "говоря малко финландски",
+      "de": "ich spreche ein bisschen Finnisch",
+      "fr": "je parle un peu finnois",
+      "es": "hablo un poco de finés"
+     }
+    }
+   ]
+  }
+ ],
+ "phrasePacks": [
+  {
+   "id": "fi-pp-classroom",
+   "level": "A1",
+   "icon": "🎓",
+   "title": {
+    "en": "Survival in class",
+    "bg": "Оцеляване в час",
+    "de": "Überleben im Unterricht",
+    "fr": "Survivre en cours",
+    "es": "Sobrevivir en clase"
+   },
+   "description": {
+    "en": "When you don't understand: ask, repeat, slow down",
+    "bg": "Когато не разбираш: питай, повтори, по-бавно",
+    "de": "Wenn du nichts verstehst: fragen, wiederholen, langsamer",
+    "fr": "Quand tu ne comprends pas : demander, répéter, ralentir",
+    "es": "Cuando no entiendes: preguntar, repetir, más despacio"
+   },
+   "items": [
+    "fi-en-ymmarra",
+    "fi-voitko-toistaa",
+    "fi-puhu-hitaammin",
+    "fi-mita-tarkoittaa",
+    "fi-anteeksi",
+    "fi-kiitos"
+   ]
+  },
+  {
+   "id": "fi-pp-smalltalk",
+   "level": "A1",
+   "icon": "☕",
+   "title": {
+    "en": "Small talk",
+    "bg": "Кратък разговор",
+    "de": "Smalltalk",
+    "fr": "Petite conversation",
+    "es": "Charla informal"
+   },
+   "description": {
+    "en": "The weather is always a safe topic in Finland",
+    "bg": "Времето винаги е безопасна тема във Финландия",
+    "de": "Das Wetter ist in Finnland immer ein sicheres Thema",
+    "fr": "La météo est toujours un sujet sûr en Finlande",
+    "es": "El tiempo siempre es un tema seguro en Finlandia"
+   },
+   "items": [
+    "fi-mita-kuuluu",
+    "fi-hyvaa-kiitos",
+    "fi-millainen-saa",
+    "fi-on-kylma",
+    "fi-sataa",
+    "fi-mista-olet-kotoisin",
+    "fi-asun-suomessa"
+   ]
+  }
+ ],
+ "dialogues": [
+  {
+   "id": "fi-d-campus",
+   "level": "A1",
+   "icon": "🎓",
+   "title": {
+    "en": "First day at the university",
+    "bg": "Първи ден в университета",
+    "de": "Erster Tag an der Uni",
+    "fr": "Premier jour à l'université",
+    "es": "Primer día en la universidad"
+   },
+   "situation": {
+    "en": "A student sits next to you before the Finnish class starts.",
+    "bg": "Студентка сяда до теб преди часа по финландски.",
+    "de": "Eine Studentin setzt sich vor dem Finnischkurs neben dich.",
+    "fr": "Une étudiante s'assoit à côté de toi avant le cours de finnois.",
+    "es": "Una estudiante se sienta a tu lado antes de la clase de finés."
+   },
+   "speakers": {
+    "aino": {
+     "name": "Aino",
+     "accessory": "beanie"
+    },
+    "you": {
+     "name": "Sinä"
+    }
+   },
+   "lines": [
+    {
+     "speaker": "aino",
+     "text": "Moi! Minä olen Aino. Mikä sinun nimesi on?",
+     "translations": {
+      "en": "Hi! I'm Aino. What's your name?",
+      "bg": "Здрасти! Аз съм Айно. Как се казваш?",
+      "de": "Hi! Ich bin Aino. Wie heißt du?",
+      "fr": "Salut ! Je suis Aino. Comment tu t'appelles ?",
+      "es": "¡Hola! Soy Aino. ¿Cómo te llamas?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Moi! Minun nimeni on Stoyan. Hauska tutustua!",
+       "correct": true,
+       "translations": {
+        "en": "Hi! My name is Stoyan. Nice to meet you!",
+        "bg": "Здрасти! Казвам се Стоян. Приятно ми е!",
+        "de": "Hi! Ich heiße Stoyan. Freut mich!",
+        "fr": "Salut ! Je m'appelle Stoyan. Enchanté !",
+        "es": "¡Hola! Me llamo Stoyan. ¡Mucho gusto!"
+       }
+      },
+      {
+       "text": "Hyvää yötä!",
+       "correct": false,
+       "translations": {
+        "en": "Good night!",
+        "bg": "Лека нощ!",
+        "de": "Gute Nacht!",
+        "fr": "Bonne nuit !",
+        "es": "¡Buenas noches!"
+       },
+       "feedback": {
+        "en": "That's for going to bed! She asked your name.",
+        "bg": "Това е за лягане! Тя пита как се казваш.",
+        "de": "Das sagt man vor dem Schlafen! Sie fragt nach deinem Namen.",
+        "fr": "Ça, c'est pour aller dormir ! Elle demande ton nom.",
+        "es": "¡Eso es para ir a dormir! Te pregunta tu nombre."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "aino",
+     "text": "Hauska tutustua! Mistä sinä olet kotoisin?",
+     "translations": {
+      "en": "Nice to meet you! Where are you from?",
+      "bg": "Приятно ми е! Откъде си?",
+      "de": "Freut mich! Woher kommst du?",
+      "fr": "Enchantée ! D'où viens-tu ?",
+      "es": "¡Mucho gusto! ¿De dónde eres?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Olen kotoisin Bulgariasta.",
+       "correct": true,
+       "translations": {
+        "en": "I'm from Bulgaria.",
+        "bg": "От България съм.",
+        "de": "Ich komme aus Bulgarien.",
+        "fr": "Je viens de Bulgarie.",
+        "es": "Soy de Bulgaria."
+       }
+      },
+      {
+       "text": "Olen kotoisin Bulgariassa.",
+       "correct": false,
+       "translations": {
+        "en": "(wrong ending)",
+        "bg": "(грешно окончание)",
+        "de": "(falsche Endung)",
+        "fr": "(mauvaise terminaison)",
+        "es": "(terminación incorrecta)"
+       },
+       "feedback": {
+        "en": "Almost! “From” is -sta: Bulgariasta.",
+        "bg": "Почти! „От“ е -sta: Bulgariasta.",
+        "de": "Fast! „Aus“ ist -sta: Bulgariasta.",
+        "fr": "Presque ! « De » se dit -sta : Bulgariasta.",
+        "es": "¡Casi! «De» es -sta: Bulgariasta."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "aino",
+     "text": "Kiva! Puhutko suomea?",
+     "translations": {
+      "en": "Nice! Do you speak Finnish?",
+      "bg": "Супер! Говориш ли финландски?",
+      "de": "Schön! Sprichst du Finnisch?",
+      "fr": "Sympa ! Tu parles finnois ?",
+      "es": "¡Qué bien! ¿Hablas finés?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Puhun vähän suomea.",
+       "correct": true,
+       "translations": {
+        "en": "I speak a little Finnish.",
+        "bg": "Говоря малко финландски.",
+        "de": "Ich spreche ein bisschen Finnisch.",
+        "fr": "Je parle un peu finnois.",
+        "es": "Hablo un poco de finés."
+       }
+      },
+      {
+       "text": "Puhuu vähän suomea.",
+       "correct": false,
+       "translations": {
+        "en": "(he/she speaks…)",
+        "bg": "(той/тя говори…)",
+        "de": "(er/sie spricht…)",
+        "fr": "(il/elle parle…)",
+        "es": "(él/ella habla…)"
+       },
+       "feedback": {
+        "en": "“puhuu” is he/she. For “I”: puhun.",
+        "bg": "„puhuu“ е той/тя. За „аз“: puhun.",
+        "de": "„puhuu“ ist er/sie. Für „ich“: puhun.",
+        "fr": "« puhuu » c'est il/elle. Pour « je » : puhun.",
+        "es": "«puhuu» es él/ella. Para «yo»: puhun."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "aino",
+     "text": "Hyvin puhut! Tänään on kylmä, eikö?",
+     "translations": {
+      "en": "You speak well! It's cold today, isn't it?",
+      "bg": "Говориш добре! Днес е студено, нали?",
+      "de": "Du sprichst gut! Heute ist es kalt, oder?",
+      "fr": "Tu parles bien ! Il fait froid aujourd'hui, non ?",
+      "es": "¡Hablas bien! Hoy hace frío, ¿no?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Kyllä, ja sataa lunta!",
+       "correct": true,
+       "translations": {
+        "en": "Yes, and it's snowing!",
+        "bg": "Да, и вали сняг!",
+        "de": "Ja, und es schneit!",
+        "fr": "Oui, et il neige !",
+        "es": "¡Sí, y está nevando!"
+       }
+      },
+      {
+       "text": "Minulla on veli.",
+       "correct": false,
+       "translations": {
+        "en": "I have a brother.",
+        "bg": "Имам брат.",
+        "de": "Ich habe einen Bruder.",
+        "fr": "J'ai un frère.",
+        "es": "Tengo un hermano."
+       },
+       "feedback": {
+        "en": "True maybe, but she's talking about the weather.",
+        "bg": "Може и да е вярно, но тя говори за времето.",
+        "de": "Mag stimmen, aber sie spricht über das Wetter.",
+        "fr": "Peut-être, mais elle parle de la météo.",
+        "es": "Puede ser, pero habla del tiempo."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "fi-r-minae",
+   "section": "exam",
+   "level": "A1",
+   "title": {
+    "en": "Hi, I'm Stoyan",
+    "bg": "Здравей, аз съм Стоян",
+    "de": "Hallo, ich bin Stoyan",
+    "fr": "Salut, je suis Stoyan",
+    "es": "Hola, soy Stoyan"
+   },
+   "sentences": [
+    {
+     "text": "Hei! Minun nimeni on Stoyan.",
+     "translations": {
+      "en": "Hi! My name is Stoyan.",
+      "bg": "Здравей! Казвам се Стоян.",
+      "de": "Hallo! Ich heiße Stoyan.",
+      "fr": "Salut ! Je m'appelle Stoyan.",
+      "es": "¡Hola! Me llamo Stoyan."
+     }
+    },
+    {
+     "text": "Olen kotoisin Bulgariasta, mutta asun Suomessa.",
+     "translations": {
+      "en": "I'm from Bulgaria, but I live in Finland.",
+      "bg": "От България съм, но живея във Финландия.",
+      "de": "Ich komme aus Bulgarien, aber ich wohne in Finnland.",
+      "fr": "Je viens de Bulgarie, mais j'habite en Finlande.",
+      "es": "Soy de Bulgaria, pero vivo en Finlandia."
+     }
+    },
+    {
+     "text": "Puhun bulgariaa, englantia ja vähän saksaa.",
+     "translations": {
+      "en": "I speak Bulgarian, English and a little German.",
+      "bg": "Говоря български, английски и малко немски.",
+      "de": "Ich spreche Bulgarisch, Englisch und ein bisschen Deutsch.",
+      "fr": "Je parle bulgare, anglais et un peu allemand.",
+      "es": "Hablo búlgaro, inglés y un poco de alemán."
+     }
+    },
+    {
+     "text": "Nyt opiskelen suomea.",
+     "translations": {
+      "en": "Now I'm studying Finnish.",
+      "bg": "Сега уча финландски.",
+      "de": "Jetzt lerne ich Finnisch.",
+      "fr": "Maintenant j'étudie le finnois.",
+      "es": "Ahora estudio finés."
+     }
+    },
+    {
+     "text": "Minulla on iso perhe: äiti, isä ja kaksi siskoa.",
+     "translations": {
+      "en": "I have a big family: mother, father and two sisters.",
+      "bg": "Имам голямо семейство: майка, баща и две сестри.",
+      "de": "Ich habe eine große Familie: Mutter, Vater und zwei Schwestern.",
+      "fr": "J'ai une grande famille : ma mère, mon père et deux sœurs.",
+      "es": "Tengo una familia grande: madre, padre y dos hermanas."
+     }
+    },
+    {
+     "text": "Tänään sataa lunta ja on kylmä.",
+     "translations": {
+      "en": "Today it's snowing and it's cold.",
+      "bg": "Днес вали сняг и е студено.",
+      "de": "Heute schneit es und es ist kalt.",
+      "fr": "Aujourd'hui il neige et il fait froid.",
+      "es": "Hoy nieva y hace frío."
+     }
+    }
+   ],
+   "glossary": {
+    "hei": {
+     "item": "fi-hei"
+    },
+    "nimeni": {
+     "translations": {
+      "en": "my name",
+      "bg": "моето име",
+      "de": "mein Name",
+      "fr": "mon nom",
+      "es": "mi nombre"
+     }
+    },
+    "olen": {
+     "item": "fi-olen"
+    },
+    "bulgariasta": {
+     "translations": {
+      "en": "from Bulgaria",
+      "bg": "от България",
+      "de": "aus Bulgarien",
+      "fr": "de Bulgarie",
+      "es": "de Bulgaria"
+     }
+    },
+    "mutta": {
+     "translations": {
+      "en": "but",
+      "bg": "но",
+      "de": "aber",
+      "fr": "mais",
+      "es": "pero"
+     }
+    },
+    "asun": {
+     "item": "fi-asun"
+    },
+    "suomessa": {
+     "translations": {
+      "en": "in Finland",
+      "bg": "във Финландия",
+      "de": "in Finnland",
+      "fr": "en Finlande",
+      "es": "en Finlandia"
+     }
+    },
+    "puhun": {
+     "item": "fi-puhun"
+    },
+    "bulgariaa": {
+     "translations": {
+      "en": "Bulgarian (language)",
+      "bg": "български (език)",
+      "de": "Bulgarisch",
+      "fr": "le bulgare",
+      "es": "búlgaro (idioma)"
+     }
+    },
+    "englantia": {
+     "translations": {
+      "en": "English (language)",
+      "bg": "английски (език)",
+      "de": "Englisch",
+      "fr": "l'anglais",
+      "es": "inglés (idioma)"
+     }
+    },
+    "ja": {
+     "translations": {
+      "en": "and",
+      "bg": "и",
+      "de": "und",
+      "fr": "et",
+      "es": "y"
+     }
+    },
+    "vähän": {
+     "translations": {
+      "en": "a little",
+      "bg": "малко",
+      "de": "ein bisschen",
+      "fr": "un peu",
+      "es": "un poco"
+     }
+    },
+    "saksaa": {
+     "translations": {
+      "en": "German (language)",
+      "bg": "немски (език)",
+      "de": "Deutsch",
+      "fr": "l'allemand",
+      "es": "alemán (idioma)"
+     }
+    },
+    "nyt": {
+     "translations": {
+      "en": "now",
+      "bg": "сега",
+      "de": "jetzt",
+      "fr": "maintenant",
+      "es": "ahora"
+     }
+    },
+    "opiskelen": {
+     "translations": {
+      "en": "I study",
+      "bg": "уча",
+      "de": "ich lerne / studiere",
+      "fr": "j'étudie",
+      "es": "estudio"
+     }
+    },
+    "suomea": {
+     "translations": {
+      "en": "Finnish (language)",
+      "bg": "финландски (език)",
+      "de": "Finnisch",
+      "fr": "le finnois",
+      "es": "finés (idioma)"
+     }
+    },
+    "minulla": {
+     "item": "fi-minulla-on"
+    },
+    "on": {
+     "translations": {
+      "en": "is / has",
+      "bg": "е / има",
+      "de": "ist / hat",
+      "fr": "est / a",
+      "es": "es / hay"
+     }
+    },
+    "iso": {
+     "translations": {
+      "en": "big",
+      "bg": "голям",
+      "de": "groß",
+      "fr": "grand",
+      "es": "grande"
+     }
+    },
+    "perhe": {
+     "item": "fi-perhe"
+    },
+    "äiti": {
+     "item": "fi-aiti"
+    },
+    "isä": {
+     "item": "fi-isa"
+    },
+    "kaksi": {
+     "item": "fi-kaksi"
+    },
+    "siskoa": {
+     "translations": {
+      "en": "sisters (after a number)",
+      "bg": "сестри (след число)",
+      "de": "Schwestern (nach einer Zahl)",
+      "fr": "sœurs (après un nombre)",
+      "es": "hermanas (tras un número)"
+     }
+    },
+    "tänään": {
+     "translations": {
+      "en": "today",
+      "bg": "днес",
+      "de": "heute",
+      "fr": "aujourd'hui",
+      "es": "hoy"
+     }
+    },
+    "sataa": {
+     "item": "fi-sataa"
+    },
+    "lunta": {
+     "translations": {
+      "en": "snow",
+      "bg": "сняг",
+      "de": "Schnee",
+      "fr": "neige",
+      "es": "nieve"
+     }
+    },
+    "kylmä": {
+     "item": "fi-on-kylma"
+    }
+   }
+  },
+  {
+   "id": "fi-r-helsinki",
+   "section": "exam",
+   "level": "A1",
+   "title": {
+    "en": "Helsinki in winter",
+    "bg": "Хелзинки през зимата",
+    "de": "Helsinki im Winter",
+    "fr": "Helsinki en hiver",
+    "es": "Helsinki en invierno"
+   },
+   "sentences": [
+    {
+     "text": "Helsinki on Suomen pääkaupunki.",
+     "translations": {
+      "en": "Helsinki is the capital of Finland.",
+      "bg": "Хелзинки е столицата на Финландия.",
+      "de": "Helsinki ist die Hauptstadt Finnlands.",
+      "fr": "Helsinki est la capitale de la Finlande.",
+      "es": "Helsinki es la capital de Finlandia."
+     }
+    },
+    {
+     "text": "Talvella on kylmä ja pimeä.",
+     "translations": {
+      "en": "In winter it's cold and dark.",
+      "bg": "През зимата е студено и тъмно.",
+      "de": "Im Winter ist es kalt und dunkel.",
+      "fr": "En hiver il fait froid et sombre.",
+      "es": "En invierno hace frío y está oscuro."
+     }
+    },
+    {
+     "text": "Ihmiset juovat paljon kahvia.",
+     "translations": {
+      "en": "People drink a lot of coffee.",
+      "bg": "Хората пият много кафе.",
+      "de": "Die Leute trinken viel Kaffee.",
+      "fr": "Les gens boivent beaucoup de café.",
+      "es": "La gente bebe mucho café."
+     }
+    },
+    {
+     "text": "Meri jäätyy, ja ihmiset kävelevät jäällä.",
+     "translations": {
+      "en": "The sea freezes, and people walk on the ice.",
+      "bg": "Морето замръзва и хората ходят по леда.",
+      "de": "Das Meer friert zu, und die Leute gehen auf dem Eis.",
+      "fr": "La mer gèle et les gens marchent sur la glace.",
+      "es": "El mar se congela y la gente camina sobre el hielo."
+     }
+    }
+   ],
+   "glossary": {
+    "pääkaupunki": {
+     "translations": {
+      "en": "capital city",
+      "bg": "столица",
+      "de": "Hauptstadt",
+      "fr": "capitale",
+      "es": "capital"
+     }
+    },
+    "suomen": {
+     "translations": {
+      "en": "Finland's / of Finland",
+      "bg": "на Финландия",
+      "de": "Finnlands",
+      "fr": "de la Finlande",
+      "es": "de Finlandia"
+     }
+    },
+    "talvella": {
+     "translations": {
+      "en": "in winter",
+      "bg": "през зимата",
+      "de": "im Winter",
+      "fr": "en hiver",
+      "es": "en invierno"
+     }
+    },
+    "kylmä": {
+     "item": "fi-on-kylma"
+    },
+    "pimeä": {
+     "translations": {
+      "en": "dark",
+      "bg": "тъмно",
+      "de": "dunkel",
+      "fr": "sombre",
+      "es": "oscuro"
+     }
+    },
+    "ihmiset": {
+     "translations": {
+      "en": "people",
+      "bg": "хората",
+      "de": "die Leute",
+      "fr": "les gens",
+      "es": "la gente"
+     }
+    },
+    "juovat": {
+     "translations": {
+      "en": "(they) drink",
+      "bg": "пият",
+      "de": "trinken",
+      "fr": "boivent",
+      "es": "beben"
+     }
+    },
+    "paljon": {
+     "translations": {
+      "en": "a lot",
+      "bg": "много",
+      "de": "viel",
+      "fr": "beaucoup",
+      "es": "mucho"
+     }
+    },
+    "kahvia": {
+     "translations": {
+      "en": "coffee",
+      "bg": "кафе",
+      "de": "Kaffee",
+      "fr": "café",
+      "es": "café"
+     }
+    },
+    "meri": {
+     "translations": {
+      "en": "sea",
+      "bg": "море",
+      "de": "Meer",
+      "fr": "mer",
+      "es": "mar"
+     }
+    },
+    "jäätyy": {
+     "translations": {
+      "en": "freezes",
+      "bg": "замръзва",
+      "de": "friert zu",
+      "fr": "gèle",
+      "es": "se congela"
+     }
+    },
+    "kävelevät": {
+     "translations": {
+      "en": "(they) walk",
+      "bg": "ходят",
+      "de": "gehen (zu Fuß)",
+      "fr": "marchent",
+      "es": "caminan"
+     }
+    },
+    "jäällä": {
+     "translations": {
+      "en": "on the ice",
+      "bg": "по леда",
+      "de": "auf dem Eis",
+      "fr": "sur la glace",
+      "es": "sobre el hielo"
+     }
+    },
+    "on": {
+     "translations": {
+      "en": "is",
+      "bg": "е",
+      "de": "ist",
+      "fr": "est",
+      "es": "es"
+     }
+    },
+    "ja": {
+     "translations": {
+      "en": "and",
+      "bg": "и",
+      "de": "und",
+      "fr": "et",
+      "es": "y"
+     }
+    }
+   }
+  }
+ ],
+ "places": [
+  {
+   "id": "fi-p-helsinki",
+   "section": "exam",
+   "name": "Helsinki",
+   "country": "Finland",
+   "lat": 60.17,
+   "lng": 24.94,
+   "description": {
+    "en": "The capital by the sea, where most newcomers start.",
+    "bg": "Столицата на морето, където започват повечето новодошли.",
+    "de": "Die Hauptstadt am Meer, wo die meisten Neuankömmlinge starten.",
+    "fr": "La capitale au bord de la mer, où commencent la plupart des nouveaux venus.",
+    "es": "La capital junto al mar, donde empiezan casi todos los recién llegados."
+   },
+   "localItems": [
+    "fi-hei",
+    "fi-kiitos",
+    "fi-anteeksi"
+   ],
+   "cultureNote": "fi-c-sina",
+   "reading": "fi-r-helsinki"
+  },
+  {
+   "id": "fi-p-turku",
+   "section": "exam",
+   "name": "Turku",
+   "country": "Finland",
+   "lat": 60.45,
+   "lng": 22.27,
+   "unlockAfterLesson": "fi-exam-02",
+   "description": {
+    "en": "Finland's oldest city, on the Aura river.",
+    "bg": "Най-старият град във Финландия, на река Аура.",
+    "de": "Finnlands älteste Stadt am Fluss Aura.",
+    "fr": "La plus vieille ville de Finlande, sur l'Aura.",
+    "es": "La ciudad más antigua de Finlandia, junto al río Aura."
+   },
+   "localItems": [
+    "fi-hauska-tutustua",
+    "fi-mita-kuuluu"
+   ]
+  },
+  {
+   "id": "fi-p-tampere",
+   "section": "exam",
+   "name": "Tampere",
+   "country": "Finland",
+   "lat": 61.5,
+   "lng": 23.76,
+   "unlockAfterLesson": "fi-exam-04",
+   "description": {
+    "en": "Between two lakes, famous for saunas and “mustamakkara” (black sausage).",
+    "bg": "Между две езера, известен със сауни и „mustamakkara“ (черна наденица).",
+    "de": "Zwischen zwei Seen, bekannt für Saunas und „mustamakkara“ (Blutwurst).",
+    "fr": "Entre deux lacs, célèbre pour ses saunas et la « mustamakkara » (boudin noir).",
+    "es": "Entre dos lagos, famosa por sus saunas y la «mustamakkara» (morcilla)."
+   },
+   "localItems": [
+    "fi-perhe",
+    "fi-minulla-on"
+   ],
+   "cultureNote": "fi-c-sauna"
+  },
+  {
+   "id": "fi-p-oulu",
+   "section": "exam",
+   "name": "Oulu",
+   "country": "Finland",
+   "lat": 65.01,
+   "lng": 25.47,
+   "unlockAfterLesson": "fi-exam-06",
+   "description": {
+    "en": "The capital of the north, with snowy winters and bright summer nights.",
+    "bg": "Столицата на севера със снежни зими и светли летни нощи.",
+    "de": "Die Hauptstadt des Nordens mit verschneiten Wintern und hellen Sommernächten.",
+    "fr": "La capitale du nord, aux hivers enneigés et aux nuits d'été claires.",
+    "es": "La capital del norte, con inviernos nevados y noches claras en verano."
+   },
+   "localItems": [
+    "fi-sataa-lunta",
+    "fi-pakkanen",
+    "fi-on-kylma"
+   ],
+   "cultureNote": "fi-c-silence"
+  },
+  {
+   "id": "fi-p-rovaniemi",
+   "section": "exam",
+   "name": "Rovaniemi",
+   "country": "Finland",
+   "lat": 66.5,
+   "lng": 25.73,
+   "unlockAfterLesson": "fi-exam-07",
+   "description": {
+    "en": "On the Arctic Circle: reindeer, northern lights and exam success!",
+    "bg": "На Полярния кръг: северни елени, северно сияние и успех на изпита!",
+    "de": "Am Polarkreis: Rentiere, Polarlichter und Erfolg in der Prüfung!",
+    "fr": "Sur le cercle polaire : rennes, aurores boréales et réussite à l'examen !",
+    "es": "En el Círculo Polar: renos, auroras boreales y ¡éxito en el examen!"
+   },
+   "localItems": [
+    "fi-kylla",
+    "fi-ei",
+    "fi-kiitos"
+   ]
+  }
+ ]
+}

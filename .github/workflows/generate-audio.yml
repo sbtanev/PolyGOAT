@@ -1,0 +1,26 @@
+name: Generate audio
+
+# Run it by hand: GitHub → Actions → "Generate audio" → Run workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      language:
+        description: "Language code (es, fi…) or all"
+        required: true
+        default: all
+
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/generate-audio.mjs "${{ inputs.language }}"
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}

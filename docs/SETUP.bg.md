@@ -98,6 +98,24 @@
 
 ---
 
+## Част 5. Истинско аудио вместо гласа на браузъра (по желание)
+
+Без тази част сайтът използва гласа на браузъра, което работи, но звучи различно на различните телефони. С нея всяка дума получава записан MP3 файл от Google (безплатно до няколко милиона символа на месец, което е много повече от нужното).
+
+1. **Ключ от Google:** влез в [console.cloud.google.com](https://console.cloud.google.com), създай проект, потърси **Cloud Text-to-Speech API** и натисни **Enable**. Google ще поиска карта за потвърждение, но в безплатния лимит не таксува. После **APIs & Services → Credentials → Create credentials → API key**. Копирай ключа.
+2. **Таен ключ от Supabase:** **Project Settings → API Keys** → ключът **secret** (или *service_role*). Той е само за GitHub, никога не го слагай във Vercel или в сайта.
+3. **Сложи трите стойности в GitHub:** хранилището **PolyGOAT → Settings → Secrets and variables → Actions → New repository secret**:
+
+   | Name | Value |
+   |---|---|
+   | `SUPABASE_URL` | твоят Project URL |
+   | `SUPABASE_SERVICE_ROLE_KEY` | тайният ключ от Supabase |
+   | `GOOGLE_TTS_API_KEY` | ключът от Google |
+
+4. **Пусни го:** GitHub → **Actions → Generate audio → Run workflow**, напиши `all` и натисни зеления бутон. След няколко минути всички думи имат аудио. Пускаш го пак, когато се добави ново съдържание (прави само липсващите).
+
+---
+
 ## Ако нещо не работи
 
 | Проблем | Какво да направиш |

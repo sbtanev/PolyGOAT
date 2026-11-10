@@ -56,7 +56,15 @@ export function JourneyMap({
 
       {stops.map((s, i) => {
         const p = pts[i];
+        const nudged = Math.hypot(p.x - p.tx, p.y - p.ty) > 2;
         const marker = (
+          <g>
+            {nudged && (
+              <>
+                <line x1={p.tx} y1={p.ty} x2={p.x} y2={p.y} stroke="#f6f1e7" strokeOpacity="0.5" strokeWidth="1.5" />
+                <circle cx={p.tx} cy={p.ty} r="3.5" fill="#f6f1e7" />
+              </>
+            )}
           <g transform={`translate(${p.x} ${p.y})`}>
             <circle r="15" fill={s.unlocked ? "#f2c84b" : "#3a3354"} stroke="#14111f" strokeWidth="3" />
             <text textAnchor="middle" dy="5" fontSize="14" fontWeight="800" fill={s.unlocked ? "#14111f" : "#a7a0bb"}>
@@ -74,6 +82,7 @@ export function JourneyMap({
             >
               {s.name}
             </text>
+          </g>
           </g>
         );
         return s.href ? (

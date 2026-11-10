@@ -76,20 +76,25 @@ export function buildSteps({ items, pool, source, grammar = [], authored = [], w
     }
   }
 
-  // 2. A mixed round: produce the word, recognise it by ear, type it
+  // 2. A mixed round: produce the word, recognise it by ear, or type it (one task per word, max 10)
   const mixed: Step[] = [];
-  items.forEach((it, idx) => {
-    const translation = tr(it.translations, source);
-    if (!withIntros) {
-      mixed.push({ kind: "mc_translation", itemId: it.id, prompt: it.text, audio: it.audio_url, answer: translation, options: pickOptions(translation, translations) });
-    }
-    if (idx % 2 === 0) {
-      mixed.push({ kind: "mc_target", itemId: it.id, prompt: translation, answer: it.text, options: pickOptions(it.text, texts), audio: it.audio_url });
-    } else {
-      mixed.push({ kind: "listen", itemId: it.id, say: it.text, audio: it.audio_url, answer: it.text, options: pickOptions(it.text, texts) });
-    }
-    if (wordCount(it.text) <= 3) mixed.push({ kind: "type_target", itemId: it.id, prompt: translation, answer: it.text });
-  });
+  const MAX_MIXED = withIntros ? 10 : 15;
+  shuffle(items)
+    .slice(0, MAX_MIXED)
+    .forEach((it, idx) => {
+      const translation = tr(it.translations, source);
+      if (!withIntros) {
+        mixed.push({ kind: "mc_translation", itemId: it.id, prompt: it.text, audio: it.audio_url, answer: translation, options: pickOptions(translation, translations) });
+      }
+      const kind = idx % 3;
+      if (kind === 2 && wordCount(it.text) <= 3 && !it.text.includes("…")) {
+        mixed.push({ kind: "type_target", itemId: it.id, prompt: translation, answer: it.text });
+      } else if (kind === 1) {
+        mixed.push({ kind: "listen", itemId: it.id, say: it.text, audio: it.audio_url, answer: it.text, options: pickOptions(it.text, texts) });
+      } else {
+        mixed.push({ kind: "mc_target", itemId: it.id, prompt: translation, answer: it.text, options: pickOptions(it.text, texts), audio: it.audio_url });
+      }
+    });
 
   for (const ex of authored) {
     if (ex.type === "fill_blank") {

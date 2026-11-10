@@ -1,156 +1,2601 @@
 {
-  "version": "0.1.0-demo",
-  "language": {
-    "code": "es",
-    "name": { "en": "Spanish", "bg": "Испански", "de": "Spanisch", "fr": "espagnol", "es": "español" },
-    "nativeName": "Español",
-    "flag": "🇪🇸",
-    "script": "latin",
-    "features": ["gender"],
-    "mascotAccessory": "sombrero",
-    "varieties": ["es-ES", "es-MX", "es-AR", "es-CO"],
-    "ttsLocale": "es-ES",
-    "active": true
+ "version": "1.0.0",
+ "language": {
+  "code": "es",
+  "name": {
+   "en": "Spanish",
+   "bg": "Испански",
+   "de": "Spanisch",
+   "fr": "espagnol",
+   "es": "español"
   },
-  "sections": [
-    { "slug": "core", "title": { "en": "Core course", "bg": "Основен курс", "de": "Grundkurs", "fr": "Cours principal" } }
+  "nativeName": "Español",
+  "flag": "🇪🇸",
+  "script": "latin",
+  "features": [
+   "gender"
   ],
-  "items": [
-    { "id": "es-hola", "text": "hola", "frequencyRank": 1, "pos": "interjection",
-      "translations": { "en": "hello", "bg": "здравей", "de": "hallo", "fr": "salut" } },
-    { "id": "es-buenos-dias", "text": "buenos días", "kind": "phrase", "frequencyRank": 2,
-      "translations": { "en": "good morning", "bg": "добро утро", "de": "guten Morgen", "fr": "bonjour" } },
-    { "id": "es-buenas-tardes", "text": "buenas tardes", "kind": "phrase", "frequencyRank": 3,
-      "translations": { "en": "good afternoon", "bg": "добър ден", "de": "guten Tag", "fr": "bon après-midi" },
-      "notes": { "en": "Used from lunch (around 2 pm) until it gets dark.", "bg": "Използва се от обяд (около 14 ч.) до мръкване." } },
-    { "id": "es-buenas-noches", "text": "buenas noches", "kind": "phrase", "frequencyRank": 4,
-      "translations": { "en": "good evening / good night", "bg": "добър вечер / лека нощ", "de": "guten Abend / gute Nacht", "fr": "bonsoir / bonne nuit" } },
-    { "id": "es-adios", "text": "adiós", "frequencyRank": 5,
-      "translations": { "en": "goodbye", "bg": "довиждане", "de": "auf Wiedersehen", "fr": "au revoir" } },
-    { "id": "es-hasta-luego", "text": "hasta luego", "kind": "phrase", "frequencyRank": 6,
-      "translations": { "en": "see you later", "bg": "до после", "de": "bis später", "fr": "à plus tard" },
-      "native": "nos vemos",
-      "slang": { "es-ES": "hasta luego (also when you won't see them again)", "es-AR": "chau", "es-MX": "nos vemos" } },
-    { "id": "es-gracias", "text": "gracias", "frequencyRank": 7,
-      "translations": { "en": "thank you", "bg": "благодаря", "de": "danke", "fr": "merci" } },
-    { "id": "es-por-favor", "text": "por favor", "kind": "phrase", "frequencyRank": 8,
-      "translations": { "en": "please", "bg": "моля", "de": "bitte", "fr": "s'il vous plaît" } },
-    { "id": "es-que-tal", "text": "¿qué tal?", "kind": "phrase", "frequencyRank": 9,
-      "translations": { "en": "how's it going?", "bg": "как е?", "de": "wie geht's?", "fr": "ça va ?" },
-      "native": "¿qué tal?",
-      "slang": { "es-MX": "¿qué onda?", "es-AR": "¿qué hacés?", "es-CO": "¿quiubo?" } },
-    { "id": "es-me-llamo", "text": "me llamo", "kind": "phrase", "frequencyRank": 10,
-      "translations": { "en": "my name is", "bg": "казвам се", "de": "ich heiße", "fr": "je m'appelle" } },
-    { "id": "es-como-te-llamas", "text": "¿cómo te llamas?", "kind": "phrase", "frequencyRank": 11,
-      "translations": { "en": "what's your name?", "bg": "как се казваш?", "de": "wie heißt du?", "fr": "comment tu t'appelles ?" } },
-    { "id": "es-soy-de", "text": "soy de", "kind": "phrase", "frequencyRank": 12,
-      "translations": { "en": "I am from", "bg": "аз съм от", "de": "ich komme aus", "fr": "je viens de" } },
-    { "id": "es-de-donde-eres", "text": "¿de dónde eres?", "kind": "phrase", "frequencyRank": 13,
-      "translations": { "en": "where are you from?", "bg": "откъде си?", "de": "woher kommst du?", "fr": "tu viens d'où ?" } },
-    { "id": "es-mucho-gusto", "text": "mucho gusto", "kind": "phrase", "frequencyRank": 14,
-      "translations": { "en": "nice to meet you", "bg": "приятно ми е", "de": "freut mich", "fr": "enchanté" },
-      "native": "encantado / encantada" },
-    { "id": "es-cafe-con-leche", "text": "un café con leche, por favor", "kind": "sentence",
-      "translations": { "en": "a coffee with milk, please", "bg": "едно кафе с мляко, моля", "de": "einen Milchkaffee, bitte", "fr": "un café au lait, s'il vous plaît" },
-      "native": "¿me pones un café con leche?",
-      "notes": { "en": "In Spain asking “¿me pones…?” (will you give me…?) sounds natural, not rude.", "bg": "В Испания „¿me pones…?“ („ще ми дадеш ли…?“) звучи естествено, не грубо." } },
-    { "id": "es-la-cuenta", "text": "la cuenta, por favor", "kind": "sentence",
-      "translations": { "en": "the bill, please", "bg": "сметката, моля", "de": "die Rechnung, bitte", "fr": "l'addition, s'il vous plaît" },
-      "native": "¿me cobras?",
-      "slang": { "es-ES": "¿me cobras cuando puedas?", "es-AR": "¿me traés la cuenta?" } },
-    { "id": "es-cuanto-es", "text": "¿cuánto es?", "kind": "phrase",
-      "translations": { "en": "how much is it?", "bg": "колко струва?", "de": "wie viel kostet das?", "fr": "c'est combien ?" } },
-    { "id": "es-para-llevar", "text": "para llevar", "kind": "phrase",
-      "translations": { "en": "to take away", "bg": "за вкъщи", "de": "zum Mitnehmen", "fr": "à emporter" },
-      "slang": { "es-MX": "para llevar", "es-ES": "para llevar" } }
+  "mascotAccessory": "sombrero",
+  "varieties": [
+   "es-ES",
+   "es-MX",
+   "es-AR",
+   "es-CO"
   ],
-  "grammarNotes": [
-    { "id": "es-g-ser-intro", "level": "A1",
-      "title": { "en": "“Soy” = I am", "bg": "„Soy“ = аз съм" },
-      "body": {
-        "en": "**soy** means *I am*. Spanish usually drops the word for *I* (yo), because the verb already shows who is speaking: **Soy de Bulgaria** = I am from Bulgaria.",
-        "bg": "**soy** означава *аз съм*. Испанският обикновено изпуска *аз* (yo), както и българският, защото глаголът вече показва кой говори: **Soy de Bulgaria** = (Аз) съм от България."
-      } }
-  ],
-  "cultureNotes": [
-    { "id": "es-c-two-kisses",
-      "title": { "en": "Two kisses", "bg": "Две целувки" },
-      "body": { "en": "In Spain friends and new acquaintances often greet with two light kisses on the cheeks (right first). In much of Latin America it's one.", "bg": "В Испания приятели и нови познати често се поздравяват с две леки целувки по бузите (първо дясната). В голяма част от Латинска Америка е една." } }
-  ],
-  "lessons": [
+  "ttsLocale": "es-ES",
+  "active": true,
+  "mapBounds": [
+   [
+    -108,
+    -40
+   ],
+   [
+    8,
+    46
+   ]
+  ]
+ },
+ "sections": [
+  {
+   "slug": "core",
+   "title": {
+    "en": "Core course",
+    "bg": "Основен курс",
+    "de": "Grundkurs",
+    "fr": "Cours principal"
+   }
+  }
+ ],
+ "items": [
+  {
+   "id": "es-hola",
+   "text": "hola",
+   "frequencyRank": 1,
+   "pos": "interjection",
+   "translations": {
+    "en": "hello",
+    "bg": "здравей",
+    "de": "hallo",
+    "fr": "salut"
+   }
+  },
+  {
+   "id": "es-buenos-dias",
+   "text": "buenos días",
+   "kind": "phrase",
+   "frequencyRank": 2,
+   "translations": {
+    "en": "good morning",
+    "bg": "добро утро",
+    "de": "guten Morgen",
+    "fr": "bonjour"
+   }
+  },
+  {
+   "id": "es-buenas-tardes",
+   "text": "buenas tardes",
+   "kind": "phrase",
+   "frequencyRank": 3,
+   "translations": {
+    "en": "good afternoon",
+    "bg": "добър ден",
+    "de": "guten Tag",
+    "fr": "bon après-midi"
+   },
+   "notes": {
+    "en": "Used from lunch (around 2 pm) until it gets dark.",
+    "bg": "Използва се от обяд (около 14 ч.) до мръкване."
+   }
+  },
+  {
+   "id": "es-buenas-noches",
+   "text": "buenas noches",
+   "kind": "phrase",
+   "frequencyRank": 4,
+   "translations": {
+    "en": "good evening / good night",
+    "bg": "добър вечер / лека нощ",
+    "de": "guten Abend / gute Nacht",
+    "fr": "bonsoir / bonne nuit"
+   }
+  },
+  {
+   "id": "es-adios",
+   "text": "adiós",
+   "frequencyRank": 5,
+   "translations": {
+    "en": "goodbye",
+    "bg": "довиждане",
+    "de": "auf Wiedersehen",
+    "fr": "au revoir"
+   }
+  },
+  {
+   "id": "es-hasta-luego",
+   "text": "hasta luego",
+   "kind": "phrase",
+   "frequencyRank": 6,
+   "translations": {
+    "en": "see you later",
+    "bg": "до после",
+    "de": "bis später",
+    "fr": "à plus tard"
+   },
+   "native": "nos vemos",
+   "slang": {
+    "es-ES": "hasta luego (also when you won't see them again)",
+    "es-AR": "chau",
+    "es-MX": "nos vemos"
+   }
+  },
+  {
+   "id": "es-gracias",
+   "text": "gracias",
+   "frequencyRank": 7,
+   "translations": {
+    "en": "thank you",
+    "bg": "благодаря",
+    "de": "danke",
+    "fr": "merci"
+   }
+  },
+  {
+   "id": "es-por-favor",
+   "text": "por favor",
+   "kind": "phrase",
+   "frequencyRank": 8,
+   "translations": {
+    "en": "please",
+    "bg": "моля",
+    "de": "bitte",
+    "fr": "s'il vous plaît"
+   }
+  },
+  {
+   "id": "es-que-tal",
+   "text": "¿qué tal?",
+   "kind": "phrase",
+   "frequencyRank": 9,
+   "translations": {
+    "en": "how's it going?",
+    "bg": "как е?",
+    "de": "wie geht's?",
+    "fr": "ça va ?"
+   },
+   "native": "¿qué tal?",
+   "slang": {
+    "es-MX": "¿qué onda?",
+    "es-AR": "¿qué hacés?",
+    "es-CO": "¿quiubo?"
+   }
+  },
+  {
+   "id": "es-me-llamo",
+   "text": "me llamo",
+   "kind": "phrase",
+   "frequencyRank": 10,
+   "translations": {
+    "en": "my name is",
+    "bg": "казвам се",
+    "de": "ich heiße",
+    "fr": "je m'appelle"
+   }
+  },
+  {
+   "id": "es-como-te-llamas",
+   "text": "¿cómo te llamas?",
+   "kind": "phrase",
+   "frequencyRank": 11,
+   "translations": {
+    "en": "what's your name?",
+    "bg": "как се казваш?",
+    "de": "wie heißt du?",
+    "fr": "comment tu t'appelles ?"
+   }
+  },
+  {
+   "id": "es-soy-de",
+   "text": "soy de",
+   "kind": "phrase",
+   "frequencyRank": 12,
+   "translations": {
+    "en": "I am from",
+    "bg": "аз съм от",
+    "de": "ich komme aus",
+    "fr": "je viens de"
+   }
+  },
+  {
+   "id": "es-de-donde-eres",
+   "text": "¿de dónde eres?",
+   "kind": "phrase",
+   "frequencyRank": 13,
+   "translations": {
+    "en": "where are you from?",
+    "bg": "откъде си?",
+    "de": "woher kommst du?",
+    "fr": "tu viens d'où ?"
+   }
+  },
+  {
+   "id": "es-mucho-gusto",
+   "text": "mucho gusto",
+   "kind": "phrase",
+   "frequencyRank": 14,
+   "translations": {
+    "en": "nice to meet you",
+    "bg": "приятно ми е",
+    "de": "freut mich",
+    "fr": "enchanté"
+   },
+   "native": "encantado / encantada"
+  },
+  {
+   "id": "es-cafe-con-leche",
+   "text": "un café con leche, por favor",
+   "kind": "sentence",
+   "translations": {
+    "en": "a coffee with milk, please",
+    "bg": "едно кафе с мляко, моля",
+    "de": "einen Milchkaffee, bitte",
+    "fr": "un café au lait, s'il vous plaît"
+   },
+   "native": "¿me pones un café con leche?",
+   "notes": {
+    "en": "In Spain asking “¿me pones…?” (will you give me…?) sounds natural, not rude.",
+    "bg": "В Испания „¿me pones…?“ („ще ми дадеш ли…?“) звучи естествено, не грубо."
+   }
+  },
+  {
+   "id": "es-la-cuenta",
+   "text": "la cuenta, por favor",
+   "kind": "sentence",
+   "translations": {
+    "en": "the bill, please",
+    "bg": "сметката, моля",
+    "de": "die Rechnung, bitte",
+    "fr": "l'addition, s'il vous plaît"
+   },
+   "native": "¿me cobras?",
+   "slang": {
+    "es-ES": "¿me cobras cuando puedas?",
+    "es-AR": "¿me traés la cuenta?"
+   }
+  },
+  {
+   "id": "es-cuanto-es",
+   "text": "¿cuánto es?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how much is it?",
+    "bg": "колко струва?",
+    "de": "wie viel kostet das?",
+    "fr": "c'est combien ?"
+   }
+  },
+  {
+   "id": "es-para-llevar",
+   "text": "para llevar",
+   "kind": "phrase",
+   "translations": {
+    "en": "to take away",
+    "bg": "за вкъщи",
+    "de": "zum Mitnehmen",
+    "fr": "à emporter"
+   },
+   "slang": {
+    "es-MX": "para llevar",
+    "es-ES": "para llevar"
+   }
+  },
+  {
+   "id": "es-cero",
+   "text": "cero",
+   "kind": "word",
+   "translations": {
+    "en": "0",
+    "bg": "0",
+    "de": "0",
+    "fr": "0"
+   },
+   "frequencyRank": 20,
+   "pos": "number"
+  },
+  {
+   "id": "es-uno",
+   "text": "uno",
+   "kind": "word",
+   "translations": {
+    "en": "1",
+    "bg": "1",
+    "de": "1",
+    "fr": "1"
+   },
+   "frequencyRank": 21,
+   "pos": "number"
+  },
+  {
+   "id": "es-dos",
+   "text": "dos",
+   "kind": "word",
+   "translations": {
+    "en": "2",
+    "bg": "2",
+    "de": "2",
+    "fr": "2"
+   },
+   "frequencyRank": 22,
+   "pos": "number"
+  },
+  {
+   "id": "es-tres",
+   "text": "tres",
+   "kind": "word",
+   "translations": {
+    "en": "3",
+    "bg": "3",
+    "de": "3",
+    "fr": "3"
+   },
+   "frequencyRank": 23,
+   "pos": "number"
+  },
+  {
+   "id": "es-cuatro",
+   "text": "cuatro",
+   "kind": "word",
+   "translations": {
+    "en": "4",
+    "bg": "4",
+    "de": "4",
+    "fr": "4"
+   },
+   "frequencyRank": 24,
+   "pos": "number"
+  },
+  {
+   "id": "es-cinco",
+   "text": "cinco",
+   "kind": "word",
+   "translations": {
+    "en": "5",
+    "bg": "5",
+    "de": "5",
+    "fr": "5"
+   },
+   "frequencyRank": 25,
+   "pos": "number"
+  },
+  {
+   "id": "es-seis",
+   "text": "seis",
+   "kind": "word",
+   "translations": {
+    "en": "6",
+    "bg": "6",
+    "de": "6",
+    "fr": "6"
+   },
+   "frequencyRank": 26,
+   "pos": "number"
+  },
+  {
+   "id": "es-siete",
+   "text": "siete",
+   "kind": "word",
+   "translations": {
+    "en": "7",
+    "bg": "7",
+    "de": "7",
+    "fr": "7"
+   },
+   "frequencyRank": 27,
+   "pos": "number"
+  },
+  {
+   "id": "es-ocho",
+   "text": "ocho",
+   "kind": "word",
+   "translations": {
+    "en": "8",
+    "bg": "8",
+    "de": "8",
+    "fr": "8"
+   },
+   "frequencyRank": 28,
+   "pos": "number"
+  },
+  {
+   "id": "es-nueve",
+   "text": "nueve",
+   "kind": "word",
+   "translations": {
+    "en": "9",
+    "bg": "9",
+    "de": "9",
+    "fr": "9"
+   },
+   "frequencyRank": 29,
+   "pos": "number"
+  },
+  {
+   "id": "es-diez",
+   "text": "diez",
+   "kind": "word",
+   "translations": {
+    "en": "10",
+    "bg": "10",
+    "de": "10",
+    "fr": "10"
+   },
+   "frequencyRank": 30,
+   "pos": "number"
+  },
+  {
+   "id": "es-cuanto-cuesta",
+   "text": "¿cuánto cuesta?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how much does it cost?",
+    "bg": "колко струва?",
+    "de": "wie viel kostet das?",
+    "fr": "combien ça coûte ?"
+   },
+   "frequencyRank": 31
+  },
+  {
+   "id": "es-euros",
+   "text": "euros",
+   "kind": "word",
+   "translations": {
+    "en": "euros",
+    "bg": "евро",
+    "de": "Euro",
+    "fr": "euros"
+   },
+   "frequencyRank": 32
+  },
+  {
+   "id": "es-cuantos-anos-tienes",
+   "text": "¿cuántos años tienes?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how old are you?",
+    "bg": "на колко години си?",
+    "de": "wie alt bist du?",
+    "fr": "quel âge as-tu ?"
+   },
+   "frequencyRank": 33
+  },
+  {
+   "id": "es-tengo-anos",
+   "text": "tengo … años",
+   "kind": "phrase",
+   "translations": {
+    "en": "I am … years old",
+    "bg": "на … години съм",
+    "de": "ich bin … Jahre alt",
+    "fr": "j'ai … ans"
+   },
+   "frequencyRank": 34,
+   "notes": {
+    "en": "Spanish says “I have … years”, like French.",
+    "bg": "На испански се казва „имам … години“, както на френски.",
+    "de": "Auf Spanisch „hat“ man Jahre, wie im Französischen.",
+    "fr": "Comme en français : on « a » … ans."
+   }
+  },
+  {
+   "id": "es-un-cafe",
+   "text": "un café",
+   "kind": "phrase",
+   "translations": {
+    "en": "a coffee",
+    "bg": "едно кафе",
+    "de": "ein Kaffee",
+    "fr": "un café"
+   },
+   "frequencyRank": 40,
+   "gender": "m"
+  },
+  {
+   "id": "es-un-te",
+   "text": "un té",
+   "kind": "phrase",
+   "translations": {
+    "en": "a tea",
+    "bg": "един чай",
+    "de": "ein Tee",
+    "fr": "un thé"
+   },
+   "frequencyRank": 41,
+   "gender": "m"
+  },
+  {
+   "id": "es-agua",
+   "text": "el agua",
+   "kind": "word",
+   "translations": {
+    "en": "water",
+    "bg": "вода",
+    "de": "Wasser",
+    "fr": "l'eau"
+   },
+   "frequencyRank": 42,
+   "notes": {
+    "en": "Feminine, but it takes “el” because it starts with a stressed a-.",
+    "bg": "Женски род е, но взима „el“, защото започва с ударено а-.",
+    "de": "Feminin, aber mit „el“, weil es mit betontem a- beginnt.",
+    "fr": "Féminin, mais avec « el » car il commence par un a- accentué."
+   },
+   "gender": "f"
+  },
+  {
+   "id": "es-una-cerveza",
+   "text": "una cerveza",
+   "kind": "phrase",
+   "translations": {
+    "en": "a beer",
+    "bg": "една бира",
+    "de": "ein Bier",
+    "fr": "une bière"
+   },
+   "frequencyRank": 43,
+   "native": "una caña",
+   "slang": {
+    "es-ES": "una caña (small draught beer)",
+    "es-MX": "una chela",
+    "es-AR": "una birra"
+   }
+  },
+  {
+   "id": "es-vino-tinto",
+   "text": "el vino tinto",
+   "kind": "phrase",
+   "translations": {
+    "en": "red wine",
+    "bg": "червено вино",
+    "de": "Rotwein",
+    "fr": "le vin rouge"
+   },
+   "frequencyRank": 44
+  },
+  {
+   "id": "es-pan",
+   "text": "el pan",
+   "kind": "word",
+   "translations": {
+    "en": "bread",
+    "bg": "хляб",
+    "de": "Brot",
+    "fr": "le pain"
+   },
+   "frequencyRank": 45,
+   "gender": "m"
+  },
+  {
+   "id": "es-una-tapa",
+   "text": "una tapa",
+   "kind": "phrase",
+   "translations": {
+    "en": "a tapa (small snack)",
+    "bg": "тапа (малко мезе)",
+    "de": "eine Tapa (Häppchen)",
+    "fr": "une tapa (petite portion)"
+   },
+   "frequencyRank": 46,
+   "notes": {
+    "en": "In Granada and León you often get a free tapa with each drink.",
+    "bg": "В Гранада и Леон често получаваш безплатна тапа с всяко питие.",
+    "de": "In Granada und León gibt es zu jedem Getränk oft eine Tapa gratis.",
+    "fr": "À Grenade et León, on reçoit souvent une tapa gratuite avec chaque boisson."
+   }
+  },
+  {
+   "id": "es-quiero",
+   "text": "quiero",
+   "kind": "word",
+   "translations": {
+    "en": "I want",
+    "bg": "искам",
+    "de": "ich möchte / will",
+    "fr": "je veux"
+   },
+   "frequencyRank": 47,
+   "native": "¿me pones…?",
+   "pos": "verb"
+  },
+  {
+   "id": "es-la-carta",
+   "text": "la carta",
+   "kind": "phrase",
+   "translations": {
+    "en": "the menu",
+    "bg": "менюто",
+    "de": "die Speisekarte",
+    "fr": "la carte"
+   },
+   "frequencyRank": 48,
+   "slang": {
+    "es-MX": "el menú"
+   }
+  },
+  {
+   "id": "es-esta-rico",
+   "text": "¡está muy rico!",
+   "kind": "phrase",
+   "translations": {
+    "en": "it's delicious!",
+    "bg": "много е вкусно!",
+    "de": "es ist sehr lecker!",
+    "fr": "c'est délicieux !"
+   },
+   "frequencyRank": 49,
+   "slang": {
+    "es-MX": "¡está bien sabroso!",
+    "es-AR": "¡está buenísimo!"
+   }
+  },
+  {
+   "id": "es-donde-esta",
+   "text": "¿dónde está…?",
+   "kind": "phrase",
+   "translations": {
+    "en": "where is…?",
+    "bg": "къде е…?",
+    "de": "wo ist…?",
+    "fr": "où est… ?"
+   },
+   "frequencyRank": 60
+  },
+  {
+   "id": "es-el-bano",
+   "text": "el baño",
+   "kind": "phrase",
+   "translations": {
+    "en": "the toilet",
+    "bg": "тоалетната",
+    "de": "die Toilette",
+    "fr": "les toilettes"
+   },
+   "frequencyRank": 61,
+   "slang": {
+    "es-ES": "el servicio / el aseo"
+   }
+  },
+  {
+   "id": "es-la-estacion",
+   "text": "la estación",
+   "kind": "phrase",
+   "translations": {
+    "en": "the station",
+    "bg": "гарата",
+    "de": "der Bahnhof",
+    "fr": "la gare"
+   },
+   "frequencyRank": 62,
+   "gender": "f"
+  },
+  {
+   "id": "es-el-hotel",
+   "text": "el hotel",
+   "kind": "phrase",
+   "translations": {
+    "en": "the hotel",
+    "bg": "хотелът",
+    "de": "das Hotel",
+    "fr": "l'hôtel"
+   },
+   "frequencyRank": 63
+  },
+  {
+   "id": "es-a-la-derecha",
+   "text": "a la derecha",
+   "kind": "phrase",
+   "translations": {
+    "en": "to the right",
+    "bg": "надясно",
+    "de": "rechts",
+    "fr": "à droite"
+   },
+   "frequencyRank": 64
+  },
+  {
+   "id": "es-a-la-izquierda",
+   "text": "a la izquierda",
+   "kind": "phrase",
+   "translations": {
+    "en": "to the left",
+    "bg": "наляво",
+    "de": "links",
+    "fr": "à gauche"
+   },
+   "frequencyRank": 65
+  },
+  {
+   "id": "es-todo-recto",
+   "text": "todo recto",
+   "kind": "phrase",
+   "translations": {
+    "en": "straight ahead",
+    "bg": "направо",
+    "de": "geradeaus",
+    "fr": "tout droit"
+   },
+   "frequencyRank": 66,
+   "slang": {
+    "es-MX": "derecho",
+    "es-AR": "derecho"
+   }
+  },
+  {
+   "id": "es-cerca",
+   "text": "cerca",
+   "kind": "word",
+   "translations": {
+    "en": "near",
+    "bg": "близо",
+    "de": "nah",
+    "fr": "près"
+   },
+   "frequencyRank": 67
+  },
+  {
+   "id": "es-lejos",
+   "text": "lejos",
+   "kind": "word",
+   "translations": {
+    "en": "far",
+    "bg": "далеч",
+    "de": "weit",
+    "fr": "loin"
+   },
+   "frequencyRank": 68
+  },
+  {
+   "id": "es-esta-cerca",
+   "text": "¿está cerca?",
+   "kind": "phrase",
+   "translations": {
+    "en": "is it near?",
+    "bg": "близо ли е?",
+    "de": "ist es in der Nähe?",
+    "fr": "c'est près ?"
+   },
+   "frequencyRank": 69
+  },
+  {
+   "id": "es-yo-soy",
+   "text": "yo soy",
+   "kind": "phrase",
+   "translations": {
+    "en": "I am",
+    "bg": "аз съм",
+    "de": "ich bin",
+    "fr": "je suis"
+   },
+   "frequencyRank": 80
+  },
+  {
+   "id": "es-tu-eres",
+   "text": "tú eres",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (informal)",
+    "bg": "ти си",
+    "de": "du bist",
+    "fr": "tu es"
+   },
+   "frequencyRank": 81
+  },
+  {
+   "id": "es-usted-es",
+   "text": "usted es",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (formal)",
+    "bg": "Вие сте (учтиво)",
+    "de": "Sie sind",
+    "fr": "vous êtes (poli)"
+   },
+   "frequencyRank": 82
+  },
+  {
+   "id": "es-el-es",
+   "text": "él / ella es",
+   "kind": "phrase",
+   "translations": {
+    "en": "he / she is",
+    "bg": "той / тя е",
+    "de": "er / sie ist",
+    "fr": "il / elle est"
+   },
+   "frequencyRank": 83
+  },
+  {
+   "id": "es-nosotros-somos",
+   "text": "nosotros somos",
+   "kind": "phrase",
+   "translations": {
+    "en": "we are",
+    "bg": "ние сме",
+    "de": "wir sind",
+    "fr": "nous sommes"
+   },
+   "frequencyRank": 84
+  },
+  {
+   "id": "es-vosotros-sois",
+   "text": "vosotros sois",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (plural, Spain)",
+    "bg": "вие сте (мн. ч., Испания)",
+    "de": "ihr seid (Spanien)",
+    "fr": "vous êtes (pluriel, Espagne)"
+   },
+   "frequencyRank": 85
+  },
+  {
+   "id": "es-ustedes-son",
+   "text": "ustedes son",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (plural)",
+    "bg": "вие сте (мн. ч.)",
+    "de": "ihr seid / Sie sind",
+    "fr": "vous êtes (pluriel)"
+   },
+   "frequencyRank": 86,
+   "notes": {
+    "en": "In Latin America “ustedes” is used for every group of people, friends too.",
+    "bg": "В Латинска Америка „ustedes“ се използва за всяка група хора, и за приятели.",
+    "de": "In Lateinamerika sagt man „ustedes“ zu jeder Gruppe, auch zu Freunden.",
+    "fr": "En Amérique latine, « ustedes » s'utilise pour tout groupe, même entre amis."
+   }
+  },
+  {
+   "id": "es-vos-sos",
+   "text": "vos sos",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (Argentina)",
+    "bg": "ти си (Аржентина)",
+    "de": "du bist (Argentinien)",
+    "fr": "tu es (Argentine)"
+   },
+   "frequencyRank": 87
+  },
+  {
+   "id": "es-el-pasaporte",
+   "text": "el pasaporte",
+   "kind": "phrase",
+   "translations": {
+    "en": "the passport",
+    "bg": "паспортът",
+    "de": "der Reisepass",
+    "fr": "le passeport"
+   },
+   "frequencyRank": 100
+  },
+  {
+   "id": "es-la-maleta",
+   "text": "la maleta",
+   "kind": "phrase",
+   "translations": {
+    "en": "the suitcase",
+    "bg": "куфарът",
+    "de": "der Koffer",
+    "fr": "la valise"
+   },
+   "frequencyRank": 101,
+   "slang": {
+    "es-MX": "la petaca",
+    "es-AR": "la valija"
+   }
+  },
+  {
+   "id": "es-mi-vuelo",
+   "text": "mi vuelo sale a las …",
+   "kind": "sentence",
+   "translations": {
+    "en": "my flight leaves at …",
+    "bg": "полетът ми излита в …",
+    "de": "mein Flug geht um …",
+    "fr": "mon vol part à …"
+   },
+   "frequencyRank": 102
+  },
+  {
+   "id": "es-puerta-embarque",
+   "text": "la puerta de embarque",
+   "kind": "phrase",
+   "translations": {
+    "en": "the boarding gate",
+    "bg": "изходът за качване",
+    "de": "das Gate",
+    "fr": "la porte d'embarquement"
+   },
+   "frequencyRank": 103
+  },
+  {
+   "id": "es-donde-equipaje",
+   "text": "¿dónde recojo el equipaje?",
+   "kind": "sentence",
+   "translations": {
+    "en": "where do I collect my luggage?",
+    "bg": "къде си взимам багажа?",
+    "de": "wo hole ich mein Gepäck ab?",
+    "fr": "où est-ce que je récupère mes bagages ?"
+   },
+   "frequencyRank": 104
+  },
+  {
+   "id": "es-perdido-maleta",
+   "text": "he perdido mi maleta",
+   "kind": "sentence",
+   "translations": {
+    "en": "I've lost my suitcase",
+    "bg": "загубих си куфара",
+    "de": "ich habe meinen Koffer verloren",
+    "fr": "j'ai perdu ma valise"
+   },
+   "frequencyRank": 105,
+   "notes": {
+    "en": "Latin America prefers the simple past: “perdí”.",
+    "bg": "В Латинска Америка предпочитат простото минало: „perdí“.",
+    "de": "Lateinamerika bevorzugt das einfache Präteritum: „perdí“.",
+    "fr": "L'Amérique latine préfère le passé simple : « perdí »."
+   },
+   "slang": {
+    "es-MX": "perdí mi maleta",
+    "es-AR": "perdí mi valija"
+   }
+  },
+  {
+   "id": "es-no-entiendo",
+   "text": "no entiendo",
+   "kind": "phrase",
+   "translations": {
+    "en": "I don't understand",
+    "bg": "не разбирам",
+    "de": "ich verstehe nicht",
+    "fr": "je ne comprends pas"
+   },
+   "frequencyRank": 110
+  },
+  {
+   "id": "es-puede-repetir",
+   "text": "¿puede repetir, por favor?",
+   "kind": "sentence",
+   "translations": {
+    "en": "can you repeat, please?",
+    "bg": "може ли да повторите, моля?",
+    "de": "können Sie das wiederholen?",
+    "fr": "vous pouvez répéter, s'il vous plaît ?"
+   },
+   "frequencyRank": 111,
+   "native": "¿perdón?",
+   "notes": {
+    "en": "Mexicans politely say “¿mande?” when they didn't catch something.",
+    "bg": "Мексиканците учтиво казват „¿mande?“, когато не са доловили нещо.",
+    "de": "Mexikaner sagen höflich „¿mande?“, wenn sie etwas nicht verstanden haben.",
+    "fr": "Les Mexicains disent poliment « ¿mande? » quand ils n'ont pas compris."
+   },
+   "slang": {
+    "es-MX": "¿mande?",
+    "es-ES": "¿cómo?"
+   }
+  },
+  {
+   "id": "es-mas-despacio",
+   "text": "más despacio, por favor",
+   "kind": "phrase",
+   "translations": {
+    "en": "more slowly, please",
+    "bg": "по-бавно, моля",
+    "de": "langsamer, bitte",
+    "fr": "plus lentement, s'il vous plaît"
+   },
+   "frequencyRank": 112
+  },
+  {
+   "id": "es-como-se-dice",
+   "text": "¿cómo se dice … en español?",
+   "kind": "sentence",
+   "translations": {
+    "en": "how do you say … in Spanish?",
+    "bg": "как се казва … на испански?",
+    "de": "wie sagt man … auf Spanisch?",
+    "fr": "comment dit-on … en espagnol ?"
+   },
+   "frequencyRank": 113
+  },
+  {
+   "id": "es-habla-ingles",
+   "text": "¿habla inglés?",
+   "kind": "phrase",
+   "translations": {
+    "en": "do you speak English?",
+    "bg": "говорите ли английски?",
+    "de": "sprechen Sie Englisch?",
+    "fr": "vous parlez anglais ?"
+   },
+   "frequencyRank": 114
+  },
+  {
+   "id": "es-perdon",
+   "text": "perdón",
+   "kind": "word",
+   "translations": {
+    "en": "sorry / excuse me",
+    "bg": "извинете",
+    "de": "Entschuldigung",
+    "fr": "pardon"
+   },
+   "frequencyRank": 115,
+   "native": "disculpe"
+  },
+  {
+   "id": "es-vale",
+   "text": "vale",
+   "kind": "word",
+   "translations": {
+    "en": "OK / alright",
+    "bg": "добре / окей",
+    "de": "okay / in Ordnung",
+    "fr": "d'accord"
+   },
+   "frequencyRank": 120,
+   "notes": {
+    "en": "You'll hear it a hundred times a day in Spain.",
+    "bg": "В Испания ще го чуеш сто пъти на ден.",
+    "de": "In Spanien hörst du es hundertmal am Tag.",
+    "fr": "En Espagne, tu l'entendras cent fois par jour."
+   }
+  },
+  {
+   "id": "es-guay",
+   "text": "¡qué guay!",
+   "kind": "phrase",
+   "translations": {
+    "en": "how cool!",
+    "bg": "супер!",
+    "de": "wie cool!",
+    "fr": "trop cool !"
+   },
+   "frequencyRank": 121
+  },
+  {
+   "id": "es-illo",
+   "text": "illo",
+   "kind": "word",
+   "translations": {
+    "en": "mate / dude (Andalusia)",
+    "bg": "брат / пич (Андалусия)",
+    "de": "Alter (Andalusien)",
+    "fr": "mec (Andalousie)"
+   },
+   "frequencyRank": 122,
+   "notes": {
+    "en": "From “chiquillo”. Andalusians also drop the final -s: “¿cómo estás?” sounds like “¿cómo ehtá?”",
+    "bg": "От „chiquillo“. Андалусийците изпускат и крайното -s: „¿cómo estás?“ звучи като „¿cómo ehtá?“",
+    "de": "Von „chiquillo“. Andalusier verschlucken auch das End-s: „¿cómo ehtá?“",
+    "fr": "De « chiquillo ». Les Andalous avalent aussi le -s final : « ¿cómo ehtá? »"
+   }
+  },
+  {
+   "id": "es-ole",
+   "text": "¡olé!",
+   "kind": "word",
+   "translations": {
+    "en": "bravo!",
+    "bg": "браво!",
+    "de": "bravo!",
+    "fr": "bravo !"
+   },
+   "frequencyRank": 123
+  },
+  {
+   "id": "es-tio",
+   "text": "tío / tía",
+   "kind": "word",
+   "translations": {
+    "en": "mate / dude (lit. uncle / aunt)",
+    "bg": "брат / сестро (букв. чичо / леля)",
+    "de": "Alter (wörtl. Onkel / Tante)",
+    "fr": "mec / meuf (litt. oncle / tante)"
+   },
+   "frequencyRank": 124
+  },
+  {
+   "id": "es-bon-dia",
+   "text": "bon dia",
+   "kind": "phrase",
+   "translations": {
+    "en": "good morning (Catalan)",
+    "bg": "добро утро (каталонски)",
+    "de": "guten Morgen (Katalanisch)",
+    "fr": "bonjour (catalan)"
+   },
+   "frequencyRank": 125
+  },
+  {
+   "id": "es-que-onda",
+   "text": "¿qué onda?",
+   "kind": "phrase",
+   "translations": {
+    "en": "what's up?",
+    "bg": "какво става?",
+    "de": "was geht?",
+    "fr": "quoi de neuf ?"
+   },
+   "frequencyRank": 126
+  },
+  {
+   "id": "es-chido",
+   "text": "¡qué chido!",
+   "kind": "phrase",
+   "translations": {
+    "en": "how cool!",
+    "bg": "супер!",
+    "de": "wie cool!",
+    "fr": "trop bien !"
+   },
+   "frequencyRank": 127
+  },
+  {
+   "id": "es-ahorita",
+   "text": "ahorita",
+   "kind": "word",
+   "translations": {
+    "en": "right now… or later (it depends!)",
+    "bg": "веднага… или по-късно (зависи!)",
+    "de": "sofort… oder später (je nachdem!)",
+    "fr": "tout de suite… ou plus tard (ça dépend !)"
+   },
+   "frequencyRank": 128,
+   "notes": {
+    "en": "Literally “right now”, but in Mexico it can mean anything from now to never.",
+    "bg": "Буквално „веднага“, но в Мексико може да значи всичко от сега до никога.",
+    "de": "Wörtlich „sofort“, aber in Mexiko kann es alles von jetzt bis nie bedeuten.",
+    "fr": "Littéralement « tout de suite », mais au Mexique ça peut vouloir dire de maintenant à jamais."
+   }
+  },
+  {
+   "id": "es-che",
+   "text": "che",
+   "kind": "word",
+   "translations": {
+    "en": "hey (to get attention)",
+    "bg": "ей (за привличане на внимание)",
+    "de": "hey (um Aufmerksamkeit zu bekommen)",
+    "fr": "hé (pour interpeller)"
+   },
+   "frequencyRank": 129
+  },
+  {
+   "id": "es-re",
+   "text": "re",
+   "kind": "word",
+   "translations": {
+    "en": "very (Argentina: “re lindo”)",
+    "bg": "много (Аржентина: „re lindo“)",
+    "de": "sehr (Argentinien: „re lindo“)",
+    "fr": "très (Argentine : « re lindo »)"
+   },
+   "frequencyRank": 130
+  },
+  {
+   "id": "es-laburo",
+   "text": "el laburo",
+   "kind": "phrase",
+   "translations": {
+    "en": "work / job",
+    "bg": "работа",
+    "de": "Arbeit / Job",
+    "fr": "le boulot"
+   },
+   "frequencyRank": 131
+  }
+ ],
+ "grammarNotes": [
+  {
+   "id": "es-g-ser-intro",
+   "level": "A1",
+   "title": {
+    "en": "“Soy” = I am",
+    "bg": "„Soy“ = аз съм"
+   },
+   "body": {
+    "en": "**soy** means *I am*. Spanish usually drops the word for *I* (yo), because the verb already shows who is speaking: **Soy de Bulgaria** = I am from Bulgaria.",
+    "bg": "**soy** означава *аз съм*. Испанският обикновено изпуска *аз* (yo), както и българският, защото глаголът вече показва кой говори: **Soy de Bulgaria** = (Аз) съм от България."
+   }
+  },
+  {
+   "id": "es-g-tu-usted",
+   "level": "A1",
+   "title": {
+    "en": "Tú, usted, vosotros, ustedes, vos",
+    "bg": "Tú, usted, vosotros, ustedes, vos",
+    "de": "Tú, usted, vosotros, ustedes, vos",
+    "fr": "Tú, usted, vosotros, ustedes, vos"
+   },
+   "body": {
+    "en": "Spanish has several words for *you*:\n\n- **tú eres** – one friend (informal)\n- **usted es** – one person, polite (uses the *he/she* verb form)\n- **vosotros sois** – a group of friends, **only in Spain**\n- **ustedes son** – a group: polite in Spain, **always** in Latin America\n- **vos sos** – *tú* in Argentina, Uruguay and much of Central America\n\nThe verb **ser** (to be): soy, eres, es, somos, sois, son.",
+    "bg": "Испанският има няколко думи за *ти/вие*:\n\n- **tú eres** – един приятел (на „ти“)\n- **usted es** – един човек, учтиво („Вие“; глаголът е като за *той/тя*)\n- **vosotros sois** – група приятели, **само в Испания**\n- **ustedes son** – група: учтиво в Испания, **винаги** в Латинска Америка\n- **vos sos** – вместо *tú* в Аржентина, Уругвай и голяма част от Централна Америка\n\nГлаголът **ser** (съм): soy, eres, es, somos, sois, son.",
+    "de": "Spanisch hat mehrere Wörter für *du/Sie*:\n\n- **tú eres** – ein Freund\n- **usted es** – eine Person, höflich (Verbform wie *er/sie*)\n- **vosotros sois** – Freunde, **nur in Spanien**\n- **ustedes son** – Gruppe: höflich in Spanien, **immer** in Lateinamerika\n- **vos sos** – statt *tú* in Argentinien und Uruguay\n\n**ser** (sein): soy, eres, es, somos, sois, son.",
+    "fr": "L'espagnol a plusieurs mots pour *tu/vous* :\n\n- **tú eres** – un ami\n- **usted es** – une personne, poli (verbe comme *il/elle*)\n- **vosotros sois** – des amis, **seulement en Espagne**\n- **ustedes son** – un groupe : poli en Espagne, **toujours** en Amérique latine\n- **vos sos** – à la place de *tú* en Argentine et en Uruguay\n\n**ser** (être) : soy, eres, es, somos, sois, son."
+   }
+  },
+  {
+   "id": "es-g-estar",
+   "level": "A1",
+   "title": {
+    "en": "¿Dónde está? – estar for places",
+    "bg": "¿Dónde está? – estar за места",
+    "de": "¿Dónde está? – estar für Orte",
+    "fr": "¿Dónde está ? – estar pour les lieux"
+   },
+   "body": {
+    "en": "For *where something is*, Spanish uses **estar**, not *ser*:\n\n- **¿Dónde está** el baño? = Where is the toilet?\n- La estación **está** cerca. = The station is near.\n\n*ser* = what something is; *estar* = where / how it is.",
+    "bg": "За *къде се намира* нещо испанският използва **estar**, не *ser*:\n\n- **¿Dónde está** el baño? = Къде е тоалетната?\n- La estación **está** cerca. = Гарата е близо.\n\n*ser* = какво е нещо; *estar* = къде е / как е.",
+    "de": "Für *wo etwas ist* benutzt man **estar**, nicht *ser*:\n\n- **¿Dónde está** el baño? = Wo ist die Toilette?\n- La estación **está** cerca. = Der Bahnhof ist in der Nähe.\n\n*ser* = was etwas ist; *estar* = wo / wie es ist.",
+    "fr": "Pour dire *où* se trouve quelque chose, on utilise **estar**, pas *ser* :\n\n- **¿Dónde está** el baño? = Où sont les toilettes ?\n- La estación **está** cerca. = La gare est près.\n\n*ser* = ce qu'est une chose ; *estar* = où / comment elle est."
+   }
+  }
+ ],
+ "cultureNotes": [
+  {
+   "id": "es-c-two-kisses",
+   "title": {
+    "en": "Two kisses",
+    "bg": "Две целувки"
+   },
+   "body": {
+    "en": "In Spain friends and new acquaintances often greet with two light kisses on the cheeks (right first). In much of Latin America it's one.",
+    "bg": "В Испания приятели и нови познати често се поздравяват с две леки целувки по бузите (първо дясната). В голяма част от Латинска Америка е една."
+   }
+  },
+  {
+   "id": "es-c-late",
+   "title": {
+    "en": "Dinner at ten",
+    "bg": "Вечеря в десет",
+    "de": "Abendessen um zehn",
+    "fr": "Dîner à vingt-deux heures"
+   },
+   "body": {
+    "en": "In Spain lunch is around 2–3 pm and dinner often after 9 pm. A restaurant may be empty at 7 pm.",
+    "bg": "В Испания обядът е около 14–15 ч., а вечерята често след 21 ч. Ресторантът може да е празен в 19 ч.",
+    "de": "In Spanien isst man gegen 14–15 Uhr zu Mittag und oft erst nach 21 Uhr zu Abend.",
+    "fr": "En Espagne on déjeune vers 14–15 h et on dîne souvent après 21 h."
+   }
+  },
+  {
+   "id": "es-c-vos",
+   "title": {
+    "en": "Vos in Argentina",
+    "bg": "Vos в Аржентина",
+    "de": "Vos in Argentinien",
+    "fr": "Vos en Argentine"
+   },
+   "body": {
+    "en": "Argentinians say “vos” instead of “tú”, with its own verb forms: vos sos, vos tenés, vos hablás. “Che” is used to call someone, a bit like “hey”.",
+    "bg": "Аржентинците казват „vos“ вместо „tú“, с отделни глаголни форми: vos sos, vos tenés, vos hablás. „Che“ се използва, за да повикаш някого, като „ей“.",
+    "de": "Argentinier sagen „vos“ statt „tú“, mit eigenen Formen: vos sos, vos tenés, vos hablás. Mit „che“ ruft man jemanden, wie „hey“.",
+    "fr": "Les Argentins disent « vos » au lieu de « tú », avec leurs propres formes : vos sos, vos tenés, vos hablás. « Che » sert à interpeller, comme « hé »."
+   }
+  },
+  {
+   "id": "es-c-mexico",
+   "title": {
+    "en": "Mexican politeness",
+    "bg": "Мексиканска учтивост",
+    "de": "Mexikanische Höflichkeit",
+    "fr": "La politesse mexicaine"
+   },
+   "body": {
+    "en": "Mexicans are very polite: “¿mande?” instead of “¿qué?”, and lots of diminutives: “un cafecito”, “ahorita”.",
+    "bg": "Мексиканците са много учтиви: „¿mande?“ вместо „¿qué?“ и много умалителни: „un cafecito“, „ahorita“.",
+    "de": "Mexikaner sind sehr höflich: „¿mande?“ statt „¿qué?“ und viele Verkleinerungen: „un cafecito“, „ahorita“.",
+    "fr": "Les Mexicains sont très polis : « ¿mande? » au lieu de « ¿qué? », et beaucoup de diminutifs : « un cafecito », « ahorita »."
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "es-a1-01",
+   "level": "A1",
+   "section": "core",
+   "title": {
+    "en": "Hello!",
+    "bg": "Здравей!",
+    "de": "Hallo!",
+    "fr": "Salut !"
+   },
+   "description": {
+    "en": "Greetings for every time of day",
+    "bg": "Поздрави за всяко време от деня"
+   },
+   "items": [
+    "es-hola",
+    "es-buenos-dias",
+    "es-buenas-tardes",
+    "es-buenas-noches",
+    "es-adios",
+    "es-hasta-luego",
+    "es-gracias",
+    "es-por-favor"
+   ],
+   "exercises": [
     {
-      "id": "es-a1-01", "level": "A1", "section": "core",
-      "title": { "en": "Hello!", "bg": "Здравей!", "de": "Hallo!", "fr": "Salut !" },
-      "description": { "en": "Greetings for every time of day", "bg": "Поздрави за всяко време от деня" },
-      "items": ["es-hola", "es-buenos-dias", "es-buenas-tardes", "es-buenas-noches", "es-adios", "es-hasta-luego", "es-gracias", "es-por-favor"],
-      "exercises": [
-        { "type": "choose", "prompt": { "en": "It's 4 pm. You walk into a shop. What do you say?", "bg": "Часът е 16. Влизаш в магазин. Какво казваш?" },
-          "options": ["buenos días", "buenas tardes", "buenas noches"], "answer": "buenas tardes", "itemId": "es-buenas-tardes",
-          "explanation": { "en": "From lunch until dark it's “buenas tardes”.", "bg": "От обяд до мръкване се казва „buenas tardes“." } },
-        { "type": "order_words", "sentence": "hola, buenos días", "translation": { "en": "hello, good morning", "bg": "здравей, добро утро" } }
-      ]
+     "type": "choose",
+     "prompt": {
+      "en": "It's 4 pm. You walk into a shop. What do you say?",
+      "bg": "Часът е 16. Влизаш в магазин. Какво казваш?"
+     },
+     "options": [
+      "buenos días",
+      "buenas tardes",
+      "buenas noches"
+     ],
+     "answer": "buenas tardes",
+     "itemId": "es-buenas-tardes",
+     "explanation": {
+      "en": "From lunch until dark it's “buenas tardes”.",
+      "bg": "От обяд до мръкване се казва „buenas tardes“."
+     }
     },
     {
-      "id": "es-a1-02", "level": "A1", "section": "core",
-      "title": { "en": "Nice to meet you", "bg": "Приятно ми е", "de": "Freut mich", "fr": "Enchanté" },
-      "description": { "en": "Introduce yourself and ask where people are from", "bg": "Представи се и попитай откъде са хората" },
-      "items": ["es-que-tal", "es-me-llamo", "es-como-te-llamas", "es-soy-de", "es-de-donde-eres", "es-mucho-gusto"],
-      "grammar": ["es-g-ser-intro"],
-      "exercises": [
-        { "type": "fill_blank", "prompt": "___ de Bulgaria.", "answer": "Soy", "alternatives": ["soy"], "itemId": "es-soy-de",
-          "hint": { "en": "I am …", "bg": "Аз съм …" } },
-        { "type": "fill_blank", "prompt": "Hola, me ___ Stoyan.", "answer": "llamo", "options": ["llamo", "llamas", "soy"], "itemId": "es-me-llamo" },
-        { "type": "order_words", "sentence": "¿de dónde eres?", "translation": { "en": "where are you from?", "bg": "откъде си?" } }
-      ]
+     "type": "order_words",
+     "sentence": "hola, buenos días",
+     "translation": {
+      "en": "hello, good morning",
+      "bg": "здравей, добро утро"
+     }
     }
-  ],
-  "phrasePacks": [
-    { "id": "es-pp-cafe", "level": "A1", "icon": "☕",
-      "title": { "en": "At the café", "bg": "В кафенето", "de": "Im Café", "fr": "Au café" },
-      "description": { "en": "Order, pay and leave like a local", "bg": "Поръчай, плати и си тръгни като местен" },
-      "items": ["es-cafe-con-leche", "es-la-cuenta", "es-cuanto-es", "es-para-llevar", "es-gracias"] }
-  ],
-  "dialogues": [
+   ]
+  },
+  {
+   "id": "es-a1-02",
+   "level": "A1",
+   "section": "core",
+   "title": {
+    "en": "Nice to meet you",
+    "bg": "Приятно ми е",
+    "de": "Freut mich",
+    "fr": "Enchanté"
+   },
+   "description": {
+    "en": "Introduce yourself and ask where people are from",
+    "bg": "Представи се и попитай откъде са хората"
+   },
+   "items": [
+    "es-que-tal",
+    "es-me-llamo",
+    "es-como-te-llamas",
+    "es-soy-de",
+    "es-de-donde-eres",
+    "es-mucho-gusto"
+   ],
+   "grammar": [
+    "es-g-ser-intro"
+   ],
+   "exercises": [
     {
-      "id": "es-d-cafe", "level": "A1", "icon": "☕",
-      "title": { "en": "A coffee in Madrid", "bg": "Кафе в Мадрид" },
-      "situation": { "en": "You walk into a small café in Madrid in the morning.", "bg": "Сутрин влизаш в малко кафене в Мадрид." },
-      "speakers": { "waiter": { "name": "Camarero", "accessory": "none" }, "you": { "name": "Tú", "accessory": "sombrero" } },
-      "lines": [
-        { "speaker": "waiter", "text": "¡Buenos días! ¿Qué te pongo?",
-          "translations": { "en": "Good morning! What can I get you?", "bg": "Добро утро! Какво да ти дам?" } },
-        { "speaker": "you", "text": "",
-          "translations": {},
-          "choices": [
-            { "text": "Un café con leche, por favor.", "correct": true,
-              "translations": { "en": "A coffee with milk, please.", "bg": "Едно кафе с мляко, моля." } },
-            { "text": "Buenas noches.", "correct": false,
-              "translations": { "en": "Good night.", "bg": "Лека нощ." },
-              "feedback": { "en": "It's morning, and he asked what you'd like!", "bg": "Сутрин е и той пита какво искаш!" } }
-          ] },
-        { "speaker": "waiter", "text": "¿Para tomar aquí o para llevar?",
-          "translations": { "en": "For here or to take away?", "bg": "Тук ли ще го пиеш или за вкъщи?" } },
-        { "speaker": "you", "text": "",
-          "translations": {},
-          "choices": [
-            { "text": "Para llevar, gracias.", "correct": true,
-              "translations": { "en": "To take away, thanks.", "bg": "За вкъщи, благодаря." } },
-            { "text": "Me llamo Ana.", "correct": false,
-              "translations": { "en": "My name is Ana.", "bg": "Казвам се Ана." },
-              "feedback": { "en": "Nice to meet you, but he asked if it's to take away.", "bg": "Приятно ни е, но той пита дали е за вкъщи." } }
-          ] },
-        { "speaker": "waiter", "text": "Son dos euros.",
-          "translations": { "en": "That's two euros.", "bg": "Два евро е." } },
-        { "speaker": "you", "text": "",
-          "translations": {},
-          "choices": [
-            { "text": "Aquí tienes. ¡Hasta luego!", "correct": true,
-              "translations": { "en": "Here you go. See you!", "bg": "Заповядай. До после!" } },
-            { "text": "¿De dónde eres?", "correct": false,
-              "translations": { "en": "Where are you from?", "bg": "Откъде си?" },
-              "feedback": { "en": "Pay first, chat later!", "bg": "Първо плати, после си говорете!" } }
-          ] }
-      ]
+     "type": "fill_blank",
+     "prompt": "___ de Bulgaria.",
+     "answer": "Soy",
+     "alternatives": [
+      "soy"
+     ],
+     "itemId": "es-soy-de",
+     "hint": {
+      "en": "I am …",
+      "bg": "Аз съм …"
+     }
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Hola, me ___ Stoyan.",
+     "answer": "llamo",
+     "options": [
+      "llamo",
+      "llamas",
+      "soy"
+     ],
+     "itemId": "es-me-llamo"
+    },
+    {
+     "type": "order_words",
+     "sentence": "¿de dónde eres?",
+     "translation": {
+      "en": "where are you from?",
+      "bg": "откъде си?"
+     }
     }
-  ]
+   ]
+  },
+  {
+   "id": "es-a1-03",
+   "level": "A1",
+   "section": "core",
+   "title": {
+    "en": "Numbers",
+    "bg": "Числа",
+    "de": "Zahlen",
+    "fr": "Les nombres"
+   },
+   "description": {
+    "en": "0–10, prices and age",
+    "bg": "0–10, цени и възраст",
+    "de": "0–10, Preise und Alter",
+    "fr": "0–10, les prix et l'âge"
+   },
+   "items": [
+    "es-cero",
+    "es-uno",
+    "es-dos",
+    "es-tres",
+    "es-cuatro",
+    "es-cinco",
+    "es-seis",
+    "es-siete",
+    "es-ocho",
+    "es-nueve",
+    "es-diez",
+    "es-cuanto-cuesta",
+    "es-euros",
+    "es-cuantos-anos-tienes",
+    "es-tengo-anos"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "dos + tres = ___",
+     "answer": "cinco",
+     "itemId": "es-cinco",
+     "options": [
+      "cinco",
+      "seis",
+      "cuatro"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "cuatro + cuatro = ___",
+     "answer": "ocho",
+     "itemId": "es-ocho"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Tengo veinte ___.",
+     "answer": "años",
+     "itemId": "es-tengo-anos",
+     "options": [
+      "años",
+      "euros",
+      "anos"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "¿cuánto cuesta?",
+     "translation": {
+      "en": "how much does it cost?",
+      "bg": "колко струва?",
+      "de": "wie viel kostet das?",
+      "fr": "combien ça coûte ?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "es-a1-04",
+   "level": "A1",
+   "section": "core",
+   "title": {
+    "en": "At the bar",
+    "bg": "В бара",
+    "de": "In der Bar",
+    "fr": "Au bar"
+   },
+   "description": {
+    "en": "Order drinks and tapas",
+    "bg": "Поръчай напитки и тапас",
+    "de": "Getränke und Tapas bestellen",
+    "fr": "Commander boissons et tapas"
+   },
+   "items": [
+    "es-un-cafe",
+    "es-un-te",
+    "es-agua",
+    "es-una-cerveza",
+    "es-vino-tinto",
+    "es-pan",
+    "es-una-tapa",
+    "es-quiero",
+    "es-la-carta",
+    "es-esta-rico"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "In a Madrid bar you want a small draught beer. Most natural?",
+      "bg": "В бар в Мадрид искаш малка наливна бира. Кое е най-естествено?",
+      "de": "In einer Bar in Madrid willst du ein kleines Bier vom Fass. Am natürlichsten?",
+      "fr": "Dans un bar de Madrid tu veux une petite bière pression. Le plus naturel ?"
+     },
+     "options": [
+      "¿me pones una caña?",
+      "quiero un vino tinto",
+      "la carta, por favor"
+     ],
+     "answer": "¿me pones una caña?",
+     "itemId": "es-una-cerveza"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ un café con leche, por favor.",
+     "answer": "Quiero",
+     "itemId": "es-quiero",
+     "alternatives": [
+      "quiero"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "¡Está muy ___!",
+     "answer": "rico",
+     "itemId": "es-esta-rico",
+     "options": [
+      "rico",
+      "rica",
+      "caro"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "un té y un agua, por favor",
+     "translation": {
+      "en": "a tea and a water, please",
+      "bg": "един чай и една вода, моля",
+      "de": "einen Tee und ein Wasser, bitte",
+      "fr": "un thé et une eau, s'il vous plaît"
+     }
+    }
+   ]
+  },
+  {
+   "id": "es-a1-05",
+   "level": "A1",
+   "section": "core",
+   "title": {
+    "en": "Where is…?",
+    "bg": "Къде е…?",
+    "de": "Wo ist…?",
+    "fr": "Où est… ?"
+   },
+   "description": {
+    "en": "Ask for directions and understand the answer",
+    "bg": "Питай за посоката и разбери отговора",
+    "de": "Nach dem Weg fragen und die Antwort verstehen",
+    "fr": "Demander son chemin et comprendre la réponse"
+   },
+   "items": [
+    "es-donde-esta",
+    "es-el-bano",
+    "es-la-estacion",
+    "es-el-hotel",
+    "es-a-la-derecha",
+    "es-a-la-izquierda",
+    "es-todo-recto",
+    "es-cerca",
+    "es-lejos",
+    "es-esta-cerca"
+   ],
+   "grammar": [
+    "es-g-estar"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "¿Dónde ___ el baño?",
+     "answer": "está",
+     "itemId": "es-donde-esta",
+     "options": [
+      "está",
+      "es",
+      "son"
+     ],
+     "explanation": {
+      "en": "Location → estar.",
+      "bg": "Местоположение → estar.",
+      "de": "Ort → estar.",
+      "fr": "Lieu → estar."
+     }
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "“A la izquierda” means…",
+      "bg": "„A la izquierda“ значи…",
+      "de": "„A la izquierda“ bedeutet…",
+      "fr": "« A la izquierda » veut dire…"
+     },
+     "options": [
+      "←",
+      "→",
+      "↑"
+     ],
+     "answer": "←",
+     "itemId": "es-a-la-izquierda"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "La estación no está cerca, está ___.",
+     "answer": "lejos",
+     "itemId": "es-lejos",
+     "options": [
+      "lejos",
+      "derecha",
+      "recto"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "¿dónde está el hotel?",
+     "translation": {
+      "en": "where is the hotel?",
+      "bg": "къде е хотелът?",
+      "de": "wo ist das Hotel?",
+      "fr": "où est l'hôtel ?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "es-a1-06",
+   "level": "A1",
+   "section": "core",
+   "title": {
+    "en": "Tú or usted?",
+    "bg": "Tú или usted?",
+    "de": "Tú oder usted?",
+    "fr": "Tú ou usted ?"
+   },
+   "description": {
+    "en": "Informal, polite and regional “you” with ser",
+    "bg": "Неформално, учтиво и регионално „ти“ със ser",
+    "de": "Informelles, höfliches und regionales „du“ mit ser",
+    "fr": "Le « tu » informel, poli et régional avec ser"
+   },
+   "items": [
+    "es-yo-soy",
+    "es-tu-eres",
+    "es-usted-es",
+    "es-el-es",
+    "es-nosotros-somos",
+    "es-vosotros-sois",
+    "es-ustedes-son",
+    "es-vos-sos"
+   ],
+   "grammar": [
+    "es-g-tu-usted"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Tú ___ de Bulgaria.",
+     "answer": "eres",
+     "itemId": "es-tu-eres",
+     "options": [
+      "eres",
+      "es",
+      "sois"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Usted ___ muy amable.",
+     "answer": "es",
+     "itemId": "es-usted-es",
+     "options": [
+      "es",
+      "eres",
+      "son"
+     ],
+     "explanation": {
+      "en": "usted takes the él/ella form.",
+      "bg": "usted взима формата за él/ella.",
+      "de": "usted nimmt die Form von él/ella.",
+      "fr": "usted prend la forme de él/ella."
+     }
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "You're in Mexico talking to two friends. Which do you use?",
+      "bg": "В Мексико си и говориш с двама приятели. Кое използваш?",
+      "de": "Du bist in Mexiko und sprichst mit zwei Freunden. Was benutzt du?",
+      "fr": "Tu es au Mexique avec deux amis. Que dis-tu ?"
+     },
+     "options": [
+      "ustedes son",
+      "vosotros sois",
+      "vos sos"
+     ],
+     "answer": "ustedes son",
+     "explanation": {
+      "en": "“vosotros” is only used in Spain.",
+      "bg": "„vosotros“ се използва само в Испания.",
+      "de": "„vosotros“ benutzt man nur in Spanien.",
+      "fr": "« vosotros » ne s'utilise qu'en Espagne."
+     },
+     "itemId": "es-ustedes-son"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Nosotros ___ amigos.",
+     "answer": "somos",
+     "itemId": "es-nosotros-somos"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "En Buenos Aires: vos ___ muy simpático.",
+     "answer": "sos",
+     "itemId": "es-vos-sos",
+     "options": [
+      "sos",
+      "eres",
+      "es"
+     ]
+    }
+   ]
+  }
+ ],
+ "phrasePacks": [
+  {
+   "id": "es-pp-cafe",
+   "level": "A1",
+   "icon": "☕",
+   "title": {
+    "en": "At the café",
+    "bg": "В кафенето",
+    "de": "Im Café",
+    "fr": "Au café"
+   },
+   "description": {
+    "en": "Order, pay and leave like a local",
+    "bg": "Поръчай, плати и си тръгни като местен"
+   },
+   "items": [
+    "es-cafe-con-leche",
+    "es-la-cuenta",
+    "es-cuanto-es",
+    "es-para-llevar",
+    "es-gracias"
+   ]
+  },
+  {
+   "id": "es-pp-airport",
+   "level": "A1",
+   "icon": "✈️",
+   "title": {
+    "en": "At the airport",
+    "bg": "На летището",
+    "de": "Am Flughafen",
+    "fr": "À l'aéroport"
+   },
+   "description": {
+    "en": "Passport, gate, luggage and the lost suitcase",
+    "bg": "Паспорт, изход, багаж и изгубеният куфар",
+    "de": "Pass, Gate, Gepäck und der verlorene Koffer",
+    "fr": "Passeport, porte, bagages et la valise perdue"
+   },
+   "items": [
+    "es-el-pasaporte",
+    "es-la-maleta",
+    "es-mi-vuelo",
+    "es-puerta-embarque",
+    "es-donde-equipaje",
+    "es-perdido-maleta"
+   ]
+  },
+  {
+   "id": "es-pp-survival",
+   "level": "A1",
+   "icon": "🆘",
+   "title": {
+    "en": "When you don't understand",
+    "bg": "Когато не разбираш",
+    "de": "Wenn du nichts verstehst",
+    "fr": "Quand tu ne comprends pas"
+   },
+   "description": {
+    "en": "Ask to repeat, slow down, or say it another way",
+    "bg": "Помоли да повторят, по-бавно или по друг начин",
+    "de": "Bitten zu wiederholen, langsamer oder anders zu sagen",
+    "fr": "Demander de répéter, ralentir ou dire autrement"
+   },
+   "items": [
+    "es-no-entiendo",
+    "es-puede-repetir",
+    "es-mas-despacio",
+    "es-como-se-dice",
+    "es-habla-ingles",
+    "es-perdon"
+   ]
+  }
+ ],
+ "dialogues": [
+  {
+   "id": "es-d-cafe",
+   "level": "A1",
+   "icon": "☕",
+   "title": {
+    "en": "A coffee in Madrid",
+    "bg": "Кафе в Мадрид"
+   },
+   "situation": {
+    "en": "You walk into a small café in Madrid in the morning.",
+    "bg": "Сутрин влизаш в малко кафене в Мадрид."
+   },
+   "speakers": {
+    "waiter": {
+     "name": "Camarero",
+     "accessory": "none"
+    },
+    "you": {
+     "name": "Tú",
+     "accessory": "sombrero"
+    }
+   },
+   "lines": [
+    {
+     "speaker": "waiter",
+     "text": "¡Buenos días! ¿Qué te pongo?",
+     "translations": {
+      "en": "Good morning! What can I get you?",
+      "bg": "Добро утро! Какво да ти дам?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Un café con leche, por favor.",
+       "correct": true,
+       "translations": {
+        "en": "A coffee with milk, please.",
+        "bg": "Едно кафе с мляко, моля."
+       }
+      },
+      {
+       "text": "Buenas noches.",
+       "correct": false,
+       "translations": {
+        "en": "Good night.",
+        "bg": "Лека нощ."
+       },
+       "feedback": {
+        "en": "It's morning, and he asked what you'd like!",
+        "bg": "Сутрин е и той пита какво искаш!"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "waiter",
+     "text": "¿Para tomar aquí o para llevar?",
+     "translations": {
+      "en": "For here or to take away?",
+      "bg": "Тук ли ще го пиеш или за вкъщи?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Para llevar, gracias.",
+       "correct": true,
+       "translations": {
+        "en": "To take away, thanks.",
+        "bg": "За вкъщи, благодаря."
+       }
+      },
+      {
+       "text": "Me llamo Ana.",
+       "correct": false,
+       "translations": {
+        "en": "My name is Ana.",
+        "bg": "Казвам се Ана."
+       },
+       "feedback": {
+        "en": "Nice to meet you, but he asked if it's to take away.",
+        "bg": "Приятно ни е, но той пита дали е за вкъщи."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "waiter",
+     "text": "Son dos euros.",
+     "translations": {
+      "en": "That's two euros.",
+      "bg": "Два евро е."
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Aquí tienes. ¡Hasta luego!",
+       "correct": true,
+       "translations": {
+        "en": "Here you go. See you!",
+        "bg": "Заповядай. До после!"
+       }
+      },
+      {
+       "text": "¿De dónde eres?",
+       "correct": false,
+       "translations": {
+        "en": "Where are you from?",
+        "bg": "Откъде си?"
+       },
+       "feedback": {
+        "en": "Pay first, chat later!",
+        "bg": "Първо плати, после си говорете!"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "es-d-cdmx",
+   "level": "A1",
+   "icon": "🗺️",
+   "title": {
+    "en": "Lost in Mexico City",
+    "bg": "Изгубен в Мексико Сити",
+    "de": "Verlaufen in Mexiko-Stadt",
+    "fr": "Perdu à Mexico"
+   },
+   "situation": {
+    "en": "You're looking for the metro station and ask a woman on the street.",
+    "bg": "Търсиш метростанцията и питаш една жена на улицата.",
+    "de": "Du suchst die U-Bahn-Station und fragst eine Frau auf der Straße.",
+    "fr": "Tu cherches la station de métro et demandes à une femme dans la rue."
+   },
+   "speakers": {
+    "lupita": {
+     "name": "Lupita",
+     "accessory": "sombrero"
+    },
+    "you": {
+     "name": "Tú",
+     "accessory": "sombrero"
+    }
+   },
+   "lines": [
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Perdón, ¿dónde está la estación de metro?",
+       "correct": true,
+       "translations": {
+        "en": "Excuse me, where is the metro station?",
+        "bg": "Извинете, къде е метростанцията?",
+        "de": "Entschuldigung, wo ist die U-Bahn-Station?",
+        "fr": "Pardon, où est la station de métro ?"
+       }
+      },
+      {
+       "text": "¡Qué chido!",
+       "correct": false,
+       "translations": {
+        "en": "How cool!",
+        "bg": "Супер!",
+        "de": "Wie cool!",
+        "fr": "Trop bien !"
+       },
+       "feedback": {
+        "en": "Cool, but you need to ask the way first!",
+        "bg": "Супер, но първо трябва да попиташ за пътя!",
+        "de": "Cool, aber frag erst nach dem Weg!",
+        "fr": "Sympa, mais demande d'abord ton chemin !"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "lupita",
+     "text": "¿Mande? Ah, el metro. Siga todo derecho y luego a la izquierda.",
+     "translations": {
+      "en": "Pardon? Ah, the metro. Go straight on and then left.",
+      "bg": "Моля? А, метрото. Продължете направо и после наляво.",
+      "de": "Wie bitte? Ah, die U-Bahn. Geradeaus und dann links.",
+      "fr": "Pardon ? Ah, le métro. Tout droit puis à gauche."
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Más despacio, por favor. No entiendo.",
+       "correct": true,
+       "translations": {
+        "en": "More slowly, please. I don't understand.",
+        "bg": "По-бавно, моля. Не разбирам.",
+        "de": "Langsamer, bitte. Ich verstehe nicht.",
+        "fr": "Plus lentement, s'il vous plaît. Je ne comprends pas."
+       }
+      },
+      {
+       "text": "Tengo veinte años.",
+       "correct": false,
+       "translations": {
+        "en": "I'm twenty years old.",
+        "bg": "На двадесет години съм.",
+        "de": "Ich bin zwanzig.",
+        "fr": "J'ai vingt ans."
+       },
+       "feedback": {
+        "en": "She didn't ask your age!",
+        "bg": "Тя не пита на колко си години!",
+        "de": "Sie hat nicht nach deinem Alter gefragt!",
+        "fr": "Elle ne t'a pas demandé ton âge !"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "lupita",
+     "text": "Todo derecho… y a la izquierda. Está cerca, cinco minutos.",
+     "translations": {
+      "en": "Straight on… and to the left. It's near, five minutes.",
+      "bg": "Направо… и наляво. Близо е, пет минути.",
+      "de": "Geradeaus… und links. Es ist nah, fünf Minuten.",
+      "fr": "Tout droit… et à gauche. C'est près, cinq minutes."
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "¡Muchas gracias!",
+       "correct": true,
+       "translations": {
+        "en": "Thank you very much!",
+        "bg": "Много благодаря!",
+        "de": "Vielen Dank!",
+        "fr": "Merci beaucoup !"
+       }
+      },
+      {
+       "text": "La cuenta, por favor.",
+       "correct": false,
+       "translations": {
+        "en": "The bill, please.",
+        "bg": "Сметката, моля.",
+        "de": "Die Rechnung, bitte.",
+        "fr": "L'addition, s'il vous plaît."
+       },
+       "feedback": {
+        "en": "You're not in a restaurant!",
+        "bg": "Не си в ресторант!",
+        "de": "Du bist nicht im Restaurant!",
+        "fr": "Tu n'es pas au restaurant !"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "lupita",
+     "text": "De nada. ¡Que le vaya bien!",
+     "translations": {
+      "en": "You're welcome. All the best!",
+      "bg": "Няма защо. Всичко хубаво!",
+      "de": "Gern geschehen. Alles Gute!",
+      "fr": "De rien. Bonne continuation !"
+     }
+    }
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "es-r-madrid",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "A day in Madrid",
+    "bg": "Един ден в Мадрид",
+    "de": "Ein Tag in Madrid",
+    "fr": "Une journée à Madrid"
+   },
+   "sentences": [
+    {
+     "text": "Madrid es la capital de España.",
+     "translations": {
+      "en": "Madrid is the capital of Spain.",
+      "bg": "Мадрид е столицата на Испания.",
+      "de": "Madrid ist die Hauptstadt Spaniens.",
+      "fr": "Madrid est la capitale de l'Espagne."
+     }
+    },
+    {
+     "text": "Por la mañana, la gente toma un café con leche en un bar.",
+     "translations": {
+      "en": "In the morning, people have a coffee with milk in a bar.",
+      "bg": "Сутрин хората пият кафе с мляко в бар.",
+      "de": "Morgens trinken die Leute einen Milchkaffee in einer Bar.",
+      "fr": "Le matin, les gens prennent un café au lait dans un bar."
+     }
+    },
+    {
+     "text": "A las dos comen, y cenan muy tarde, a las diez.",
+     "translations": {
+      "en": "They have lunch at two and dinner very late, at ten.",
+      "bg": "Обядват в два, а вечерят много късно, в десет.",
+      "de": "Um zwei essen sie zu Mittag und sehr spät zu Abend, um zehn.",
+      "fr": "Ils déjeunent à deux heures et dînent très tard, à dix heures."
+     }
+    },
+    {
+     "text": "Por la noche, los amigos van de tapas.",
+     "translations": {
+      "en": "In the evening, friends go out for tapas.",
+      "bg": "Вечер приятелите излизат за тапас.",
+      "de": "Abends gehen Freunde Tapas essen.",
+      "fr": "Le soir, les amis vont manger des tapas."
+     }
+    },
+    {
+     "text": "¿Una caña? ¡Vale!",
+     "translations": {
+      "en": "A small beer? OK!",
+      "bg": "Една бира? Става!",
+      "de": "Ein kleines Bier? Okay!",
+      "fr": "Une petite bière ? D'accord !"
+     }
+    }
+   ],
+   "glossary": {
+    "capital": {
+     "translations": {
+      "en": "capital",
+      "bg": "столица",
+      "de": "Hauptstadt",
+      "fr": "capitale"
+     }
+    },
+    "españa": {
+     "translations": {
+      "en": "Spain",
+      "bg": "Испания",
+      "de": "Spanien",
+      "fr": "Espagne"
+     }
+    },
+    "es": {
+     "item": "es-el-es"
+    },
+    "mañana": {
+     "translations": {
+      "en": "morning",
+      "bg": "сутрин",
+      "de": "Morgen",
+      "fr": "matin"
+     }
+    },
+    "gente": {
+     "translations": {
+      "en": "people",
+      "bg": "хората",
+      "de": "Leute",
+      "fr": "les gens"
+     }
+    },
+    "toma": {
+     "translations": {
+      "en": "has / takes (a drink)",
+      "bg": "пие / взима",
+      "de": "nimmt / trinkt",
+      "fr": "prend"
+     }
+    },
+    "café": {
+     "item": "es-un-cafe"
+    },
+    "leche": {
+     "translations": {
+      "en": "milk",
+      "bg": "мляко",
+      "de": "Milch",
+      "fr": "lait"
+     }
+    },
+    "bar": {
+     "translations": {
+      "en": "bar / café",
+      "bg": "бар / кафене",
+      "de": "Bar / Café",
+      "fr": "bar / café"
+     }
+    },
+    "dos": {
+     "item": "es-dos"
+    },
+    "comen": {
+     "translations": {
+      "en": "they have lunch / eat",
+      "bg": "обядват / ядат",
+      "de": "sie essen zu Mittag",
+      "fr": "ils déjeunent / mangent"
+     }
+    },
+    "cenan": {
+     "translations": {
+      "en": "they have dinner",
+      "bg": "вечерят",
+      "de": "sie essen zu Abend",
+      "fr": "ils dînent"
+     }
+    },
+    "tarde": {
+     "translations": {
+      "en": "late",
+      "bg": "късно",
+      "de": "spät",
+      "fr": "tard"
+     }
+    },
+    "diez": {
+     "item": "es-diez"
+    },
+    "noche": {
+     "translations": {
+      "en": "night / evening",
+      "bg": "нощ / вечер",
+      "de": "Nacht / Abend",
+      "fr": "nuit / soir"
+     }
+    },
+    "amigos": {
+     "translations": {
+      "en": "friends",
+      "bg": "приятели",
+      "de": "Freunde",
+      "fr": "amis"
+     }
+    },
+    "van": {
+     "translations": {
+      "en": "they go",
+      "bg": "отиват",
+      "de": "sie gehen",
+      "fr": "ils vont"
+     }
+    },
+    "tapas": {
+     "item": "es-una-tapa"
+    },
+    "caña": {
+     "item": "es-una-cerveza"
+    },
+    "vale": {
+     "item": "es-vale"
+    },
+    "muy": {
+     "translations": {
+      "en": "very",
+      "bg": "много",
+      "de": "sehr",
+      "fr": "très"
+     }
+    },
+    "por": {
+     "translations": {
+      "en": "in / for / by",
+      "bg": "през / за",
+      "de": "in / für",
+      "fr": "par / pour"
+     }
+    }
+   }
+  },
+  {
+   "id": "es-r-baires",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Che, Buenos Aires!",
+    "bg": "Che, Буенос Айрес!",
+    "de": "Che, Buenos Aires!",
+    "fr": "Che, Buenos Aires !"
+   },
+   "sentences": [
+    {
+     "text": "Buenos Aires es una ciudad muy grande.",
+     "translations": {
+      "en": "Buenos Aires is a very big city.",
+      "bg": "Буенос Айрес е много голям град.",
+      "de": "Buenos Aires ist eine sehr große Stadt.",
+      "fr": "Buenos Aires est une très grande ville."
+     }
+    },
+    {
+     "text": "Aquí la gente no dice tú, dice vos.",
+     "translations": {
+      "en": "Here people don't say tú, they say vos.",
+      "bg": "Тук хората не казват tú, казват vos.",
+      "de": "Hier sagt man nicht tú, sondern vos.",
+      "fr": "Ici, les gens ne disent pas tú, mais vos."
+     }
+    },
+    {
+     "text": "Vos sos de Bulgaria? ¡Re lindo!",
+     "translations": {
+      "en": "You're from Bulgaria? Really nice!",
+      "bg": "От България ли си? Много яко!",
+      "de": "Du bist aus Bulgarien? Echt schön!",
+      "fr": "Tu es de Bulgarie ? Trop bien !"
+     }
+    },
+    {
+     "text": "Che, ¿tomamos un mate?",
+     "translations": {
+      "en": "Hey, shall we have some mate?",
+      "bg": "Ей, ще пием ли мате?",
+      "de": "Hey, trinken wir einen Mate?",
+      "fr": "Hé, on prend un maté ?"
+     }
+    },
+    {
+     "text": "El mate es una bebida tradicional y se comparte con amigos.",
+     "translations": {
+      "en": "Mate is a traditional drink and it's shared with friends.",
+      "bg": "Матето е традиционна напитка и се споделя с приятели.",
+      "de": "Mate ist ein traditionelles Getränk, das man mit Freunden teilt.",
+      "fr": "Le maté est une boisson traditionnelle qu'on partage entre amis."
+     }
+    }
+   ],
+   "glossary": {
+    "ciudad": {
+     "translations": {
+      "en": "city",
+      "bg": "град",
+      "de": "Stadt",
+      "fr": "ville"
+     }
+    },
+    "grande": {
+     "translations": {
+      "en": "big",
+      "bg": "голям",
+      "de": "groß",
+      "fr": "grand"
+     }
+    },
+    "aquí": {
+     "translations": {
+      "en": "here",
+      "bg": "тук",
+      "de": "hier",
+      "fr": "ici"
+     }
+    },
+    "dice": {
+     "translations": {
+      "en": "says",
+      "bg": "казва",
+      "de": "sagt",
+      "fr": "dit"
+     }
+    },
+    "vos": {
+     "item": "es-vos-sos"
+    },
+    "sos": {
+     "item": "es-vos-sos"
+    },
+    "re": {
+     "item": "es-re"
+    },
+    "lindo": {
+     "translations": {
+      "en": "nice / pretty",
+      "bg": "хубаво / красиво",
+      "de": "schön",
+      "fr": "joli"
+     }
+    },
+    "che": {
+     "item": "es-che"
+    },
+    "tomamos": {
+     "translations": {
+      "en": "shall we have / we drink",
+      "bg": "пием ли",
+      "de": "trinken wir",
+      "fr": "on prend"
+     }
+    },
+    "mate": {
+     "translations": {
+      "en": "mate (herbal tea)",
+      "bg": "мате (билков чай)",
+      "de": "Mate (Kräutertee)",
+      "fr": "maté (infusion)"
+     }
+    },
+    "bebida": {
+     "translations": {
+      "en": "drink",
+      "bg": "напитка",
+      "de": "Getränk",
+      "fr": "boisson"
+     }
+    },
+    "tradicional": {
+     "translations": {
+      "en": "traditional",
+      "bg": "традиционна",
+      "de": "traditionell",
+      "fr": "traditionnelle"
+     }
+    },
+    "comparte": {
+     "translations": {
+      "en": "is shared",
+      "bg": "се споделя",
+      "de": "wird geteilt",
+      "fr": "se partage"
+     }
+    },
+    "amigos": {
+     "translations": {
+      "en": "friends",
+      "bg": "приятели",
+      "de": "Freunde",
+      "fr": "amis"
+     }
+    },
+    "muy": {
+     "translations": {
+      "en": "very",
+      "bg": "много",
+      "de": "sehr",
+      "fr": "très"
+     }
+    },
+    "tú": {
+     "item": "es-tu-eres"
+    }
+   }
+  }
+ ],
+ "places": [
+  {
+   "id": "es-p-madrid",
+   "section": "core",
+   "name": "Madrid",
+   "country": "Spain",
+   "lat": 40.42,
+   "lng": -3.7,
+   "description": {
+    "en": "Spain's capital: bars, tapas and late dinners.",
+    "bg": "Столицата на Испания: барове, тапас и късни вечери.",
+    "de": "Spaniens Hauptstadt: Bars, Tapas und späte Abendessen.",
+    "fr": "La capitale de l'Espagne : bars, tapas et dîners tardifs."
+   },
+   "localItems": [
+    "es-vale",
+    "es-guay"
+   ],
+   "cultureNote": "es-c-late",
+   "reading": "es-r-madrid"
+  },
+  {
+   "id": "es-p-sevilla",
+   "section": "core",
+   "name": "Sevilla",
+   "country": "Spain",
+   "lat": 37.39,
+   "lng": -5.98,
+   "unlockAfterLesson": "es-a1-02",
+   "description": {
+    "en": "Andalusia: flamenco, orange trees and an accent that swallows the s.",
+    "bg": "Андалусия: фламенко, портокалови дървета и акцент, който гълта s-то.",
+    "de": "Andalusien: Flamenco, Orangenbäume und ein Akzent, der das s verschluckt.",
+    "fr": "L'Andalousie : flamenco, orangers et un accent qui avale les s."
+   },
+   "localItems": [
+    "es-illo",
+    "es-ole"
+   ],
+   "cultureNote": "es-c-two-kisses"
+  },
+  {
+   "id": "es-p-barcelona",
+   "section": "core",
+   "name": "Barcelona",
+   "country": "Spain",
+   "lat": 41.39,
+   "lng": 2.17,
+   "unlockAfterLesson": "es-a1-03",
+   "description": {
+    "en": "By the sea, bilingual: Spanish and Catalan side by side.",
+    "bg": "На морето, двуезична: испански и каталонски един до друг.",
+    "de": "Am Meer, zweisprachig: Spanisch und Katalanisch nebeneinander.",
+    "fr": "Au bord de la mer, bilingue : espagnol et catalan côte à côte."
+   },
+   "localItems": [
+    "es-tio",
+    "es-bon-dia"
+   ]
+  },
+  {
+   "id": "es-p-cdmx",
+   "section": "core",
+   "name": "Ciudad de México",
+   "country": "Mexico",
+   "lat": 19.43,
+   "lng": -99.13,
+   "unlockAfterLesson": "es-a1-04",
+   "description": {
+    "en": "The biggest Spanish-speaking city in the world.",
+    "bg": "Най-големият испаноезичен град в света.",
+    "de": "Die größte spanischsprachige Stadt der Welt.",
+    "fr": "La plus grande ville hispanophone du monde."
+   },
+   "localItems": [
+    "es-que-onda",
+    "es-chido",
+    "es-ahorita"
+   ],
+   "cultureNote": "es-c-mexico"
+  },
+  {
+   "id": "es-p-baires",
+   "section": "core",
+   "name": "Buenos Aires",
+   "country": "Argentina",
+   "lat": -34.6,
+   "lng": -58.38,
+   "unlockAfterLesson": "es-a1-06",
+   "description": {
+    "en": "Tango, mate and “vos” instead of “tú”.",
+    "bg": "Танго, мате и „vos“ вместо „tú“.",
+    "de": "Tango, Mate und „vos“ statt „tú“.",
+    "fr": "Tango, maté et « vos » au lieu de « tú »."
+   },
+   "localItems": [
+    "es-che",
+    "es-re",
+    "es-laburo"
+   ],
+   "cultureNote": "es-c-vos",
+   "reading": "es-r-baires"
+  }
+ ]
 }
