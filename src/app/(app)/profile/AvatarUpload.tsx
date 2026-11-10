@@ -60,12 +60,14 @@ export function AvatarUpload({
       const supabase = createClient();
       const { error: upErr } = await supabase.storage
         .from("avatars")
-        .upload(path, blob, { contentType: blob.type, upsert: true });
+        .upload(path, blob, { contentType: blob.type, upsert: false });
       if (upErr) throw upErr;
       const { data } = supabase.storage.from("avatars").getPublicUrl(path);
       await setAvatarUrl(data.publicUrl);
-    } catch {
-      setError(labels.failed);
+    } catch (e) {
+      console.error("avatar upload failed", e);
+      const detail = e instanceof Error ? e.message : typeof e === "object" && e && "message" in e ? String((e as { message: unknown }).message) : "";
+      setError(detail ? `${labels.failed} (${detail})` : labels.failed);
     } finally {
       setBusy(false);
     }
