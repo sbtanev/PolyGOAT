@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { createInvite } from "./actions";
+import { createInvite, updateInvite } from "./actions";
 import { CopyLink } from "./CopyLink";
 import { getDictionary } from "@/lib/i18n";
 import { requireProfile } from "@/lib/data";
@@ -50,11 +50,18 @@ export default async function InvitesPage() {
           <button className="btn-primary w-full">{t.admin.create}</button>
           <p className="hint">&nbsp;</p>
         </div>
-        <label className="flex items-start gap-3 rounded-2xl bg-panel-2 p-3 sm:col-span-4">
+        <label className="flex items-start gap-3 rounded-2xl bg-panel-2 p-3 sm:col-span-2">
           <input type="checkbox" name="permanent" value="1" className="mt-1 h-5 w-5 accent-[var(--color-gold)]" />
           <span>
             <span className="block font-bold">♾️ {t.approval.permanent}</span>
             <span className="block text-sm text-muted">{t.approval.permanentHint}</span>
+          </span>
+        </label>
+        <label className="flex items-start gap-3 rounded-2xl bg-panel-2 p-3 sm:col-span-2">
+          <input type="checkbox" name="approval" value="1" className="mt-1 h-5 w-5 accent-[var(--color-gold)]" />
+          <span>
+            <span className="block font-bold">✋ {t.approval.requireApproval}</span>
+            <span className="block text-sm text-muted">{t.approval.requireApprovalHint}</span>
           </span>
         </label>
       </form>
@@ -78,7 +85,23 @@ export default async function InvitesPage() {
                   {new Date(inv.created_at).toLocaleDateString(locale === "bg" ? "bg-BG" : "en-GB")}
                 </p>
               </div>
-              {!usedUp && <CopyLink code={inv.code} labels={{ copy: t.admin.copy, copied: t.admin.copied }} />}
+              {!usedUp && (
+                <div className="flex flex-wrap items-center gap-2">
+                  <CopyLink code={inv.code} labels={{ copy: t.admin.copy, copied: t.admin.copied }} />
+                  <form action={updateInvite}>
+                    <input type="hidden" name="code" value={inv.code} />
+                    <input type="hidden" name="action" value={inv.requires_approval ? "approval_off" : "approval_on"} />
+                    <button className="chip min-h-9 px-3 hover:border-muted">
+                      {inv.requires_approval ? t.approval.turnApprovalOff : t.approval.turnApprovalOn}
+                    </button>
+                  </form>
+                  <form action={updateInvite}>
+                    <input type="hidden" name="code" value={inv.code} />
+                    <input type="hidden" name="action" value="disable" />
+                    <button className="chip min-h-9 px-3 text-coral hover:border-muted">⛔ {t.approval.disable}</button>
+                  </form>
+                </div>
+              )}
             </li>
           );
         })}
