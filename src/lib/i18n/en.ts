@@ -298,6 +298,23 @@ const en = {
     activeWeek: "Active this week",
     reviews7: "Reviews in the last 7 days",
   },
+  approval: {
+    pendingTitle: "Almost there!",
+    pendingBody: "Your account is waiting for an admin to approve it. You'll get in as soon as that happens, so check back a bit later.",
+    rejectedTitle: "Not approved",
+    rejectedBody: "An admin didn't approve this account. If you think that's a mistake, contact them directly.",
+    refresh: "Check again",
+    pendingList: "Waiting for approval",
+    noPending: "Nobody is waiting.",
+    approve: "Approve",
+    reject: "Reject",
+    restore: "Approve after all",
+    rejectedList: "Rejected",
+    permanent: "Permanent link: anyone can join, but needs my approval",
+    permanentHint: "Unlimited uses. Share it in your group chat.",
+    needsApproval: "needs approval",
+    unlimited: "unlimited",
+  },
   audio: { speed: "Speed", play: "Listen" },
 };
 

@@ -7,7 +7,9 @@ import { createClient } from "@/lib/supabase/server";
 
 export const metadata: Metadata = { title: "Invite codes" };
 
-type Invite = { code: string; max_uses: number; uses: number; note: string | null; created_at: string };
+type Invite = { code: string; max_uses: number; uses: number; note: string | null; created_at: string; requires_approval?: boolean };
+
+const UNLIMITED = 100000;
 
 export default async function InvitesPage() {
   const profile = await requireProfile();
@@ -48,6 +50,13 @@ export default async function InvitesPage() {
           <button className="btn-primary w-full">{t.admin.create}</button>
           <p className="hint">&nbsp;</p>
         </div>
+        <label className="flex items-start gap-3 rounded-2xl bg-panel-2 p-3 sm:col-span-4">
+          <input type="checkbox" name="permanent" value="1" className="mt-1 h-5 w-5 accent-[var(--color-gold)]" />
+          <span>
+            <span className="block font-bold">♾️ {t.approval.permanent}</span>
+            <span className="block text-sm text-muted">{t.approval.permanentHint}</span>
+          </span>
+        </label>
       </form>
 
       <ul className="flex flex-col gap-2">
@@ -59,9 +68,12 @@ export default async function InvitesPage() {
               className={`card flex flex-wrap items-center justify-between gap-3 p-4 sm:p-4 ${usedUp ? "opacity-50" : ""}`}
             >
               <div>
-                <p className="font-mono font-bold tracking-wider">{inv.code}</p>
+                <p className="font-mono font-bold tracking-wider">
+                  {inv.code}
+                  {inv.requires_approval && <span className="chip ml-2 font-sans text-gold">✋ {t.approval.needsApproval}</span>}
+                </p>
                 <p className="text-sm text-muted">
-                  {t.admin.uses}: {inv.uses}/{inv.max_uses}
+                  {t.admin.uses}: {inv.uses}/{inv.max_uses >= UNLIMITED ? `♾️ ${t.approval.unlimited}` : inv.max_uses}
                   {inv.note && ` · ${inv.note}`} · {t.admin.created}{" "}
                   {new Date(inv.created_at).toLocaleDateString(locale === "bg" ? "bg-BG" : "en-GB")}
                 </p>

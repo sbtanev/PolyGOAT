@@ -28,7 +28,7 @@ export default async function CommunityPage({
     getLanguages(),
     getGoatOfWeek(),
   ]);
-  const all = (data ?? []) as Member[];
+  const all = ((data ?? []) as Member[]).filter((m) => !m.status || m.status === "active");
   const needle = q.trim().toLowerCase();
   const members = all.filter(
     (m) =>

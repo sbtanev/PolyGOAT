@@ -3,7 +3,16 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-type NavLink = { href: string; label: string; icon: string };
+type NavLink = { href: string; label: string; icon: string; badge?: number };
+
+function Badge({ n }: { n?: number }) {
+  if (!n) return null;
+  return (
+    <span className="ml-1 inline-flex min-w-5 items-center justify-center rounded-full bg-coral px-1.5 text-[11px] font-bold leading-5 text-night">
+      {n}
+    </span>
+  );
+}
 
 export function NavLinks({ links, variant }: { links: NavLink[]; variant: "top" | "bottom" }) {
   const path = usePathname();
@@ -21,6 +30,7 @@ export function NavLinks({ links, variant }: { links: NavLink[]; variant: "top" 
               }`}
             >
               {l.label}
+              <Badge n={l.badge} />
             </Link>
           </li>
         ))}
@@ -38,8 +48,9 @@ export function NavLinks({ links, variant }: { links: NavLink[]; variant: "top" 
               isActive(l.href) ? "text-gold" : "text-muted"
             }`}
           >
-            <span className="text-xl" aria-hidden>
+            <span className="relative text-xl" aria-hidden>
               {l.icon}
+              {l.badge ? <span className="absolute -right-2 -top-1 h-2.5 w-2.5 rounded-full bg-coral" /> : null}
             </span>
             {l.label}
           </Link>

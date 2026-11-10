@@ -11,6 +11,8 @@ export type Profile = {
   avatar_url: string | null;
   avatar_preset: string;
   role: "user" | "admin";
+  /** Missing until migration 0004 has been run: treat as active. */
+  status?: "pending" | "active" | "rejected";
   last_seen_at: string;
   created_at: string;
 };

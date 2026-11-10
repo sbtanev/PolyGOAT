@@ -17,8 +17,10 @@ export async function adminUserAction(formData: FormData) {
   } else if (action === "reset_name") {
     const { data } = await supabase.from("profiles").select("username").eq("id", id).single();
     if (data) await supabase.from("profiles").update({ display_name: String(data.username) }).eq("id", id);
+  } else if (action === "approve" || action === "reject") {
+    await supabase.from("profiles").update({ status: action === "approve" ? "active" : "rejected" }).eq("id", id);
   } else if (action === "reset_avatar") {
     await supabase.from("profiles").update({ avatar_url: null, avatar_preset: "classic" }).eq("id", id);
   }
-  revalidatePath("/admin/users");
+  revalidatePath("/", "layout");
 }

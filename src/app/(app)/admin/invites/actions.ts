@@ -18,7 +18,8 @@ export async function createInvite(formData: FormData) {
     .trim()
     .toUpperCase()
     .replace(/[^A-Z0-9-]/g, "");
-  const maxUses = Math.min(100, Math.max(1, Number(formData.get("max_uses")) || 1));
+  const permanent = formData.get("permanent") === "1";
+  const maxUses = permanent ? 100000 : Math.min(100, Math.max(1, Number(formData.get("max_uses")) || 1));
   const note = String(formData.get("note") ?? "").trim().slice(0, 100) || null;
 
   const supabase = await createClient();
@@ -27,6 +28,7 @@ export async function createInvite(formData: FormData) {
     max_uses: maxUses,
     note,
     created_by: profile.id,
+    ...(permanent ? { requires_approval: true } : {}),
   });
   revalidatePath("/admin/invites");
 }

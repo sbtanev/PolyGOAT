@@ -26,11 +26,46 @@ export default async function UsersPage() {
     </form>
   );
 
+  const pending = users.filter((u) => u.status === "pending");
+  const rejected = users.filter((u) => u.status === "rejected");
+  const members = users.filter((u) => !u.status || u.status === "active");
+  const ap = t.approval;
+
   return (
     <div className="flex flex-col gap-5">
       <h1 className="font-display text-xl font-bold sm:text-2xl">👥 {a.users}</h1>
+
+      <section className={`card ${pending.length ? "border-gold/60" : ""}`}>
+        <h2 className="mb-3 font-display text-lg font-bold">
+          ✋ {ap.pendingList} {pending.length > 0 && <span className="chip ml-1 text-gold">{pending.length}</span>}
+        </h2>
+        {pending.length === 0 ? (
+          <p className="text-sm text-muted">{ap.noPending}</p>
+        ) : (
+          <ul className="flex flex-col gap-2">
+            {pending.map((u) => (
+              <li key={u.id} className="flex flex-wrap items-center gap-3 rounded-2xl bg-panel-2 p-3">
+                <Avatar url={u.avatar_url} preset={u.avatar_preset} size={44} />
+                <div className="min-w-0 flex-1">
+                  <p className="truncate font-bold">{u.display_name}</p>
+                  <p className="text-sm text-muted">
+                    @{u.username} · {a.joined} {date(u.created_at)}
+                  </p>
+                </div>
+                <form action={adminUserAction}>
+                  <input type="hidden" name="id" value={u.id} />
+                  <input type="hidden" name="action" value="approve" />
+                  <button className="btn-primary min-h-10 px-4">✓ {ap.approve}</button>
+                </form>
+                <Btn id={u.id} action="reject" label={ap.reject} danger />
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+
       <ul className="flex flex-col gap-2">
-        {users.map((u) => (
+        {members.map((u) => (
           <li key={u.id} className="card flex flex-wrap items-center gap-4 p-4 sm:p-4">
             <Avatar url={u.avatar_url} preset={u.avatar_preset} size={48} />
             <div className="min-w-0 flex-1">
@@ -51,6 +86,23 @@ export default async function UsersPage() {
           </li>
         ))}
       </ul>
+
+      {rejected.length > 0 && (
+        <section className="card opacity-80">
+          <h2 className="mb-3 font-display text-base font-bold">{ap.rejectedList}</h2>
+          <ul className="flex flex-col gap-2">
+            {rejected.map((u) => (
+              <li key={u.id} className="flex flex-wrap items-center gap-3">
+                <Avatar url={u.avatar_url} preset={u.avatar_preset} size={36} />
+                <span className="min-w-0 flex-1 truncate">
+                  {u.display_name} <span className="text-sm text-muted">@{u.username}</span>
+                </span>
+                <Btn id={u.id} action="approve" label={ap.restore} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </div>
   );
 }

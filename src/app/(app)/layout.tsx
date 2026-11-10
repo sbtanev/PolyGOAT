@@ -7,21 +7,53 @@ import { getDictionary } from "@/lib/i18n";
 import { requireProfile } from "@/lib/data";
 import { createClient } from "@/lib/supabase/server";
 import { autoImportUpdatedPacks } from "@/lib/packs/autoImport";
+import { Goat } from "@/components/Goat";
 
 export default async function AppLayout({ children }: { children: React.ReactNode }) {
   const profile = await requireProfile();
   const { t, locale } = await getDictionary();
 
   const supabase = await createClient();
+
+  // Signed up through a link that needs approval: show a waiting screen instead of the app.
+  if (profile.status === "pending" || profile.status === "rejected") {
+    const pending = profile.status === "pending";
+    return (
+      <main className="mx-auto flex min-h-dvh max-w-md flex-col items-center justify-center gap-4 px-4 text-center">
+        <Goat accessory={pending ? "none" : "headphones"} size={120} />
+        <h1 className="font-display text-2xl font-bold">{pending ? t.approval.pendingTitle : t.approval.rejectedTitle}</h1>
+        <p className="text-muted">{pending ? t.approval.pendingBody : t.approval.rejectedBody}</p>
+        <div className="flex gap-2">
+          {pending && (
+            <Link href="/home" className="btn-primary">
+              {t.approval.refresh}
+            </Link>
+          )}
+          <form action={signOut}>
+            <button className="btn-ghost">{t.nav.signOut}</button>
+          </form>
+        </div>
+      </main>
+    );
+  }
+
   await supabase.rpc("touch_last_seen");
-  if (profile.role === "admin") await autoImportUpdatedPacks(supabase);
+  let pendingCount = 0;
+  if (profile.role === "admin") {
+    await autoImportUpdatedPacks(supabase);
+    const { count } = await supabase
+      .from("profiles")
+      .select("id", { count: "exact", head: true })
+      .eq("status", "pending");
+    pendingCount = count ?? 0;
+  }
 
   const links = [
     { href: "/home", label: t.nav.home, icon: "🏔️" },
     { href: "/leaderboard", label: t.nav.leaderboard, icon: "🏆" },
     { href: "/community", label: t.nav.community, icon: "🐐" },
     { href: "/profile", label: t.nav.profile, icon: "🎒" },
-    ...(profile.role === "admin" ? [{ href: "/admin", label: t.nav.admin, icon: "🛠️" }] : []),
+    ...(profile.role === "admin" ? [{ href: "/admin", label: t.nav.admin, icon: "🛠️", badge: pendingCount }] : []),
   ];
 
   return (

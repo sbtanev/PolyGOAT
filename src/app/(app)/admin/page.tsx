@@ -1,17 +1,26 @@
 import Link from "next/link";
 import { getDictionary } from "@/lib/i18n";
 import { requireProfile } from "@/lib/data";
+import { createClient } from "@/lib/supabase/server";
 
 export default async function AdminHome() {
   const profile = await requireProfile();
   const { t } = await getDictionary();
   if (profile.role !== "admin") return <p className="card text-muted">{t.admin.onlyAdmins}</p>;
+  const supabase = await createClient();
+  const { count } = await supabase.from("profiles").select("id", { count: "exact", head: true }).eq("status", "pending");
+  const pending = count ?? 0;
 
   const links = [
     { href: "/admin/invites", icon: "🎟️", title: t.adminHome.invites, desc: t.adminHome.invitesDesc },
     { href: "/admin/packs", icon: "📦", title: t.adminHome.packs, desc: t.adminHome.packsDesc },
     { href: "/admin/content", icon: "✏️", title: t.adminContent.content, desc: t.adminContent.contentDesc },
-    { href: "/admin/users", icon: "👥", title: t.adminContent.users, desc: t.adminContent.usersDesc },
+    {
+      href: "/admin/users",
+      icon: "👥",
+      title: pending ? `${t.adminContent.users} · ✋ ${pending}` : t.adminContent.users,
+      desc: pending ? t.approval.pendingList : t.adminContent.usersDesc,
+    },
     { href: "/admin/stats", icon: "📊", title: t.adminContent.statsTitle, desc: t.adminContent.statsDesc },
   ];
   return (
