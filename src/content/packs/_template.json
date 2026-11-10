@@ -1,0 +1,75 @@
+{
+  "version": "0.1.0",
+  "language": {
+    "code": "xx",
+    "name": { "en": "Language name in English", "bg": "Име на български", "de": "", "fr": "", "es": "" },
+    "nativeName": "Name in the language itself",
+    "flag": "🏳️",
+    "script": "latin",
+    "features": [],
+    "mascotAccessory": "none",
+    "varieties": [],
+    "ttsLocale": "xx-XX",
+    "active": true
+  },
+  "sections": [
+    { "slug": "core", "title": { "en": "Core course", "bg": "Основен курс" } }
+  ],
+  "items": [
+    {
+      "id": "xx-hello",
+      "text": "word as learners should write it",
+      "kind": "word",
+      "translations": { "en": "hello", "bg": "здравей", "de": "hallo", "fr": "bonjour", "es": "hola" },
+      "translationStatus": { "en": "verified", "bg": "verified", "de": "auto", "fr": "auto", "es": "auto" },
+      "frequencyRank": 1,
+      "native": "optional: how people actually say it",
+      "slang": { "xx-REGION": "optional regional slang" },
+      "notes": { "en": "optional short note", "bg": "кратка бележка" },
+      "extras": {}
+    }
+  ],
+  "grammarNotes": [
+    { "id": "xx-g-example", "level": "A1", "title": { "en": "Title" }, "body": { "en": "Use **bold** and *italic*. Blank line = new paragraph.\n\n- lists\n- work too" } }
+  ],
+  "cultureNotes": [],
+  "lessons": [
+    {
+      "id": "xx-a1-01",
+      "section": "core",
+      "level": "A1",
+      "title": { "en": "First lesson", "bg": "Първи урок" },
+      "description": { "en": "What this lesson teaches" },
+      "items": ["xx-hello"],
+      "grammar": ["xx-g-example"],
+      "exercises": [
+        { "type": "fill_blank", "prompt": "___ world", "answer": "hello", "alternatives": [], "hint": { "en": "a greeting" } },
+        { "type": "order_words", "sentence": "words in the right order", "translation": { "en": "translation" } },
+        { "type": "choose", "prompt": { "en": "Question?" }, "options": ["a", "b", "c"], "answer": "a", "explanation": { "en": "Why" } }
+      ]
+    }
+  ],
+  "phrasePacks": [
+    { "id": "xx-pp-cafe", "level": "A1", "icon": "☕", "title": { "en": "At the café" }, "items": ["xx-hello"] }
+  ],
+  "dialogues": [
+    {
+      "id": "xx-d-cafe",
+      "level": "A1",
+      "icon": "☕",
+      "title": { "en": "Ordering a coffee" },
+      "situation": { "en": "Where it happens" },
+      "speakers": { "waiter": { "name": "Waiter" }, "you": { "name": "You" } },
+      "lines": [
+        { "speaker": "waiter", "text": "Line in the language", "translations": { "en": "translation" } },
+        {
+          "speaker": "you", "text": "", "translations": {},
+          "choices": [
+            { "text": "Right reply", "translations": { "en": "..." }, "correct": true },
+            { "text": "Wrong reply", "translations": { "en": "..." }, "correct": false, "feedback": { "en": "Why it's wrong" } }
+          ]
+        }
+      ]
+    }
+  ]
+}

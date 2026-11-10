@@ -24,6 +24,9 @@ export type Language = {
   mascot_accessory: string | null;
   is_active: boolean;
   sort_order: number;
+  pack_version?: string | null;
+  tts_locale?: string | null;
+  varieties?: string[];
 };
 
 export type BaseLanguage = {

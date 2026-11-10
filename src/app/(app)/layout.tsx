@@ -18,7 +18,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
     { href: "/home", label: t.nav.home, icon: "🏔️" },
     { href: "/community", label: t.nav.community, icon: "🐐" },
     { href: "/profile", label: t.nav.profile, icon: "🎒" },
-    ...(profile.role === "admin" ? [{ href: "/admin/invites", label: t.nav.admin, icon: "🛠️" }] : []),
+    ...(profile.role === "admin" ? [{ href: "/admin", label: t.nav.admin, icon: "🛠️" }] : []),
   ];
 
   return (

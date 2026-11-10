@@ -1,0 +1,156 @@
+{
+  "version": "0.1.0-demo",
+  "language": {
+    "code": "es",
+    "name": { "en": "Spanish", "bg": "Испански", "de": "Spanisch", "fr": "espagnol", "es": "español" },
+    "nativeName": "Español",
+    "flag": "🇪🇸",
+    "script": "latin",
+    "features": ["gender"],
+    "mascotAccessory": "sombrero",
+    "varieties": ["es-ES", "es-MX", "es-AR", "es-CO"],
+    "ttsLocale": "es-ES",
+    "active": true
+  },
+  "sections": [
+    { "slug": "core", "title": { "en": "Core course", "bg": "Основен курс", "de": "Grundkurs", "fr": "Cours principal" } }
+  ],
+  "items": [
+    { "id": "es-hola", "text": "hola", "frequencyRank": 1, "pos": "interjection",
+      "translations": { "en": "hello", "bg": "здравей", "de": "hallo", "fr": "salut" } },
+    { "id": "es-buenos-dias", "text": "buenos días", "kind": "phrase", "frequencyRank": 2,
+      "translations": { "en": "good morning", "bg": "добро утро", "de": "guten Morgen", "fr": "bonjour" } },
+    { "id": "es-buenas-tardes", "text": "buenas tardes", "kind": "phrase", "frequencyRank": 3,
+      "translations": { "en": "good afternoon", "bg": "добър ден", "de": "guten Tag", "fr": "bon après-midi" },
+      "notes": { "en": "Used from lunch (around 2 pm) until it gets dark.", "bg": "Използва се от обяд (около 14 ч.) до мръкване." } },
+    { "id": "es-buenas-noches", "text": "buenas noches", "kind": "phrase", "frequencyRank": 4,
+      "translations": { "en": "good evening / good night", "bg": "добър вечер / лека нощ", "de": "guten Abend / gute Nacht", "fr": "bonsoir / bonne nuit" } },
+    { "id": "es-adios", "text": "adiós", "frequencyRank": 5,
+      "translations": { "en": "goodbye", "bg": "довиждане", "de": "auf Wiedersehen", "fr": "au revoir" } },
+    { "id": "es-hasta-luego", "text": "hasta luego", "kind": "phrase", "frequencyRank": 6,
+      "translations": { "en": "see you later", "bg": "до после", "de": "bis später", "fr": "à plus tard" },
+      "native": "nos vemos",
+      "slang": { "es-ES": "hasta luego (also when you won't see them again)", "es-AR": "chau", "es-MX": "nos vemos" } },
+    { "id": "es-gracias", "text": "gracias", "frequencyRank": 7,
+      "translations": { "en": "thank you", "bg": "благодаря", "de": "danke", "fr": "merci" } },
+    { "id": "es-por-favor", "text": "por favor", "kind": "phrase", "frequencyRank": 8,
+      "translations": { "en": "please", "bg": "моля", "de": "bitte", "fr": "s'il vous plaît" } },
+    { "id": "es-que-tal", "text": "¿qué tal?", "kind": "phrase", "frequencyRank": 9,
+      "translations": { "en": "how's it going?", "bg": "как е?", "de": "wie geht's?", "fr": "ça va ?" },
+      "native": "¿qué tal?",
+      "slang": { "es-MX": "¿qué onda?", "es-AR": "¿qué hacés?", "es-CO": "¿quiubo?" } },
+    { "id": "es-me-llamo", "text": "me llamo", "kind": "phrase", "frequencyRank": 10,
+      "translations": { "en": "my name is", "bg": "казвам се", "de": "ich heiße", "fr": "je m'appelle" } },
+    { "id": "es-como-te-llamas", "text": "¿cómo te llamas?", "kind": "phrase", "frequencyRank": 11,
+      "translations": { "en": "what's your name?", "bg": "как се казваш?", "de": "wie heißt du?", "fr": "comment tu t'appelles ?" } },
+    { "id": "es-soy-de", "text": "soy de", "kind": "phrase", "frequencyRank": 12,
+      "translations": { "en": "I am from", "bg": "аз съм от", "de": "ich komme aus", "fr": "je viens de" } },
+    { "id": "es-de-donde-eres", "text": "¿de dónde eres?", "kind": "phrase", "frequencyRank": 13,
+      "translations": { "en": "where are you from?", "bg": "откъде си?", "de": "woher kommst du?", "fr": "tu viens d'où ?" } },
+    { "id": "es-mucho-gusto", "text": "mucho gusto", "kind": "phrase", "frequencyRank": 14,
+      "translations": { "en": "nice to meet you", "bg": "приятно ми е", "de": "freut mich", "fr": "enchanté" },
+      "native": "encantado / encantada" },
+    { "id": "es-cafe-con-leche", "text": "un café con leche, por favor", "kind": "sentence",
+      "translations": { "en": "a coffee with milk, please", "bg": "едно кафе с мляко, моля", "de": "einen Milchkaffee, bitte", "fr": "un café au lait, s'il vous plaît" },
+      "native": "¿me pones un café con leche?",
+      "notes": { "en": "In Spain asking “¿me pones…?” (will you give me…?) sounds natural, not rude.", "bg": "В Испания „¿me pones…?“ („ще ми дадеш ли…?“) звучи естествено, не грубо." } },
+    { "id": "es-la-cuenta", "text": "la cuenta, por favor", "kind": "sentence",
+      "translations": { "en": "the bill, please", "bg": "сметката, моля", "de": "die Rechnung, bitte", "fr": "l'addition, s'il vous plaît" },
+      "native": "¿me cobras?",
+      "slang": { "es-ES": "¿me cobras cuando puedas?", "es-AR": "¿me traés la cuenta?" } },
+    { "id": "es-cuanto-es", "text": "¿cuánto es?", "kind": "phrase",
+      "translations": { "en": "how much is it?", "bg": "колко струва?", "de": "wie viel kostet das?", "fr": "c'est combien ?" } },
+    { "id": "es-para-llevar", "text": "para llevar", "kind": "phrase",
+      "translations": { "en": "to take away", "bg": "за вкъщи", "de": "zum Mitnehmen", "fr": "à emporter" },
+      "slang": { "es-MX": "para llevar", "es-ES": "para llevar" } }
+  ],
+  "grammarNotes": [
+    { "id": "es-g-ser-intro", "level": "A1",
+      "title": { "en": "“Soy” = I am", "bg": "„Soy“ = аз съм" },
+      "body": {
+        "en": "**soy** means *I am*. Spanish usually drops the word for *I* (yo), because the verb already shows who is speaking: **Soy de Bulgaria** = I am from Bulgaria.",
+        "bg": "**soy** означава *аз съм*. Испанският обикновено изпуска *аз* (yo), както и българският, защото глаголът вече показва кой говори: **Soy de Bulgaria** = (Аз) съм от България."
+      } }
+  ],
+  "cultureNotes": [
+    { "id": "es-c-two-kisses",
+      "title": { "en": "Two kisses", "bg": "Две целувки" },
+      "body": { "en": "In Spain friends and new acquaintances often greet with two light kisses on the cheeks (right first). In much of Latin America it's one.", "bg": "В Испания приятели и нови познати често се поздравяват с две леки целувки по бузите (първо дясната). В голяма част от Латинска Америка е една." } }
+  ],
+  "lessons": [
+    {
+      "id": "es-a1-01", "level": "A1", "section": "core",
+      "title": { "en": "Hello!", "bg": "Здравей!", "de": "Hallo!", "fr": "Salut !" },
+      "description": { "en": "Greetings for every time of day", "bg": "Поздрави за всяко време от деня" },
+      "items": ["es-hola", "es-buenos-dias", "es-buenas-tardes", "es-buenas-noches", "es-adios", "es-hasta-luego", "es-gracias", "es-por-favor"],
+      "exercises": [
+        { "type": "choose", "prompt": { "en": "It's 4 pm. You walk into a shop. What do you say?", "bg": "Часът е 16. Влизаш в магазин. Какво казваш?" },
+          "options": ["buenos días", "buenas tardes", "buenas noches"], "answer": "buenas tardes", "itemId": "es-buenas-tardes",
+          "explanation": { "en": "From lunch until dark it's “buenas tardes”.", "bg": "От обяд до мръкване се казва „buenas tardes“." } },
+        { "type": "order_words", "sentence": "hola, buenos días", "translation": { "en": "hello, good morning", "bg": "здравей, добро утро" } }
+      ]
+    },
+    {
+      "id": "es-a1-02", "level": "A1", "section": "core",
+      "title": { "en": "Nice to meet you", "bg": "Приятно ми е", "de": "Freut mich", "fr": "Enchanté" },
+      "description": { "en": "Introduce yourself and ask where people are from", "bg": "Представи се и попитай откъде са хората" },
+      "items": ["es-que-tal", "es-me-llamo", "es-como-te-llamas", "es-soy-de", "es-de-donde-eres", "es-mucho-gusto"],
+      "grammar": ["es-g-ser-intro"],
+      "exercises": [
+        { "type": "fill_blank", "prompt": "___ de Bulgaria.", "answer": "Soy", "alternatives": ["soy"], "itemId": "es-soy-de",
+          "hint": { "en": "I am …", "bg": "Аз съм …" } },
+        { "type": "fill_blank", "prompt": "Hola, me ___ Stoyan.", "answer": "llamo", "options": ["llamo", "llamas", "soy"], "itemId": "es-me-llamo" },
+        { "type": "order_words", "sentence": "¿de dónde eres?", "translation": { "en": "where are you from?", "bg": "откъде си?" } }
+      ]
+    }
+  ],
+  "phrasePacks": [
+    { "id": "es-pp-cafe", "level": "A1", "icon": "☕",
+      "title": { "en": "At the café", "bg": "В кафенето", "de": "Im Café", "fr": "Au café" },
+      "description": { "en": "Order, pay and leave like a local", "bg": "Поръчай, плати и си тръгни като местен" },
+      "items": ["es-cafe-con-leche", "es-la-cuenta", "es-cuanto-es", "es-para-llevar", "es-gracias"] }
+  ],
+  "dialogues": [
+    {
+      "id": "es-d-cafe", "level": "A1", "icon": "☕",
+      "title": { "en": "A coffee in Madrid", "bg": "Кафе в Мадрид" },
+      "situation": { "en": "You walk into a small café in Madrid in the morning.", "bg": "Сутрин влизаш в малко кафене в Мадрид." },
+      "speakers": { "waiter": { "name": "Camarero", "accessory": "none" }, "you": { "name": "Tú", "accessory": "sombrero" } },
+      "lines": [
+        { "speaker": "waiter", "text": "¡Buenos días! ¿Qué te pongo?",
+          "translations": { "en": "Good morning! What can I get you?", "bg": "Добро утро! Какво да ти дам?" } },
+        { "speaker": "you", "text": "",
+          "translations": {},
+          "choices": [
+            { "text": "Un café con leche, por favor.", "correct": true,
+              "translations": { "en": "A coffee with milk, please.", "bg": "Едно кафе с мляко, моля." } },
+            { "text": "Buenas noches.", "correct": false,
+              "translations": { "en": "Good night.", "bg": "Лека нощ." },
+              "feedback": { "en": "It's morning, and he asked what you'd like!", "bg": "Сутрин е и той пита какво искаш!" } }
+          ] },
+        { "speaker": "waiter", "text": "¿Para tomar aquí o para llevar?",
+          "translations": { "en": "For here or to take away?", "bg": "Тук ли ще го пиеш или за вкъщи?" } },
+        { "speaker": "you", "text": "",
+          "translations": {},
+          "choices": [
+            { "text": "Para llevar, gracias.", "correct": true,
+              "translations": { "en": "To take away, thanks.", "bg": "За вкъщи, благодаря." } },
+            { "text": "Me llamo Ana.", "correct": false,
+              "translations": { "en": "My name is Ana.", "bg": "Казвам се Ана." },
+              "feedback": { "en": "Nice to meet you, but he asked if it's to take away.", "bg": "Приятно ни е, но той пита дали е за вкъщи." } }
+          ] },
+        { "speaker": "waiter", "text": "Son dos euros.",
+          "translations": { "en": "That's two euros.", "bg": "Два евро е." } },
+        { "speaker": "you", "text": "",
+          "translations": {},
+          "choices": [
+            { "text": "Aquí tienes. ¡Hasta luego!", "correct": true,
+              "translations": { "en": "Here you go. See you!", "bg": "Заповядай. До после!" } },
+            { "text": "¿De dónde eres?", "correct": false,
+              "translations": { "en": "Where are you from?", "bg": "Откъде си?" },
+              "feedback": { "en": "Pay first, chat later!", "bg": "Първо плати, после си говорете!" } }
+          ] }
+      ]
+    }
+  ]
+}

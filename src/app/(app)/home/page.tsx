@@ -42,7 +42,8 @@ export default async function HomePage() {
             const base = bases.find((b) => b.code === ul.source_language);
             if (!lang) return null;
             return (
-              <li key={ul.language_code} className="card flex items-center gap-4">
+              <li key={ul.language_code}>
+                <Link href={`/learn/${ul.language_code}`} className="card flex items-center gap-4 transition hover:border-gold/60">
                 <Goat accessory={lang.mascot_accessory} size={72} />
                 <div className="min-w-0 flex-1">
                   <p className="font-display text-lg font-bold">
@@ -51,8 +52,9 @@ export default async function HomePage() {
                   <p className="text-sm text-muted">
                     {t.home.level} {ul.level} · {t.home.from} {base?.flag} {pickName(base?.name, locale)}
                   </p>
-                  <p className="mt-2 text-xs text-muted">{t.home.comingSoon}</p>
+                  <p className="mt-2 text-sm font-bold text-gold">{t.learn.continue} →</p>
                 </div>
+                </Link>
               </li>
             );
           })}
