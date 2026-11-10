@@ -1,0 +1,2931 @@
+{
+ "version": "1.0.0",
+ "language": {
+  "code": "de",
+  "name": {
+   "en": "German",
+   "bg": "Немски",
+   "de": "Deutsch",
+   "fr": "allemand",
+   "es": "alemán"
+  },
+  "nativeName": "Deutsch",
+  "flag": "🇩🇪",
+  "script": "latin",
+  "features": [
+   "gender",
+   "cases"
+  ],
+  "mascotAccessory": "alpine",
+  "varieties": [
+   "de-DE",
+   "de-AT",
+   "de-CH"
+  ],
+  "ttsLocale": "de-DE",
+  "active": true,
+  "mapBounds": [
+   [
+    4.5,
+    45.4
+   ],
+   [
+    17.5,
+    55.2
+   ]
+  ]
+ },
+ "sections": [
+  {
+   "slug": "core",
+   "title": {
+    "en": "Beginners (A1)",
+    "bg": "За начинаещи (A1)",
+    "fr": "Débutants (A1)",
+    "es": "Principiantes (A1)"
+   }
+  },
+  {
+   "slug": "alltag",
+   "title": {
+    "en": "Everyday conversation (B1)",
+    "bg": "Разговори в ежедневието (B1)",
+    "fr": "Conversation quotidienne (B1)",
+    "es": "Conversación cotidiana (B1)"
+   },
+   "description": {
+    "en": "Opinions, colloquial German, polite requests, renting a flat",
+    "bg": "Мнения, разговорен немски, учтиви молби, наем на жилище",
+    "fr": "Opinions, allemand familier, demandes polies, location",
+    "es": "Opiniones, alemán coloquial, peticiones educadas, alquiler"
+   },
+   "unlockAfterLevel": "B1"
+  }
+ ],
+ "items": [
+  {
+   "id": "de-hallo",
+   "text": "hallo",
+   "kind": "word",
+   "translations": {
+    "en": "hello",
+    "bg": "здравей",
+    "fr": "salut",
+    "es": "hola"
+   },
+   "frequencyRank": 1
+  },
+  {
+   "id": "de-guten-morgen",
+   "text": "guten Morgen",
+   "kind": "word",
+   "translations": {
+    "en": "good morning",
+    "bg": "добро утро",
+    "fr": "bonjour (le matin)",
+    "es": "buenos días"
+   },
+   "frequencyRank": 2
+  },
+  {
+   "id": "de-guten-tag",
+   "text": "guten Tag",
+   "kind": "word",
+   "translations": {
+    "en": "good day / hello",
+    "bg": "добър ден",
+    "fr": "bonjour",
+    "es": "buenos días / buenas tardes"
+   },
+   "frequencyRank": 3,
+   "slang": {
+    "de-AT": "grüß Gott / servus",
+    "de-CH": "grüezi",
+    "de-DE": "moin (North)"
+   }
+  },
+  {
+   "id": "de-guten-abend",
+   "text": "guten Abend",
+   "kind": "word",
+   "translations": {
+    "en": "good evening",
+    "bg": "добър вечер",
+    "fr": "bonsoir",
+    "es": "buenas tardes / buenas noches"
+   },
+   "frequencyRank": 4
+  },
+  {
+   "id": "de-tschuess",
+   "text": "tschüss",
+   "kind": "word",
+   "translations": {
+    "en": "bye",
+    "bg": "чао",
+    "fr": "salut / au revoir",
+    "es": "chao / adiós"
+   },
+   "frequencyRank": 5,
+   "slang": {
+    "de-DE": "tschüss / ciao",
+    "de-AT": "servus / baba",
+    "de-CH": "tschau / adieu"
+   }
+  },
+  {
+   "id": "de-auf-wiedersehen",
+   "text": "auf Wiedersehen",
+   "kind": "word",
+   "translations": {
+    "en": "goodbye (formal)",
+    "bg": "довиждане",
+    "fr": "au revoir",
+    "es": "adiós (formal)"
+   },
+   "frequencyRank": 6
+  },
+  {
+   "id": "de-danke",
+   "text": "danke",
+   "kind": "word",
+   "translations": {
+    "en": "thank you",
+    "bg": "благодаря",
+    "fr": "merci",
+    "es": "gracias"
+   },
+   "frequencyRank": 7
+  },
+  {
+   "id": "de-bitte",
+   "text": "bitte",
+   "kind": "word",
+   "translations": {
+    "en": "please / you're welcome",
+    "bg": "моля / няма защо",
+    "fr": "s'il vous plaît / de rien",
+    "es": "por favor / de nada"
+   },
+   "frequencyRank": 8,
+   "notes": {
+    "en": "“Bitte” is everywhere: please, you're welcome, here you go, and “pardon?” (Bitte?).",
+    "bg": "„Bitte“ е навсякъде: моля, няма защо, заповядай и „моля?“ (Bitte?).",
+    "fr": "« Bitte » est partout : s'il vous plaît, de rien, tenez, et « pardon ? » (Bitte ?).",
+    "es": "«Bitte» está en todas partes: por favor, de nada, aquí tienes y «¿perdón?» (Bitte?)."
+   }
+  },
+  {
+   "id": "de-wie-geht-es-dir",
+   "text": "wie geht's?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how are you?",
+    "bg": "как си?",
+    "fr": "comment ça va ?",
+    "es": "¿qué tal?"
+   },
+   "frequencyRank": 10
+  },
+  {
+   "id": "de-gut-danke",
+   "text": "gut, danke",
+   "kind": "phrase",
+   "translations": {
+    "en": "fine, thanks",
+    "bg": "добре, благодаря",
+    "fr": "bien, merci",
+    "es": "bien, gracias"
+   },
+   "frequencyRank": 11
+  },
+  {
+   "id": "de-ich-heisse",
+   "text": "ich heiße",
+   "kind": "phrase",
+   "translations": {
+    "en": "my name is",
+    "bg": "казвам се",
+    "fr": "je m'appelle",
+    "es": "me llamo"
+   },
+   "frequencyRank": 12
+  },
+  {
+   "id": "de-wie-heisst-du",
+   "text": "wie heißt du?",
+   "kind": "phrase",
+   "translations": {
+    "en": "what's your name?",
+    "bg": "как се казваш?",
+    "fr": "comment tu t'appelles ?",
+    "es": "¿cómo te llamas?"
+   },
+   "frequencyRank": 13
+  },
+  {
+   "id": "de-woher-kommst-du",
+   "text": "woher kommst du?",
+   "kind": "phrase",
+   "translations": {
+    "en": "where are you from?",
+    "bg": "откъде си?",
+    "fr": "d'où viens-tu ?",
+    "es": "¿de dónde eres?"
+   },
+   "frequencyRank": 14
+  },
+  {
+   "id": "de-ich-komme-aus",
+   "text": "ich komme aus Bulgarien",
+   "kind": "sentence",
+   "translations": {
+    "en": "I come from Bulgaria",
+    "bg": "от България съм",
+    "fr": "je viens de Bulgarie",
+    "es": "soy de Bulgaria"
+   },
+   "frequencyRank": 15
+  },
+  {
+   "id": "de-ich-wohne-in",
+   "text": "ich wohne in Finnland",
+   "kind": "sentence",
+   "translations": {
+    "en": "I live in Finland",
+    "bg": "живея във Финландия",
+    "fr": "j'habite en Finlande",
+    "es": "vivo en Finlandia"
+   },
+   "frequencyRank": 16
+  },
+  {
+   "id": "de-freut-mich",
+   "text": "freut mich",
+   "kind": "phrase",
+   "translations": {
+    "en": "nice to meet you",
+    "bg": "приятно ми е",
+    "fr": "enchanté",
+    "es": "mucho gusto"
+   },
+   "frequencyRank": 17
+  },
+  {
+   "id": "de-ich-bin",
+   "text": "ich bin",
+   "kind": "phrase",
+   "translations": {
+    "en": "I am",
+    "bg": "аз съм",
+    "fr": "je suis",
+    "es": "yo soy"
+   },
+   "frequencyRank": 18
+  },
+  {
+   "id": "de-du-bist",
+   "text": "du bist",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (informal)",
+    "bg": "ти си",
+    "fr": "tu es",
+    "es": "tú eres"
+   },
+   "frequencyRank": 19
+  },
+  {
+   "id": "de-sie-sind",
+   "text": "Sie sind",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (formal)",
+    "bg": "Вие сте",
+    "fr": "vous êtes",
+    "es": "usted es"
+   },
+   "frequencyRank": 20,
+   "notes": {
+    "en": "Formal “Sie” is always written with a capital S.",
+    "bg": "Учтивото „Sie“ винаги се пише с главно S.",
+    "fr": "Le « Sie » de politesse s'écrit toujours avec une majuscule.",
+    "es": "El «Sie» formal siempre lleva mayúscula."
+   }
+  },
+  {
+   "id": "de-eins",
+   "text": "eins",
+   "kind": "word",
+   "translations": {
+    "en": "1",
+    "bg": "1",
+    "fr": "1",
+    "es": "1"
+   },
+   "frequencyRank": 30
+  },
+  {
+   "id": "de-zwei",
+   "text": "zwei",
+   "kind": "word",
+   "translations": {
+    "en": "2",
+    "bg": "2",
+    "fr": "2",
+    "es": "2"
+   },
+   "frequencyRank": 31
+  },
+  {
+   "id": "de-drei",
+   "text": "drei",
+   "kind": "word",
+   "translations": {
+    "en": "3",
+    "bg": "3",
+    "fr": "3",
+    "es": "3"
+   },
+   "frequencyRank": 32
+  },
+  {
+   "id": "de-vier",
+   "text": "vier",
+   "kind": "word",
+   "translations": {
+    "en": "4",
+    "bg": "4",
+    "fr": "4",
+    "es": "4"
+   },
+   "frequencyRank": 33
+  },
+  {
+   "id": "de-fuenf",
+   "text": "fünf",
+   "kind": "word",
+   "translations": {
+    "en": "5",
+    "bg": "5",
+    "fr": "5",
+    "es": "5"
+   },
+   "frequencyRank": 34
+  },
+  {
+   "id": "de-sechs",
+   "text": "sechs",
+   "kind": "word",
+   "translations": {
+    "en": "6",
+    "bg": "6",
+    "fr": "6",
+    "es": "6"
+   },
+   "frequencyRank": 35
+  },
+  {
+   "id": "de-sieben",
+   "text": "sieben",
+   "kind": "word",
+   "translations": {
+    "en": "7",
+    "bg": "7",
+    "fr": "7",
+    "es": "7"
+   },
+   "frequencyRank": 36
+  },
+  {
+   "id": "de-acht",
+   "text": "acht",
+   "kind": "word",
+   "translations": {
+    "en": "8",
+    "bg": "8",
+    "fr": "8",
+    "es": "8"
+   },
+   "frequencyRank": 37
+  },
+  {
+   "id": "de-neun",
+   "text": "neun",
+   "kind": "word",
+   "translations": {
+    "en": "9",
+    "bg": "9",
+    "fr": "9",
+    "es": "9"
+   },
+   "frequencyRank": 38
+  },
+  {
+   "id": "de-zehn",
+   "text": "zehn",
+   "kind": "word",
+   "translations": {
+    "en": "10",
+    "bg": "10",
+    "fr": "10",
+    "es": "10"
+   },
+   "frequencyRank": 39
+  },
+  {
+   "id": "de-ein-kaffee",
+   "text": "einen Kaffee, bitte",
+   "kind": "sentence",
+   "translations": {
+    "en": "a coffee, please",
+    "bg": "едно кафе, моля",
+    "fr": "un café, s'il vous plaît",
+    "es": "un café, por favor"
+   },
+   "frequencyRank": 40
+  },
+  {
+   "id": "de-ich-haette-gern",
+   "text": "ich hätte gern …",
+   "kind": "phrase",
+   "translations": {
+    "en": "I'd like …",
+    "bg": "бих искал …",
+    "fr": "je voudrais …",
+    "es": "quisiera …"
+   },
+   "frequencyRank": 41,
+   "notes": {
+    "en": "The polite way to order. “Ich will” sounds rude.",
+    "bg": "Учтивият начин да поръчаш. „Ich will“ звучи грубо.",
+    "fr": "La façon polie de commander. « Ich will » sonne impoli.",
+    "es": "La forma educada de pedir. «Ich will» suena brusco."
+   }
+  },
+  {
+   "id": "de-das-wasser",
+   "text": "das Wasser",
+   "kind": "phrase",
+   "translations": {
+    "en": "water",
+    "bg": "водата",
+    "fr": "l'eau",
+    "es": "el agua"
+   },
+   "frequencyRank": 42,
+   "gender": "n"
+  },
+  {
+   "id": "de-das-brot",
+   "text": "das Brot",
+   "kind": "phrase",
+   "translations": {
+    "en": "bread",
+    "bg": "хлябът",
+    "fr": "le pain",
+    "es": "el pan"
+   },
+   "frequencyRank": 43,
+   "gender": "n"
+  },
+  {
+   "id": "de-das-broetchen",
+   "text": "das Brötchen",
+   "kind": "phrase",
+   "translations": {
+    "en": "bread roll",
+    "bg": "хлебче",
+    "fr": "le petit pain",
+    "es": "el panecillo"
+   },
+   "frequencyRank": 44,
+   "slang": {
+    "de-AT": "die Semmel",
+    "de-DE": "die Schrippe (Berlin) / die Semmel (Bayern)",
+    "de-CH": "das Weggli"
+   },
+   "gender": "n"
+  },
+  {
+   "id": "de-was-kostet-das",
+   "text": "was kostet das?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how much is it?",
+    "bg": "колко струва?",
+    "fr": "combien ça coûte ?",
+    "es": "¿cuánto cuesta?"
+   },
+   "frequencyRank": 45
+  },
+  {
+   "id": "de-zahlen-bitte",
+   "text": "zahlen, bitte",
+   "kind": "phrase",
+   "translations": {
+    "en": "the bill, please",
+    "bg": "сметката, моля",
+    "fr": "l'addition, s'il vous plaît",
+    "es": "la cuenta, por favor"
+   },
+   "frequencyRank": 46,
+   "native": "ich würde gern zahlen"
+  },
+  {
+   "id": "de-stimmt-so",
+   "text": "stimmt so",
+   "kind": "phrase",
+   "translations": {
+    "en": "keep the change",
+    "bg": "задръжте рестото",
+    "fr": "gardez la monnaie",
+    "es": "quédese con el cambio"
+   },
+   "frequencyRank": 47,
+   "notes": {
+    "en": "Tip by rounding up and saying “stimmt so”.",
+    "bg": "Бакшиш се дава, като закръглиш сумата и кажеш „stimmt so“.",
+    "fr": "On donne un pourboire en arrondissant et en disant « stimmt so ».",
+    "es": "Se da propina redondeando y diciendo «stimmt so»."
+   }
+  },
+  {
+   "id": "de-die-familie",
+   "text": "die Familie",
+   "kind": "word",
+   "translations": {
+    "en": "family",
+    "bg": "семейството",
+    "fr": "la famille",
+    "es": "la familia"
+   },
+   "frequencyRank": 50,
+   "gender": "f"
+  },
+  {
+   "id": "de-die-mutter",
+   "text": "die Mutter",
+   "kind": "word",
+   "translations": {
+    "en": "mother",
+    "bg": "майката",
+    "fr": "la mère",
+    "es": "la madre"
+   },
+   "frequencyRank": 51
+  },
+  {
+   "id": "de-der-vater",
+   "text": "der Vater",
+   "kind": "word",
+   "translations": {
+    "en": "father",
+    "bg": "бащата",
+    "fr": "le père",
+    "es": "el padre"
+   },
+   "frequencyRank": 52
+  },
+  {
+   "id": "de-der-bruder",
+   "text": "der Bruder",
+   "kind": "word",
+   "translations": {
+    "en": "brother",
+    "bg": "братът",
+    "fr": "le frère",
+    "es": "el hermano"
+   },
+   "frequencyRank": 53
+  },
+  {
+   "id": "de-die-schwester",
+   "text": "die Schwester",
+   "kind": "word",
+   "translations": {
+    "en": "sister",
+    "bg": "сестрата",
+    "fr": "la sœur",
+    "es": "la hermana"
+   },
+   "frequencyRank": 54
+  },
+  {
+   "id": "de-das-kind",
+   "text": "das Kind",
+   "kind": "word",
+   "translations": {
+    "en": "child",
+    "bg": "детето",
+    "fr": "l'enfant",
+    "es": "el niño / la niña"
+   },
+   "frequencyRank": 55
+  },
+  {
+   "id": "de-ich-habe",
+   "text": "ich habe",
+   "kind": "word",
+   "translations": {
+    "en": "I have",
+    "bg": "имам",
+    "fr": "j'ai",
+    "es": "tengo"
+   },
+   "frequencyRank": 56
+  },
+  {
+   "id": "de-wo-ist",
+   "text": "wo ist …?",
+   "kind": "phrase",
+   "translations": {
+    "en": "where is …?",
+    "bg": "къде е …?",
+    "fr": "où est … ?",
+    "es": "¿dónde está …?"
+   },
+   "frequencyRank": 60
+  },
+  {
+   "id": "de-der-bahnhof",
+   "text": "der Bahnhof",
+   "kind": "phrase",
+   "translations": {
+    "en": "the train station",
+    "bg": "гарата",
+    "fr": "la gare",
+    "es": "la estación"
+   },
+   "frequencyRank": 61,
+   "gender": "m"
+  },
+  {
+   "id": "de-die-toilette",
+   "text": "die Toilette",
+   "kind": "phrase",
+   "translations": {
+    "en": "the toilet",
+    "bg": "тоалетната",
+    "fr": "les toilettes",
+    "es": "el baño"
+   },
+   "frequencyRank": 62,
+   "native": "das Klo",
+   "gender": "f"
+  },
+  {
+   "id": "de-links",
+   "text": "links",
+   "kind": "word",
+   "translations": {
+    "en": "left",
+    "bg": "наляво",
+    "fr": "à gauche",
+    "es": "a la izquierda"
+   },
+   "frequencyRank": 63
+  },
+  {
+   "id": "de-rechts",
+   "text": "rechts",
+   "kind": "word",
+   "translations": {
+    "en": "right",
+    "bg": "надясно",
+    "fr": "à droite",
+    "es": "a la derecha"
+   },
+   "frequencyRank": 64
+  },
+  {
+   "id": "de-geradeaus",
+   "text": "geradeaus",
+   "kind": "word",
+   "translations": {
+    "en": "straight ahead",
+    "bg": "направо",
+    "fr": "tout droit",
+    "es": "todo recto"
+   },
+   "frequencyRank": 65
+  },
+  {
+   "id": "de-die-u-bahn",
+   "text": "die U-Bahn",
+   "kind": "phrase",
+   "translations": {
+    "en": "the underground / metro",
+    "bg": "метрото",
+    "fr": "le métro",
+    "es": "el metro"
+   },
+   "frequencyRank": 66
+  },
+  {
+   "id": "de-die-fahrkarte",
+   "text": "die Fahrkarte",
+   "kind": "phrase",
+   "translations": {
+    "en": "the ticket",
+    "bg": "билетът",
+    "fr": "le billet",
+    "es": "el billete"
+   },
+   "frequencyRank": 67,
+   "native": "das Ticket"
+  },
+  {
+   "id": "de-ist-es-weit",
+   "text": "ist es weit?",
+   "kind": "phrase",
+   "translations": {
+    "en": "is it far?",
+    "bg": "далеч ли е?",
+    "fr": "c'est loin ?",
+    "es": "¿está lejos?"
+   },
+   "frequencyRank": 68
+  },
+  {
+   "id": "de-ich-finde-dass",
+   "text": "ich finde, dass …",
+   "kind": "phrase",
+   "translations": {
+    "en": "I think that …",
+    "bg": "смятам, че …",
+    "fr": "je trouve que …",
+    "es": "creo que …"
+   },
+   "frequencyRank": 100,
+   "notes": {
+    "en": "After “dass” the verb goes to the end: … dass das gut ist.",
+    "bg": "След „dass“ глаголът отива накрая: … dass das gut ist.",
+    "fr": "Après « dass », le verbe va à la fin : … dass das gut ist.",
+    "es": "Tras «dass» el verbo va al final: … dass das gut ist."
+   }
+  },
+  {
+   "id": "de-meiner-meinung-nach",
+   "text": "meiner Meinung nach",
+   "kind": "phrase",
+   "translations": {
+    "en": "in my opinion",
+    "bg": "според мен",
+    "fr": "à mon avis",
+    "es": "en mi opinión"
+   },
+   "frequencyRank": 101
+  },
+  {
+   "id": "de-da-hast-du-recht",
+   "text": "da hast du recht",
+   "kind": "sentence",
+   "translations": {
+    "en": "you're right there",
+    "bg": "тук си прав",
+    "fr": "là, tu as raison",
+    "es": "en eso tienes razón"
+   },
+   "frequencyRank": 102
+  },
+  {
+   "id": "de-das-sehe-ich-anders",
+   "text": "das sehe ich anders",
+   "kind": "sentence",
+   "translations": {
+    "en": "I see it differently",
+    "bg": "виждам го другояче",
+    "fr": "je vois les choses autrement",
+    "es": "yo lo veo de otra manera"
+   },
+   "frequencyRank": 103
+  },
+  {
+   "id": "de-einerseits",
+   "text": "einerseits … andererseits",
+   "kind": "phrase",
+   "translations": {
+    "en": "on the one hand … on the other",
+    "bg": "от една страна … от друга",
+    "fr": "d'un côté … de l'autre",
+    "es": "por un lado … por otro"
+   },
+   "frequencyRank": 104
+  },
+  {
+   "id": "de-es-kommt-darauf-an",
+   "text": "es kommt darauf an",
+   "kind": "sentence",
+   "translations": {
+    "en": "it depends",
+    "bg": "зависи",
+    "fr": "ça dépend",
+    "es": "depende"
+   },
+   "frequencyRank": 105,
+   "native": "kommt drauf an"
+  },
+  {
+   "id": "de-ehrlich-gesagt",
+   "text": "ehrlich gesagt",
+   "kind": "phrase",
+   "translations": {
+    "en": "to be honest",
+    "bg": "честно казано",
+    "fr": "à vrai dire",
+    "es": "sinceramente"
+   },
+   "frequencyRank": 106
+  },
+  {
+   "id": "de-na",
+   "text": "na?",
+   "kind": "phrase",
+   "translations": {
+    "en": "hey, how's it going? (very casual)",
+    "bg": "е, как е? (много неформално)",
+    "fr": "alors ? (très familier)",
+    "es": "¿qué tal? (muy informal)"
+   },
+   "frequencyRank": 110,
+   "notes": {
+    "en": "A whole greeting in two letters. Answer: “Na?” or “Gut, und dir?”",
+    "bg": "Цял поздрав в две букви. Отговор: „Na?“ или „Gut, und dir?“",
+    "fr": "Une salutation entière en deux lettres. Réponse : « Na ? » ou « Gut, und dir ? »",
+    "es": "Un saludo entero en dos letras. Respuesta: «Na?» o «Gut, und dir?»"
+   }
+  },
+  {
+   "id": "de-krass",
+   "text": "krass",
+   "kind": "word",
+   "translations": {
+    "en": "crazy / extreme / wow",
+    "bg": "яко / жестоко",
+    "fr": "dingue / énorme",
+    "es": "brutal / increíble"
+   },
+   "frequencyRank": 111
+  },
+  {
+   "id": "de-quatschen",
+   "text": "quatschen",
+   "kind": "word",
+   "translations": {
+    "en": "to chat",
+    "bg": "бъбря",
+    "fr": "papoter",
+    "es": "charlar"
+   },
+   "frequencyRank": 112,
+   "pos": "verb"
+  },
+  {
+   "id": "de-feierabend",
+   "text": "der Feierabend",
+   "kind": "phrase",
+   "translations": {
+    "en": "time off after work",
+    "bg": "краят на работния ден",
+    "fr": "la fin de la journée de travail",
+    "es": "el fin de la jornada"
+   },
+   "frequencyRank": 113,
+   "notes": {
+    "en": "A sacred concept: “Schönen Feierabend!” = enjoy your evening off.",
+    "bg": "Свято понятие: „Schönen Feierabend!“ = приятна почивка след работа.",
+    "fr": "Un concept sacré : « Schönen Feierabend ! » = bonne soirée après le travail.",
+    "es": "Un concepto sagrado: «Schönen Feierabend!» = que disfrutes la tarde libre."
+   }
+  },
+  {
+   "id": "de-bock-haben",
+   "text": "Bock haben auf",
+   "kind": "phrase",
+   "translations": {
+    "en": "to feel like (doing) something",
+    "bg": "имам кеф за",
+    "fr": "avoir envie de",
+    "es": "tener ganas de"
+   },
+   "frequencyRank": 114,
+   "notes": {
+    "en": "“Hast du Bock auf Kino?” Casual; not for your boss.",
+    "bg": "„Hast du Bock auf Kino?“ Неформално; не и с шефа.",
+    "fr": "« Hast du Bock auf Kino ? » Familier ; pas avec ton chef.",
+    "es": "«Hast du Bock auf Kino?» Informal; no con tu jefe."
+   }
+  },
+  {
+   "id": "de-passt-schon",
+   "text": "passt schon",
+   "kind": "phrase",
+   "translations": {
+    "en": "it's fine / no worries",
+    "bg": "няма проблем",
+    "fr": "c'est bon / pas de souci",
+    "es": "está bien / no pasa nada"
+   },
+   "frequencyRank": 115,
+   "slang": {
+    "de-AT": "passt eh",
+    "de-DE": "passt schon"
+   }
+  },
+  {
+   "id": "de-genau",
+   "text": "genau",
+   "kind": "word",
+   "translations": {
+    "en": "exactly / right",
+    "bg": "точно така",
+    "fr": "exactement",
+    "es": "exacto"
+   },
+   "frequencyRank": 116
+  },
+  {
+   "id": "de-echt",
+   "text": "echt?",
+   "kind": "phrase",
+   "translations": {
+    "en": "really?",
+    "bg": "наистина?",
+    "fr": "vraiment ?",
+    "es": "¿en serio?"
+   },
+   "frequencyRank": 117
+  },
+  {
+   "id": "de-koennten-sie",
+   "text": "könnten Sie …?",
+   "kind": "phrase",
+   "translations": {
+    "en": "could you …?",
+    "bg": "бихте ли могли …?",
+    "fr": "pourriez-vous … ?",
+    "es": "¿podría …?"
+   },
+   "frequencyRank": 120
+  },
+  {
+   "id": "de-ich-wuerde-gern",
+   "text": "ich würde gern …",
+   "kind": "phrase",
+   "translations": {
+    "en": "I would like to …",
+    "bg": "бих искал да …",
+    "fr": "j'aimerais …",
+    "es": "me gustaría …"
+   },
+   "frequencyRank": 121
+  },
+  {
+   "id": "de-waere-es-moeglich",
+   "text": "wäre es möglich, dass …?",
+   "kind": "sentence",
+   "translations": {
+    "en": "would it be possible that …?",
+    "bg": "възможно ли е …?",
+    "fr": "serait-il possible que … ?",
+    "es": "¿sería posible que …?"
+   },
+   "frequencyRank": 122
+  },
+  {
+   "id": "de-haetten-sie-zeit",
+   "text": "hätten Sie kurz Zeit?",
+   "kind": "sentence",
+   "translations": {
+    "en": "do you have a moment?",
+    "bg": "имате ли минутка?",
+    "fr": "auriez-vous un moment ?",
+    "es": "¿tendría un momento?"
+   },
+   "frequencyRank": 123
+  },
+  {
+   "id": "de-an-ihrer-stelle",
+   "text": "an Ihrer Stelle würde ich …",
+   "kind": "sentence",
+   "translations": {
+    "en": "if I were you, I would …",
+    "bg": "на Ваше място бих …",
+    "fr": "à votre place, je …",
+    "es": "yo que usted …"
+   },
+   "frequencyRank": 124
+  },
+  {
+   "id": "de-die-wohnung",
+   "text": "die Wohnung",
+   "kind": "phrase",
+   "translations": {
+    "en": "the flat / apartment",
+    "bg": "апартаментът",
+    "fr": "l'appartement",
+    "es": "el piso"
+   },
+   "frequencyRank": 130
+  },
+  {
+   "id": "de-die-miete",
+   "text": "die Miete",
+   "kind": "phrase",
+   "translations": {
+    "en": "the rent",
+    "bg": "наемът",
+    "fr": "le loyer",
+    "es": "el alquiler"
+   },
+   "frequencyRank": 131
+  },
+  {
+   "id": "de-warmmiete",
+   "text": "die Warmmiete",
+   "kind": "phrase",
+   "translations": {
+    "en": "rent incl. heating & bills",
+    "bg": "наем с включено отопление и сметки",
+    "fr": "loyer charges comprises",
+    "es": "alquiler con gastos incluidos"
+   },
+   "frequencyRank": 132
+  },
+  {
+   "id": "de-die-wg",
+   "text": "die WG",
+   "kind": "phrase",
+   "translations": {
+    "en": "flat share",
+    "bg": "общо жилище (с други хора)",
+    "fr": "la colocation",
+    "es": "el piso compartido"
+   },
+   "frequencyRank": 133,
+   "notes": {
+    "en": "Short for Wohngemeinschaft. A “WG-Casting” is the interview with future flatmates.",
+    "bg": "Съкращение от Wohngemeinschaft. „WG-Casting“ е интервюто с бъдещите съквартиранти.",
+    "fr": "Abréviation de Wohngemeinschaft. Le « WG-Casting » est l'entretien avec les futurs colocataires.",
+    "es": "Abreviatura de Wohngemeinschaft. El «WG-Casting» es la entrevista con los futuros compañeros."
+   }
+  },
+  {
+   "id": "de-die-kaution",
+   "text": "die Kaution",
+   "kind": "phrase",
+   "translations": {
+    "en": "the deposit",
+    "bg": "депозитът",
+    "fr": "la caution",
+    "es": "la fianza"
+   },
+   "frequencyRank": 134
+  },
+  {
+   "id": "de-ab-wann-frei",
+   "text": "ab wann ist das Zimmer frei?",
+   "kind": "sentence",
+   "translations": {
+    "en": "from when is the room free?",
+    "bg": "от кога е свободна стаята?",
+    "fr": "à partir de quand la chambre est libre ?",
+    "es": "¿desde cuándo está libre la habitación?"
+   },
+   "frequencyRank": 135
+  },
+  {
+   "id": "de-wie-bitte",
+   "text": "wie bitte?",
+   "kind": "phrase",
+   "translations": {
+    "en": "pardon?",
+    "bg": "моля? (не чух)",
+    "fr": "pardon ?",
+    "es": "¿perdón?"
+   },
+   "frequencyRank": 70,
+   "native": "hä? (casual)"
+  },
+  {
+   "id": "de-langsamer",
+   "text": "können Sie bitte langsamer sprechen?",
+   "kind": "sentence",
+   "translations": {
+    "en": "could you speak more slowly, please?",
+    "bg": "може ли да говорите по-бавно?",
+    "fr": "pouvez-vous parler plus lentement ?",
+    "es": "¿puede hablar más despacio?"
+   },
+   "frequencyRank": 71
+  },
+  {
+   "id": "de-ich-verstehe-nicht",
+   "text": "ich verstehe das nicht",
+   "kind": "sentence",
+   "translations": {
+    "en": "I don't understand",
+    "bg": "не разбирам",
+    "fr": "je ne comprends pas",
+    "es": "no lo entiendo"
+   },
+   "frequencyRank": 72
+  },
+  {
+   "id": "de-was-heisst",
+   "text": "was heißt … auf Deutsch?",
+   "kind": "sentence",
+   "translations": {
+    "en": "what is … in German?",
+    "bg": "как е … на немски?",
+    "fr": "comment dit-on … en allemand ?",
+    "es": "¿cómo se dice … en alemán?"
+   },
+   "frequencyRank": 73
+  },
+  {
+   "id": "de-sprechen-sie-englisch",
+   "text": "sprechen Sie Englisch?",
+   "kind": "sentence",
+   "translations": {
+    "en": "do you speak English?",
+    "bg": "говорите ли английски?",
+    "fr": "parlez-vous anglais ?",
+    "es": "¿habla inglés?"
+   },
+   "frequencyRank": 74
+  },
+  {
+   "id": "de-moin",
+   "text": "moin!",
+   "kind": "word",
+   "translations": {
+    "en": "hi! (North Germany)",
+    "bg": "здрасти! (Северна Германия)",
+    "fr": "salut ! (nord de l'Allemagne)",
+    "es": "¡hola! (norte de Alemania)"
+   },
+   "frequencyRank": 150
+  },
+  {
+   "id": "de-servus",
+   "text": "servus!",
+   "kind": "word",
+   "translations": {
+    "en": "hi / bye (Bavaria, Austria)",
+    "bg": "здрасти / чао (Бавария, Австрия)",
+    "fr": "salut (Bavière, Autriche)",
+    "es": "hola / adiós (Baviera, Austria)"
+   },
+   "frequencyRank": 151
+  },
+  {
+   "id": "de-die-brezel",
+   "text": "die Brezel",
+   "kind": "phrase",
+   "translations": {
+    "en": "pretzel",
+    "bg": "геврек (брецел)",
+    "fr": "le bretzel",
+    "es": "el pretzel"
+   },
+   "frequencyRank": 152
+  },
+  {
+   "id": "de-paradeiser",
+   "text": "der Paradeiser",
+   "kind": "phrase",
+   "translations": {
+    "en": "tomato (Austria)",
+    "bg": "домат (Австрия)",
+    "fr": "tomate (Autriche)",
+    "es": "tomate (Austria)"
+   },
+   "frequencyRank": 153
+  },
+  {
+   "id": "de-grueezi",
+   "text": "grüezi",
+   "kind": "word",
+   "translations": {
+    "en": "hello (Switzerland)",
+    "bg": "здравейте (Швейцария)",
+    "fr": "bonjour (Suisse)",
+    "es": "hola (Suiza)"
+   },
+   "frequencyRank": 154
+  },
+  {
+   "id": "de-merci-vielmal",
+   "text": "merci vielmal",
+   "kind": "phrase",
+   "translations": {
+    "en": "thanks a lot (Switzerland)",
+    "bg": "много благодаря (Швейцария)",
+    "fr": "merci beaucoup (Suisse)",
+    "es": "muchas gracias (Suiza)"
+   },
+   "frequencyRank": 155
+  }
+ ],
+ "grammarNotes": [
+  {
+   "id": "de-g-sein",
+   "level": "A1",
+   "title": {
+    "en": "sein (to be) and du / Sie",
+    "bg": "sein (съм) и du / Sie",
+    "fr": "sein (être) et du / Sie",
+    "es": "sein (ser/estar) y du / Sie"
+   },
+   "body": {
+    "en": "- ich **bin**\n- du **bist** (a friend)\n- er / sie / es **ist**\n- wir **sind**\n- ihr **seid**\n- sie / **Sie** **sind**\n\nUse **du** with friends, family and young people; **Sie** with strangers, shops and at work until someone offers *du*.",
+    "bg": "- ich **bin** = аз съм\n- du **bist** = ти си (на приятел)\n- er / sie / es **ist** = той / тя / то е\n- wir **sind** = ние сме\n- ihr **seid** = вие сте (група приятели)\n- sie / **Sie** **sind** = те са / Вие сте\n\n**du** е за приятели, семейство и млади хора; **Sie** за непознати, магазини и работа, докато някой не ти предложи да си говорите на *du*.",
+    "fr": "- ich **bin**\n- du **bist** (un ami)\n- er / sie / es **ist**\n- wir **sind**\n- ihr **seid**\n- sie / **Sie** **sind**\n\n**du** avec les amis et la famille ; **Sie** avec les inconnus, dans les magasins et au travail.",
+    "es": "- ich **bin**\n- du **bist** (un amigo)\n- er / sie / es **ist**\n- wir **sind**\n- ihr **seid**\n- sie / **Sie** **sind**\n\n**du** con amigos y familia; **Sie** con desconocidos, en tiendas y en el trabajo."
+   }
+  },
+  {
+   "id": "de-g-articles",
+   "level": "A1",
+   "title": {
+    "en": "der, die, das",
+    "bg": "der, die, das",
+    "fr": "der, die, das",
+    "es": "der, die, das"
+   },
+   "body": {
+    "en": "German has three genders: **der** (masculine), **die** (feminine), **das** (neuter). Learn every noun with its article: *der Bahnhof, die Toilette, das Brot*.\n\nPlural is always **die**. Tip: words ending in *-ung, -heit, -keit* are **die**; *-chen* is **das**.",
+    "bg": "Немският има три рода: **der** (мъжки), **die** (женски), **das** (среден). Учи всяко съществително с члена му: *der Bahnhof, die Toilette, das Brot*.\n\nМножественото число винаги е **die**. Съвет: думите на *-ung, -heit, -keit* са **die**; на *-chen* са **das**.",
+    "fr": "L'allemand a trois genres : **der**, **die**, **das**. Apprends chaque nom avec son article : *der Bahnhof, die Toilette, das Brot*.\n\nLe pluriel est toujours **die**. Astuce : *-ung, -heit, -keit* → **die** ; *-chen* → **das**.",
+    "es": "El alemán tiene tres géneros: **der**, **die**, **das**. Aprende cada sustantivo con su artículo: *der Bahnhof, die Toilette, das Brot*.\n\nEl plural siempre es **die**. Truco: *-ung, -heit, -keit* → **die**; *-chen* → **das**."
+   }
+  },
+  {
+   "id": "de-g-dass",
+   "level": "B1",
+   "title": {
+    "en": "Verb at the end: dass, weil, wenn",
+    "bg": "Глаголът накрая: dass, weil, wenn",
+    "fr": "Le verbe à la fin : dass, weil, wenn",
+    "es": "El verbo al final: dass, weil, wenn"
+   },
+   "body": {
+    "en": "In clauses with **dass, weil, wenn, ob** the conjugated verb goes to the **end**:\n\n- Ich finde, dass das eine gute Idee **ist**.\n- Ich komme nicht, weil ich keine Zeit **habe**.\n\nIn speech, many Germans say *weil* + normal order (*weil ich hab keine Zeit*). It's common, but write it with the verb at the end.",
+    "bg": "В подчинени изречения с **dass, weil, wenn, ob** спреженият глагол отива **накрая**:\n\n- Ich finde, dass das eine gute Idee **ist**. = Смятам, че това е добра идея.\n- Ich komme nicht, weil ich keine Zeit **habe**. = Няма да дойда, защото нямам време.\n\nВ говоримия език много германци казват *weil* + нормален ред (*weil ich hab keine Zeit*). Често е, но в писмен текст слагай глагола накрая.",
+    "fr": "Avec **dass, weil, wenn, ob**, le verbe conjugué va à la **fin** :\n\n- Ich finde, dass das eine gute Idee **ist**.\n- Ich komme nicht, weil ich keine Zeit **habe**.\n\nÀ l'oral, beaucoup disent *weil* + ordre normal ; à l'écrit, verbe à la fin.",
+    "es": "Con **dass, weil, wenn, ob**, el verbo conjugado va al **final**:\n\n- Ich finde, dass das eine gute Idee **ist**.\n- Ich komme nicht, weil ich keine Zeit **habe**.\n\nHablando, muchos dicen *weil* + orden normal; por escrito, verbo al final."
+   }
+  },
+  {
+   "id": "de-g-konjunktiv",
+   "level": "B1",
+   "title": {
+    "en": "Polite requests: Konjunktiv II",
+    "bg": "Учтиви молби: Konjunktiv II",
+    "fr": "Demandes polies : Konjunktiv II",
+    "es": "Peticiones educadas: Konjunktiv II"
+   },
+   "body": {
+    "en": "To sound polite, Germans use **könnte, hätte, wäre, würde**:\n\n- **Könnten** Sie mir helfen? = Could you help me?\n- Ich **hätte** gern einen Kaffee. = I'd like a coffee.\n- **Wäre** es möglich, morgen zu kommen?\n- Ich **würde** gern bezahlen.",
+    "bg": "За да звучиш учтиво, германците използват **könnte, hätte, wäre, würde**:\n\n- **Könnten** Sie mir helfen? = Бихте ли ми помогнали?\n- Ich **hätte** gern einen Kaffee. = Бих искал едно кафе.\n- **Wäre** es möglich, morgen zu kommen? = Възможно ли е да дойда утре?\n- Ich **würde** gern bezahlen. = Бих искал да платя.",
+    "fr": "Pour être poli, on utilise **könnte, hätte, wäre, würde** :\n\n- **Könnten** Sie mir helfen ? = Pourriez-vous m'aider ?\n- Ich **hätte** gern einen Kaffee. = Je voudrais un café.\n- **Wäre** es möglich … ?\n- Ich **würde** gern bezahlen.",
+    "es": "Para sonar educado se usa **könnte, hätte, wäre, würde**:\n\n- **Könnten** Sie mir helfen? = ¿Podría ayudarme?\n- Ich **hätte** gern einen Kaffee. = Quisiera un café.\n- **Wäre** es möglich … ?\n- Ich **würde** gern bezahlen."
+   }
+  }
+ ],
+ "cultureNotes": [
+  {
+   "id": "de-c-du-sie",
+   "title": {
+    "en": "Du or Sie?",
+    "bg": "Du или Sie?",
+    "fr": "Du ou Sie ?",
+    "es": "¿Du o Sie?"
+   },
+   "body": {
+    "en": "Switching from Sie to du is a small ritual: usually the older person or the boss offers it (“Wollen wir uns duzen?”). In startups and among young people, du is the default.",
+    "bg": "Преминаването от Sie към du е малък ритуал: обикновено по-възрастният или шефът го предлага („Wollen wir uns duzen?“). В стартъпите и между млади хора du е по подразбиране.",
+    "fr": "Passer du Sie au du est un petit rituel : en général la personne plus âgée ou le chef le propose (« Wollen wir uns duzen ? »). Chez les jeunes, du est la norme.",
+    "es": "Pasar de Sie a du es un pequeño ritual: normalmente lo propone la persona mayor o el jefe («Wollen wir uns duzen?»). Entre jóvenes, du es lo normal."
+   }
+  },
+  {
+   "id": "de-c-puenktlich",
+   "title": {
+    "en": "Pünktlichkeit",
+    "bg": "Точност",
+    "fr": "La ponctualité",
+    "es": "La puntualidad"
+   },
+   "body": {
+    "en": "Being on time matters. Five minutes late? Send a message. Trains, however, are famously not always pünktlich…",
+    "bg": "Точността е важна. Закъсняваш пет минути? Прати съобщение. Влаковете обаче, както е известно, не винаги са точни…",
+    "fr": "La ponctualité compte. Cinq minutes de retard ? Envoie un message. Les trains, eux, ne sont pas toujours ponctuels…",
+    "es": "La puntualidad importa. ¿Cinco minutos tarde? Manda un mensaje. Los trenes, en cambio, no siempre son puntuales…"
+   }
+  },
+  {
+   "id": "de-c-wien",
+   "title": {
+    "en": "Viennese coffee houses",
+    "bg": "Виенските кафенета",
+    "fr": "Les cafés viennois",
+    "es": "Los cafés vieneses"
+   },
+   "body": {
+    "en": "In Vienna you can sit for hours over one “Melange” and a newspaper. Austrians say “Servus” for hi and bye, and “Paradeiser” instead of “Tomate”.",
+    "bg": "Във Виена можеш да седиш с часове над една „Melange“ и вестник. Австрийците казват „Servus“ за здрасти и чао и „Paradeiser“ вместо „Tomate“.",
+    "fr": "À Vienne on peut rester des heures devant une « Melange » et un journal. Les Autrichiens disent « Servus » pour bonjour et au revoir, et « Paradeiser » au lieu de « Tomate ».",
+    "es": "En Viena puedes pasar horas con una «Melange» y un periódico. Los austriacos dicen «Servus» para hola y adiós, y «Paradeiser» en vez de «Tomate»."
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "de-a1-01",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Hallo!",
+    "bg": "Здравей!",
+    "fr": "Bonjour !",
+    "es": "¡Hola!"
+   },
+   "description": {
+    "en": "Greetings and goodbyes",
+    "bg": "Поздрави и сбогувания",
+    "fr": "Saluer et dire au revoir",
+    "es": "Saludos y despedidas"
+   },
+   "items": [
+    "de-hallo",
+    "de-guten-morgen",
+    "de-guten-tag",
+    "de-guten-abend",
+    "de-tschuess",
+    "de-auf-wiedersehen",
+    "de-danke",
+    "de-bitte"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "You walk into a shop at 3 pm. What do you say?",
+      "bg": "Влизаш в магазин в 15 ч. Какво казваш?",
+      "fr": "Tu entres dans un magasin à 15 h. Que dis-tu ?",
+      "es": "Entras en una tienda a las 15 h. ¿Qué dices?"
+     },
+     "options": [
+      "guten Tag",
+      "guten Morgen",
+      "gute Nacht"
+     ],
+     "answer": "guten Tag",
+     "itemId": "de-guten-tag"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ schön! (thank you very much)",
+     "answer": "Danke",
+     "itemId": "de-danke",
+     "alternatives": [
+      "danke"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "guten Abend, danke",
+     "translation": {
+      "en": "good evening, thanks",
+      "bg": "добър вечер, благодаря",
+      "fr": "bonsoir, merci",
+      "es": "buenas noches, gracias"
+     }
+    }
+   ]
+  },
+  {
+   "id": "de-a1-02",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Freut mich!",
+    "bg": "Приятно ми е!",
+    "fr": "Enchanté !",
+    "es": "¡Mucho gusto!"
+   },
+   "description": {
+    "en": "Introduce yourself; sein and du / Sie",
+    "bg": "Представи се; sein и du / Sie",
+    "fr": "Se présenter ; sein et du / Sie",
+    "es": "Presentarse; sein y du / Sie"
+   },
+   "items": [
+    "de-wie-geht-es-dir",
+    "de-gut-danke",
+    "de-ich-heisse",
+    "de-wie-heisst-du",
+    "de-woher-kommst-du",
+    "de-ich-komme-aus",
+    "de-ich-wohne-in",
+    "de-freut-mich",
+    "de-ich-bin",
+    "de-du-bist",
+    "de-sie-sind"
+   ],
+   "grammar": [
+    "de-g-sein"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ Stoyan.",
+     "answer": "bin",
+     "itemId": "de-ich-bin",
+     "options": [
+      "bin",
+      "bist",
+      "ist"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Du ___ sehr nett.",
+     "answer": "bist",
+     "itemId": "de-du-bist",
+     "options": [
+      "bist",
+      "bin",
+      "sind"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Woher ___ Sie?",
+     "answer": "kommen",
+     "itemId": "de-woher-kommst-du",
+     "options": [
+      "kommen",
+      "kommst",
+      "komme"
+     ],
+     "explanation": {
+      "en": "Sie takes the -en form, like wir/sie.",
+      "bg": "Sie взима формата на -en, като wir/sie.",
+      "fr": "Sie prend la forme en -en, comme wir/sie.",
+      "es": "Sie toma la forma en -en, como wir/sie."
+     }
+    },
+    {
+     "type": "order_words",
+     "sentence": "ich komme aus Bulgarien",
+     "translation": {
+      "en": "I come from Bulgaria",
+      "bg": "от България съм",
+      "fr": "je viens de Bulgarie",
+      "es": "soy de Bulgaria"
+     }
+    }
+   ]
+  },
+  {
+   "id": "de-a1-03",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Im Café",
+    "bg": "В кафенето",
+    "fr": "Au café",
+    "es": "En el café"
+   },
+   "description": {
+    "en": "Numbers 1–10, ordering and paying",
+    "bg": "Числа 1–10, поръчка и плащане",
+    "fr": "Nombres 1–10, commander et payer",
+    "es": "Números 1–10, pedir y pagar"
+   },
+   "items": [
+    "de-eins",
+    "de-zwei",
+    "de-drei",
+    "de-vier",
+    "de-fuenf",
+    "de-sechs",
+    "de-sieben",
+    "de-acht",
+    "de-neun",
+    "de-zehn",
+    "de-ein-kaffee",
+    "de-ich-haette-gern",
+    "de-das-wasser",
+    "de-das-brot",
+    "de-das-broetchen",
+    "de-was-kostet-das",
+    "de-zahlen-bitte",
+    "de-stimmt-so"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "zwei + drei = ___",
+     "answer": "fünf",
+     "itemId": "de-fuenf",
+     "options": [
+      "fünf",
+      "sechs",
+      "vier"
+     ]
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "Most polite way to order?",
+      "bg": "Най-учтивият начин да поръчаш?",
+      "fr": "La façon la plus polie de commander ?",
+      "es": "¿La forma más educada de pedir?"
+     },
+     "options": [
+      "Ich hätte gern einen Kaffee.",
+      "Ich will Kaffee.",
+      "Kaffee!"
+     ],
+     "answer": "Ich hätte gern einen Kaffee.",
+     "itemId": "de-ich-haette-gern"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Was ___ das?",
+     "answer": "kostet",
+     "itemId": "de-was-kostet-das",
+     "options": [
+      "kostet",
+      "ist",
+      "hat"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de-a1-04",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Meine Familie",
+    "bg": "Моето семейство",
+    "fr": "Ma famille",
+    "es": "Mi familia"
+   },
+   "description": {
+    "en": "Family, “I have” and der/die/das",
+    "bg": "Семейство, „имам“ и der/die/das",
+    "fr": "La famille, « j'ai » et der/die/das",
+    "es": "La familia, «tengo» y der/die/das"
+   },
+   "items": [
+    "de-die-familie",
+    "de-die-mutter",
+    "de-der-vater",
+    "de-der-bruder",
+    "de-die-schwester",
+    "de-das-kind",
+    "de-ich-habe"
+   ],
+   "grammar": [
+    "de-g-articles"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ Mutter heißt Anna.",
+     "answer": "Die",
+     "itemId": "de-die-mutter",
+     "options": [
+      "Die",
+      "Der",
+      "Das"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ Vater kommt aus Wien.",
+     "answer": "Der",
+     "itemId": "de-der-vater",
+     "options": [
+      "Der",
+      "Die",
+      "Das"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ Kind ist fünf.",
+     "answer": "Das",
+     "itemId": "de-das-kind",
+     "options": [
+      "Das",
+      "Der",
+      "Die"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "ich habe einen Bruder",
+     "translation": {
+      "en": "I have a brother",
+      "bg": "имам брат",
+      "fr": "j'ai un frère",
+      "es": "tengo un hermano"
+     }
+    }
+   ]
+  },
+  {
+   "id": "de-a1-05",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Wo ist der Bahnhof?",
+    "bg": "Къде е гарата?",
+    "fr": "Où est la gare ?",
+    "es": "¿Dónde está la estación?"
+   },
+   "description": {
+    "en": "Directions and public transport",
+    "bg": "Посоки и градски транспорт",
+    "fr": "Directions et transports",
+    "es": "Direcciones y transporte"
+   },
+   "items": [
+    "de-wo-ist",
+    "de-der-bahnhof",
+    "de-die-toilette",
+    "de-links",
+    "de-rechts",
+    "de-geradeaus",
+    "de-die-u-bahn",
+    "de-die-fahrkarte",
+    "de-ist-es-weit"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "“Links” means…",
+      "bg": "„Links“ значи…",
+      "fr": "« Links » veut dire…",
+      "es": "«Links» significa…"
+     },
+     "options": [
+      "←",
+      "→",
+      "↑"
+     ],
+     "answer": "←",
+     "itemId": "de-links"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Gehen Sie ___. (straight ahead)",
+     "answer": "geradeaus",
+     "itemId": "de-geradeaus",
+     "options": [
+      "geradeaus",
+      "links",
+      "rechts"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "wo ist die U-Bahn?",
+     "translation": {
+      "en": "where is the metro?",
+      "bg": "къде е метрото?",
+      "fr": "où est le métro ?",
+      "es": "¿dónde está el metro?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "de-b1-01",
+   "section": "alltag",
+   "level": "B1",
+   "title": {
+    "en": "Meinung sagen",
+    "bg": "Да кажеш мнението си",
+    "fr": "Donner son avis",
+    "es": "Dar tu opinión"
+   },
+   "description": {
+    "en": "Agree, disagree and the verb at the end",
+    "bg": "Съгласие, несъгласие и глаголът накрая",
+    "fr": "Être d'accord ou non, verbe à la fin",
+    "es": "Estar de acuerdo o no; verbo al final"
+   },
+   "items": [
+    "de-ich-finde-dass",
+    "de-meiner-meinung-nach",
+    "de-da-hast-du-recht",
+    "de-das-sehe-ich-anders",
+    "de-einerseits",
+    "de-es-kommt-darauf-an",
+    "de-ehrlich-gesagt"
+   ],
+   "grammar": [
+    "de-g-dass"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Ich finde, dass Berlin sehr spannend ___.",
+     "answer": "ist",
+     "options": [
+      "ist",
+      "sein",
+      "bin"
+     ],
+     "explanation": {
+      "en": "After “dass” the verb goes to the end.",
+      "bg": "След „dass“ глаголът е накрая.",
+      "fr": "Après « dass », le verbe à la fin.",
+      "es": "Tras «dass», el verbo al final."
+     }
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich komme heute nicht, weil ich arbeiten ___.",
+     "answer": "muss",
+     "options": [
+      "muss",
+      "müssen",
+      "musst"
+     ]
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "Your colleague says the meeting was useless. You partly agree. Best answer?",
+      "bg": "Колега казва, че срещата е била безполезна. Отчасти си съгласен. Най-добър отговор?",
+      "fr": "Un collègue dit que la réunion était inutile. Tu es en partie d'accord. Meilleure réponse ?",
+      "es": "Un colega dice que la reunión fue inútil. Estás en parte de acuerdo. ¿Mejor respuesta?"
+     },
+     "options": [
+      "Einerseits ja, andererseits haben wir einen Plan.",
+      "Genau, Feierabend!",
+      "Wo ist der Bahnhof?"
+     ],
+     "answer": "Einerseits ja, andererseits haben wir einen Plan.",
+     "itemId": "de-einerseits"
+    },
+    {
+     "type": "order_words",
+     "sentence": "das sehe ich ein bisschen anders",
+     "translation": {
+      "en": "I see it a bit differently",
+      "bg": "виждам го малко другояче",
+      "fr": "je vois ça un peu autrement",
+      "es": "lo veo un poco diferente"
+     }
+    }
+   ]
+  },
+  {
+   "id": "de-b1-02",
+   "section": "alltag",
+   "level": "B1",
+   "title": {
+    "en": "Wie man wirklich spricht",
+    "bg": "Как се говори наистина",
+    "fr": "Comme on parle vraiment",
+    "es": "Cómo se habla de verdad"
+   },
+   "description": {
+    "en": "Colloquial German you hear every day",
+    "bg": "Разговорен немски, който чуваш всеки ден",
+    "fr": "L'allemand familier de tous les jours",
+    "es": "El alemán coloquial de cada día"
+   },
+   "items": [
+    "de-na",
+    "de-krass",
+    "de-quatschen",
+    "de-feierabend",
+    "de-bock-haben",
+    "de-passt-schon",
+    "de-genau",
+    "de-echt"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "A friend writes “Hast du Bock auf Kino?”. What does she want?",
+      "bg": "Приятелка пише „Hast du Bock auf Kino?“. Какво иска?",
+      "fr": "Une amie écrit « Hast du Bock auf Kino ? ». Que veut-elle ?",
+      "es": "Una amiga escribe «Hast du Bock auf Kino?». ¿Qué quiere?"
+     },
+     "options": [
+      "Sie will ins Kino gehen.",
+      "Sie braucht Geld.",
+      "Sie hat keine Zeit."
+     ],
+     "answer": "Sie will ins Kino gehen.",
+     "itemId": "de-bock-haben"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Schönen ___! (enjoy your evening after work)",
+     "answer": "Feierabend",
+     "itemId": "de-feierabend",
+     "options": [
+      "Feierabend",
+      "Morgen",
+      "Bahnhof"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "hast du Lust zu quatschen?",
+     "translation": {
+      "en": "do you feel like chatting?",
+      "bg": "искаш ли да побъбрим?",
+      "fr": "tu as envie de papoter ?",
+      "es": "¿te apetece charlar?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "de-b1-03",
+   "section": "alltag",
+   "level": "B1",
+   "title": {
+    "en": "Höflich bitten",
+    "bg": "Учтиви молби",
+    "fr": "Demander poliment",
+    "es": "Pedir con educación"
+   },
+   "description": {
+    "en": "könnte, hätte, wäre, würde",
+    "bg": "könnte, hätte, wäre, würde",
+    "fr": "könnte, hätte, wäre, würde",
+    "es": "könnte, hätte, wäre, würde"
+   },
+   "items": [
+    "de-koennten-sie",
+    "de-ich-wuerde-gern",
+    "de-waere-es-moeglich",
+    "de-haetten-sie-zeit",
+    "de-an-ihrer-stelle"
+   ],
+   "grammar": [
+    "de-g-konjunktiv"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ Sie mir bitte helfen?",
+     "answer": "Könnten",
+     "itemId": "de-koennten-sie",
+     "options": [
+      "Könnten",
+      "Können",
+      "Konnten"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ich ___ gern einen Termin.",
+     "answer": "hätte",
+     "options": [
+      "hätte",
+      "habe",
+      "hatte"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___ es möglich, früher zu kommen?",
+     "answer": "Wäre",
+     "itemId": "de-waere-es-moeglich",
+     "options": [
+      "Wäre",
+      "War",
+      "Ist"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "ich würde gern bezahlen",
+     "translation": {
+      "en": "I'd like to pay",
+      "bg": "бих искал да платя",
+      "fr": "j'aimerais payer",
+      "es": "me gustaría pagar"
+     }
+    }
+   ]
+  },
+  {
+   "id": "de-b1-04",
+   "section": "alltag",
+   "level": "B1",
+   "title": {
+    "en": "Wohnung suchen",
+    "bg": "Търсене на жилище",
+    "fr": "Chercher un logement",
+    "es": "Buscar piso"
+   },
+   "description": {
+    "en": "Renting a flat and the WG interview",
+    "bg": "Наем на жилище и интервю за WG",
+    "fr": "Louer un appartement et l'entretien de colocation",
+    "es": "Alquilar piso y la entrevista de piso compartido"
+   },
+   "items": [
+    "de-die-wohnung",
+    "de-die-miete",
+    "de-warmmiete",
+    "de-die-wg",
+    "de-die-kaution",
+    "de-ab-wann-frei"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "“Warmmiete” includes…",
+      "bg": "„Warmmiete“ включва…",
+      "fr": "La « Warmmiete » inclut…",
+      "es": "La «Warmmiete» incluye…"
+     },
+     "options": [
+      "Miete + Heizung + Nebenkosten",
+      "nur das Zimmer",
+      "die Möbel"
+     ],
+     "answer": "Miete + Heizung + Nebenkosten",
+     "itemId": "de-warmmiete"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Wie hoch ist die ___? (deposit)",
+     "answer": "Kaution",
+     "itemId": "de-die-kaution",
+     "options": [
+      "Kaution",
+      "Miete",
+      "Wohnung"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "ab wann ist das Zimmer frei?",
+     "translation": {
+      "en": "from when is the room free?",
+      "bg": "от кога е свободна стаята?",
+      "fr": "à partir de quand la chambre est libre ?",
+      "es": "¿desde cuándo está libre la habitación?"
+     }
+    }
+   ]
+  }
+ ],
+ "phrasePacks": [
+  {
+   "id": "de-pp-baeckerei",
+   "level": "A1",
+   "icon": "🥨",
+   "title": {
+    "en": "At the bakery",
+    "bg": "В пекарната",
+    "fr": "À la boulangerie",
+    "es": "En la panadería"
+   },
+   "description": {
+    "en": "Rolls, coffee and paying like a local",
+    "bg": "Хлебчета, кафе и плащане като местен",
+    "fr": "Petits pains, café et payer comme un local",
+    "es": "Panecillos, café y pagar como un local"
+   },
+   "items": [
+    "de-ich-haette-gern",
+    "de-das-broetchen",
+    "de-ein-kaffee",
+    "de-was-kostet-das",
+    "de-stimmt-so",
+    "de-danke"
+   ]
+  },
+  {
+   "id": "de-pp-survival",
+   "level": "A1",
+   "icon": "🆘",
+   "title": {
+    "en": "When you don't understand",
+    "bg": "Когато не разбираш",
+    "fr": "Quand tu ne comprends pas",
+    "es": "Cuando no entiendes"
+   },
+   "description": {
+    "en": "Ask to repeat and slow down",
+    "bg": "Помоли да повторят и да говорят по-бавно",
+    "fr": "Demander de répéter et de ralentir",
+    "es": "Pedir que repitan y hablen más despacio"
+   },
+   "items": [
+    "de-wie-bitte",
+    "de-langsamer",
+    "de-ich-verstehe-nicht",
+    "de-was-heisst",
+    "de-sprechen-sie-englisch"
+   ]
+  },
+  {
+   "id": "de-pp-meinung",
+   "level": "B1",
+   "icon": "💬",
+   "title": {
+    "en": "Discussing at work",
+    "bg": "Дискусия на работа",
+    "fr": "Discuter au travail",
+    "es": "Debatir en el trabajo"
+   },
+   "description": {
+    "en": "Give your opinion politely, disagree without drama",
+    "bg": "Кажи мнението си учтиво, не се съгласявай без драма",
+    "fr": "Donner son avis poliment, être en désaccord sans drame",
+    "es": "Opinar con educación, discrepar sin drama"
+   },
+   "items": [
+    "de-meiner-meinung-nach",
+    "de-ich-finde-dass",
+    "de-da-hast-du-recht",
+    "de-das-sehe-ich-anders",
+    "de-es-kommt-darauf-an",
+    "de-ehrlich-gesagt",
+    "de-koennten-sie"
+   ]
+  }
+ ],
+ "dialogues": [
+  {
+   "id": "de-d-baeckerei",
+   "level": "A1",
+   "icon": "🥨",
+   "title": {
+    "en": "At a Berlin bakery",
+    "bg": "В пекарна в Берлин",
+    "fr": "Dans une boulangerie à Berlin",
+    "es": "En una panadería de Berlín"
+   },
+   "situation": {
+    "en": "Saturday morning. There's a queue behind you, so be quick!",
+    "bg": "Събота сутрин. Зад теб има опашка, така че бързо!",
+    "fr": "Samedi matin. Il y a la queue derrière toi, sois rapide !",
+    "es": "Sábado por la mañana. Hay cola detrás de ti, ¡sé rápido!"
+   },
+   "speakers": {
+    "verk": {
+     "name": "Verkäuferin",
+     "accessory": "alpine"
+    },
+    "you": {
+     "name": "Du",
+     "accessory": "alpine"
+    }
+   },
+   "lines": [
+    {
+     "speaker": "verk",
+     "text": "Guten Morgen! Was darf's sein?",
+     "translations": {
+      "en": "Good morning! What can I get you?",
+      "bg": "Добро утро! Какво да бъде?",
+      "fr": "Bonjour ! Qu'est-ce que je vous sers ?",
+      "es": "¡Buenos días! ¿Qué le pongo?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Guten Morgen! Ich hätte gern zwei Brötchen, bitte.",
+       "translations": {
+        "en": "Good morning! I'd like two rolls, please.",
+        "bg": "Добро утро! Две хлебчета, моля.",
+        "fr": "Bonjour ! Je voudrais deux petits pains, s'il vous plaît.",
+        "es": "¡Buenos días! Quisiera dos panecillos, por favor."
+       },
+       "correct": true
+      },
+      {
+       "text": "Auf Wiedersehen!",
+       "translations": {
+        "en": "Goodbye!",
+        "bg": "Довиждане!",
+        "fr": "Au revoir !",
+        "es": "¡Adiós!"
+       },
+       "correct": false,
+       "feedback": {
+        "en": "You just arrived!",
+        "bg": "Току-що дойде!",
+        "fr": "Tu viens d'arriver !",
+        "es": "¡Acabas de llegar!"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "verk",
+     "text": "Sonst noch etwas?",
+     "translations": {
+      "en": "Anything else?",
+      "bg": "Нещо друго?",
+      "fr": "Autre chose ?",
+      "es": "¿Algo más?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Ja, einen Kaffee zum Mitnehmen, bitte.",
+       "translations": {
+        "en": "Yes, a coffee to go, please.",
+        "bg": "Да, едно кафе за вкъщи, моля.",
+        "fr": "Oui, un café à emporter, s'il vous plaît.",
+        "es": "Sí, un café para llevar, por favor."
+       },
+       "correct": true
+      },
+      {
+       "text": "Ich komme aus Bulgarien.",
+       "translations": {
+        "en": "I come from Bulgaria.",
+        "bg": "От България съм.",
+        "fr": "Je viens de Bulgarie.",
+        "es": "Soy de Bulgaria."
+       },
+       "correct": false,
+       "feedback": {
+        "en": "Nice, but the queue is waiting!",
+        "bg": "Хубаво, но опашката чака!",
+        "fr": "Sympa, mais la queue attend !",
+        "es": "¡Bien, pero la cola espera!"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "verk",
+     "text": "Das macht vier Euro zwanzig.",
+     "translations": {
+      "en": "That's four euros twenty.",
+      "bg": "Четири евро и двадесет.",
+      "fr": "Ça fait quatre euros vingt.",
+      "es": "Son cuatro euros con veinte."
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Hier, fünf Euro. Stimmt so!",
+       "translations": {
+        "en": "Here, five euros. Keep the change!",
+        "bg": "Ето, пет евро. Задръжте рестото!",
+        "fr": "Voilà, cinq euros. Gardez la monnaie !",
+        "es": "Tome, cinco euros. ¡Quédese el cambio!"
+       },
+       "correct": true
+      },
+      {
+       "text": "Wo ist der Bahnhof?",
+       "translations": {
+        "en": "Where is the station?",
+        "bg": "Къде е гарата?",
+        "fr": "Où est la gare ?",
+        "es": "¿Dónde está la estación?"
+       },
+       "correct": false,
+       "feedback": {
+        "en": "Pay first!",
+        "bg": "Първо плати!",
+        "fr": "Paie d'abord !",
+        "es": "¡Paga primero!"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "verk",
+     "text": "Danke schön! Schönes Wochenende!",
+     "translations": {
+      "en": "Thank you! Have a nice weekend!",
+      "bg": "Благодаря! Хубав уикенд!",
+      "fr": "Merci ! Bon week-end !",
+      "es": "¡Gracias! ¡Buen fin de semana!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "de-d-wg",
+   "level": "B1",
+   "icon": "🏠",
+   "title": {
+    "en": "WG casting in Hamburg",
+    "bg": "WG интервю в Хамбург",
+    "fr": "Entretien de colocation à Hambourg",
+    "es": "Entrevista de piso en Hamburgo"
+   },
+   "situation": {
+    "en": "You're viewing a room in a flat share. Two flatmates ask you questions.",
+    "bg": "Разглеждаш стая в общо жилище. Двама съквартиранти ти задават въпроси.",
+    "fr": "Tu visites une chambre en colocation. Deux colocataires te posent des questions.",
+    "es": "Visitas una habitación en un piso compartido. Dos compañeros te hacen preguntas."
+   },
+   "speakers": {
+    "lena": {
+     "name": "Lena",
+     "accessory": "headphones"
+    },
+    "you": {
+     "name": "Du",
+     "accessory": "alpine"
+    }
+   },
+   "lines": [
+    {
+     "speaker": "lena",
+     "text": "Na, hast du gut hergefunden? Erzähl mal ein bisschen von dir!",
+     "translations": {
+      "en": "So, did you find the place OK? Tell us a bit about yourself!",
+      "bg": "Е, намери ли лесно? Разкажи малко за себе си!",
+      "fr": "Alors, tu as trouvé facilement ? Parle-nous un peu de toi !",
+      "es": "Bueno, ¿llegaste bien? ¡Cuéntanos algo de ti!"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Ja, danke! Ich komme aus Bulgarien und arbeite seit einem Jahr hier.",
+       "translations": {
+        "en": "Yes, thanks! I'm from Bulgaria and have been working here for a year.",
+        "bg": "Да, благодаря! От България съм и работя тук от година.",
+        "fr": "Oui, merci ! Je viens de Bulgarie et je travaille ici depuis un an.",
+        "es": "¡Sí, gracias! Soy de Bulgaria y trabajo aquí desde hace un año."
+       },
+       "correct": true
+      },
+      {
+       "text": "Was kostet das?",
+       "translations": {
+        "en": "How much is that?",
+        "bg": "Колко струва?",
+        "fr": "Combien ça coûte ?",
+        "es": "¿Cuánto cuesta?"
+       },
+       "correct": false,
+       "feedback": {
+        "en": "A bit direct! Introduce yourself first.",
+        "bg": "Малко директно! Първо се представи.",
+        "fr": "Un peu direct ! Présente-toi d'abord.",
+        "es": "¡Un poco directo! Preséntate primero."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "lena",
+     "text": "Cool. Wir kochen oft zusammen. Wie findest du das?",
+     "translations": {
+      "en": "Cool. We often cook together. What do you think about that?",
+      "bg": "Яко. Често готвим заедно. Какво мислиш за това?",
+      "fr": "Cool. On cuisine souvent ensemble. Qu'en penses-tu ?",
+      "es": "Genial. Cocinamos juntos a menudo. ¿Qué te parece?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Ich finde, dass das eine super Idee ist!",
+       "translations": {
+        "en": "I think that's a great idea!",
+        "bg": "Мисля, че това е супер идея!",
+        "fr": "Je trouve que c'est une super idée !",
+        "es": "¡Creo que es una idea genial!"
+       },
+       "correct": true
+      },
+      {
+       "text": "Ich finde, dass das eine super Idee sein.",
+       "translations": {
+        "en": "(wrong verb form)",
+        "bg": "(грешна глаголна форма)",
+        "fr": "(mauvaise forme du verbe)",
+        "es": "(forma verbal incorrecta)"
+       },
+       "correct": false,
+       "feedback": {
+        "en": "Almost: … dass das eine super Idee ist.",
+        "bg": "Почти: … dass das eine super Idee ist.",
+        "fr": "Presque : … dass das eine super Idee ist.",
+        "es": "Casi: … dass das eine super Idee ist."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "lena",
+     "text": "Die Warmmiete ist 520 Euro, plus zwei Monatsmieten Kaution.",
+     "translations": {
+      "en": "The rent incl. bills is 520 euros, plus a two-month deposit.",
+      "bg": "Наемът с всичко е 520 евро, плюс депозит от два наема.",
+      "fr": "Le loyer charges comprises est de 520 euros, plus deux mois de caution.",
+      "es": "El alquiler con gastos es de 520 euros, más dos meses de fianza."
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Klingt fair. Ab wann wäre das Zimmer frei?",
+       "translations": {
+        "en": "Sounds fair. From when would the room be free?",
+        "bg": "Звучи честно. От кога би била свободна стаята?",
+        "fr": "Ça me paraît correct. À partir de quand la chambre serait libre ?",
+        "es": "Suena justo. ¿Desde cuándo estaría libre la habitación?"
+       },
+       "correct": true
+      },
+      {
+       "text": "Krass, zu teuer, tschüss!",
+       "translations": {
+        "en": "Wow, too expensive, bye!",
+        "bg": "Леле, твърде скъпо, чао!",
+        "fr": "Waouh, trop cher, salut !",
+        "es": "¡Uf, demasiado caro, chao!"
+       },
+       "correct": false,
+       "feedback": {
+        "en": "That's one way to end a WG casting…",
+        "bg": "И така може да приключи едно WG интервю…",
+        "fr": "C'est une façon de finir un entretien…",
+        "es": "Es una forma de terminar una entrevista…"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "lena",
+     "text": "Ab dem ersten Dezember. Wir melden uns bis Freitag. Schönen Feierabend noch!",
+     "translations": {
+      "en": "From the first of December. We'll get back to you by Friday. Enjoy your evening!",
+      "bg": "От първи декември. Ще ти пишем до петък. Приятна вечер!",
+      "fr": "À partir du premier décembre. On te recontacte d'ici vendredi. Bonne soirée !",
+      "es": "A partir del uno de diciembre. Te decimos algo antes del viernes. ¡Buena tarde!"
+     }
+    }
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "de-r-berlin",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Hello, Berlin!",
+    "bg": "Здравей, Берлин!",
+    "fr": "Bonjour, Berlin !",
+    "es": "¡Hola, Berlín!"
+   },
+   "sentences": [
+    {
+     "text": "Berlin ist die Hauptstadt von Deutschland.",
+     "translations": {
+      "en": "Berlin is the capital of Germany.",
+      "bg": "Берлин е столицата на Германия.",
+      "fr": "Berlin est la capitale de l'Allemagne.",
+      "es": "Berlín es la capital de Alemania."
+     }
+    },
+    {
+     "text": "Die Stadt ist groß, grün und sehr international.",
+     "translations": {
+      "en": "The city is big, green and very international.",
+      "bg": "Градът е голям, зелен и много международен.",
+      "fr": "La ville est grande, verte et très internationale.",
+      "es": "La ciudad es grande, verde y muy internacional."
+     }
+    },
+    {
+     "text": "Am Morgen kaufen viele Leute Brötchen beim Bäcker.",
+     "translations": {
+      "en": "In the morning many people buy rolls at the bakery.",
+      "bg": "Сутрин много хора купуват хлебчета от пекарната.",
+      "fr": "Le matin, beaucoup de gens achètent des petits pains à la boulangerie.",
+      "es": "Por la mañana mucha gente compra panecillos en la panadería."
+     }
+    },
+    {
+     "text": "Man fährt mit der U-Bahn oder mit dem Fahrrad.",
+     "translations": {
+      "en": "People go by metro or by bike.",
+      "bg": "Хората се возят с метро или с колело.",
+      "fr": "On se déplace en métro ou à vélo.",
+      "es": "La gente va en metro o en bici."
+     }
+    },
+    {
+     "text": "In Berlin sagt man oft „Na?“ statt „Hallo“.",
+     "translations": {
+      "en": "In Berlin people often say “Na?” instead of “Hallo”.",
+      "bg": "В Берлин често казват „Na?“ вместо „Hallo“.",
+      "fr": "À Berlin on dit souvent « Na ? » au lieu de « Hallo ».",
+      "es": "En Berlín se dice a menudo «Na?» en vez de «Hallo»."
+     }
+    }
+   ],
+   "glossary": {
+    "hauptstadt": {
+     "translations": {
+      "en": "capital",
+      "bg": "столица",
+      "fr": "capitale",
+      "es": "capital"
+     }
+    },
+    "deutschland": {
+     "translations": {
+      "en": "Germany",
+      "bg": "Германия",
+      "fr": "Allemagne",
+      "es": "Alemania"
+     }
+    },
+    "stadt": {
+     "translations": {
+      "en": "city",
+      "bg": "град",
+      "fr": "ville",
+      "es": "ciudad"
+     }
+    },
+    "groß": {
+     "translations": {
+      "en": "big",
+      "bg": "голям",
+      "fr": "grand",
+      "es": "grande"
+     }
+    },
+    "grün": {
+     "translations": {
+      "en": "green",
+      "bg": "зелен",
+      "fr": "vert",
+      "es": "verde"
+     }
+    },
+    "sehr": {
+     "translations": {
+      "en": "very",
+      "bg": "много",
+      "fr": "très",
+      "es": "muy"
+     }
+    },
+    "morgen": {
+     "item": "de-guten-morgen"
+    },
+    "kaufen": {
+     "translations": {
+      "en": "buy",
+      "bg": "купуват",
+      "fr": "achètent",
+      "es": "compran"
+     }
+    },
+    "viele": {
+     "translations": {
+      "en": "many",
+      "bg": "много",
+      "fr": "beaucoup de",
+      "es": "muchos"
+     }
+    },
+    "leute": {
+     "translations": {
+      "en": "people",
+      "bg": "хора",
+      "fr": "gens",
+      "es": "gente"
+     }
+    },
+    "brötchen": {
+     "item": "de-das-broetchen"
+    },
+    "bäcker": {
+     "translations": {
+      "en": "baker / bakery",
+      "bg": "пекар / пекарна",
+      "fr": "boulanger",
+      "es": "panadero / panadería"
+     }
+    },
+    "fährt": {
+     "translations": {
+      "en": "goes (by vehicle)",
+      "bg": "пътува",
+      "fr": "va (en véhicule)",
+      "es": "va (en vehículo)"
+     }
+    },
+    "u-bahn": {
+     "item": "de-die-u-bahn"
+    },
+    "fahrrad": {
+     "translations": {
+      "en": "bicycle",
+      "bg": "колело",
+      "fr": "vélo",
+      "es": "bicicleta"
+     }
+    },
+    "oder": {
+     "translations": {
+      "en": "or",
+      "bg": "или",
+      "fr": "ou",
+      "es": "o"
+     }
+    },
+    "sagt": {
+     "translations": {
+      "en": "says",
+      "bg": "казва",
+      "fr": "dit",
+      "es": "dice"
+     }
+    },
+    "oft": {
+     "translations": {
+      "en": "often",
+      "bg": "често",
+      "fr": "souvent",
+      "es": "a menudo"
+     }
+    },
+    "na": {
+     "item": "de-na"
+    },
+    "statt": {
+     "translations": {
+      "en": "instead of",
+      "bg": "вместо",
+      "fr": "au lieu de",
+      "es": "en vez de"
+     }
+    },
+    "hallo": {
+     "item": "de-hallo"
+    },
+    "ist": {
+     "translations": {
+      "en": "is",
+      "bg": "е",
+      "fr": "est",
+      "es": "es"
+     }
+    },
+    "und": {
+     "translations": {
+      "en": "and",
+      "bg": "и",
+      "fr": "et",
+      "es": "y"
+     }
+    }
+   }
+  },
+  {
+   "id": "de-r-feierabend",
+   "section": "alltag",
+   "level": "B1",
+   "title": {
+    "en": "Feierabend!",
+    "bg": "Feierabend!",
+    "fr": "Feierabend !",
+    "es": "¡Feierabend!"
+   },
+   "sentences": [
+    {
+     "text": "Um fünf Uhr klappen viele Deutsche den Laptop zu: Feierabend!",
+     "translations": {
+      "en": "At five o'clock many Germans close their laptops: time off!",
+      "bg": "В пет часа много германци затварят лаптопа: край на работния ден!",
+      "fr": "À cinq heures, beaucoup d'Allemands ferment leur ordinateur : fin de la journée !",
+      "es": "A las cinco muchos alemanes cierran el portátil: ¡se acabó la jornada!"
+     }
+    },
+    {
+     "text": "Nach der Arbeit schreibt man keine E-Mails mehr, weil die Freizeit wichtig ist.",
+     "translations": {
+      "en": "After work you don't write emails any more, because free time is important.",
+      "bg": "След работа не се пишат повече имейли, защото свободното време е важно.",
+      "fr": "Après le travail, on n'écrit plus d'e-mails, parce que le temps libre est important.",
+      "es": "Después del trabajo ya no se escriben correos, porque el tiempo libre es importante."
+     }
+    },
+    {
+     "text": "Manche gehen mit Kollegen auf ein Bier, andere joggen im Park.",
+     "translations": {
+      "en": "Some go for a beer with colleagues, others jog in the park.",
+      "bg": "Някои отиват на бира с колеги, други бягат в парка.",
+      "fr": "Certains vont boire une bière avec des collègues, d'autres font un jogging au parc.",
+      "es": "Algunos van a tomar una cerveza con compañeros, otros corren en el parque."
+     }
+    },
+    {
+     "text": "Ehrlich gesagt finde ich, dass das eine gute Tradition ist.",
+     "translations": {
+      "en": "To be honest, I think that's a good tradition.",
+      "bg": "Честно казано, смятам, че това е добра традиция.",
+      "fr": "À vrai dire, je trouve que c'est une bonne tradition.",
+      "es": "Sinceramente, creo que es una buena tradición."
+     }
+    }
+   ],
+   "glossary": {
+    "feierabend": {
+     "item": "de-feierabend"
+    },
+    "uhr": {
+     "translations": {
+      "en": "o'clock",
+      "bg": "часа",
+      "fr": "heures",
+      "es": "en punto"
+     }
+    },
+    "klappen": {
+     "translations": {
+      "en": "(they) fold / close",
+      "bg": "затварят",
+      "fr": "ferment (rabattent)",
+      "es": "cierran"
+     }
+    },
+    "zu": {
+     "translations": {
+      "en": "closed / to",
+      "bg": "затворено / към",
+      "fr": "fermé / à",
+      "es": "cerrado / a"
+     }
+    },
+    "arbeit": {
+     "translations": {
+      "en": "work",
+      "bg": "работа",
+      "fr": "travail",
+      "es": "trabajo"
+     }
+    },
+    "schreibt": {
+     "translations": {
+      "en": "writes",
+      "bg": "пише",
+      "fr": "écrit",
+      "es": "escribe"
+     }
+    },
+    "keine": {
+     "translations": {
+      "en": "no / not any",
+      "bg": "никакви",
+      "fr": "aucun",
+      "es": "ningún"
+     }
+    },
+    "mehr": {
+     "translations": {
+      "en": "more / any more",
+      "bg": "повече",
+      "fr": "plus",
+      "es": "más"
+     }
+    },
+    "weil": {
+     "translations": {
+      "en": "because",
+      "bg": "защото",
+      "fr": "parce que",
+      "es": "porque"
+     }
+    },
+    "freizeit": {
+     "translations": {
+      "en": "free time",
+      "bg": "свободно време",
+      "fr": "temps libre",
+      "es": "tiempo libre"
+     }
+    },
+    "wichtig": {
+     "translations": {
+      "en": "important",
+      "bg": "важно",
+      "fr": "important",
+      "es": "importante"
+     }
+    },
+    "manche": {
+     "translations": {
+      "en": "some (people)",
+      "bg": "някои",
+      "fr": "certains",
+      "es": "algunos"
+     }
+    },
+    "kollegen": {
+     "translations": {
+      "en": "colleagues",
+      "bg": "колеги",
+      "fr": "collègues",
+      "es": "compañeros"
+     }
+    },
+    "bier": {
+     "translations": {
+      "en": "beer",
+      "bg": "бира",
+      "fr": "bière",
+      "es": "cerveza"
+     }
+    },
+    "andere": {
+     "translations": {
+      "en": "others",
+      "bg": "други",
+      "fr": "d'autres",
+      "es": "otros"
+     }
+    },
+    "joggen": {
+     "translations": {
+      "en": "jog",
+      "bg": "тичат",
+      "fr": "font du jogging",
+      "es": "corren"
+     }
+    },
+    "ehrlich": {
+     "item": "de-ehrlich-gesagt"
+    },
+    "gesagt": {
+     "item": "de-ehrlich-gesagt"
+    },
+    "finde": {
+     "item": "de-ich-finde-dass"
+    },
+    "tradition": {
+     "translations": {
+      "en": "tradition",
+      "bg": "традиция",
+      "fr": "tradition",
+      "es": "tradición"
+     }
+    },
+    "dass": {
+     "translations": {
+      "en": "that",
+      "bg": "че",
+      "fr": "que",
+      "es": "que"
+     }
+    }
+   }
+  }
+ ],
+ "places": [
+  {
+   "id": "de-p-berlin",
+   "section": "core",
+   "name": "Berlin",
+   "country": "Germany",
+   "lat": 52.52,
+   "lng": 13.4,
+   "description": {
+    "en": "The capital: start-ups, bakeries and “Na?”.",
+    "bg": "Столицата: стартъпи, пекарни и „Na?“.",
+    "fr": "La capitale : start-up, boulangeries et « Na ? ».",
+    "es": "La capital: start-ups, panaderías y «Na?»."
+   },
+   "localItems": [
+    "de-na",
+    "de-das-broetchen"
+   ],
+   "reading": "de-r-berlin"
+  },
+  {
+   "id": "de-p-hamburg",
+   "section": "core",
+   "name": "Hamburg",
+   "country": "Germany",
+   "lat": 53.55,
+   "lng": 9.99,
+   "unlockAfterLesson": "de-a1-02",
+   "description": {
+    "en": "Port city where people greet you with “Moin!” at any time of day.",
+    "bg": "Пристанищен град, където поздравяват с „Moin!“ по всяко време.",
+    "fr": "Ville portuaire où l'on dit « Moin ! » à toute heure.",
+    "es": "Ciudad portuaria donde se saluda con «Moin!» a cualquier hora."
+   },
+   "localItems": [
+    "de-moin"
+   ],
+   "cultureNote": "de-c-du-sie"
+  },
+  {
+   "id": "de-p-muenchen",
+   "section": "core",
+   "name": "München",
+   "country": "Germany",
+   "lat": 48.14,
+   "lng": 11.58,
+   "unlockAfterLesson": "de-a1-03",
+   "description": {
+    "en": "Beer gardens, pretzels and Bavarian “Servus”.",
+    "bg": "Бирени градини, гевреци и баварското „Servus“.",
+    "fr": "Jardins à bière, bretzels et le « Servus » bavarois.",
+    "es": "Cervecerías al aire libre, pretzels y el «Servus» bávaro."
+   },
+   "localItems": [
+    "de-servus",
+    "de-die-brezel"
+   ],
+   "cultureNote": "de-c-puenktlich"
+  },
+  {
+   "id": "de-p-wien",
+   "section": "core",
+   "name": "Wien",
+   "country": "Austria",
+   "lat": 48.21,
+   "lng": 16.37,
+   "unlockAfterLesson": "de-a1-05",
+   "description": {
+    "en": "Austria's capital: coffee houses and its own vocabulary.",
+    "bg": "Столицата на Австрия: кафенета и собствен речник.",
+    "fr": "La capitale autrichienne : cafés et vocabulaire à part.",
+    "es": "La capital de Austria: cafés y su propio vocabulario."
+   },
+   "localItems": [
+    "de-servus",
+    "de-paradeiser"
+   ],
+   "cultureNote": "de-c-wien"
+  },
+  {
+   "id": "de-p-zuerich",
+   "section": "alltag",
+   "name": "Zürich",
+   "country": "Switzerland",
+   "lat": 47.37,
+   "lng": 8.54,
+   "unlockAfterLesson": "de-b1-02",
+   "description": {
+    "en": "Swiss German sounds different: “Grüezi” and “Merci vielmal”.",
+    "bg": "Швейцарският немски звучи различно: „Grüezi“ и „Merci vielmal“.",
+    "fr": "Le suisse allemand sonne différemment : « Grüezi » et « Merci vielmal ».",
+    "es": "El alemán suizo suena distinto: «Grüezi» y «Merci vielmal»."
+   },
+   "localItems": [
+    "de-grueezi",
+    "de-merci-vielmal"
+   ]
+  }
+ ]
+}

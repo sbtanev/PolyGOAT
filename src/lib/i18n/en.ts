@@ -152,6 +152,7 @@ const en = {
     culture: "Culture notes",
     noContent: "No content for this language yet. An admin needs to import its pack.",
     notLearning: "You are not learning this language yet.",
+    recommendedFrom: "recommended from {level}",
     continue: "Continue learning",
   },
   player: {

@@ -80,7 +80,11 @@ export default async function CoursePage({ params }: { params: Promise<{ lang: s
           <section key={section.id}>
             <h2 className="mb-3 font-display text-lg font-bold">
               {tr(section.title, source)} <span className="text-sm font-normal text-muted">· {t.learn.lessons}</span>
+              {section.unlock_after_level && (
+                <span className="chip ml-2 align-middle font-sans">{fmt(t.learn.recommendedFrom, { level: section.unlock_after_level })}</span>
+              )}
             </h2>
+            {tr(section.description, source) && <p className="-mt-2 mb-3 text-sm text-muted">{tr(section.description, source)}</p>}
             <ol className="flex flex-col gap-2">
               {lessons.map((lesson, i) => {
                 const p = course.progress.get(lesson.id);

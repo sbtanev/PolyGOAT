@@ -33,8 +33,8 @@ export function validatePack(pack: LanguagePack): string[] {
     for (const ex of lesson.exercises ?? []) {
       if ("itemId" in ex && ex.itemId && !itemIds.has(ex.itemId))
         errors.push(`lesson ${lesson.id} exercise uses unknown item ${ex.itemId}`);
-      if (ex.type === "choose" && !ex.options.includes(ex.answer))
-        errors.push(`lesson ${lesson.id}: answer "${ex.answer}" is not among the options`);
+      if (ex.type === "choose" && !ex.options.some((o) => JSON.stringify(o) === JSON.stringify(ex.answer)))
+        errors.push(`lesson ${lesson.id}: answer ${JSON.stringify(ex.answer)} is not among the options`);
       if (ex.type === "fill_blank" && !ex.prompt.includes("___"))
         errors.push(`lesson ${lesson.id}: fill_blank prompt needs ___`);
     }

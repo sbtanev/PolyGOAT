@@ -1,0 +1,3656 @@
+{
+ "version": "1.0.0",
+ "language": {
+  "code": "la",
+  "name": {
+   "en": "Latin",
+   "bg": "Латински",
+   "de": "Latein",
+   "fr": "latin",
+   "es": "latín"
+  },
+  "nativeName": "Lingua Latina",
+  "flag": "🏛️",
+  "script": "latin",
+  "features": [
+   "gender",
+   "cases"
+  ],
+  "mascotAccessory": "laurel",
+  "ttsLocale": "it-IT",
+  "active": true,
+  "mapBounds": [
+   [
+    -8,
+    27
+   ],
+   [
+    36,
+    55
+   ]
+  ]
+ },
+ "sections": [
+  {
+   "slug": "core",
+   "title": {
+    "en": "Core course",
+    "bg": "Основен курс",
+    "de": "Grundkurs",
+    "fr": "Cours principal",
+    "es": "Curso principal"
+   }
+  },
+  {
+   "slug": "historia",
+   "title": {
+    "en": "History",
+    "bg": "История",
+    "de": "Geschichte",
+    "fr": "Histoire",
+    "es": "Historia"
+   },
+   "description": {
+    "en": "Caesar, Cicero, Livy and the Republic",
+    "bg": "Цезар, Цицерон, Ливий и Републиката",
+    "de": "Caesar, Cicero, Livius und die Republik",
+    "fr": "César, Cicéron, Tite-Live et la République",
+    "es": "César, Cicerón, Livio y la República"
+   },
+   "unlockAfterLevel": "A2"
+  },
+  {
+   "slug": "medicina",
+   "title": {
+    "en": "Medicine",
+    "bg": "Медицина",
+    "de": "Medizin",
+    "fr": "Médecine",
+    "es": "Medicina"
+   },
+   "description": {
+    "en": "Anatomy, medical roots and prescription abbreviations",
+    "bg": "Анатомия, медицински корени и съкращения в рецептите",
+    "de": "Anatomie, medizinische Wurzeln und Rezeptabkürzungen",
+    "fr": "Anatomie, racines médicales et abréviations",
+    "es": "Anatomía, raíces médicas y abreviaturas"
+   },
+   "unlockAfterLevel": "A2"
+  },
+  {
+   "slug": "natura",
+   "title": {
+    "en": "Flora and fauna",
+    "bg": "Флора и фауна",
+    "de": "Flora und Fauna",
+    "fr": "Faune et flore",
+    "es": "Flora y fauna"
+   },
+   "description": {
+    "en": "Binomial names and what Latin species names mean",
+    "bg": "Научни имена и какво значат латинските имена на видовете",
+    "de": "Wissenschaftliche Namen und ihre Bedeutung",
+    "fr": "Noms scientifiques et leur signification",
+    "es": "Nombres científicos y su significado"
+   },
+   "unlockAfterLevel": "A2"
+  }
+ ],
+ "items": [
+  {
+   "id": "la-salve",
+   "text": "salve",
+   "kind": "word",
+   "translations": {
+    "en": "hello (to one person)",
+    "bg": "здравей",
+    "de": "sei gegrüßt / hallo",
+    "fr": "salut",
+    "es": "hola"
+   },
+   "frequencyRank": 1
+  },
+  {
+   "id": "la-salvete",
+   "text": "salvete",
+   "kind": "word",
+   "translations": {
+    "en": "hello (to several people)",
+    "bg": "здравейте",
+    "de": "seid gegrüßt",
+    "fr": "salut (à plusieurs)",
+    "es": "hola (a varios)"
+   },
+   "frequencyRank": 2
+  },
+  {
+   "id": "la-vale",
+   "text": "vale",
+   "kind": "word",
+   "translations": {
+    "en": "goodbye (to one)",
+    "bg": "сбогом / бъди здрав",
+    "de": "lebe wohl",
+    "fr": "adieu",
+    "es": "adiós"
+   },
+   "frequencyRank": 3,
+   "notes": {
+    "en": "Literally “be well”. Romans ended letters with it.",
+    "bg": "Буквално „бъди здрав“. Римляните завършвали писмата си с него.",
+    "de": "Wörtlich „sei gesund“. So endeten römische Briefe.",
+    "fr": "Littéralement « porte-toi bien ». Les Romains finissaient leurs lettres ainsi.",
+    "es": "Literalmente «que estés bien». Así terminaban las cartas romanas."
+   }
+  },
+  {
+   "id": "la-valete",
+   "text": "valete",
+   "kind": "word",
+   "translations": {
+    "en": "goodbye (to several)",
+    "bg": "сбогом (на мнозина)",
+    "de": "lebt wohl",
+    "fr": "adieu (à plusieurs)",
+    "es": "adiós (a varios)"
+   },
+   "frequencyRank": 4
+  },
+  {
+   "id": "la-gratias",
+   "text": "gratias tibi ago",
+   "kind": "phrase",
+   "translations": {
+    "en": "thank you",
+    "bg": "благодаря ти",
+    "de": "ich danke dir",
+    "fr": "je te remercie",
+    "es": "te doy las gracias"
+   },
+   "frequencyRank": 5,
+   "notes": {
+    "en": "Compare: grazie (IT), gracias (ES).",
+    "bg": "Сравни: grazie (ит.), gracias (исп.).",
+    "de": "Compare: grazie (IT), gracias (ES).",
+    "fr": "Compare: grazie (IT), gracias (ES).",
+    "es": "Compare: grazie (IT), gracias (ES)."
+   }
+  },
+  {
+   "id": "la-quid-agis",
+   "text": "quid agis?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how are you?",
+    "bg": "как си?",
+    "de": "wie geht es dir?",
+    "fr": "comment vas-tu ?",
+    "es": "¿cómo estás?"
+   },
+   "frequencyRank": 6
+  },
+  {
+   "id": "la-bene",
+   "text": "bene",
+   "kind": "word",
+   "translations": {
+    "en": "well / fine",
+    "bg": "добре",
+    "de": "gut",
+    "fr": "bien",
+    "es": "bien"
+   },
+   "frequencyRank": 7,
+   "notes": {
+    "en": "Compare: bene (IT), bien (FR, ES).",
+    "bg": "Сравни: bene (ит.), bien (фр., исп.).",
+    "de": "Compare: bene (IT), bien (FR, ES).",
+    "fr": "Compare: bene (IT), bien (FR, ES).",
+    "es": "Compare: bene (IT), bien (FR, ES)."
+   }
+  },
+  {
+   "id": "la-nomen-mihi-est",
+   "text": "nomen mihi est …",
+   "kind": "phrase",
+   "translations": {
+    "en": "my name is …",
+    "bg": "казвам се …",
+    "de": "mein Name ist …",
+    "fr": "je m'appelle …",
+    "es": "me llamo …"
+   },
+   "frequencyRank": 8
+  },
+  {
+   "id": "la-sum",
+   "text": "sum",
+   "kind": "word",
+   "translations": {
+    "en": "I am",
+    "bg": "аз съм",
+    "de": "ich bin",
+    "fr": "je suis",
+    "es": "soy"
+   },
+   "frequencyRank": 9,
+   "pos": "verb"
+  },
+  {
+   "id": "la-es",
+   "text": "es",
+   "kind": "word",
+   "translations": {
+    "en": "you are",
+    "bg": "ти си",
+    "de": "du bist",
+    "fr": "tu es",
+    "es": "eres"
+   },
+   "frequencyRank": 10,
+   "pos": "verb"
+  },
+  {
+   "id": "la-est",
+   "text": "est",
+   "kind": "word",
+   "translations": {
+    "en": "he / she / it is",
+    "bg": "той / тя / то е",
+    "de": "er / sie / es ist",
+    "fr": "il / elle est",
+    "es": "es"
+   },
+   "frequencyRank": 11,
+   "pos": "verb"
+  },
+  {
+   "id": "la-sumus",
+   "text": "sumus",
+   "kind": "word",
+   "translations": {
+    "en": "we are",
+    "bg": "ние сме",
+    "de": "wir sind",
+    "fr": "nous sommes",
+    "es": "somos"
+   },
+   "frequencyRank": 12,
+   "pos": "verb"
+  },
+  {
+   "id": "la-sunt",
+   "text": "sunt",
+   "kind": "word",
+   "translations": {
+    "en": "they are",
+    "bg": "те са",
+    "de": "sie sind",
+    "fr": "ils sont",
+    "es": "son"
+   },
+   "frequencyRank": 13,
+   "pos": "verb"
+  },
+  {
+   "id": "la-puella",
+   "text": "puella",
+   "kind": "word",
+   "translations": {
+    "en": "girl",
+    "bg": "момиче",
+    "de": "Mädchen",
+    "fr": "jeune fille",
+    "es": "niña / chica"
+   },
+   "frequencyRank": 20,
+   "gender": "f"
+  },
+  {
+   "id": "la-rosa",
+   "text": "rosa",
+   "kind": "word",
+   "translations": {
+    "en": "rose",
+    "bg": "роза",
+    "de": "Rose",
+    "fr": "rose",
+    "es": "rosa"
+   },
+   "frequencyRank": 21,
+   "gender": "f"
+  },
+  {
+   "id": "la-aqua",
+   "text": "aqua",
+   "kind": "word",
+   "translations": {
+    "en": "water",
+    "bg": "вода",
+    "de": "Wasser",
+    "fr": "eau",
+    "es": "agua"
+   },
+   "frequencyRank": 22,
+   "notes": {
+    "en": "→ acqua (IT), agua (ES), eau (FR); English: aquarium, aquatic.",
+    "bg": "→ acqua (ит.), agua (исп.), eau (фр.); англ.: aquarium. На бълг.: аквариум.",
+    "de": "→ acqua (IT), agua (ES), eau (FR); English: aquarium, aquatic.",
+    "fr": "→ acqua (IT), agua (ES), eau (FR); English: aquarium, aquatic.",
+    "es": "→ acqua (IT), agua (ES), eau (FR); English: aquarium, aquatic."
+   },
+   "gender": "f"
+  },
+  {
+   "id": "la-terra",
+   "text": "terra",
+   "kind": "word",
+   "translations": {
+    "en": "earth / land",
+    "bg": "земя",
+    "de": "Erde / Land",
+    "fr": "terre",
+    "es": "tierra"
+   },
+   "frequencyRank": 23,
+   "notes": {
+    "en": "→ terra (IT), tierra (ES), terre (FR); English: territory, terrestrial.",
+    "bg": "→ terra (ит.), tierra (исп.), terre (фр.); бълг.: територия, тераса.",
+    "de": "→ terra (IT), tierra (ES), terre (FR); English: territory, terrestrial.",
+    "fr": "→ terra (IT), tierra (ES), terre (FR); English: territory, terrestrial.",
+    "es": "→ terra (IT), tierra (ES), terre (FR); English: territory, terrestrial."
+   },
+   "gender": "f"
+  },
+  {
+   "id": "la-via",
+   "text": "via",
+   "kind": "word",
+   "translations": {
+    "en": "road / way",
+    "bg": "път",
+    "de": "Straße / Weg",
+    "fr": "route / voie",
+    "es": "camino / vía"
+   },
+   "frequencyRank": 24,
+   "notes": {
+    "en": "→ via (IT), vía (ES), voie (FR); English: via, viaduct.",
+    "bg": "→ via (ит.), vía (исп.), voie (фр.); бълг.: виадукт.",
+    "de": "→ via (IT), vía (ES), voie (FR); English: via, viaduct.",
+    "fr": "→ via (IT), vía (ES), voie (FR); English: via, viaduct.",
+    "es": "→ via (IT), vía (ES), voie (FR); English: via, viaduct."
+   },
+   "gender": "f"
+  },
+  {
+   "id": "la-vita",
+   "text": "vita",
+   "kind": "word",
+   "translations": {
+    "en": "life",
+    "bg": "живот",
+    "de": "Leben",
+    "fr": "vie",
+    "es": "vida"
+   },
+   "frequencyRank": 25,
+   "notes": {
+    "en": "→ vita (IT), vida (ES), vie (FR); English: vital, vitamin.",
+    "bg": "→ vita (ит.), vida (исп.), vie (фр.); бълг.: витамин, витален.",
+    "de": "→ vita (IT), vida (ES), vie (FR); English: vital, vitamin.",
+    "fr": "→ vita (IT), vida (ES), vie (FR); English: vital, vitamin.",
+    "es": "→ vita (IT), vida (ES), vie (FR); English: vital, vitamin."
+   },
+   "gender": "f"
+  },
+  {
+   "id": "la-lingua",
+   "text": "lingua",
+   "kind": "word",
+   "translations": {
+    "en": "tongue / language",
+    "bg": "език",
+    "de": "Zunge / Sprache",
+    "fr": "langue",
+    "es": "lengua"
+   },
+   "frequencyRank": 26,
+   "notes": {
+    "en": "→ lingua (IT), lengua (ES), langue (FR); English: linguistics.",
+    "bg": "→ lingua (ит.), lengua (исп.), langue (фр.); бълг.: лингвистика.",
+    "de": "→ lingua (IT), lengua (ES), langue (FR); English: linguistics.",
+    "fr": "→ lingua (IT), lengua (ES), langue (FR); English: linguistics.",
+    "es": "→ lingua (IT), lengua (ES), langue (FR); English: linguistics."
+   },
+   "gender": "f"
+  },
+  {
+   "id": "la-patria",
+   "text": "patria",
+   "kind": "word",
+   "translations": {
+    "en": "homeland",
+    "bg": "родина",
+    "de": "Vaterland / Heimat",
+    "fr": "patrie",
+    "es": "patria"
+   },
+   "frequencyRank": 27,
+   "gender": "f"
+  },
+  {
+   "id": "la-silva",
+   "text": "silva",
+   "kind": "word",
+   "translations": {
+    "en": "forest",
+    "bg": "гора",
+    "de": "Wald",
+    "fr": "forêt",
+    "es": "selva / bosque"
+   },
+   "frequencyRank": 28,
+   "notes": {
+    "en": "→ selva (ES, IT); English: sylvan; in species names: sylvestris = of the forest.",
+    "bg": "→ selva (исп., ит.); в имената на видове: sylvestris = горски.",
+    "de": "→ selva (ES, IT); English: sylvan; in species names: sylvestris = of the forest.",
+    "fr": "→ selva (ES, IT); English: sylvan; in species names: sylvestris = of the forest.",
+    "es": "→ selva (ES, IT); English: sylvan; in species names: sylvestris = of the forest."
+   },
+   "gender": "f"
+  },
+  {
+   "id": "la-amicus",
+   "text": "amicus",
+   "kind": "word",
+   "translations": {
+    "en": "friend",
+    "bg": "приятел",
+    "de": "Freund",
+    "fr": "ami",
+    "es": "amigo"
+   },
+   "frequencyRank": 30,
+   "notes": {
+    "en": "→ amico (IT), amigo (ES), ami (FR); English: amicable.",
+    "bg": "→ amico (ит.), amigo (исп.), ami (фр.).",
+    "de": "→ amico (IT), amigo (ES), ami (FR); English: amicable.",
+    "fr": "→ amico (IT), amigo (ES), ami (FR); English: amicable.",
+    "es": "→ amico (IT), amigo (ES), ami (FR); English: amicable."
+   },
+   "gender": "m"
+  },
+  {
+   "id": "la-dominus",
+   "text": "dominus",
+   "kind": "word",
+   "translations": {
+    "en": "master / lord",
+    "bg": "господар",
+    "de": "Herr",
+    "fr": "maître / seigneur",
+    "es": "señor / amo"
+   },
+   "frequencyRank": 31,
+   "notes": {
+    "en": "English: dominate, domain; Spanish: domingo (the Lord's day).",
+    "bg": "Бълг.: доминирам; исп.: domingo (денят на Господа).",
+    "de": "English: dominate, domain; Spanish: domingo (the Lord's day).",
+    "fr": "English: dominate, domain; Spanish: domingo (the Lord's day).",
+    "es": "English: dominate, domain; Spanish: domingo (the Lord's day)."
+   },
+   "gender": "m"
+  },
+  {
+   "id": "la-servus",
+   "text": "servus",
+   "kind": "word",
+   "translations": {
+    "en": "slave / servant",
+    "bg": "роб / слуга",
+    "de": "Sklave / Diener",
+    "fr": "esclave / serviteur",
+    "es": "esclavo / siervo"
+   },
+   "frequencyRank": 32,
+   "notes": {
+    "en": "The Austrian greeting “Servus!” comes from it: “(I am your) servant”.",
+    "bg": "Австрийският поздрав „Servus!“ идва оттук: „(аз съм твой) слуга“.",
+    "de": "Daher kommt der Gruß „Servus!“: „(Ich bin dein) Diener“.",
+    "fr": "D'où vient le salut autrichien « Servus ! » : « (je suis ton) serviteur ».",
+    "es": "De ahí viene el saludo austriaco «Servus!»: «(soy tu) siervo»."
+   },
+   "gender": "m"
+  },
+  {
+   "id": "la-populus",
+   "text": "populus",
+   "kind": "word",
+   "translations": {
+    "en": "people / nation",
+    "bg": "народ",
+    "de": "Volk",
+    "fr": "peuple",
+    "es": "pueblo"
+   },
+   "frequencyRank": 33,
+   "gender": "m"
+  },
+  {
+   "id": "la-annus",
+   "text": "annus",
+   "kind": "word",
+   "translations": {
+    "en": "year",
+    "bg": "година",
+    "de": "Jahr",
+    "fr": "an / année",
+    "es": "año"
+   },
+   "frequencyRank": 34,
+   "notes": {
+    "en": "English: annual, anniversary; Spanish: año.",
+    "bg": "Бълг.: анюитет; исп.: año; англ.: annual.",
+    "de": "English: annual, anniversary; Spanish: año.",
+    "fr": "English: annual, anniversary; Spanish: año.",
+    "es": "English: annual, anniversary; Spanish: año."
+   },
+   "gender": "m"
+  },
+  {
+   "id": "la-liber",
+   "text": "liber",
+   "kind": "word",
+   "translations": {
+    "en": "book",
+    "bg": "книга",
+    "de": "Buch",
+    "fr": "livre",
+    "es": "libro"
+   },
+   "frequencyRank": 35,
+   "notes": {
+    "en": "→ libro (IT, ES), livre (FR); English: library.",
+    "bg": "→ libro (ит., исп.), livre (фр.); англ.: library.",
+    "de": "→ libro (IT, ES), livre (FR); English: library.",
+    "fr": "→ libro (IT, ES), livre (FR); English: library.",
+    "es": "→ libro (IT, ES), livre (FR); English: library."
+   },
+   "gender": "m"
+  },
+  {
+   "id": "la-bellum",
+   "text": "bellum",
+   "kind": "word",
+   "translations": {
+    "en": "war",
+    "bg": "война",
+    "de": "Krieg",
+    "fr": "guerre",
+    "es": "guerra"
+   },
+   "frequencyRank": 36,
+   "notes": {
+    "en": "English: bellicose, belligerent.",
+    "bg": "Англ.: bellicose; бълг.: (от същия корен) белигерант.",
+    "de": "English: bellicose, belligerent.",
+    "fr": "English: bellicose, belligerent.",
+    "es": "English: bellicose, belligerent."
+   },
+   "gender": "n"
+  },
+  {
+   "id": "la-verbum",
+   "text": "verbum",
+   "kind": "word",
+   "translations": {
+    "en": "word",
+    "bg": "дума",
+    "de": "Wort",
+    "fr": "mot / verbe",
+    "es": "palabra / verbo"
+   },
+   "frequencyRank": 37,
+   "gender": "n"
+  },
+  {
+   "id": "la-oppidum",
+   "text": "oppidum",
+   "kind": "word",
+   "translations": {
+    "en": "town",
+    "bg": "град (укрепен)",
+    "de": "Stadt",
+    "fr": "ville fortifiée",
+    "es": "ciudad fortificada"
+   },
+   "frequencyRank": 38,
+   "gender": "n"
+  },
+  {
+   "id": "la-amo",
+   "text": "amo",
+   "kind": "word",
+   "translations": {
+    "en": "I love",
+    "bg": "обичам",
+    "de": "ich liebe",
+    "fr": "j'aime",
+    "es": "amo"
+   },
+   "frequencyRank": 40,
+   "pos": "verb"
+  },
+  {
+   "id": "la-amat",
+   "text": "amat",
+   "kind": "word",
+   "translations": {
+    "en": "he / she loves",
+    "bg": "той / тя обича",
+    "de": "er / sie liebt",
+    "fr": "il / elle aime",
+    "es": "ama"
+   },
+   "frequencyRank": 41,
+   "pos": "verb"
+  },
+  {
+   "id": "la-amamus",
+   "text": "amamus",
+   "kind": "word",
+   "translations": {
+    "en": "we love",
+    "bg": "ние обичаме",
+    "de": "wir lieben",
+    "fr": "nous aimons",
+    "es": "amamos"
+   },
+   "frequencyRank": 42,
+   "pos": "verb"
+  },
+  {
+   "id": "la-amant",
+   "text": "amant",
+   "kind": "word",
+   "translations": {
+    "en": "they love",
+    "bg": "те обичат",
+    "de": "sie lieben",
+    "fr": "ils aiment",
+    "es": "aman"
+   },
+   "frequencyRank": 43,
+   "pos": "verb"
+  },
+  {
+   "id": "la-video",
+   "text": "video",
+   "kind": "word",
+   "translations": {
+    "en": "I see",
+    "bg": "виждам",
+    "de": "ich sehe",
+    "fr": "je vois",
+    "es": "veo"
+   },
+   "frequencyRank": 44,
+   "notes": {
+    "en": "Yes, “video” is Latin for “I see”!",
+    "bg": "Да, „video“ на латински значи „виждам“!",
+    "de": "Yes, “video” is Latin for “I see”!",
+    "fr": "Yes, “video” is Latin for “I see”!",
+    "es": "Yes, “video” is Latin for “I see”!"
+   },
+   "pos": "verb"
+  },
+  {
+   "id": "la-habeo",
+   "text": "habeo",
+   "kind": "word",
+   "translations": {
+    "en": "I have",
+    "bg": "имам",
+    "de": "ich habe",
+    "fr": "j'ai",
+    "es": "tengo"
+   },
+   "frequencyRank": 45,
+   "pos": "verb"
+  },
+  {
+   "id": "la-dico",
+   "text": "dico",
+   "kind": "word",
+   "translations": {
+    "en": "I say",
+    "bg": "казвам",
+    "de": "ich sage",
+    "fr": "je dis",
+    "es": "digo"
+   },
+   "frequencyRank": 46,
+   "notes": {
+    "en": "English: dictate, diction; Spanish: digo.",
+    "bg": "Бълг.: диктувам, дикция; исп.: digo.",
+    "de": "English: dictate, diction; Spanish: digo.",
+    "fr": "English: dictate, diction; Spanish: digo.",
+    "es": "English: dictate, diction; Spanish: digo."
+   },
+   "pos": "verb"
+  },
+  {
+   "id": "la-scribo",
+   "text": "scribo",
+   "kind": "word",
+   "translations": {
+    "en": "I write",
+    "bg": "пиша",
+    "de": "ich schreibe",
+    "fr": "j'écris",
+    "es": "escribo"
+   },
+   "frequencyRank": 47,
+   "notes": {
+    "en": "English: scribe, script; German: schreiben.",
+    "bg": "Англ.: script; нем.: schreiben.",
+    "de": "English: scribe, script; German: schreiben.",
+    "fr": "English: scribe, script; German: schreiben.",
+    "es": "English: scribe, script; German: schreiben."
+   },
+   "pos": "verb"
+  },
+  {
+   "id": "la-lego",
+   "text": "lego",
+   "kind": "word",
+   "translations": {
+    "en": "I read",
+    "bg": "чета",
+    "de": "ich lese",
+    "fr": "je lis",
+    "es": "leo"
+   },
+   "frequencyRank": 48,
+   "notes": {
+    "en": "Not the toy! (That is Danish “leg godt” = play well.)",
+    "bg": "Не играчката! (Тя е от датското „leg godt“ = играй добре.)",
+    "de": "Not the toy! (That is Danish “leg godt” = play well.)",
+    "fr": "Not the toy! (That is Danish “leg godt” = play well.)",
+    "es": "Not the toy! (That is Danish “leg godt” = play well.)"
+   },
+   "pos": "verb"
+  },
+  {
+   "id": "la-venio",
+   "text": "venio",
+   "kind": "word",
+   "translations": {
+    "en": "I come",
+    "bg": "идвам",
+    "de": "ich komme",
+    "fr": "je viens",
+    "es": "vengo"
+   },
+   "frequencyRank": 49,
+   "pos": "verb"
+  },
+  {
+   "id": "la-res-publica",
+   "text": "res publica",
+   "kind": "phrase",
+   "translations": {
+    "en": "the republic (lit. the public thing)",
+    "bg": "република (букв. общото дело)",
+    "de": "die Republik (wörtl. öffentliche Sache)",
+    "fr": "la république (litt. la chose publique)",
+    "es": "la república (lit. la cosa pública)"
+   },
+   "frequencyRank": 100
+  },
+  {
+   "id": "la-senatus",
+   "text": "senatus",
+   "kind": "word",
+   "translations": {
+    "en": "the senate",
+    "bg": "сенатът",
+    "de": "der Senat",
+    "fr": "le sénat",
+    "es": "el senado"
+   },
+   "frequencyRank": 101
+  },
+  {
+   "id": "la-spqr",
+   "text": "SPQR – Senatus Populusque Romanus",
+   "kind": "phrase",
+   "translations": {
+    "en": "the Senate and the Roman People",
+    "bg": "Сенатът и римският народ",
+    "de": "Senat und Volk von Rom",
+    "fr": "le Sénat et le peuple romain",
+    "es": "el Senado y el Pueblo Romano"
+   },
+   "frequencyRank": 102
+  },
+  {
+   "id": "la-consul",
+   "text": "consul",
+   "kind": "word",
+   "translations": {
+    "en": "consul (one of two annual chief magistrates)",
+    "bg": "консул (един от двамата годишни върховни магистрати)",
+    "de": "Konsul",
+    "fr": "consul",
+    "es": "cónsul"
+   },
+   "frequencyRank": 103
+  },
+  {
+   "id": "la-imperator",
+   "text": "imperator",
+   "kind": "word",
+   "translations": {
+    "en": "commander / emperor",
+    "bg": "пълководец / император",
+    "de": "Feldherr / Kaiser",
+    "fr": "général / empereur",
+    "es": "general / emperador"
+   },
+   "frequencyRank": 104
+  },
+  {
+   "id": "la-legio",
+   "text": "legio",
+   "kind": "word",
+   "translations": {
+    "en": "legion",
+    "bg": "легион",
+    "de": "Legion",
+    "fr": "légion",
+    "es": "legión"
+   },
+   "frequencyRank": 105
+  },
+  {
+   "id": "la-proelium",
+   "text": "proelium",
+   "kind": "word",
+   "translations": {
+    "en": "battle",
+    "bg": "битка",
+    "de": "Schlacht",
+    "fr": "bataille",
+    "es": "batalla"
+   },
+   "frequencyRank": 106
+  },
+  {
+   "id": "la-castra",
+   "text": "castra",
+   "kind": "word",
+   "translations": {
+    "en": "military camp",
+    "bg": "военен лагер",
+    "de": "Heerlager",
+    "fr": "camp militaire",
+    "es": "campamento"
+   },
+   "frequencyRank": 107,
+   "notes": {
+    "en": "Behind English town names in -chester / -caster (Manchester, Lancaster).",
+    "bg": "Стои зад английските градове на -chester / -caster (Манчестър, Ланкастър).",
+    "de": "Steckt in englischen Ortsnamen auf -chester (Manchester).",
+    "fr": "Derrière les villes anglaises en -chester (Manchester).",
+    "es": "Detrás de las ciudades inglesas en -chester (Manchester)."
+   }
+  },
+  {
+   "id": "la-alea-iacta-est",
+   "text": "alea iacta est",
+   "kind": "sentence",
+   "translations": {
+    "en": "the die is cast",
+    "bg": "жребият е хвърлен",
+    "de": "der Würfel ist gefallen",
+    "fr": "le sort en est jeté",
+    "es": "la suerte está echada"
+   },
+   "frequencyRank": 108,
+   "notes": {
+    "en": "Caesar, crossing the Rubicon in 49 BC: the point of no return.",
+    "bg": "Цезар при преминаването на Рубикон през 49 г. пр.н.е.: точката без връщане.",
+    "de": "Caesar beim Überschreiten des Rubikon 49 v. Chr.",
+    "fr": "César, en franchissant le Rubicon en 49 av. J.-C.",
+    "es": "César al cruzar el Rubicón en el 49 a. C."
+   }
+  },
+  {
+   "id": "la-veni-vidi-vici",
+   "text": "veni, vidi, vici",
+   "kind": "sentence",
+   "translations": {
+    "en": "I came, I saw, I conquered",
+    "bg": "дойдох, видях, победих",
+    "de": "ich kam, sah und siegte",
+    "fr": "je suis venu, j'ai vu, j'ai vaincu",
+    "es": "llegué, vi, vencí"
+   },
+   "frequencyRank": 109
+  },
+  {
+   "id": "la-o-tempora",
+   "text": "o tempora, o mores!",
+   "kind": "sentence",
+   "translations": {
+    "en": "oh the times, oh the customs!",
+    "bg": "о, времена, о, нрави!",
+    "de": "o Zeiten, o Sitten!",
+    "fr": "ô temps, ô mœurs !",
+    "es": "¡oh tiempos, oh costumbres!"
+   },
+   "frequencyRank": 110,
+   "notes": {
+    "en": "Cicero, complaining about the morals of his age (63 BC).",
+    "bg": "Цицерон, оплаквайки нравите на своето време (63 г. пр.н.е.).",
+    "de": "Cicero über den Sittenverfall (63 v. Chr.).",
+    "fr": "Cicéron, sur la décadence des mœurs (63 av. J.-C.).",
+    "es": "Cicerón, sobre la decadencia de las costumbres (63 a. C.)."
+   }
+  },
+  {
+   "id": "la-ab-urbe-condita",
+   "text": "ab urbe condita",
+   "kind": "phrase",
+   "translations": {
+    "en": "from the founding of the City (Rome)",
+    "bg": "от основаването на Града (Рим)",
+    "de": "seit Gründung der Stadt",
+    "fr": "depuis la fondation de la Ville",
+    "es": "desde la fundación de la Ciudad"
+   },
+   "frequencyRank": 111,
+   "notes": {
+    "en": "Title of Livy's history of Rome; Romans counted years from 753 BC.",
+    "bg": "Заглавието на историята на Рим от Ливий; римляните броели годините от 753 г. пр.н.е.",
+    "de": "Titel von Livius' Geschichtswerk.",
+    "fr": "Titre de l'histoire de Rome de Tite-Live.",
+    "es": "Título de la historia de Roma de Tito Livio."
+   }
+  },
+  {
+   "id": "la-gallia",
+   "text": "Gallia",
+   "kind": "word",
+   "translations": {
+    "en": "Gaul (France and around)",
+    "bg": "Галия (Франция и околностите)",
+    "de": "Gallien",
+    "fr": "la Gaule",
+    "es": "la Galia"
+   },
+   "frequencyRank": 120
+  },
+  {
+   "id": "la-omnis",
+   "text": "omnis",
+   "kind": "word",
+   "translations": {
+    "en": "all / whole",
+    "bg": "цял / всеки",
+    "de": "ganz / alle",
+    "fr": "tout",
+    "es": "todo"
+   },
+   "frequencyRank": 121
+  },
+  {
+   "id": "la-divisa",
+   "text": "divisa",
+   "kind": "word",
+   "translations": {
+    "en": "divided",
+    "bg": "разделена",
+    "de": "geteilt",
+    "fr": "divisée",
+    "es": "dividida"
+   },
+   "frequencyRank": 122
+  },
+  {
+   "id": "la-partes-tres",
+   "text": "in partes tres",
+   "kind": "phrase",
+   "translations": {
+    "en": "into three parts",
+    "bg": "на три части",
+    "de": "in drei Teile",
+    "fr": "en trois parties",
+    "es": "en tres partes"
+   },
+   "frequencyRank": 123
+  },
+  {
+   "id": "la-incolunt",
+   "text": "incolunt",
+   "kind": "word",
+   "translations": {
+    "en": "(they) inhabit",
+    "bg": "населяват",
+    "de": "bewohnen",
+    "fr": "habitent",
+    "es": "habitan"
+   },
+   "frequencyRank": 124
+  },
+  {
+   "id": "la-fortissimi",
+   "text": "fortissimi",
+   "kind": "word",
+   "translations": {
+    "en": "the bravest",
+    "bg": "най-храбрите",
+    "de": "die Tapfersten",
+    "fr": "les plus braves",
+    "es": "los más valientes"
+   },
+   "frequencyRank": 125
+  },
+  {
+   "id": "la-cor",
+   "text": "cor, cordis",
+   "kind": "word",
+   "translations": {
+    "en": "heart",
+    "bg": "сърце",
+    "de": "Herz",
+    "fr": "cœur",
+    "es": "corazón"
+   },
+   "frequencyRank": 200,
+   "notes": {
+    "en": "Latin cor → coronary; Greek kardia → cardiology. Medicine mixes both!",
+    "bg": "Латинското cor → коронарен; гръцкото kardia → кардиология. Медицината смесва двете!",
+    "de": "Lat. cor → koronar; griech. kardia → Kardiologie.",
+    "fr": "Lat. cor → coronaire ; grec kardia → cardiologie.",
+    "es": "Lat. cor → coronario; griego kardia → cardiología."
+   },
+   "gender": "n"
+  },
+  {
+   "id": "la-caput",
+   "text": "caput, capitis",
+   "kind": "word",
+   "translations": {
+    "en": "head",
+    "bg": "глава",
+    "de": "Kopf",
+    "fr": "tête",
+    "es": "cabeza"
+   },
+   "frequencyRank": 201,
+   "notes": {
+    "en": "English: capital, decapitate; Spanish: cabeza.",
+    "bg": "Бълг.: капитал, капитан; исп.: cabeza.",
+    "de": "English: capital, decapitate; Spanish: cabeza.",
+    "fr": "English: capital, decapitate; Spanish: cabeza.",
+    "es": "English: capital, decapitate; Spanish: cabeza."
+   },
+   "gender": "n"
+  },
+  {
+   "id": "la-oculus",
+   "text": "oculus",
+   "kind": "word",
+   "translations": {
+    "en": "eye",
+    "bg": "око",
+    "de": "Auge",
+    "fr": "œil",
+    "es": "ojo"
+   },
+   "frequencyRank": 202,
+   "notes": {
+    "en": "→ ocular, oculist; Spanish: ojo, Italian: occhio.",
+    "bg": "→ окулист; исп.: ojo, ит.: occhio.",
+    "de": "→ ocular, oculist; Spanish: ojo, Italian: occhio.",
+    "fr": "→ ocular, oculist; Spanish: ojo, Italian: occhio.",
+    "es": "→ ocular, oculist; Spanish: ojo, Italian: occhio."
+   },
+   "gender": "m"
+  },
+  {
+   "id": "la-manus",
+   "text": "manus",
+   "kind": "word",
+   "translations": {
+    "en": "hand",
+    "bg": "ръка (длан)",
+    "de": "Hand",
+    "fr": "main",
+    "es": "mano"
+   },
+   "frequencyRank": 203,
+   "notes": {
+    "en": "→ manual, manicure; French: main, Spanish: mano.",
+    "bg": "→ маникюр, мануален; фр.: main, исп.: mano.",
+    "de": "→ manual, manicure; French: main, Spanish: mano.",
+    "fr": "→ manual, manicure; French: main, Spanish: mano.",
+    "es": "→ manual, manicure; French: main, Spanish: mano."
+   },
+   "gender": "f"
+  },
+  {
+   "id": "la-pes",
+   "text": "pes, pedis",
+   "kind": "word",
+   "translations": {
+    "en": "foot",
+    "bg": "стъпало / крак",
+    "de": "Fuß",
+    "fr": "pied",
+    "es": "pie"
+   },
+   "frequencyRank": 204,
+   "notes": {
+    "en": "→ pedal, pedicure; French: pied, Spanish: pie.",
+    "bg": "→ педал, педикюр; фр.: pied, исп.: pie.",
+    "de": "→ pedal, pedicure; French: pied, Spanish: pie.",
+    "fr": "→ pedal, pedicure; French: pied, Spanish: pie.",
+    "es": "→ pedal, pedicure; French: pied, Spanish: pie."
+   },
+   "gender": "m"
+  },
+  {
+   "id": "la-os",
+   "text": "os, ossis",
+   "kind": "word",
+   "translations": {
+    "en": "bone",
+    "bg": "кост",
+    "de": "Knochen",
+    "fr": "os",
+    "es": "hueso"
+   },
+   "frequencyRank": 205,
+   "notes": {
+    "en": "→ osseous, ossification. (Careful: os, oris = mouth!)",
+    "bg": "→ осификация. (Внимание: os, oris = уста!)",
+    "de": "→ osseous, ossification. (Careful: os, oris = mouth!)",
+    "fr": "→ osseous, ossification. (Careful: os, oris = mouth!)",
+    "es": "→ osseous, ossification. (Careful: os, oris = mouth!)"
+   },
+   "gender": "n"
+  },
+  {
+   "id": "la-dens",
+   "text": "dens, dentis",
+   "kind": "word",
+   "translations": {
+    "en": "tooth",
+    "bg": "зъб",
+    "de": "Zahn",
+    "fr": "dent",
+    "es": "diente"
+   },
+   "frequencyRank": 206,
+   "notes": {
+    "en": "→ dentist, dental.",
+    "bg": "→ дентален, зъболекар = dentist (англ.).",
+    "de": "→ dentist, dental.",
+    "fr": "→ dentist, dental.",
+    "es": "→ dentist, dental."
+   },
+   "gender": "m"
+  },
+  {
+   "id": "la-pulmo",
+   "text": "pulmo",
+   "kind": "word",
+   "translations": {
+    "en": "lung",
+    "bg": "бял дроб",
+    "de": "Lunge",
+    "fr": "poumon",
+    "es": "pulmón"
+   },
+   "frequencyRank": 207,
+   "gender": "m"
+  },
+  {
+   "id": "la-ren",
+   "text": "ren, renis",
+   "kind": "word",
+   "translations": {
+    "en": "kidney",
+    "bg": "бъбрек",
+    "de": "Niere",
+    "fr": "rein",
+    "es": "riñón"
+   },
+   "frequencyRank": 208,
+   "notes": {
+    "en": "Latin ren → renal; Greek nephros → nephrology.",
+    "bg": "Лат. ren → ренален; гр. nephros → нефрология.",
+    "de": "Lat. ren → renal; griech. nephros → Nephrologie.",
+    "fr": "Lat. ren → rénal ; grec nephros → néphrologie.",
+    "es": "Lat. ren → renal; griego nephros → nefrología."
+   },
+   "gender": "m"
+  },
+  {
+   "id": "la-cutis",
+   "text": "cutis",
+   "kind": "word",
+   "translations": {
+    "en": "skin",
+    "bg": "кожа",
+    "de": "Haut",
+    "fr": "peau",
+    "es": "piel"
+   },
+   "frequencyRank": 209,
+   "notes": {
+    "en": "Latin cutis → cutaneous; Greek derma → dermatology.",
+    "bg": "Лат. cutis → кутанен; гр. derma → дерматология.",
+    "de": "Lat. cutis → kutan; griech. derma → Dermatologie.",
+    "fr": "Lat. cutis → cutané ; grec derma → dermatologie.",
+    "es": "Lat. cutis → cutáneo; griego derma → dermatología."
+   },
+   "gender": "f"
+  },
+  {
+   "id": "la--itis",
+   "text": "-itis",
+   "kind": "word",
+   "translations": {
+    "en": "inflammation",
+    "bg": "възпаление",
+    "de": "Entzündung",
+    "fr": "inflammation",
+    "es": "inflamación"
+   },
+   "frequencyRank": 220,
+   "notes": {
+    "en": "appendicitis, gastritis, bronchitis, arthritis",
+    "bg": "апендицит, гастрит, бронхит, артрит",
+    "de": "Appendizitis, Gastritis, Bronchitis",
+    "fr": "appendicite, gastrite, bronchite",
+    "es": "apendicitis, gastritis, bronquitis"
+   }
+  },
+  {
+   "id": "la--algia",
+   "text": "-algia",
+   "kind": "word",
+   "translations": {
+    "en": "pain",
+    "bg": "болка",
+    "de": "Schmerz",
+    "fr": "douleur",
+    "es": "dolor"
+   },
+   "frequencyRank": 221,
+   "notes": {
+    "en": "neuralgia (nerve pain), myalgia (muscle pain), cephalalgia (headache)",
+    "bg": "невралгия, миалгия (мускулна болка), цефалгия (главоболие)",
+    "de": "Neuralgie, Myalgie, Zephalgie",
+    "fr": "névralgie, myalgie, céphalalgie",
+    "es": "neuralgia, mialgia, cefalalgia"
+   }
+  },
+  {
+   "id": "la-cardio-",
+   "text": "cardio-",
+   "kind": "word",
+   "translations": {
+    "en": "heart (Greek)",
+    "bg": "сърце (гр.)",
+    "de": "Herz (griech.)",
+    "fr": "cœur (grec)",
+    "es": "corazón (griego)"
+   },
+   "frequencyRank": 222,
+   "notes": {
+    "en": "cardiology, cardiogram, tachycardia",
+    "bg": "кардиология, кардиограма, тахикардия",
+    "de": "Kardiologie, Tachykardie",
+    "fr": "cardiologie, tachycardie",
+    "es": "cardiología, taquicardia"
+   }
+  },
+  {
+   "id": "la-gastro-",
+   "text": "gastro-",
+   "kind": "word",
+   "translations": {
+    "en": "stomach (Greek)",
+    "bg": "стомах (гр.)",
+    "de": "Magen (griech.)",
+    "fr": "estomac (grec)",
+    "es": "estómago (griego)"
+   },
+   "frequencyRank": 223,
+   "notes": {
+    "en": "gastritis, gastroscopy",
+    "bg": "гастрит, гастроскопия",
+    "de": "Gastritis, Gastroskopie",
+    "fr": "gastrite, gastroscopie",
+    "es": "gastritis, gastroscopia"
+   }
+  },
+  {
+   "id": "la-hepat-",
+   "text": "hepat-",
+   "kind": "word",
+   "translations": {
+    "en": "liver (Greek)",
+    "bg": "черен дроб (гр.)",
+    "de": "Leber (griech.)",
+    "fr": "foie (grec)",
+    "es": "hígado (griego)"
+   },
+   "frequencyRank": 224,
+   "notes": {
+    "en": "hepatitis = inflammation of the liver",
+    "bg": "хепатит = възпаление на черния дроб",
+    "de": "Hepatitis = Leberentzündung",
+    "fr": "hépatite",
+    "es": "hepatitis"
+   }
+  },
+  {
+   "id": "la--ectomia",
+   "text": "-ectomia",
+   "kind": "word",
+   "translations": {
+    "en": "surgical removal",
+    "bg": "хирургично отстраняване",
+    "de": "operative Entfernung",
+    "fr": "ablation chirurgicale",
+    "es": "extirpación quirúrgica"
+   },
+   "frequencyRank": 225,
+   "notes": {
+    "en": "appendectomy, tonsillectomy",
+    "bg": "апендектомия, тонзилектомия",
+    "de": "Appendektomie, Tonsillektomie",
+    "fr": "appendicectomie, amygdalectomie",
+    "es": "apendicectomía, amigdalectomía"
+   }
+  },
+  {
+   "id": "la-bid",
+   "text": "b.i.d. – bis in die",
+   "kind": "phrase",
+   "translations": {
+    "en": "twice a day",
+    "bg": "два пъти дневно",
+    "de": "zweimal täglich",
+    "fr": "deux fois par jour",
+    "es": "dos veces al día"
+   },
+   "frequencyRank": 226
+  },
+  {
+   "id": "la-tid",
+   "text": "t.i.d. – ter in die",
+   "kind": "phrase",
+   "translations": {
+    "en": "three times a day",
+    "bg": "три пъти дневно",
+    "de": "dreimal täglich",
+    "fr": "trois fois par jour",
+    "es": "tres veces al día"
+   },
+   "frequencyRank": 227
+  },
+  {
+   "id": "la-po",
+   "text": "p.o. – per os",
+   "kind": "phrase",
+   "translations": {
+    "en": "by mouth",
+    "bg": "през устата (перорално)",
+    "de": "oral / zum Einnehmen",
+    "fr": "par voie orale",
+    "es": "por vía oral"
+   },
+   "frequencyRank": 228
+  },
+  {
+   "id": "la-prn",
+   "text": "p.r.n. – pro re nata",
+   "kind": "phrase",
+   "translations": {
+    "en": "as needed",
+    "bg": "при нужда",
+    "de": "bei Bedarf",
+    "fr": "si besoin",
+    "es": "según necesidad"
+   },
+   "frequencyRank": 229
+  },
+  {
+   "id": "la-ac",
+   "text": "a.c. – ante cibum",
+   "kind": "phrase",
+   "translations": {
+    "en": "before meals",
+    "bg": "преди хранене",
+    "de": "vor dem Essen",
+    "fr": "avant les repas",
+    "es": "antes de las comidas"
+   },
+   "frequencyRank": 230
+  },
+  {
+   "id": "la-rosa-canina",
+   "text": "Rosa canina",
+   "kind": "phrase",
+   "translations": {
+    "en": "dog rose (lit. “dog's rose”)",
+    "bg": "шипка (букв. „кучешка роза“)",
+    "de": "Hundsrose",
+    "fr": "églantier (rosier des chiens)",
+    "es": "rosal silvestre (lit. «rosa de perro»)"
+   },
+   "frequencyRank": 300
+  },
+  {
+   "id": "la-ursus-arctos",
+   "text": "Ursus arctos",
+   "kind": "phrase",
+   "translations": {
+    "en": "brown bear (Latin + Greek “bear bear”!)",
+    "bg": "кафява мечка (лат. + гр.: „мечка мечка“!)",
+    "de": "Braunbär („Bär Bär“, lat. + griech.)",
+    "fr": "ours brun (« ours ours », latin + grec)",
+    "es": "oso pardo («oso oso», latín + griego)"
+   },
+   "frequencyRank": 301
+  },
+  {
+   "id": "la-canis-lupus",
+   "text": "Canis lupus",
+   "kind": "phrase",
+   "translations": {
+    "en": "wolf (lit. “dog wolf”)",
+    "bg": "вълк (букв. „куче вълк“)",
+    "de": "Wolf",
+    "fr": "loup",
+    "es": "lobo"
+   },
+   "frequencyRank": 302
+  },
+  {
+   "id": "la-felis-catus",
+   "text": "Felis catus",
+   "kind": "phrase",
+   "translations": {
+    "en": "domestic cat",
+    "bg": "домашна котка",
+    "de": "Hauskatze",
+    "fr": "chat domestique",
+    "es": "gato doméstico"
+   },
+   "frequencyRank": 303
+  },
+  {
+   "id": "la-quercus-robur",
+   "text": "Quercus robur",
+   "kind": "phrase",
+   "translations": {
+    "en": "English oak (robur = strength)",
+    "bg": "летен дъб (robur = сила)",
+    "de": "Stieleiche (robur = Kraft)",
+    "fr": "chêne pédonculé (robur = force)",
+    "es": "roble común (robur = fuerza)"
+   },
+   "frequencyRank": 304,
+   "notes": {
+    "en": "“robur” gives English “robust”.",
+    "bg": "От „robur“ идва „robust“ (здрав).",
+    "de": "Von „robur“ kommt „robust“.",
+    "fr": "« robur » a donné « robuste ».",
+    "es": "De «robur» viene «robusto»."
+   }
+  },
+  {
+   "id": "la-homo-sapiens",
+   "text": "Homo sapiens",
+   "kind": "phrase",
+   "translations": {
+    "en": "human (lit. “wise man”)",
+    "bg": "човек (букв. „разумен човек“)",
+    "de": "Mensch („weiser Mensch“)",
+    "fr": "homme (« homme sage »)",
+    "es": "humano («hombre sabio»)"
+   },
+   "frequencyRank": 305
+  },
+  {
+   "id": "la-bellis-perennis",
+   "text": "Bellis perennis",
+   "kind": "phrase",
+   "translations": {
+    "en": "daisy (lit. “everlasting pretty one”)",
+    "bg": "паричка / маргаритка (букв. „вечно хубава“)",
+    "de": "Gänseblümchen",
+    "fr": "pâquerette",
+    "es": "margarita"
+   },
+   "frequencyRank": 306
+  },
+  {
+   "id": "la-alba",
+   "text": "alba / albus",
+   "kind": "word",
+   "translations": {
+    "en": "white",
+    "bg": "бял",
+    "de": "weiß",
+    "fr": "blanc",
+    "es": "blanco"
+   },
+   "frequencyRank": 320,
+   "notes": {
+    "en": "Betula alba (white birch), albino",
+    "bg": "Betula alba (бяла бреза), албинос",
+    "de": "Betula alba, Albino",
+    "fr": "Betula alba, albinos",
+    "es": "Betula alba, albino"
+   }
+  },
+  {
+   "id": "la-rubra",
+   "text": "rubra / ruber",
+   "kind": "word",
+   "translations": {
+    "en": "red",
+    "bg": "червен",
+    "de": "rot",
+    "fr": "rouge",
+    "es": "rojo"
+   },
+   "frequencyRank": 321,
+   "notes": {
+    "en": "Quercus rubra (red oak), ruby",
+    "bg": "Quercus rubra (червен дъб), рубин",
+    "de": "Quercus rubra, Rubin",
+    "fr": "Quercus rubra, rubis",
+    "es": "Quercus rubra, rubí"
+   }
+  },
+  {
+   "id": "la-vulgaris",
+   "text": "vulgaris",
+   "kind": "word",
+   "translations": {
+    "en": "common",
+    "bg": "обикновен",
+    "de": "gewöhnlich",
+    "fr": "commun",
+    "es": "común"
+   },
+   "frequencyRank": 322,
+   "notes": {
+    "en": "Thymus vulgaris = common thyme",
+    "bg": "Thymus vulgaris = обикновена мащерка",
+    "de": "Thymus vulgaris = Echter Thymian",
+    "fr": "Thymus vulgaris = thym commun",
+    "es": "Thymus vulgaris = tomillo común"
+   }
+  },
+  {
+   "id": "la-officinalis",
+   "text": "officinalis",
+   "kind": "word",
+   "translations": {
+    "en": "medicinal (sold in the apothecary's shop)",
+    "bg": "лечебен (продаван в аптеката)",
+    "de": "arzneilich",
+    "fr": "officinal / médicinal",
+    "es": "medicinal"
+   },
+   "frequencyRank": 323,
+   "notes": {
+    "en": "Salvia officinalis = sage, Calendula officinalis = marigold",
+    "bg": "Salvia officinalis = градински чай, Calendula officinalis = невен",
+    "de": "Salvia officinalis = Salbei",
+    "fr": "Salvia officinalis = sauge",
+    "es": "Salvia officinalis = salvia"
+   }
+  },
+  {
+   "id": "la-sylvestris",
+   "text": "sylvestris",
+   "kind": "word",
+   "translations": {
+    "en": "of the forest / wild",
+    "bg": "горски / див",
+    "de": "Wald- / wild",
+    "fr": "sylvestre / sauvage",
+    "es": "silvestre"
+   },
+   "frequencyRank": 324,
+   "notes": {
+    "en": "Pinus sylvestris = Scots pine; Felis silvestris = wildcat",
+    "bg": "Pinus sylvestris = бял бор; Felis silvestris = дива котка",
+    "de": "Pinus sylvestris = Waldkiefer",
+    "fr": "Pinus sylvestris = pin sylvestre",
+    "es": "Pinus sylvestris = pino silvestre"
+   }
+  },
+  {
+   "id": "la-sativa",
+   "text": "sativa / sativum",
+   "kind": "word",
+   "translations": {
+    "en": "cultivated (sown)",
+    "bg": "култивиран (посят)",
+    "de": "angebaut",
+    "fr": "cultivé",
+    "es": "cultivado"
+   },
+   "frequencyRank": 325,
+   "notes": {
+    "en": "Allium sativum = garlic, Avena sativa = oats",
+    "bg": "Allium sativum = чесън, Avena sativa = овес",
+    "de": "Allium sativum = Knoblauch",
+    "fr": "Allium sativum = ail",
+    "es": "Allium sativum = ajo"
+   }
+  },
+  {
+   "id": "la-montana",
+   "text": "montana / montanus",
+   "kind": "word",
+   "translations": {
+    "en": "of the mountains",
+    "bg": "планински",
+    "de": "Berg-",
+    "fr": "des montagnes",
+    "es": "de montaña"
+   },
+   "frequencyRank": 326
+  },
+  {
+   "id": "la-aquatica",
+   "text": "aquatica / aquaticus",
+   "kind": "word",
+   "translations": {
+    "en": "living in water",
+    "bg": "воден",
+    "de": "Wasser-",
+    "fr": "aquatique",
+    "es": "acuático"
+   },
+   "frequencyRank": 327
+  },
+  {
+   "id": "la-carpe-diem",
+   "text": "carpe diem",
+   "kind": "phrase",
+   "translations": {
+    "en": "seize the day",
+    "bg": "живей за мига (букв. „откъсни деня“)",
+    "de": "nutze den Tag",
+    "fr": "cueille le jour",
+    "es": "aprovecha el día"
+   },
+   "frequencyRank": 130,
+   "notes": {
+    "en": "Horace, Odes I.11.",
+    "bg": "Хораций, Оди I.11.",
+    "de": "Horaz, Oden I,11.",
+    "fr": "Horace, Odes I,11.",
+    "es": "Horacio, Odas I,11."
+   }
+  },
+  {
+   "id": "la-errare-humanum-est",
+   "text": "errare humanum est",
+   "kind": "sentence",
+   "translations": {
+    "en": "to err is human",
+    "bg": "грешката е човешка",
+    "de": "Irren ist menschlich",
+    "fr": "l'erreur est humaine",
+    "es": "errar es humano"
+   },
+   "frequencyRank": 131
+  },
+  {
+   "id": "la-mens-sana",
+   "text": "mens sana in corpore sano",
+   "kind": "sentence",
+   "translations": {
+    "en": "a healthy mind in a healthy body",
+    "bg": "здрав дух в здраво тяло",
+    "de": "ein gesunder Geist in einem gesunden Körper",
+    "fr": "un esprit sain dans un corps sain",
+    "es": "mente sana en cuerpo sano"
+   },
+   "frequencyRank": 132,
+   "notes": {
+    "en": "Juvenal, Satires X.",
+    "bg": "Ювенал, Сатири X.",
+    "de": "Juvenal, Satiren X.",
+    "fr": "Juvénal, Satires X.",
+    "es": "Juvenal, Sátiras X."
+   }
+  }
+ ],
+ "grammarNotes": [
+  {
+   "id": "la-g-esse",
+   "level": "A1",
+   "title": {
+    "en": "esse (to be)",
+    "bg": "esse (съм)",
+    "de": "esse (sein)",
+    "fr": "esse (être)",
+    "es": "esse (ser)"
+   },
+   "body": {
+    "en": "- **sum** = I am\n- **es** = you are\n- **est** = he/she/it is\n- **sumus** = we are\n- **estis** = you (pl.) are\n- **sunt** = they are\n\nLatin usually drops the pronoun: *Romanus sum* = I am Roman. The verb often goes at the **end**.",
+    "bg": "- **sum** = аз съм\n- **es** = ти си\n- **est** = той/тя/то е\n- **sumus** = ние сме\n- **estis** = вие сте\n- **sunt** = те са\n\nЛатинският обикновено изпуска местоимението, както българският: *Romanus sum* = (Аз) съм римлянин. Глаголът често е **накрая**.",
+    "de": "- **sum** = ich bin\n- **es** = du bist\n- **est** = er/sie/es ist\n- **sumus** = wir sind\n- **estis** = ihr seid\n- **sunt** = sie sind\n\nDas Pronomen fällt meist weg: *Romanus sum*. Das Verb steht oft am **Ende**.",
+    "fr": "- **sum** = je suis\n- **es** = tu es\n- **est** = il est\n- **sumus** = nous sommes\n- **estis** = vous êtes\n- **sunt** = ils sont\n\nLe pronom est omis : *Romanus sum*. Le verbe est souvent à la **fin**.",
+    "es": "- **sum** = soy\n- **es** = eres\n- **est** = es\n- **sumus** = somos\n- **estis** = sois\n- **sunt** = son\n\nEl pronombre se omite, como en español: *Romanus sum*. El verbo suele ir al **final**."
+   }
+  },
+  {
+   "id": "la-g-cases",
+   "level": "A1",
+   "title": {
+    "en": "Cases: who does what to whom",
+    "bg": "Падежи: кой какво прави на кого",
+    "de": "Fälle: wer tut wem was",
+    "fr": "Les cas : qui fait quoi à qui",
+    "es": "Los casos: quién hace qué a quién"
+   },
+   "body": {
+    "en": "Latin shows the role of a noun with its **ending**, not word order:\n\n- **Puella** rosam amat. = The girl loves the rose. (*-a* = subject, nominative)\n- Puella **rosam** amat. (*-am* = object, accusative)\n- **Rosam** puella amat. = still the girl loves the rose!\n\nFirst declension (*-a*): puella, puell**am**, puell**ae** (of the girl).\nSecond declension (*-us*): amicus, amic**um**, amic**i** (of the friend).",
+    "bg": "Латинският показва ролята на съществителното с **окончанието**, а не с реда на думите:\n\n- **Puella** rosam amat. = Момичето обича розата. (*-a* = подлог, номинатив)\n- Puella **rosam** amat. (*-am* = пряко допълнение, акузатив)\n- **Rosam** puella amat. = пак момичето обича розата!\n\nI склонение (*-a*): puella, puell**am**, puell**ae** (на момичето).\nII склонение (*-us*): amicus, amic**um**, amic**i** (на приятеля).\n\nБългарският е запазил следи от падежи в местоименията: той – него – нему.",
+    "de": "Latein zeigt die Rolle eines Nomens durch die **Endung**:\n\n- **Puella** rosam amat. = Das Mädchen liebt die Rose. (*-a* = Nominativ)\n- Puella **rosam** amat. (*-am* = Akkusativ)\n\n1. Deklination: puella, puell**am**, puell**ae**.\n2. Deklination: amicus, amic**um**, amic**i**.",
+    "fr": "Le latin marque le rôle du nom par sa **terminaison** :\n\n- **Puella** rosam amat. = La jeune fille aime la rose. (*-a* = nominatif)\n- Puella **rosam** amat. (*-am* = accusatif)\n\n1re déclinaison : puella, puell**am**, puell**ae**.\n2e déclinaison : amicus, amic**um**, amic**i**.",
+    "es": "El latín marca la función del sustantivo con la **terminación**:\n\n- **Puella** rosam amat. = La niña ama la rosa. (*-a* = nominativo)\n- Puella **rosam** amat. (*-am* = acusativo)\n\n1.ª declinación: puella, puell**am**, puell**ae**.\n2.ª declinación: amicus, amic**um**, amic**i**."
+   }
+  },
+  {
+   "id": "la-g-verbs",
+   "level": "A1",
+   "title": {
+    "en": "Verb endings: -o, -s, -t, -mus, -tis, -nt",
+    "bg": "Глаголни окончания: -o, -s, -t, -mus, -tis, -nt",
+    "de": "Verbendungen",
+    "fr": "Terminaisons verbales",
+    "es": "Terminaciones verbales"
+   },
+   "body": {
+    "en": "- am**o** = I love\n- ama**s** = you love\n- ama**t** = he/she loves\n- ama**mus** = we love\n- ama**tis** = you (pl.) love\n- ama**nt** = they love\n\nSpanish kept them almost unchanged: am**o**, ama**s**, ama**mos**, ama**n**!",
+    "bg": "- am**o** = обичам\n- ama**s** = обичаш\n- ama**t** = обича\n- ama**mus** = обичаме\n- ama**tis** = обичате\n- ama**nt** = обичат\n\nИспанският ги е запазил почти без промяна: am**o**, ama**s**, ama**mos**, ama**n**!",
+    "de": "- am**o** = ich liebe\n- ama**s** = du liebst\n- ama**t** = er/sie liebt\n- ama**mus** = wir lieben\n- ama**tis** = ihr liebt\n- ama**nt** = sie lieben",
+    "fr": "- am**o** = j'aime\n- ama**s** = tu aimes\n- ama**t** = il aime\n- ama**mus** = nous aimons\n- ama**tis** = vous aimez\n- ama**nt** = ils aiment",
+    "es": "- am**o** = amo\n- ama**s** = amas\n- ama**t** = ama\n- ama**mus** = amamos\n- ama**tis** = amáis\n- ama**nt** = aman\n\n¡El español casi no ha cambiado!"
+   }
+  },
+  {
+   "id": "la-g-binomial",
+   "level": "A2",
+   "title": {
+    "en": "Binomial names",
+    "bg": "Двуименна номенклатура",
+    "de": "Binäre Nomenklatur",
+    "fr": "Nomenclature binominale",
+    "es": "Nomenclatura binomial"
+   },
+   "body": {
+    "en": "Since Linnaeus (1753), every species has two Latin names:\n\n- **Genus** (capital letter): *Rosa*, *Ursus*, *Canis*\n- **species epithet** (small letter), often an adjective: *canina* (of dogs), *alba* (white), *vulgaris* (common), *officinalis* (medicinal)\n\nThe adjective agrees with the genus: *Rosa alb**a*** but *Ursus alb**us***.",
+    "bg": "От Линей (1753 г.) насам всеки вид има две латински имена:\n\n- **Род** (с главна буква): *Rosa*, *Ursus*, *Canis*\n- **видов епитет** (с малка буква), често прилагателно: *canina* (кучешки), *alba* (бял), *vulgaris* (обикновен), *officinalis* (лечебен)\n\nПрилагателното се съгласува с рода: *Rosa alb**a***, но *Ursus alb**us***.",
+    "de": "Seit Linné (1753) hat jede Art zwei lateinische Namen:\n\n- **Gattung** (groß): *Rosa*, *Ursus*\n- **Artepitheton** (klein), oft ein Adjektiv: *canina*, *alba*, *vulgaris*\n\nDas Adjektiv richtet sich nach der Gattung: *Rosa alba*, *Ursus albus*.",
+    "fr": "Depuis Linné (1753), chaque espèce a deux noms latins :\n\n- le **genre** (majuscule) : *Rosa*, *Ursus*\n- l'**épithète** (minuscule), souvent un adjectif : *canina*, *alba*, *vulgaris*\n\nL'adjectif s'accorde : *Rosa alba*, *Ursus albus*.",
+    "es": "Desde Linneo (1753), cada especie tiene dos nombres latinos:\n\n- el **género** (mayúscula): *Rosa*, *Ursus*\n- el **epíteto** (minúscula), a menudo un adjetivo: *canina*, *alba*, *vulgaris*\n\nEl adjetivo concuerda: *Rosa alba*, *Ursus albus*."
+   }
+  },
+  {
+   "id": "la-g-medterms",
+   "level": "A2",
+   "title": {
+    "en": "Building medical terms",
+    "bg": "Как се строят медицинските термини",
+    "de": "Medizinische Begriffe bilden",
+    "fr": "Former les termes médicaux",
+    "es": "Formar términos médicos"
+   },
+   "body": {
+    "en": "Most terms are **root + suffix**, often Greek:\n\n- **gastr**(stomach) + **-itis** (inflammation) = gastritis\n- **neur**(nerve) + **-algia** (pain) = neuralgia\n- **append**(ix) + **-ectomia** (removal) = appendectomy\n\nAnatomy names are usually Latin (*cor, ren, cutis*), disease and specialty names Greek (*cardio-, nephro-, derma-*).",
+    "bg": "Повечето термини са **корен + наставка**, често от гръцки:\n\n- **gastr**(стомах) + **-itis** (възпаление) = гастрит\n- **neur**(нерв) + **-algia** (болка) = невралгия\n- **append**(ix) + **-ectomia** (отстраняване) = апендектомия\n\nАнатомичните имена обикновено са латински (*cor, ren, cutis*), а болестите и специалностите гръцки (*кардио-, нефро-, дерма-*).",
+    "de": "Die meisten Begriffe sind **Wurzel + Suffix**, oft griechisch:\n\n- **gastr** + **-itis** = Gastritis\n- **neur** + **-algia** = Neuralgie\n- **append** + **-ectomia** = Appendektomie\n\nAnatomie meist lateinisch, Krankheiten und Fächer griechisch.",
+    "fr": "La plupart des termes = **racine + suffixe**, souvent grecs :\n\n- **gastr** + **-itis** = gastrite\n- **neur** + **-algia** = névralgie\n- **append** + **-ectomia** = appendicectomie\n\nL'anatomie est surtout latine, les maladies et spécialités grecques.",
+    "es": "La mayoría de términos son **raíz + sufijo**, a menudo griegos:\n\n- **gastr** + **-itis** = gastritis\n- **neur** + **-algia** = neuralgia\n- **append** + **-ectomia** = apendicectomía\n\nLa anatomía suele ser latina; enfermedades y especialidades, griegas."
+   }
+  }
+ ],
+ "cultureNotes": [
+  {
+   "id": "la-c-pronunciation",
+   "title": {
+    "en": "How did Romans sound?",
+    "bg": "Как са звучали римляните?",
+    "de": "Wie klangen die Römer?",
+    "fr": "Comment parlaient les Romains ?",
+    "es": "¿Cómo sonaban los romanos?"
+   },
+   "body": {
+    "en": "Classical Latin: C is always “k” (Cicero = Kikero), V sounds like “w” (veni = weni). Church Latin, used in Italy, says “Chichero”. The site's voice uses Italian, so it sounds churchy.",
+    "bg": "Класически латински: C винаги е „к“ (Cicero = Кикеро), V звучи като „у“ (veni = уени). Църковният латински, използван в Италия, казва „Чичеро“. Гласът в сайта използва италиански, затова звучи по църковному.",
+    "de": "Klassisches Latein: C immer „k“ (Kikero), V wie „w“ (weni). Kirchenlatein sagt „Tschitschero“. Die Stimme der Seite nutzt Italienisch.",
+    "fr": "Latin classique : C toujours « k » (Kikéro), V comme « w » (wéni). Le latin d'Église dit « Tchitchéro ». La voix du site utilise l'italien.",
+    "es": "Latín clásico: C siempre «k» (Kíkero), V como «u» (ueni). El latín eclesiástico dice «Chíchero». La voz del sitio usa italiano."
+   }
+  },
+  {
+   "id": "la-c-pompeii",
+   "title": {
+    "en": "Graffiti in Pompeii",
+    "bg": "Графитите в Помпей",
+    "de": "Graffiti in Pompeji",
+    "fr": "Les graffitis de Pompéi",
+    "es": "Los grafitis de Pompeya"
+   },
+   "body": {
+    "en": "The walls of Pompeii, buried in AD 79, are full of everyday Latin: election posters, jokes, love notes and insults. Real conversations, frozen in time.",
+    "bg": "Стените на Помпей, затрупан през 79 г., са пълни с ежедневен латински: предизборни плакати, шеги, любовни бележки и обиди. Истински разговори, замръзнали във времето.",
+    "de": "Die Wände des 79 n. Chr. verschütteten Pompeji sind voller Alltagslatein: Wahlplakate, Witze, Liebesbotschaften.",
+    "fr": "Les murs de Pompéi, ensevelie en 79, sont pleins de latin du quotidien : affiches électorales, blagues, mots d'amour.",
+    "es": "Los muros de Pompeya, sepultada en el 79, están llenos de latín cotidiano: carteles electorales, chistes, notas de amor."
+   }
+  },
+  {
+   "id": "la-c-galen",
+   "title": {
+    "en": "Galen of Pergamon",
+    "bg": "Гален от Пергам",
+    "de": "Galen von Pergamon",
+    "fr": "Galien de Pergame",
+    "es": "Galeno de Pérgamo"
+   },
+   "body": {
+    "en": "A Greek doctor in Rome (2nd century AD) whose ideas ruled medicine for 1,300 years. That's why medical language is a Greek–Latin mix.",
+    "bg": "Гръцки лекар в Рим (II век), чиито идеи господстват в медицината 1300 години. Затова медицинският език е смесица от гръцки и латински.",
+    "de": "Ein griechischer Arzt in Rom (2. Jh.), dessen Lehren 1300 Jahre galten. Daher die griechisch-lateinische Fachsprache.",
+    "fr": "Médecin grec à Rome (IIe siècle), dont les idées ont dominé la médecine pendant 1300 ans.",
+    "es": "Médico griego en Roma (siglo II) cuyas ideas dominaron la medicina durante 1300 años."
+   }
+  },
+  {
+   "id": "la-c-vercingetorix",
+   "title": {
+    "en": "Alesia, 52 BC",
+    "bg": "Алезия, 52 г. пр.н.е.",
+    "de": "Alesia, 52 v. Chr.",
+    "fr": "Alésia, 52 av. J.-C.",
+    "es": "Alesia, 52 a. C."
+   },
+   "body": {
+    "en": "Caesar besieged the Gallic leader Vercingetorix at Alesia. His victory, told in his own “Commentarii de Bello Gallico”, made Gaul Roman.",
+    "bg": "Цезар обсажда галския вожд Верцингеторикс при Алезия. Победата му, описана в собствените му „Записки за Галската война“, прави Галия римска.",
+    "de": "Caesar belagerte Vercingetorix bei Alesia. Sein Sieg, in „De Bello Gallico“ erzählt, machte Gallien römisch.",
+    "fr": "César assiégea Vercingétorix à Alésia. Sa victoire, racontée dans « La Guerre des Gaules », rendit la Gaule romaine.",
+    "es": "César sitió a Vercingétorix en Alesia. Su victoria, narrada en «La guerra de las Galias», hizo romana la Galia."
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "la-a1-01",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Salve!",
+    "bg": "Salve!",
+    "de": "Salve!",
+    "fr": "Salve !",
+    "es": "¡Salve!"
+   },
+   "description": {
+    "en": "Greetings and the verb esse",
+    "bg": "Поздрави и глаголът esse",
+    "de": "Begrüßungen und esse",
+    "fr": "Salutations et le verbe esse",
+    "es": "Saludos y el verbo esse"
+   },
+   "items": [
+    "la-salve",
+    "la-salvete",
+    "la-vale",
+    "la-valete",
+    "la-gratias",
+    "la-quid-agis",
+    "la-bene",
+    "la-nomen-mihi-est",
+    "la-sum",
+    "la-es",
+    "la-est",
+    "la-sumus",
+    "la-sunt"
+   ],
+   "grammar": [
+    "la-g-esse"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Romanus ___. (I am Roman)",
+     "answer": "sum",
+     "itemId": "la-sum",
+     "options": [
+      "sum",
+      "est",
+      "sunt"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Marcus et Iulia Romani ___.",
+     "answer": "sunt",
+     "itemId": "la-sunt",
+     "options": [
+      "sunt",
+      "est",
+      "sumus"
+     ]
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "Saying goodbye to a whole class:",
+      "bg": "Сбогуване с цял клас:",
+      "de": "Abschied von der ganzen Klasse:",
+      "fr": "Dire au revoir à toute la classe :",
+      "es": "Despedirse de toda la clase:"
+     },
+     "options": [
+      "valete!",
+      "vale!",
+      "salve!"
+     ],
+     "answer": "valete!",
+     "itemId": "la-valete"
+    },
+    {
+     "type": "order_words",
+     "sentence": "nomen mihi est Marcus",
+     "translation": {
+      "en": "my name is Marcus",
+      "bg": "казвам се Марк",
+      "de": "mein Name ist Marcus",
+      "fr": "je m'appelle Marcus",
+      "es": "me llamo Marco"
+     }
+    }
+   ]
+  },
+  {
+   "id": "la-a1-02",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Puella et rosa",
+    "bg": "Puella et rosa",
+    "de": "Puella et rosa",
+    "fr": "Puella et rosa",
+    "es": "Puella et rosa"
+   },
+   "description": {
+    "en": "First declension and words alive in Romance languages",
+    "bg": "Първо склонение и думи, живи в романските езици",
+    "de": "1. Deklination und Wörter, die in romanischen Sprachen weiterleben",
+    "fr": "1re déclinaison et mots vivants dans les langues romanes",
+    "es": "1.ª declinación y palabras vivas en las lenguas romances"
+   },
+   "items": [
+    "la-puella",
+    "la-rosa",
+    "la-aqua",
+    "la-terra",
+    "la-via",
+    "la-vita",
+    "la-lingua",
+    "la-patria",
+    "la-silva"
+   ],
+   "grammar": [
+    "la-g-cases"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Puella ___ amat. (the rose, as object)",
+     "answer": "rosam",
+     "itemId": "la-rosa",
+     "options": [
+      "rosam",
+      "rosa",
+      "rosae"
+     ]
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "Which modern word does NOT come from “aqua”?",
+      "bg": "Коя съвременна дума НЕ идва от „aqua“?",
+      "de": "Welches Wort kommt NICHT von „aqua“?",
+      "fr": "Quel mot ne vient PAS de « aqua » ?",
+      "es": "¿Qué palabra NO viene de «aqua»?"
+     },
+     "options": [
+      "agua",
+      "eau",
+      "Wasser"
+     ],
+     "answer": "Wasser",
+     "explanation": {
+      "en": "German Wasser is Germanic, related to English water.",
+      "bg": "Немското Wasser е германско, сродно на английското water.",
+      "de": "Wasser ist germanisch, verwandt mit engl. water.",
+      "fr": "Wasser est germanique, comme l'anglais water.",
+      "es": "Wasser es germánico, como el inglés water."
+     },
+     "itemId": "la-aqua"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "vita → Spanish: ___",
+     "answer": "vida",
+     "itemId": "la-vita",
+     "options": [
+      "vida",
+      "vista",
+      "viña"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "puella aquam amat",
+     "translation": {
+      "en": "the girl loves water",
+      "bg": "момичето обича водата",
+      "de": "das Mädchen liebt Wasser",
+      "fr": "la jeune fille aime l'eau",
+      "es": "la niña ama el agua"
+     }
+    }
+   ]
+  },
+  {
+   "id": "la-a1-03",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Amicus et dominus",
+    "bg": "Amicus et dominus",
+    "de": "Amicus et dominus",
+    "fr": "Amicus et dominus",
+    "es": "Amicus et dominus"
+   },
+   "description": {
+    "en": "Second declension: -us and -um",
+    "bg": "Второ склонение: -us и -um",
+    "de": "2. Deklination: -us und -um",
+    "fr": "2e déclinaison : -us et -um",
+    "es": "2.ª declinación: -us y -um"
+   },
+   "items": [
+    "la-amicus",
+    "la-dominus",
+    "la-servus",
+    "la-populus",
+    "la-annus",
+    "la-liber",
+    "la-bellum",
+    "la-verbum",
+    "la-oppidum"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Dominus ___ videt. (the slave, as object)",
+     "answer": "servum",
+     "itemId": "la-servus",
+     "options": [
+      "servum",
+      "servus",
+      "servi"
+     ]
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "The Austrian greeting “Servus” originally meant…",
+      "bg": "Австрийският поздрав „Servus“ първоначално е значел…",
+      "de": "„Servus“ bedeutete ursprünglich…",
+      "fr": "« Servus » voulait dire à l'origine…",
+      "es": "«Servus» significaba originalmente…"
+     },
+     "options": [
+      {
+       "en": "(your) servant",
+       "bg": "(твой) слуга",
+       "de": "(dein) Diener",
+       "fr": "(ton) serviteur",
+       "es": "(tu) siervo"
+      },
+      {
+       "en": "good morning",
+       "bg": "добро утро",
+       "de": "guten Morgen",
+       "fr": "bonjour",
+       "es": "buenos días"
+      },
+      {
+       "en": "friend",
+       "bg": "приятел",
+       "de": "Freund",
+       "fr": "ami",
+       "es": "amigo"
+      }
+     ],
+     "answer": {
+      "en": "(your) servant",
+      "bg": "(твой) слуга",
+      "de": "(dein) Diener",
+      "fr": "(ton) serviteur",
+      "es": "(tu) siervo"
+     },
+     "itemId": "la-servus"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "liber → English: ___ (a place full of books)",
+     "answer": "library",
+     "itemId": "la-liber",
+     "options": [
+      "library",
+      "liberty",
+      "livery"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "amicus librum legit",
+     "translation": {
+      "en": "the friend reads a book",
+      "bg": "приятелят чете книга",
+      "de": "der Freund liest ein Buch",
+      "fr": "l'ami lit un livre",
+      "es": "el amigo lee un libro"
+     }
+    }
+   ]
+  },
+  {
+   "id": "la-a1-04",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Amo, amas, amat",
+    "bg": "Amo, amas, amat",
+    "de": "Amo, amas, amat",
+    "fr": "Amo, amas, amat",
+    "es": "Amo, amas, amat"
+   },
+   "description": {
+    "en": "Verb endings and everyday verbs",
+    "bg": "Глаголни окончания и всекидневни глаголи",
+    "de": "Verbendungen und Alltagsverben",
+    "fr": "Terminaisons et verbes courants",
+    "es": "Terminaciones y verbos comunes"
+   },
+   "items": [
+    "la-amo",
+    "la-amat",
+    "la-amamus",
+    "la-amant",
+    "la-video",
+    "la-habeo",
+    "la-dico",
+    "la-scribo",
+    "la-lego",
+    "la-venio"
+   ],
+   "grammar": [
+    "la-g-verbs"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Nos Romam ___. (we love)",
+     "answer": "amamus",
+     "itemId": "la-amamus",
+     "options": [
+      "amamus",
+      "amant",
+      "amat"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Romani patriam ___. (they love)",
+     "answer": "amant",
+     "itemId": "la-amant",
+     "options": [
+      "amant",
+      "amat",
+      "amo"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ego epistulam ___. (I write)",
+     "answer": "scribo",
+     "itemId": "la-scribo",
+     "options": [
+      "scribo",
+      "scribit",
+      "lego"
+     ]
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "“Video” in Latin means…",
+      "bg": "„Video“ на латински значи…",
+      "de": "„Video“ heißt auf Latein…",
+      "fr": "« Video » en latin veut dire…",
+      "es": "«Video» en latín significa…"
+     },
+     "options": [
+      {
+       "en": "I see",
+       "bg": "виждам",
+       "de": "ich sehe",
+       "fr": "je vois",
+       "es": "veo"
+      },
+      {
+       "en": "a film",
+       "bg": "филм",
+       "de": "ein Film",
+       "fr": "un film",
+       "es": "una película"
+      },
+      {
+       "en": "I write",
+       "bg": "пиша",
+       "de": "ich schreibe",
+       "fr": "j'écris",
+       "es": "escribo"
+      }
+     ],
+     "answer": {
+      "en": "I see",
+      "bg": "виждам",
+      "de": "ich sehe",
+      "fr": "je vois",
+      "es": "veo"
+     },
+     "itemId": "la-video"
+    }
+   ]
+  },
+  {
+   "id": "la-h-01",
+   "section": "historia",
+   "level": "A2",
+   "title": {
+    "en": "SPQR: the Republic",
+    "bg": "SPQR: Републиката",
+    "de": "SPQR: die Republik",
+    "fr": "SPQR : la République",
+    "es": "SPQR: la República"
+   },
+   "description": {
+    "en": "Senate, consuls, legions and famous last words",
+    "bg": "Сенат, консули, легиони и прочути думи",
+    "de": "Senat, Konsuln, Legionen und berühmte Worte",
+    "fr": "Sénat, consuls, légions et mots célèbres",
+    "es": "Senado, cónsules, legiones y frases célebres"
+   },
+   "items": [
+    "la-res-publica",
+    "la-senatus",
+    "la-spqr",
+    "la-consul",
+    "la-imperator",
+    "la-legio",
+    "la-proelium",
+    "la-castra",
+    "la-alea-iacta-est",
+    "la-veni-vidi-vici",
+    "la-o-tempora",
+    "la-ab-urbe-condita"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "Caesar crossing the Rubicon said…",
+      "bg": "Цезар при преминаването на Рубикон казва…",
+      "de": "Caesar am Rubikon sagte…",
+      "fr": "César au Rubicon a dit…",
+      "es": "César al cruzar el Rubicón dijo…"
+     },
+     "options": [
+      "alea iacta est",
+      "veni, vidi, vici",
+      "o tempora, o mores!"
+     ],
+     "answer": "alea iacta est",
+     "itemId": "la-alea-iacta-est"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Senatus Populus___ Romanus (-que = and)",
+     "answer": "que",
+     "itemId": "la-spqr",
+     "options": [
+      "que",
+      "et",
+      "ac"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "veni, vidi, ___",
+     "answer": "vici",
+     "itemId": "la-veni-vidi-vici"
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "Rome had two of these each year:",
+      "bg": "Рим е имал по двама такива всяка година:",
+      "de": "Rom hatte jedes Jahr zwei davon:",
+      "fr": "Rome en avait deux chaque année :",
+      "es": "Roma tenía dos cada año:"
+     },
+     "options": [
+      "consules",
+      "imperatores",
+      "legiones"
+     ],
+     "answer": "consules",
+     "itemId": "la-consul"
+    }
+   ]
+  },
+  {
+   "id": "la-h-02",
+   "section": "historia",
+   "level": "A2",
+   "title": {
+    "en": "Caesar: Gallia est omnis divisa",
+    "bg": "Цезар: Gallia est omnis divisa",
+    "de": "Caesar: Gallia est omnis divisa",
+    "fr": "César : Gallia est omnis divisa",
+    "es": "César: Gallia est omnis divisa"
+   },
+   "description": {
+    "en": "Words for reading the first line of De Bello Gallico",
+    "bg": "Думи за четене на първия ред на „Записки за Галската война“",
+    "de": "Wörter für den ersten Satz von De Bello Gallico",
+    "fr": "Les mots de la première phrase de La Guerre des Gaules",
+    "es": "Palabras para leer la primera frase de La guerra de las Galias"
+   },
+   "items": [
+    "la-gallia",
+    "la-omnis",
+    "la-divisa",
+    "la-partes-tres",
+    "la-incolunt",
+    "la-fortissimi"
+   ],
+   "exercises": [
+    {
+     "type": "order_words",
+     "sentence": "Gallia est omnis divisa in partes tres",
+     "translation": {
+      "en": "all Gaul is divided into three parts",
+      "bg": "цяла Галия е разделена на три части",
+      "de": "Gallien als Ganzes ist in drei Teile geteilt",
+      "fr": "la Gaule tout entière est divisée en trois parties",
+      "es": "toda la Galia está dividida en tres partes"
+     }
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Horum omnium ___ sunt Belgae. (the bravest)",
+     "answer": "fortissimi",
+     "itemId": "la-fortissimi",
+     "options": [
+      "fortissimi",
+      "omnis",
+      "divisa"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "la-m-01",
+   "section": "medicina",
+   "level": "A2",
+   "title": {
+    "en": "Corpus humanum",
+    "bg": "Corpus humanum (човешкото тяло)",
+    "de": "Corpus humanum",
+    "fr": "Corpus humanum",
+    "es": "Corpus humanum"
+   },
+   "description": {
+    "en": "Anatomy in Latin and its Greek twin words",
+    "bg": "Анатомия на латински и гръцките ѝ двойници",
+    "de": "Anatomie auf Latein und ihre griechischen Zwillinge",
+    "fr": "L'anatomie en latin et ses jumeaux grecs",
+    "es": "La anatomía en latín y sus gemelos griegos"
+   },
+   "items": [
+    "la-cor",
+    "la-caput",
+    "la-oculus",
+    "la-manus",
+    "la-pes",
+    "la-os",
+    "la-dens",
+    "la-pulmo",
+    "la-ren",
+    "la-cutis"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "“Renal” refers to the…",
+      "bg": "„Ренален“ се отнася до…",
+      "de": "„Renal“ betrifft die…",
+      "fr": "« Rénal » concerne les…",
+      "es": "«Renal» se refiere al…"
+     },
+     "options": [
+      {
+       "en": "kidney",
+       "bg": "бъбрек",
+       "de": "Niere",
+       "fr": "rein",
+       "es": "riñón"
+      },
+      {
+       "en": "heart",
+       "bg": "сърце",
+       "de": "Herz",
+       "fr": "cœur",
+       "es": "corazón"
+      },
+      {
+       "en": "skin",
+       "bg": "кожа",
+       "de": "Haut",
+       "fr": "peau",
+       "es": "piel"
+      }
+     ],
+     "answer": {
+      "en": "kidney",
+      "bg": "бъбрек",
+      "de": "Niere",
+      "fr": "rein",
+      "es": "riñón"
+     },
+     "itemId": "la-ren"
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "A dermatologist treats the cutis, i.e. the…",
+      "bg": "Дерматологът лекува cutis, тоест…",
+      "de": "Ein Dermatologe behandelt die…",
+      "fr": "Un dermatologue soigne la…",
+      "es": "Un dermatólogo trata la…"
+     },
+     "options": [
+      {
+       "en": "skin",
+       "bg": "кожа",
+       "de": "Haut",
+       "fr": "peau",
+       "es": "piel"
+      },
+      {
+       "en": "bones",
+       "bg": "кости",
+       "de": "Knochen",
+       "fr": "os",
+       "es": "huesos"
+      },
+      {
+       "en": "eyes",
+       "bg": "очи",
+       "de": "Augen",
+       "fr": "yeux",
+       "es": "ojos"
+      }
+     ],
+     "answer": {
+      "en": "skin",
+      "bg": "кожа",
+      "de": "Haut",
+      "fr": "peau",
+      "es": "piel"
+     },
+     "itemId": "la-cutis"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Coronary arteries supply the ___ (Latin).",
+     "answer": "cor",
+     "itemId": "la-cor",
+     "options": [
+      "cor",
+      "caput",
+      "pes"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "la-m-02",
+   "section": "medicina",
+   "level": "A2",
+   "title": {
+    "en": "-itis, -algia & prescriptions",
+    "bg": "-itis, -algia и рецепти",
+    "de": "-itis, -algia & Rezepte",
+    "fr": "-itis, -algia et ordonnances",
+    "es": "-itis, -algia y recetas"
+   },
+   "description": {
+    "en": "Roots, suffixes and abbreviations on prescriptions",
+    "bg": "Корени, наставки и съкращения в рецептите",
+    "de": "Wurzeln, Suffixe und Rezeptabkürzungen",
+    "fr": "Racines, suffixes et abréviations",
+    "es": "Raíces, sufijos y abreviaturas de recetas"
+   },
+   "items": [
+    "la--itis",
+    "la--algia",
+    "la-cardio-",
+    "la-gastro-",
+    "la-hepat-",
+    "la--ectomia",
+    "la-bid",
+    "la-tid",
+    "la-po",
+    "la-prn",
+    "la-ac"
+   ],
+   "grammar": [
+    "la-g-medterms"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Inflammation of the liver = hepat___",
+     "answer": "itis",
+     "itemId": "la--itis",
+     "options": [
+      "itis",
+      "algia",
+      "ectomia"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Muscle pain = my___",
+     "answer": "algia",
+     "itemId": "la--algia",
+     "options": [
+      "algia",
+      "itis",
+      "ectomia"
+     ]
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "“1 tab. p.o. t.i.d.” means one tablet…",
+      "bg": "„1 tab. p.o. t.i.d.“ значи една таблетка…",
+      "de": "„1 Tbl. p.o. t.i.d.“ bedeutet eine Tablette…",
+      "fr": "« 1 cp p.o. t.i.d. » = un comprimé…",
+      "es": "«1 comp. p.o. t.i.d.» = un comprimido…"
+     },
+     "options": [
+      {
+       "en": "by mouth, 3× a day",
+       "bg": "през устата, 3 пъти дневно",
+       "de": "oral, 3× täglich",
+       "fr": "par voie orale, 3× par jour",
+       "es": "por vía oral, 3 veces al día"
+      },
+      {
+       "en": "by injection, 2× a day",
+       "bg": "инжекционно, 2 пъти дневно",
+       "de": "als Spritze, 2× täglich",
+       "fr": "en injection, 2× par jour",
+       "es": "inyectado, 2 veces al día"
+      },
+      {
+       "en": "as needed, before meals",
+       "bg": "при нужда, преди хранене",
+       "de": "bei Bedarf, vor dem Essen",
+       "fr": "si besoin, avant les repas",
+       "es": "según necesidad, antes de comer"
+      }
+     ],
+     "answer": {
+      "en": "by mouth, 3× a day",
+      "bg": "през устата, 3 пъти дневно",
+      "de": "oral, 3× täglich",
+      "fr": "par voie orale, 3× par jour",
+      "es": "por vía oral, 3 veces al día"
+     },
+     "itemId": "la-tid"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Removal of the appendix = append___",
+     "answer": "ectomia",
+     "itemId": "la--ectomia",
+     "options": [
+      "ectomia",
+      "itis",
+      "algia"
+     ],
+     "alternatives": [
+      "ectomy"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "la-n-01",
+   "section": "natura",
+   "level": "A2",
+   "title": {
+    "en": "Genus et species",
+    "bg": "Род и вид",
+    "de": "Gattung und Art",
+    "fr": "Genre et espèce",
+    "es": "Género y especie"
+   },
+   "description": {
+    "en": "Reading binomial names like a biologist",
+    "bg": "Да четеш научните имена като биолог",
+    "de": "Wissenschaftliche Namen lesen",
+    "fr": "Lire les noms scientifiques",
+    "es": "Leer nombres científicos"
+   },
+   "items": [
+    "la-rosa-canina",
+    "la-ursus-arctos",
+    "la-canis-lupus",
+    "la-felis-catus",
+    "la-quercus-robur",
+    "la-homo-sapiens",
+    "la-bellis-perennis"
+   ],
+   "grammar": [
+    "la-g-binomial"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "In “Canis lupus”, which part is the genus?",
+      "bg": "В „Canis lupus“ коя част е родът?",
+      "de": "Was ist in „Canis lupus“ die Gattung?",
+      "fr": "Dans « Canis lupus », quel est le genre ?",
+      "es": "En «Canis lupus», ¿cuál es el género?"
+     },
+     "options": [
+      "Canis",
+      "lupus"
+     ],
+     "answer": "Canis",
+     "itemId": "la-canis-lupus"
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "“Homo sapiens” literally means…",
+      "bg": "„Homo sapiens“ буквално значи…",
+      "de": "„Homo sapiens“ bedeutet wörtlich…",
+      "fr": "« Homo sapiens » veut dire…",
+      "es": "«Homo sapiens» significa…"
+     },
+     "options": [
+      {
+       "en": "wise man",
+       "bg": "разумен човек",
+       "de": "weiser Mensch",
+       "fr": "homme sage",
+       "es": "hombre sabio"
+      },
+      {
+       "en": "upright man",
+       "bg": "изправен човек",
+       "de": "aufrechter Mensch",
+       "fr": "homme debout",
+       "es": "hombre erguido"
+      },
+      {
+       "en": "first man",
+       "bg": "първи човек",
+       "de": "erster Mensch",
+       "fr": "premier homme",
+       "es": "primer hombre"
+      }
+     ],
+     "answer": {
+      "en": "wise man",
+      "bg": "разумен човек",
+      "de": "weiser Mensch",
+      "fr": "homme sage",
+      "es": "hombre sabio"
+     },
+     "itemId": "la-homo-sapiens"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ursus ___ = brown bear",
+     "answer": "arctos",
+     "itemId": "la-ursus-arctos",
+     "options": [
+      "arctos",
+      "albus",
+      "canina"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "la-n-02",
+   "section": "natura",
+   "level": "A2",
+   "title": {
+    "en": "What species names tell you",
+    "bg": "Какво ти казват имената на видовете",
+    "de": "Was Artnamen verraten",
+    "fr": "Ce que disent les noms d'espèces",
+    "es": "Lo que dicen los nombres de especies"
+   },
+   "description": {
+    "en": "Colours, habitats and uses hidden in Latin epithets",
+    "bg": "Цветове, местообитания и употреби, скрити в латинските епитети",
+    "de": "Farben, Lebensräume und Nutzen in lateinischen Beinamen",
+    "fr": "Couleurs, habitats et usages cachés dans les épithètes",
+    "es": "Colores, hábitats y usos en los epítetos latinos"
+   },
+   "items": [
+    "la-alba",
+    "la-rubra",
+    "la-vulgaris",
+    "la-officinalis",
+    "la-sylvestris",
+    "la-sativa",
+    "la-montana",
+    "la-aquatica"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "A plant called “officinalis” was used…",
+      "bg": "Растение с име „officinalis“ се е използвало…",
+      "de": "Eine Pflanze namens „officinalis“ wurde verwendet…",
+      "fr": "Une plante « officinalis » servait…",
+      "es": "Una planta «officinalis» se usaba…"
+     },
+     "options": [
+      {
+       "en": "as medicine",
+       "bg": "като лекарство",
+       "de": "als Arznei",
+       "fr": "comme remède",
+       "es": "como medicina"
+      },
+      {
+       "en": "as decoration",
+       "bg": "за украса",
+       "de": "als Schmuck",
+       "fr": "comme décoration",
+       "es": "como adorno"
+      },
+      {
+       "en": "as food for horses",
+       "bg": "за храна на конете",
+       "de": "als Pferdefutter",
+       "fr": "pour nourrir les chevaux",
+       "es": "como pienso para caballos"
+      }
+     ],
+     "answer": {
+      "en": "as medicine",
+      "bg": "като лекарство",
+      "de": "als Arznei",
+      "fr": "comme remède",
+      "es": "como medicina"
+     },
+     "itemId": "la-officinalis"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Quercus ___ = red oak",
+     "answer": "rubra",
+     "itemId": "la-rubra",
+     "options": [
+      "rubra",
+      "alba",
+      "sativa"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Pinus ___ = forest (Scots) pine",
+     "answer": "sylvestris",
+     "itemId": "la-sylvestris",
+     "options": [
+      "sylvestris",
+      "aquatica",
+      "vulgaris"
+     ]
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "Allium sativum (garlic) is…",
+      "bg": "Allium sativum (чесън) е…",
+      "de": "Allium sativum (Knoblauch) ist…",
+      "fr": "Allium sativum (ail) est…",
+      "es": "Allium sativum (ajo) es…"
+     },
+     "options": [
+      {
+       "en": "cultivated",
+       "bg": "култивиран",
+       "de": "angebaut",
+       "fr": "cultivé",
+       "es": "cultivado"
+      },
+      {
+       "en": "wild",
+       "bg": "див",
+       "de": "wild",
+       "fr": "sauvage",
+       "es": "silvestre"
+      },
+      {
+       "en": "aquatic",
+       "bg": "воден",
+       "de": "Wasser-",
+       "fr": "aquatique",
+       "es": "acuático"
+      }
+     ],
+     "answer": {
+      "en": "cultivated",
+      "bg": "култивиран",
+      "de": "angebaut",
+      "fr": "cultivé",
+      "es": "cultivado"
+     },
+     "itemId": "la-sativa"
+    }
+   ]
+  }
+ ],
+ "phrasePacks": [
+  {
+   "id": "la-pp-sententiae",
+   "level": "A2",
+   "icon": "📜",
+   "title": {
+    "en": "Famous Latin phrases",
+    "bg": "Известни латински фрази",
+    "de": "Berühmte lateinische Sätze",
+    "fr": "Locutions latines célèbres",
+    "es": "Frases latinas célebres"
+   },
+   "description": {
+    "en": "Still quoted 2,000 years later",
+    "bg": "Цитират се и 2000 години по-късно",
+    "de": "Noch 2000 Jahre später zitiert",
+    "fr": "Toujours citées 2000 ans après",
+    "es": "Aún citadas 2000 años después"
+   },
+   "items": [
+    "la-alea-iacta-est",
+    "la-veni-vidi-vici",
+    "la-o-tempora",
+    "la-ab-urbe-condita",
+    "la-carpe-diem",
+    "la-errare-humanum-est",
+    "la-mens-sana"
+   ]
+  }
+ ],
+ "dialogues": [
+  {
+   "id": "la-d-forum",
+   "level": "A1",
+   "icon": "🏛️",
+   "title": {
+    "en": "Meeting in the Forum",
+    "bg": "Среща на Форума",
+    "de": "Treffen auf dem Forum",
+    "fr": "Rencontre au Forum",
+    "es": "Encuentro en el Foro"
+   },
+   "situation": {
+    "en": "You arrive in Rome and meet a Roman named Marcus in the Forum.",
+    "bg": "Пристигаш в Рим и срещаш римлянин на име Марк във Форума.",
+    "de": "Du kommst in Rom an und triffst Marcus auf dem Forum.",
+    "fr": "Tu arrives à Rome et rencontres Marcus au Forum.",
+    "es": "Llegas a Roma y conoces a Marco en el Foro."
+   },
+   "speakers": {
+    "marcus": {
+     "name": "Marcus",
+     "accessory": "laurel"
+    },
+    "tu": {
+     "name": "Tu",
+     "accessory": "laurel"
+    }
+   },
+   "lines": [
+    {
+     "speaker": "marcus",
+     "text": "Salve! Quid agis?",
+     "translations": {
+      "en": "Hello! How are you?",
+      "bg": "Здравей! Как си?",
+      "de": "Sei gegrüßt! Wie geht es dir?",
+      "fr": "Salut ! Comment vas-tu ?",
+      "es": "¡Salve! ¿Cómo estás?"
+     }
+    },
+    {
+     "speaker": "tu",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Salve! Bene, gratias tibi ago.",
+       "translations": {
+        "en": "Hello! Fine, thank you.",
+        "bg": "Здравей! Добре, благодаря ти.",
+        "de": "Hallo! Gut, danke.",
+        "fr": "Salut ! Bien, merci.",
+        "es": "¡Hola! Bien, gracias."
+       },
+       "correct": true
+      },
+      {
+       "text": "Valete!",
+       "translations": {
+        "en": "Goodbye, all!",
+        "bg": "Сбогом на всички!",
+        "de": "Lebt wohl!",
+        "fr": "Adieu à tous !",
+        "es": "¡Adiós a todos!"
+       },
+       "correct": false,
+       "feedback": {
+        "en": "You just met, and he's alone!",
+        "bg": "Току-що се срещнахте, а и той е сам!",
+        "de": "Ihr habt euch gerade getroffen, und er ist allein!",
+        "fr": "Vous venez de vous rencontrer, et il est seul !",
+        "es": "¡Acabáis de conoceros, y está solo!"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "marcus",
+     "text": "Nomen mihi est Marcus. Romanus sum. Et tu?",
+     "translations": {
+      "en": "My name is Marcus. I'm Roman. And you?",
+      "bg": "Казвам се Марк. Римлянин съм. А ти?",
+      "de": "Ich heiße Marcus. Ich bin Römer. Und du?",
+      "fr": "Je m'appelle Marcus. Je suis romain. Et toi ?",
+      "es": "Me llamo Marco. Soy romano. ¿Y tú?"
+     }
+    },
+    {
+     "speaker": "tu",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Nomen mihi est Stoyan. Bulgarus sum.",
+       "translations": {
+        "en": "My name is Stoyan. I'm Bulgarian.",
+        "bg": "Казвам се Стоян. Българин съм.",
+        "de": "Ich heiße Stoyan. Ich bin Bulgare.",
+        "fr": "Je m'appelle Stoyan. Je suis bulgare.",
+        "es": "Me llamo Stoyan. Soy búlgaro."
+       },
+       "correct": true
+      },
+      {
+       "text": "Nomen mihi sunt Stoyan.",
+       "translations": {
+        "en": "(wrong verb form)",
+        "bg": "(грешна глаголна форма)",
+        "de": "(falsche Verbform)",
+        "fr": "(mauvaise forme)",
+        "es": "(forma incorrecta)"
+       },
+       "correct": false,
+       "feedback": {
+        "en": "One name → est, not sunt.",
+        "bg": "Едно име → est, не sunt.",
+        "de": "Ein Name → est, nicht sunt.",
+        "fr": "Un nom → est, pas sunt.",
+        "es": "Un nombre → est, no sunt."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "marcus",
+     "text": "Romam amas?",
+     "translations": {
+      "en": "Do you love Rome?",
+      "bg": "Обичаш ли Рим?",
+      "de": "Liebst du Rom?",
+      "fr": "Tu aimes Rome ?",
+      "es": "¿Amas Roma?"
+     }
+    },
+    {
+     "speaker": "tu",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Romam amo! Veni, vidi… et amo.",
+       "translations": {
+        "en": "I love Rome! I came, I saw… and I love it.",
+        "bg": "Обичам Рим! Дойдох, видях… и обикнах.",
+        "de": "Ich liebe Rom! Ich kam, sah… und liebe es.",
+        "fr": "J'aime Rome ! Je suis venu, j'ai vu… et j'aime.",
+        "es": "¡Amo Roma! Llegué, vi… y amo."
+       },
+       "correct": true
+      },
+      {
+       "text": "Roma amat.",
+       "translations": {
+        "en": "Rome loves.",
+        "bg": "Рим обича.",
+        "de": "Rom liebt.",
+        "fr": "Rome aime.",
+        "es": "Roma ama."
+       },
+       "correct": false,
+       "feedback": {
+        "en": "Rome as the object needs -m: Romam amo.",
+        "bg": "Рим като допълнение иска -m: Romam amo.",
+        "de": "Als Objekt braucht Rom -m: Romam amo.",
+        "fr": "Comme complément : Romam amo.",
+        "es": "Como objeto necesita -m: Romam amo."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "marcus",
+     "text": "Optime! Vale, amice!",
+     "translations": {
+      "en": "Excellent! Goodbye, friend!",
+      "bg": "Отлично! Сбогом, приятелю!",
+      "de": "Ausgezeichnet! Leb wohl, Freund!",
+      "fr": "Parfait ! Adieu, ami !",
+      "es": "¡Estupendo! ¡Adiós, amigo!"
+     }
+    }
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "la-r-roma",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Roma",
+    "bg": "Рим",
+    "de": "Rom",
+    "fr": "Rome",
+    "es": "Roma"
+   },
+   "sentences": [
+    {
+     "text": "Roma in Italia est.",
+     "translations": {
+      "en": "Rome is in Italy.",
+      "bg": "Рим е в Италия.",
+      "de": "Rom liegt in Italien.",
+      "fr": "Rome est en Italie.",
+      "es": "Roma está en Italia."
+     }
+    },
+    {
+     "text": "Roma magna et pulchra est.",
+     "translations": {
+      "en": "Rome is big and beautiful.",
+      "bg": "Рим е голям и красив.",
+      "de": "Rom ist groß und schön.",
+      "fr": "Rome est grande et belle.",
+      "es": "Roma es grande y hermosa."
+     }
+    },
+    {
+     "text": "In via puella et amicus ambulant.",
+     "translations": {
+      "en": "A girl and a friend are walking in the street.",
+      "bg": "По улицата вървят момиче и приятел.",
+      "de": "Auf der Straße gehen ein Mädchen und ein Freund.",
+      "fr": "Dans la rue marchent une jeune fille et un ami.",
+      "es": "Por la calle pasean una niña y un amigo."
+     }
+    },
+    {
+     "text": "Puella rosam amat, amicus librum.",
+     "translations": {
+      "en": "The girl loves the rose, the friend (loves) the book.",
+      "bg": "Момичето обича розата, приятелят – книгата.",
+      "de": "Das Mädchen liebt die Rose, der Freund das Buch.",
+      "fr": "La jeune fille aime la rose, l'ami le livre.",
+      "es": "La niña ama la rosa; el amigo, el libro."
+     }
+    },
+    {
+     "text": "Romani patriam amant.",
+     "translations": {
+      "en": "The Romans love their homeland.",
+      "bg": "Римляните обичат родината си.",
+      "de": "Die Römer lieben ihre Heimat.",
+      "fr": "Les Romains aiment leur patrie.",
+      "es": "Los romanos aman su patria."
+     }
+    }
+   ],
+   "glossary": {
+    "roma": {
+     "translations": {
+      "en": "Rome",
+      "bg": "Рим",
+      "de": "Rom",
+      "fr": "Rome",
+      "es": "Roma"
+     }
+    },
+    "romam": {
+     "translations": {
+      "en": "Rome (object)",
+      "bg": "Рим (допълнение)",
+      "de": "Rom (Akk.)",
+      "fr": "Rome (acc.)",
+      "es": "Roma (acus.)"
+     }
+    },
+    "in": {
+     "translations": {
+      "en": "in",
+      "bg": "в",
+      "de": "in",
+      "fr": "dans / en",
+      "es": "en"
+     }
+    },
+    "italia": {
+     "translations": {
+      "en": "Italy",
+      "bg": "Италия",
+      "de": "Italien",
+      "fr": "Italie",
+      "es": "Italia"
+     }
+    },
+    "est": {
+     "item": "la-est"
+    },
+    "magna": {
+     "translations": {
+      "en": "big / great",
+      "bg": "голям",
+      "de": "groß",
+      "fr": "grande",
+      "es": "grande"
+     }
+    },
+    "et": {
+     "translations": {
+      "en": "and",
+      "bg": "и",
+      "de": "und",
+      "fr": "et",
+      "es": "y"
+     }
+    },
+    "pulchra": {
+     "translations": {
+      "en": "beautiful",
+      "bg": "красив",
+      "de": "schön",
+      "fr": "belle",
+      "es": "hermosa"
+     }
+    },
+    "via": {
+     "item": "la-via"
+    },
+    "puella": {
+     "item": "la-puella"
+    },
+    "amicus": {
+     "item": "la-amicus"
+    },
+    "ambulant": {
+     "translations": {
+      "en": "(they) walk",
+      "bg": "вървят",
+      "de": "gehen spazieren",
+      "fr": "marchent",
+      "es": "pasean"
+     }
+    },
+    "rosam": {
+     "item": "la-rosa"
+    },
+    "amat": {
+     "item": "la-amat"
+    },
+    "librum": {
+     "item": "la-liber"
+    },
+    "romani": {
+     "translations": {
+      "en": "the Romans",
+      "bg": "римляните",
+      "de": "die Römer",
+      "fr": "les Romains",
+      "es": "los romanos"
+     }
+    },
+    "patriam": {
+     "item": "la-patria"
+    },
+    "amant": {
+     "item": "la-amant"
+    }
+   }
+  },
+  {
+   "id": "la-r-gallia",
+   "section": "historia",
+   "level": "A2",
+   "title": {
+    "en": "Caesar, De Bello Gallico I.1 (opening)",
+    "bg": "Цезар, „Записки за Галската война“ I.1 (начало)",
+    "de": "Caesar, De Bello Gallico I,1 (Anfang)",
+    "fr": "César, La Guerre des Gaules I,1 (début)",
+    "es": "César, La guerra de las Galias I,1 (comienzo)"
+   },
+   "sentences": [
+    {
+     "text": "Gallia est omnis divisa in partes tres,",
+     "translations": {
+      "en": "All Gaul is divided into three parts,",
+      "bg": "Цяла Галия е разделена на три части,",
+      "de": "Gallien als Ganzes ist in drei Teile geteilt,",
+      "fr": "La Gaule tout entière est divisée en trois parties,",
+      "es": "Toda la Galia está dividida en tres partes,"
+     }
+    },
+    {
+     "text": "quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur.",
+     "translations": {
+      "en": "one of which the Belgae inhabit, another the Aquitani, the third those who in their own language are called Celts, in ours Gauls.",
+      "bg": "едната от които населяват белгите, другата аквитанците, а третата онези, които на техния език се наричат келти, а на нашия гали.",
+      "de": "deren einen die Belger bewohnen, den anderen die Aquitanier, den dritten die, die in ihrer Sprache Kelten, in unserer Gallier heißen.",
+      "fr": "dont l'une est habitée par les Belges, l'autre par les Aquitains, la troisième par ceux qui dans leur langue se nomment Celtes, et dans la nôtre Gaulois.",
+      "es": "de las cuales una la habitan los belgas, otra los aquitanos y la tercera los que en su lengua se llaman celtas y en la nuestra galos."
+     }
+    },
+    {
+     "text": "Horum omnium fortissimi sunt Belgae.",
+     "translations": {
+      "en": "Of all these the bravest are the Belgae.",
+      "bg": "От всички тях най-храбри са белгите.",
+      "de": "Von allen diesen sind die Belger die tapfersten.",
+      "fr": "De tous ceux-ci, les plus braves sont les Belges.",
+      "es": "De todos ellos, los más valientes son los belgas."
+     }
+    }
+   ],
+   "glossary": {
+    "gallia": {
+     "item": "la-gallia"
+    },
+    "est": {
+     "item": "la-est"
+    },
+    "omnis": {
+     "item": "la-omnis"
+    },
+    "divisa": {
+     "item": "la-divisa"
+    },
+    "in": {
+     "translations": {
+      "en": "into",
+      "bg": "на (в)",
+      "de": "in",
+      "fr": "en",
+      "es": "en"
+     }
+    },
+    "partes": {
+     "item": "la-partes-tres"
+    },
+    "tres": {
+     "item": "la-partes-tres"
+    },
+    "quarum": {
+     "translations": {
+      "en": "of which",
+      "bg": "от които",
+      "de": "von denen",
+      "fr": "dont",
+      "es": "de las cuales"
+     }
+    },
+    "unam": {
+     "translations": {
+      "en": "one",
+      "bg": "една",
+      "de": "eine",
+      "fr": "une",
+      "es": "una"
+     }
+    },
+    "incolunt": {
+     "item": "la-incolunt"
+    },
+    "belgae": {
+     "translations": {
+      "en": "the Belgae (a people)",
+      "bg": "белгите (народ)",
+      "de": "die Belger",
+      "fr": "les Belges",
+      "es": "los belgas"
+     }
+    },
+    "aliam": {
+     "translations": {
+      "en": "another",
+      "bg": "друга",
+      "de": "eine andere",
+      "fr": "une autre",
+      "es": "otra"
+     }
+    },
+    "aquitani": {
+     "translations": {
+      "en": "the Aquitani (a people)",
+      "bg": "аквитанците",
+      "de": "die Aquitanier",
+      "fr": "les Aquitains",
+      "es": "los aquitanos"
+     }
+    },
+    "tertiam": {
+     "translations": {
+      "en": "the third",
+      "bg": "третата",
+      "de": "die dritte",
+      "fr": "la troisième",
+      "es": "la tercera"
+     }
+    },
+    "qui": {
+     "translations": {
+      "en": "who",
+      "bg": "които",
+      "de": "die (welche)",
+      "fr": "qui",
+      "es": "que"
+     }
+    },
+    "ipsorum": {
+     "translations": {
+      "en": "their own",
+      "bg": "собствения им",
+      "de": "ihrer eigenen",
+      "fr": "leur propre",
+      "es": "su propia"
+     }
+    },
+    "lingua": {
+     "item": "la-lingua"
+    },
+    "celtae": {
+     "translations": {
+      "en": "Celts",
+      "bg": "келти",
+      "de": "Kelten",
+      "fr": "Celtes",
+      "es": "celtas"
+     }
+    },
+    "nostra": {
+     "translations": {
+      "en": "ours / our",
+      "bg": "нашия",
+      "de": "unserer",
+      "fr": "la nôtre",
+      "es": "la nuestra"
+     }
+    },
+    "galli": {
+     "translations": {
+      "en": "Gauls",
+      "bg": "гали",
+      "de": "Gallier",
+      "fr": "Gaulois",
+      "es": "galos"
+     }
+    },
+    "appellantur": {
+     "translations": {
+      "en": "are called",
+      "bg": "се наричат",
+      "de": "werden genannt",
+      "fr": "sont appelés",
+      "es": "se llaman"
+     }
+    },
+    "horum": {
+     "translations": {
+      "en": "of these",
+      "bg": "от тези",
+      "de": "von diesen",
+      "fr": "de ceux-ci",
+      "es": "de estos"
+     }
+    },
+    "omnium": {
+     "translations": {
+      "en": "of all",
+      "bg": "от всички",
+      "de": "von allen",
+      "fr": "de tous",
+      "es": "de todos"
+     }
+    },
+    "fortissimi": {
+     "item": "la-fortissimi"
+    },
+    "sunt": {
+     "item": "la-sunt"
+    }
+   }
+  }
+ ],
+ "places": [
+  {
+   "id": "la-p-roma",
+   "section": "core",
+   "name": "Roma",
+   "country": "Italy",
+   "lat": 41.9,
+   "lng": 12.5,
+   "description": {
+    "en": "Caput mundi, the capital of the world. Every road leads here.",
+    "bg": "Caput mundi, столицата на света. Всички пътища водят тук.",
+    "de": "Caput mundi, Hauptstadt der Welt. Alle Wege führen hierher.",
+    "fr": "Caput mundi, la capitale du monde. Tous les chemins y mènent.",
+    "es": "Caput mundi, la capital del mundo. Todos los caminos llevan aquí."
+   },
+   "localItems": [
+    "la-salve",
+    "la-via",
+    "la-spqr"
+   ],
+   "cultureNote": "la-c-pronunciation",
+   "reading": "la-r-roma"
+  },
+  {
+   "id": "la-p-pompeii",
+   "section": "core",
+   "name": "Pompeii",
+   "country": "Italy",
+   "lat": 40.75,
+   "lng": 14.49,
+   "unlockAfterLesson": "la-a1-02",
+   "description": {
+    "en": "A city frozen in AD 79, with everyday Latin on its walls.",
+    "bg": "Град, замръзнал през 79 г., с ежедневен латински по стените.",
+    "de": "Eine 79 n. Chr. erstarrte Stadt mit Alltagslatein an den Wänden.",
+    "fr": "Une ville figée en 79, avec du latin quotidien sur ses murs.",
+    "es": "Una ciudad congelada en el 79, con latín cotidiano en sus muros."
+   },
+   "localItems": [
+    "la-vale",
+    "la-amicus",
+    "la-amo"
+   ],
+   "cultureNote": "la-c-pompeii"
+  },
+  {
+   "id": "la-p-londinium",
+   "section": "core",
+   "name": "Londinium",
+   "country": "United Kingdom",
+   "lat": 51.51,
+   "lng": -0.09,
+   "unlockAfterLesson": "la-a1-03",
+   "description": {
+    "en": "Roman London, at the edge of the empire.",
+    "bg": "Римският Лондон, на края на империята.",
+    "de": "Das römische London am Rand des Reiches.",
+    "fr": "Londres romaine, au bout de l'empire.",
+    "es": "El Londres romano, en el borde del imperio."
+   },
+   "localItems": [
+    "la-castra",
+    "la-oppidum",
+    "la-legio"
+   ]
+  },
+  {
+   "id": "la-p-alexandria",
+   "section": "core",
+   "name": "Alexandria",
+   "country": "Egypt",
+   "lat": 31.2,
+   "lng": 29.92,
+   "unlockAfterLesson": "la-a1-04",
+   "description": {
+    "en": "City of the great library, where Greek and Latin met.",
+    "bg": "Градът на великата библиотека, където се срещат гръцки и латински.",
+    "de": "Stadt der großen Bibliothek, wo Griechisch und Latein sich trafen.",
+    "fr": "Ville de la grande bibliothèque, où se rencontraient grec et latin.",
+    "es": "Ciudad de la gran biblioteca, donde se encontraban el griego y el latín."
+   },
+   "localItems": [
+    "la-liber",
+    "la-lego",
+    "la-scribo"
+   ]
+  },
+  {
+   "id": "la-p-alesia",
+   "section": "historia",
+   "name": "Alesia",
+   "country": "France",
+   "lat": 47.54,
+   "lng": 4.5,
+   "unlockAfterLesson": "la-h-01",
+   "description": {
+    "en": "Where Caesar defeated Vercingetorix in 52 BC.",
+    "bg": "Където Цезар побеждава Верцингеторикс през 52 г. пр.н.е.",
+    "de": "Wo Caesar 52 v. Chr. Vercingetorix besiegte.",
+    "fr": "Où César vainquit Vercingétorix en 52 av. J.-C.",
+    "es": "Donde César venció a Vercingétorix en el 52 a. C."
+   },
+   "localItems": [
+    "la-proelium",
+    "la-imperator",
+    "la-gallia"
+   ],
+   "cultureNote": "la-c-vercingetorix",
+   "reading": "la-r-gallia"
+  },
+  {
+   "id": "la-p-pergamum",
+   "section": "medicina",
+   "name": "Pergamum",
+   "country": "Turkey",
+   "lat": 39.13,
+   "lng": 27.18,
+   "unlockAfterLesson": "la-m-01",
+   "description": {
+    "en": "Home of Galen and a famous healing sanctuary of Asclepius.",
+    "bg": "Родината на Гален и прочуто лечебно светилище на Асклепий.",
+    "de": "Heimat Galens und ein berühmtes Asklepios-Heiligtum.",
+    "fr": "Patrie de Galien et célèbre sanctuaire d'Asclépios.",
+    "es": "Cuna de Galeno y famoso santuario de Asclepio."
+   },
+   "localItems": [
+    "la-cor",
+    "la-caput",
+    "la--itis"
+   ],
+   "cultureNote": "la-c-galen"
+  }
+ ]
+}

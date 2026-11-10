@@ -1,0 +1,2744 @@
+{
+ "version": "1.0.0",
+ "language": {
+  "code": "fr",
+  "name": {
+   "en": "French",
+   "bg": "Френски",
+   "de": "Französisch",
+   "fr": "français",
+   "es": "francés"
+  },
+  "nativeName": "Français",
+  "flag": "🇫🇷",
+  "script": "latin",
+  "features": [
+   "gender"
+  ],
+  "mascotAccessory": "beret",
+  "varieties": [
+   "fr-FR",
+   "fr-BE",
+   "fr-CH",
+   "fr-CA"
+  ],
+  "ttsLocale": "fr-FR",
+  "active": true,
+  "mapBounds": [
+   [
+    -78,
+    40
+   ],
+   [
+    12,
+    54
+   ]
+  ]
+ },
+ "sections": [
+  {
+   "slug": "core",
+   "title": {
+    "en": "Core course",
+    "bg": "Основен курс",
+    "de": "Grundkurs",
+    "es": "Curso principal"
+   }
+  },
+  {
+   "slug": "histoire",
+   "title": {
+    "en": "History",
+    "bg": "История",
+    "de": "Geschichte",
+    "es": "Historia"
+   },
+   "description": {
+    "en": "Historical vocabulary and adapted texts, from the Ancien Régime to Napoleon",
+    "bg": "Историческа лексика и адаптирани текстове, от Стария режим до Наполеон",
+    "de": "Historischer Wortschatz und vereinfachte Texte, vom Ancien Régime bis Napoleon",
+    "es": "Vocabulario histórico y textos adaptados, del Antiguo Régimen a Napoleón"
+   },
+   "unlockAfterLevel": "B1"
+  }
+ ],
+ "items": [
+  {
+   "id": "fr-bonjour",
+   "text": "bonjour",
+   "kind": "word",
+   "translations": {
+    "en": "hello / good morning",
+    "bg": "здравейте / добър ден",
+    "de": "guten Tag / hallo",
+    "es": "hola / buenos días"
+   },
+   "frequencyRank": 1,
+   "notes": {
+    "en": "Say “bonjour” when you enter a shop or a lift: skipping it is rude in France.",
+    "bg": "Казвай „bonjour“, когато влизаш в магазин или асансьор: да го пропуснеш е грубо във Франция.",
+    "de": "Sag „bonjour“, wenn du einen Laden betrittst: es wegzulassen gilt als unhöflich.",
+    "es": "Di «bonjour» al entrar en una tienda: no decirlo es de mala educación."
+   }
+  },
+  {
+   "id": "fr-salut",
+   "text": "salut",
+   "kind": "word",
+   "translations": {
+    "en": "hi / bye (informal)",
+    "bg": "здрасти / чао",
+    "de": "hallo / tschüss",
+    "es": "hola / chao"
+   },
+   "frequencyRank": 2
+  },
+  {
+   "id": "fr-bonsoir",
+   "text": "bonsoir",
+   "kind": "word",
+   "translations": {
+    "en": "good evening",
+    "bg": "добър вечер",
+    "de": "guten Abend",
+    "es": "buenas tardes / noches"
+   },
+   "frequencyRank": 3
+  },
+  {
+   "id": "fr-au-revoir",
+   "text": "au revoir",
+   "kind": "phrase",
+   "translations": {
+    "en": "goodbye",
+    "bg": "довиждане",
+    "de": "auf Wiedersehen",
+    "es": "adiós"
+   },
+   "frequencyRank": 4
+  },
+  {
+   "id": "fr-a-bientot",
+   "text": "à bientôt",
+   "kind": "phrase",
+   "translations": {
+    "en": "see you soon",
+    "bg": "до скоро",
+    "de": "bis bald",
+    "es": "hasta pronto"
+   },
+   "frequencyRank": 5,
+   "native": "à plus / à+"
+  },
+  {
+   "id": "fr-merci",
+   "text": "merci",
+   "kind": "word",
+   "translations": {
+    "en": "thank you",
+    "bg": "благодаря",
+    "de": "danke",
+    "es": "gracias"
+   },
+   "frequencyRank": 6
+  },
+  {
+   "id": "fr-sil-vous-plait",
+   "text": "s'il vous plaît",
+   "kind": "phrase",
+   "translations": {
+    "en": "please (formal)",
+    "bg": "моля (учтиво)",
+    "de": "bitte (Sie)",
+    "es": "por favor (usted)"
+   },
+   "frequencyRank": 7,
+   "native": "s'il te plaît (informal)"
+  },
+  {
+   "id": "fr-de-rien",
+   "text": "de rien",
+   "kind": "phrase",
+   "translations": {
+    "en": "you're welcome",
+    "bg": "няма защо",
+    "de": "gern geschehen",
+    "es": "de nada"
+   },
+   "frequencyRank": 8
+  },
+  {
+   "id": "fr-excusez-moi",
+   "text": "excusez-moi",
+   "kind": "phrase",
+   "translations": {
+    "en": "excuse me",
+    "bg": "извинете",
+    "de": "Entschuldigung",
+    "es": "disculpe"
+   },
+   "frequencyRank": 9,
+   "native": "pardon"
+  },
+  {
+   "id": "fr-comment-ca-va",
+   "text": "comment ça va ?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how are you?",
+    "bg": "как си?",
+    "de": "wie geht's?",
+    "es": "¿qué tal?"
+   },
+   "frequencyRank": 10,
+   "native": "ça va ?"
+  },
+  {
+   "id": "fr-ca-va-bien",
+   "text": "ça va bien, merci",
+   "kind": "phrase",
+   "translations": {
+    "en": "I'm fine, thanks",
+    "bg": "добре съм, благодаря",
+    "de": "gut, danke",
+    "es": "bien, gracias"
+   },
+   "frequencyRank": 11
+  },
+  {
+   "id": "fr-je-mappelle",
+   "text": "je m'appelle",
+   "kind": "phrase",
+   "translations": {
+    "en": "my name is",
+    "bg": "казвам се",
+    "de": "ich heiße",
+    "es": "me llamo"
+   },
+   "frequencyRank": 12
+  },
+  {
+   "id": "fr-comment-tu-tappelles",
+   "text": "comment tu t'appelles ?",
+   "kind": "phrase",
+   "translations": {
+    "en": "what's your name?",
+    "bg": "как се казваш?",
+    "de": "wie heißt du?",
+    "es": "¿cómo te llamas?"
+   },
+   "frequencyRank": 13,
+   "native": "tu t'appelles comment ?"
+  },
+  {
+   "id": "fr-je-suis",
+   "text": "je suis",
+   "kind": "phrase",
+   "translations": {
+    "en": "I am",
+    "bg": "аз съм",
+    "de": "ich bin",
+    "es": "yo soy"
+   },
+   "frequencyRank": 14
+  },
+  {
+   "id": "fr-tu-es",
+   "text": "tu es",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (informal)",
+    "bg": "ти си",
+    "de": "du bist",
+    "es": "tú eres"
+   },
+   "frequencyRank": 15
+  },
+  {
+   "id": "fr-vous-etes",
+   "text": "vous êtes",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (formal / plural)",
+    "bg": "Вие сте / вие сте",
+    "de": "Sie sind / ihr seid",
+    "es": "usted es / ustedes son"
+   },
+   "frequencyRank": 16
+  },
+  {
+   "id": "fr-il-est",
+   "text": "il / elle est",
+   "kind": "phrase",
+   "translations": {
+    "en": "he / she is",
+    "bg": "той / тя е",
+    "de": "er / sie ist",
+    "es": "él / ella es"
+   },
+   "frequencyRank": 17
+  },
+  {
+   "id": "fr-je-viens-de",
+   "text": "je viens de Bulgarie",
+   "kind": "sentence",
+   "translations": {
+    "en": "I come from Bulgaria",
+    "bg": "от България съм",
+    "de": "ich komme aus Bulgarien",
+    "es": "soy de Bulgaria"
+   },
+   "frequencyRank": 18
+  },
+  {
+   "id": "fr-enchante",
+   "text": "enchanté(e)",
+   "kind": "word",
+   "translations": {
+    "en": "nice to meet you",
+    "bg": "приятно ми е",
+    "de": "freut mich",
+    "es": "encantado/a"
+   },
+   "frequencyRank": 19
+  },
+  {
+   "id": "fr-un",
+   "text": "un",
+   "kind": "word",
+   "translations": {
+    "en": "1",
+    "bg": "1",
+    "de": "1",
+    "es": "1"
+   },
+   "frequencyRank": 30
+  },
+  {
+   "id": "fr-deux",
+   "text": "deux",
+   "kind": "word",
+   "translations": {
+    "en": "2",
+    "bg": "2",
+    "de": "2",
+    "es": "2"
+   },
+   "frequencyRank": 31
+  },
+  {
+   "id": "fr-trois",
+   "text": "trois",
+   "kind": "word",
+   "translations": {
+    "en": "3",
+    "bg": "3",
+    "de": "3",
+    "es": "3"
+   },
+   "frequencyRank": 32
+  },
+  {
+   "id": "fr-quatre",
+   "text": "quatre",
+   "kind": "word",
+   "translations": {
+    "en": "4",
+    "bg": "4",
+    "de": "4",
+    "es": "4"
+   },
+   "frequencyRank": 33
+  },
+  {
+   "id": "fr-cinq",
+   "text": "cinq",
+   "kind": "word",
+   "translations": {
+    "en": "5",
+    "bg": "5",
+    "de": "5",
+    "es": "5"
+   },
+   "frequencyRank": 34
+  },
+  {
+   "id": "fr-six",
+   "text": "six",
+   "kind": "word",
+   "translations": {
+    "en": "6",
+    "bg": "6",
+    "de": "6",
+    "es": "6"
+   },
+   "frequencyRank": 35
+  },
+  {
+   "id": "fr-sept",
+   "text": "sept",
+   "kind": "word",
+   "translations": {
+    "en": "7",
+    "bg": "7",
+    "de": "7",
+    "es": "7"
+   },
+   "frequencyRank": 36
+  },
+  {
+   "id": "fr-huit",
+   "text": "huit",
+   "kind": "word",
+   "translations": {
+    "en": "8",
+    "bg": "8",
+    "de": "8",
+    "es": "8"
+   },
+   "frequencyRank": 37
+  },
+  {
+   "id": "fr-neuf",
+   "text": "neuf",
+   "kind": "word",
+   "translations": {
+    "en": "9",
+    "bg": "9",
+    "de": "9",
+    "es": "9"
+   },
+   "frequencyRank": 38
+  },
+  {
+   "id": "fr-dix",
+   "text": "dix",
+   "kind": "word",
+   "translations": {
+    "en": "10",
+    "bg": "10",
+    "de": "10",
+    "es": "10"
+   },
+   "frequencyRank": 39
+  },
+  {
+   "id": "fr-un-cafe",
+   "text": "un café, s'il vous plaît",
+   "kind": "sentence",
+   "translations": {
+    "en": "a coffee, please",
+    "bg": "едно кафе, моля",
+    "de": "einen Kaffee, bitte",
+    "es": "un café, por favor"
+   },
+   "frequencyRank": 40,
+   "notes": {
+    "en": "“Un café” is an espresso. Milk coffee is “un café crème”.",
+    "bg": "„Un café“ е еспресо. Кафе с мляко е „un café crème“.",
+    "de": "„Un café“ ist ein Espresso. Milchkaffee ist „un café crème“.",
+    "es": "«Un café» es un expreso. El café con leche es «un café crème»."
+   }
+  },
+  {
+   "id": "fr-je-voudrais",
+   "text": "je voudrais …",
+   "kind": "phrase",
+   "translations": {
+    "en": "I would like …",
+    "bg": "бих искал …",
+    "de": "ich hätte gern …",
+    "es": "quisiera …"
+   },
+   "frequencyRank": 41
+  },
+  {
+   "id": "fr-une-baguette",
+   "text": "une baguette",
+   "kind": "phrase",
+   "translations": {
+    "en": "a baguette",
+    "bg": "една багета",
+    "de": "ein Baguette",
+    "es": "una baguette"
+   },
+   "frequencyRank": 42,
+   "gender": "f"
+  },
+  {
+   "id": "fr-un-croissant",
+   "text": "un croissant",
+   "kind": "phrase",
+   "translations": {
+    "en": "a croissant",
+    "bg": "един кроасан",
+    "de": "ein Croissant",
+    "es": "un cruasán"
+   },
+   "frequencyRank": 43,
+   "gender": "m"
+  },
+  {
+   "id": "fr-de-leau",
+   "text": "de l'eau",
+   "kind": "phrase",
+   "translations": {
+    "en": "some water",
+    "bg": "вода",
+    "de": "Wasser",
+    "es": "agua"
+   },
+   "frequencyRank": 44,
+   "native": "une carafe d'eau (free tap water)"
+  },
+  {
+   "id": "fr-combien",
+   "text": "c'est combien ?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how much is it?",
+    "bg": "колко струва?",
+    "de": "was kostet das?",
+    "es": "¿cuánto es?"
+   },
+   "frequencyRank": 45,
+   "native": "ça fait combien ?"
+  },
+  {
+   "id": "fr-laddition",
+   "text": "l'addition, s'il vous plaît",
+   "kind": "sentence",
+   "translations": {
+    "en": "the bill, please",
+    "bg": "сметката, моля",
+    "de": "die Rechnung, bitte",
+    "es": "la cuenta, por favor"
+   },
+   "frequencyRank": 46
+  },
+  {
+   "id": "fr-bon-appetit",
+   "text": "bon appétit !",
+   "kind": "phrase",
+   "translations": {
+    "en": "enjoy your meal!",
+    "bg": "добър апетит!",
+    "de": "guten Appetit!",
+    "es": "¡buen provecho!"
+   },
+   "frequencyRank": 47
+  },
+  {
+   "id": "fr-ou-est",
+   "text": "où est … ?",
+   "kind": "phrase",
+   "translations": {
+    "en": "where is …?",
+    "bg": "къде е …?",
+    "de": "wo ist …?",
+    "es": "¿dónde está …?"
+   },
+   "frequencyRank": 60
+  },
+  {
+   "id": "fr-la-gare",
+   "text": "la gare",
+   "kind": "phrase",
+   "translations": {
+    "en": "the train station",
+    "bg": "гарата",
+    "de": "der Bahnhof",
+    "es": "la estación"
+   },
+   "frequencyRank": 61,
+   "gender": "f"
+  },
+  {
+   "id": "fr-le-metro",
+   "text": "le métro",
+   "kind": "phrase",
+   "translations": {
+    "en": "the metro",
+    "bg": "метрото",
+    "de": "die U-Bahn",
+    "es": "el metro"
+   },
+   "frequencyRank": 62,
+   "gender": "m"
+  },
+  {
+   "id": "fr-les-toilettes",
+   "text": "les toilettes",
+   "kind": "phrase",
+   "translations": {
+    "en": "the toilets",
+    "bg": "тоалетната",
+    "de": "die Toilette",
+    "es": "el baño"
+   },
+   "frequencyRank": 63
+  },
+  {
+   "id": "fr-a-gauche",
+   "text": "à gauche",
+   "kind": "phrase",
+   "translations": {
+    "en": "to the left",
+    "bg": "наляво",
+    "de": "links",
+    "es": "a la izquierda"
+   },
+   "frequencyRank": 64
+  },
+  {
+   "id": "fr-a-droite",
+   "text": "à droite",
+   "kind": "phrase",
+   "translations": {
+    "en": "to the right",
+    "bg": "надясно",
+    "de": "rechts",
+    "es": "a la derecha"
+   },
+   "frequencyRank": 65
+  },
+  {
+   "id": "fr-tout-droit",
+   "text": "tout droit",
+   "kind": "phrase",
+   "translations": {
+    "en": "straight ahead",
+    "bg": "направо",
+    "de": "geradeaus",
+    "es": "todo recto"
+   },
+   "frequencyRank": 66
+  },
+  {
+   "id": "fr-pres-dici",
+   "text": "c'est près d'ici ?",
+   "kind": "sentence",
+   "translations": {
+    "en": "is it near here?",
+    "bg": "близо ли е оттук?",
+    "de": "ist es hier in der Nähe?",
+    "es": "¿está cerca de aquí?"
+   },
+   "frequencyRank": 67
+  },
+  {
+   "id": "fr-le-bureau",
+   "text": "le bureau",
+   "kind": "phrase",
+   "translations": {
+    "en": "the office / desk",
+    "bg": "офисът / бюрото",
+    "de": "das Büro / der Schreibtisch",
+    "es": "la oficina / el escritorio"
+   },
+   "frequencyRank": 80,
+   "native": "le taf / le boulot (= work)"
+  },
+  {
+   "id": "fr-un-collegue",
+   "text": "un collègue / une collègue",
+   "kind": "phrase",
+   "translations": {
+    "en": "a colleague",
+    "bg": "колега",
+    "de": "ein Kollege / eine Kollegin",
+    "es": "un compañero / una compañera"
+   },
+   "frequencyRank": 81
+  },
+  {
+   "id": "fr-une-reunion",
+   "text": "une réunion",
+   "kind": "phrase",
+   "translations": {
+    "en": "a meeting",
+    "bg": "среща / събрание",
+    "de": "ein Meeting / eine Besprechung",
+    "es": "una reunión"
+   },
+   "frequencyRank": 82
+  },
+  {
+   "id": "fr-un-rendez-vous",
+   "text": "un rendez-vous",
+   "kind": "phrase",
+   "translations": {
+    "en": "an appointment",
+    "bg": "уговорена среща",
+    "de": "ein Termin",
+    "es": "una cita"
+   },
+   "frequencyRank": 83,
+   "native": "un rdv"
+  },
+  {
+   "id": "fr-enchante-faire-connaissance",
+   "text": "enchanté de faire votre connaissance",
+   "kind": "sentence",
+   "translations": {
+    "en": "pleased to meet you (formal)",
+    "bg": "приятно ми е да се запознаем",
+    "de": "sehr erfreut, Sie kennenzulernen",
+    "es": "encantado de conocerle"
+   },
+   "frequencyRank": 84
+  },
+  {
+   "id": "fr-je-travaille-comme",
+   "text": "je travaille comme …",
+   "kind": "phrase",
+   "translations": {
+    "en": "I work as …",
+    "bg": "работя като …",
+    "de": "ich arbeite als …",
+    "es": "trabajo como …"
+   },
+   "frequencyRank": 85
+  },
+  {
+   "id": "fr-pourriez-vous",
+   "text": "pourriez-vous … ?",
+   "kind": "phrase",
+   "translations": {
+    "en": "could you … ? (polite)",
+    "bg": "бихте ли … ?",
+    "de": "könnten Sie … ?",
+    "es": "¿podría … ?"
+   },
+   "frequencyRank": 86
+  },
+  {
+   "id": "fr-cordialement",
+   "text": "cordialement",
+   "kind": "word",
+   "translations": {
+    "en": "kind regards (email)",
+    "bg": "поздрави (в имейл)",
+    "de": "mit freundlichen Grüßen",
+    "es": "un saludo cordial"
+   },
+   "frequencyRank": 87,
+   "notes": {
+    "en": "The standard way to end a work email.",
+    "bg": "Стандартният завършек на работен имейл.",
+    "de": "Der übliche Schluss einer geschäftlichen E-Mail.",
+    "es": "La despedida estándar de un correo de trabajo."
+   }
+  },
+  {
+   "id": "fr-tutoyer",
+   "text": "on se tutoie ?",
+   "kind": "sentence",
+   "translations": {
+    "en": "shall we say “tu”?",
+    "bg": "да си говорим ли на „ти“?",
+    "de": "wollen wir uns duzen?",
+    "es": "¿nos tuteamos?"
+   },
+   "frequencyRank": 88
+  },
+  {
+   "id": "fr-le-roi",
+   "text": "le roi",
+   "kind": "phrase",
+   "translations": {
+    "en": "the king",
+    "bg": "кралят",
+    "de": "der König",
+    "es": "el rey"
+   },
+   "frequencyRank": 200,
+   "gender": "m"
+  },
+  {
+   "id": "fr-la-reine",
+   "text": "la reine",
+   "kind": "phrase",
+   "translations": {
+    "en": "the queen",
+    "bg": "кралицата",
+    "de": "die Königin",
+    "es": "la reina"
+   },
+   "frequencyRank": 201,
+   "gender": "f"
+  },
+  {
+   "id": "fr-la-monarchie",
+   "text": "la monarchie absolue",
+   "kind": "phrase",
+   "translations": {
+    "en": "absolute monarchy",
+    "bg": "абсолютна монархия",
+    "de": "die absolute Monarchie",
+    "es": "la monarquía absoluta"
+   },
+   "frequencyRank": 202
+  },
+  {
+   "id": "fr-le-peuple",
+   "text": "le peuple",
+   "kind": "phrase",
+   "translations": {
+    "en": "the people",
+    "bg": "народът",
+    "de": "das Volk",
+    "es": "el pueblo"
+   },
+   "frequencyRank": 203
+  },
+  {
+   "id": "fr-la-noblesse",
+   "text": "la noblesse",
+   "kind": "phrase",
+   "translations": {
+    "en": "the nobility",
+    "bg": "благородничеството",
+    "de": "der Adel",
+    "es": "la nobleza"
+   },
+   "frequencyRank": 204
+  },
+  {
+   "id": "fr-le-clerge",
+   "text": "le clergé",
+   "kind": "phrase",
+   "translations": {
+    "en": "the clergy",
+    "bg": "духовенството",
+    "de": "der Klerus",
+    "es": "el clero"
+   },
+   "frequencyRank": 205
+  },
+  {
+   "id": "fr-le-tiers-etat",
+   "text": "le tiers état",
+   "kind": "phrase",
+   "translations": {
+    "en": "the Third Estate (commoners)",
+    "bg": "третото съсловие",
+    "de": "der Dritte Stand",
+    "es": "el tercer estado"
+   },
+   "frequencyRank": 206
+  },
+  {
+   "id": "fr-la-revolution",
+   "text": "la Révolution",
+   "kind": "phrase",
+   "translations": {
+    "en": "the Revolution",
+    "bg": "Революцията",
+    "de": "die Revolution",
+    "es": "la Revolución"
+   },
+   "frequencyRank": 207
+  },
+  {
+   "id": "fr-la-republique",
+   "text": "la République",
+   "kind": "phrase",
+   "translations": {
+    "en": "the Republic",
+    "bg": "Републиката",
+    "de": "die Republik",
+    "es": "la República"
+   },
+   "frequencyRank": 208
+  },
+  {
+   "id": "fr-liberte",
+   "text": "liberté, égalité, fraternité",
+   "kind": "phrase",
+   "translations": {
+    "en": "liberty, equality, fraternity",
+    "bg": "свобода, равенство, братство",
+    "de": "Freiheit, Gleichheit, Brüderlichkeit",
+    "es": "libertad, igualdad, fraternidad"
+   },
+   "frequencyRank": 209
+  },
+  {
+   "id": "fr-le-siecle",
+   "text": "le siècle",
+   "kind": "phrase",
+   "translations": {
+    "en": "the century",
+    "bg": "векът",
+    "de": "das Jahrhundert",
+    "es": "el siglo"
+   },
+   "frequencyRank": 210,
+   "notes": {
+    "en": "Centuries are written in Roman numerals: le XVIIIe siècle (18th).",
+    "bg": "Вековете се пишат с римски цифри: le XVIIIe siècle (XVIII век).",
+    "de": "Jahrhunderte schreibt man römisch: le XVIIIe siècle.",
+    "es": "Los siglos se escriben en romanos: le XVIIIe siècle."
+   }
+  },
+  {
+   "id": "fr-abolir",
+   "text": "abolir",
+   "kind": "word",
+   "translations": {
+    "en": "to abolish",
+    "bg": "премахвам",
+    "de": "abschaffen",
+    "es": "abolir"
+   },
+   "frequencyRank": 211,
+   "pos": "verb"
+  },
+  {
+   "id": "fr-lempereur",
+   "text": "l'empereur",
+   "kind": "phrase",
+   "translations": {
+    "en": "the emperor",
+    "bg": "императорът",
+    "de": "der Kaiser",
+    "es": "el emperador"
+   },
+   "frequencyRank": 220
+  },
+  {
+   "id": "fr-lempire",
+   "text": "l'Empire",
+   "kind": "phrase",
+   "translations": {
+    "en": "the Empire",
+    "bg": "Империята",
+    "de": "das Kaiserreich",
+    "es": "el Imperio"
+   },
+   "frequencyRank": 221
+  },
+  {
+   "id": "fr-le-sacre",
+   "text": "le sacre",
+   "kind": "phrase",
+   "translations": {
+    "en": "the coronation",
+    "bg": "коронацията",
+    "de": "die Krönung",
+    "es": "la coronación"
+   },
+   "frequencyRank": 222
+  },
+  {
+   "id": "fr-la-bataille",
+   "text": "la bataille",
+   "kind": "phrase",
+   "translations": {
+    "en": "the battle",
+    "bg": "битката",
+    "de": "die Schlacht",
+    "es": "la batalla"
+   },
+   "frequencyRank": 223
+  },
+  {
+   "id": "fr-larmee",
+   "text": "l'armée",
+   "kind": "phrase",
+   "translations": {
+    "en": "the army",
+    "bg": "армията",
+    "de": "die Armee",
+    "es": "el ejército"
+   },
+   "frequencyRank": 224
+  },
+  {
+   "id": "fr-la-defaite",
+   "text": "la défaite",
+   "kind": "phrase",
+   "translations": {
+    "en": "the defeat",
+    "bg": "поражението",
+    "de": "die Niederlage",
+    "es": "la derrota"
+   },
+   "frequencyRank": 225
+  },
+  {
+   "id": "fr-la-victoire",
+   "text": "la victoire",
+   "kind": "phrase",
+   "translations": {
+    "en": "the victory",
+    "bg": "победата",
+    "de": "der Sieg",
+    "es": "la victoria"
+   },
+   "frequencyRank": 226
+  },
+  {
+   "id": "fr-lexil",
+   "text": "l'exil",
+   "kind": "phrase",
+   "translations": {
+    "en": "exile",
+    "bg": "изгнанието",
+    "de": "das Exil",
+    "es": "el exilio"
+   },
+   "frequencyRank": 227
+  },
+  {
+   "id": "fr-le-code-civil",
+   "text": "le Code civil",
+   "kind": "phrase",
+   "translations": {
+    "en": "the Civil Code (1804)",
+    "bg": "Гражданският кодекс (1804)",
+    "de": "der Code civil (1804)",
+    "es": "el Código Civil (1804)"
+   },
+   "frequencyRank": 228
+  },
+  {
+   "id": "fr-il-fut",
+   "text": "il fut",
+   "kind": "phrase",
+   "translations": {
+    "en": "he was (passé simple of être)",
+    "bg": "той беше (passé simple на être)",
+    "de": "er war (passé simple von être)",
+    "es": "fue (passé simple de être)"
+   },
+   "frequencyRank": 229
+  },
+  {
+   "id": "fr-il-devint",
+   "text": "il devint",
+   "kind": "phrase",
+   "translations": {
+    "en": "he became",
+    "bg": "той стана",
+    "de": "er wurde",
+    "es": "se convirtió"
+   },
+   "frequencyRank": 230
+  },
+  {
+   "id": "fr-il-prit",
+   "text": "il prit",
+   "kind": "phrase",
+   "translations": {
+    "en": "he took",
+    "bg": "той взе / превзе",
+    "de": "er nahm",
+    "es": "tomó"
+   },
+   "frequencyRank": 231
+  },
+  {
+   "id": "fr-pardon",
+   "text": "pardon ?",
+   "kind": "phrase",
+   "translations": {
+    "en": "sorry? / pardon?",
+    "bg": "моля? / извинете?",
+    "de": "wie bitte?",
+    "es": "¿perdón?"
+   },
+   "frequencyRank": 70,
+   "native": "hein ? (very casual)"
+  },
+  {
+   "id": "fr-vous-pouvez-repeter",
+   "text": "vous pouvez répéter, s'il vous plaît ?",
+   "kind": "sentence",
+   "translations": {
+    "en": "can you repeat, please?",
+    "bg": "може ли да повторите, моля?",
+    "de": "können Sie das wiederholen?",
+    "es": "¿puede repetir, por favor?"
+   },
+   "frequencyRank": 71
+  },
+  {
+   "id": "fr-plus-lentement",
+   "text": "plus lentement, s'il vous plaît",
+   "kind": "phrase",
+   "translations": {
+    "en": "more slowly, please",
+    "bg": "по-бавно, моля",
+    "de": "langsamer, bitte",
+    "es": "más despacio, por favor"
+   },
+   "frequencyRank": 72
+  },
+  {
+   "id": "fr-je-ne-comprends-pas",
+   "text": "je ne comprends pas",
+   "kind": "sentence",
+   "translations": {
+    "en": "I don't understand",
+    "bg": "не разбирам",
+    "de": "ich verstehe nicht",
+    "es": "no entiendo"
+   },
+   "frequencyRank": 73,
+   "native": "j'comprends pas"
+  },
+  {
+   "id": "fr-comment-dit-on",
+   "text": "comment dit-on … en français ?",
+   "kind": "sentence",
+   "translations": {
+    "en": "how do you say … in French?",
+    "bg": "как се казва … на френски?",
+    "de": "wie sagt man … auf Französisch?",
+    "es": "¿cómo se dice … en francés?"
+   },
+   "frequencyRank": 74
+  },
+  {
+   "id": "fr-un-bouchon",
+   "text": "un bouchon",
+   "kind": "phrase",
+   "translations": {
+    "en": "traditional Lyon restaurant",
+    "bg": "традиционен лионски ресторант",
+    "de": "traditionelles Lyoner Restaurant",
+    "es": "restaurante tradicional de Lyon"
+   },
+   "frequencyRank": 160
+  },
+  {
+   "id": "fr-peuchere",
+   "text": "peuchère !",
+   "kind": "phrase",
+   "translations": {
+    "en": "oh dear! / poor thing! (Marseille)",
+    "bg": "леле! / горкичкият! (Марсилия)",
+    "de": "ach je! (Marseille)",
+    "es": "¡vaya! / ¡pobre! (Marsella)"
+   },
+   "frequencyRank": 161
+  },
+  {
+   "id": "fr-septante",
+   "text": "septante",
+   "kind": "word",
+   "translations": {
+    "en": "seventy (Belgium, Switzerland)",
+    "bg": "седемдесет (Белгия, Швейцария)",
+    "de": "siebzig (Belgien, Schweiz)",
+    "es": "setenta (Bélgica, Suiza)"
+   },
+   "frequencyRank": 162
+  },
+  {
+   "id": "fr-nonante",
+   "text": "nonante",
+   "kind": "word",
+   "translations": {
+    "en": "ninety (Belgium, Switzerland)",
+    "bg": "деветдесет (Белгия, Швейцария)",
+    "de": "neunzig (Belgien, Schweiz)",
+    "es": "noventa (Bélgica, Suiza)"
+   },
+   "frequencyRank": 163
+  },
+  {
+   "id": "fr-magasiner",
+   "text": "magasiner",
+   "kind": "word",
+   "translations": {
+    "en": "to go shopping (Québec)",
+    "bg": "пазарувам (Квебек)",
+    "de": "einkaufen gehen (Québec)",
+    "es": "ir de compras (Quebec)"
+   },
+   "frequencyRank": 164
+  },
+  {
+   "id": "fr-bienvenue-quebec",
+   "text": "bienvenue !",
+   "kind": "phrase",
+   "translations": {
+    "en": "you're welcome! (Québec)",
+    "bg": "няма защо! (Квебек)",
+    "de": "gern geschehen! (Québec)",
+    "es": "¡de nada! (Quebec)"
+   },
+   "frequencyRank": 165
+  }
+ ],
+ "grammarNotes": [
+  {
+   "id": "fr-g-etre",
+   "level": "A1",
+   "title": {
+    "en": "être (to be) and tu / vous",
+    "bg": "être (съм) и tu / vous",
+    "de": "être (sein) und tu / vous",
+    "es": "être (ser) y tu / vous"
+   },
+   "body": {
+    "en": "- je **suis**\n- tu **es**\n- il / elle **est**\n- nous **sommes**\n- vous **êtes**\n- ils / elles **sont**\n\n**tu** for friends, family, children; **vous** for strangers, shops and work, and for more than one person.",
+    "bg": "- je **suis** = аз съм\n- tu **es** = ти си\n- il / elle **est** = той / тя е\n- nous **sommes** = ние сме\n- vous **êtes** = вие / Вие сте\n- ils / elles **sont** = те са\n\n**tu** е за приятели, семейство и деца; **vous** за непознати, магазини и работа, както и за повече от един човек.",
+    "de": "- je **suis**\n- tu **es**\n- il / elle **est**\n- nous **sommes**\n- vous **êtes**\n- ils / elles **sont**\n\n**tu** = du; **vous** = Sie und ihr.",
+    "es": "- je **suis**\n- tu **es**\n- il / elle **est**\n- nous **sommes**\n- vous **êtes**\n- ils / elles **sont**\n\n**tu** = tú; **vous** = usted y vosotros/ustedes."
+   }
+  },
+  {
+   "id": "fr-g-passe-simple",
+   "level": "B1",
+   "title": {
+    "en": "Reading history: the passé simple",
+    "bg": "Четене на история: passé simple",
+    "de": "Geschichte lesen: das passé simple",
+    "es": "Leer historia: el passé simple"
+   },
+   "body": {
+    "en": "History books use the **passé simple**, a past tense almost never spoken. You only need to **recognise** it:\n\n- il **fut** = il a été (he was)\n- il **eut** = il a eu (he had)\n- il **prit** = il a pris (he took)\n- il **devint** = il est devenu (he became)\n- ils **proclamèrent** = ils ont proclamé\n\nTip: endings **-a, -it, -ut, -èrent, -irent** in a history text = passé simple.",
+    "bg": "Историческите книги използват **passé simple**, минало време, което почти никога не се говори. Трябва само да го **разпознаваш**:\n\n- il **fut** = il a été (той беше)\n- il **eut** = il a eu (той имаше)\n- il **prit** = il a pris (той взе / превзе)\n- il **devint** = il est devenu (той стана)\n- ils **proclamèrent** = ils ont proclamé (те провъзгласиха)\n\nСъвет: окончания **-a, -it, -ut, -èrent, -irent** в исторически текст = passé simple.",
+    "de": "Geschichtsbücher verwenden das **passé simple**, das kaum gesprochen wird. Du musst es nur **erkennen**:\n\n- il **fut** = er war\n- il **eut** = er hatte\n- il **prit** = er nahm\n- il **devint** = er wurde\n- ils **proclamèrent** = sie riefen aus",
+    "es": "Los libros de historia usan el **passé simple**, que casi no se habla. Solo hace falta **reconocerlo**:\n\n- il **fut** = fue\n- il **eut** = tuvo\n- il **prit** = tomó\n- il **devint** = se convirtió\n- ils **proclamèrent** = proclamaron"
+   }
+  }
+ ],
+ "cultureNotes": [
+  {
+   "id": "fr-c-bise",
+   "title": {
+    "en": "La bise",
+    "bg": "La bise",
+    "de": "La bise",
+    "es": "La bise"
+   },
+   "body": {
+    "en": "Friends greet with kisses on the cheek. How many depends on the region: two in Paris, three in parts of the south, even four in some places! At work a handshake is safer.",
+    "bg": "Приятелите се поздравяват с целувки по бузите. Колко зависи от региона: две в Париж, три в части от юга, дори четири на някои места! На работа ръкостискането е по-сигурно.",
+    "de": "Freunde begrüßen sich mit Wangenküssen. Wie viele, hängt von der Region ab: zwei in Paris, drei im Süden, manchmal sogar vier! Bei der Arbeit lieber Hände schütteln.",
+    "es": "Los amigos se saludan con besos en la mejilla. Cuántos depende de la región: dos en París, tres en partes del sur, ¡hasta cuatro! En el trabajo, mejor un apretón de manos."
+   }
+  },
+  {
+   "id": "fr-c-vous-travail",
+   "title": {
+    "en": "Vous at work",
+    "bg": "Vous на работа",
+    "de": "Vous bei der Arbeit",
+    "es": "Vous en el trabajo"
+   },
+   "body": {
+    "en": "In French offices people often start with “vous” and switch to “tu” when invited (“On se tutoie ?”). Emails end with “Cordialement”.",
+    "bg": "Във френските офиси често започват с „vous“ и минават на „tu“, когато някой предложи („On se tutoie ?“). Имейлите завършват с „Cordialement“.",
+    "de": "In französischen Büros beginnt man oft mit „vous“ und wechselt zu „tu“, wenn es angeboten wird. E-Mails enden mit „Cordialement“.",
+    "es": "En las oficinas francesas se empieza a menudo con «vous» y se pasa a «tu» cuando alguien lo propone. Los correos terminan con «Cordialement»."
+   }
+  },
+  {
+   "id": "fr-c-quebec",
+   "title": {
+    "en": "French in Québec",
+    "bg": "Френският в Квебек",
+    "de": "Französisch in Québec",
+    "es": "El francés en Quebec"
+   },
+   "body": {
+    "en": "In Montréal you'll hear “bonjour” as hello AND goodbye, “char” for car, “magasiner” for shopping, and “bienvenue” as “you're welcome”.",
+    "bg": "В Монреал ще чуеш „bonjour“ за здравей И довиждане, „char“ за кола, „magasiner“ за пазаруване и „bienvenue“ като „няма защо“.",
+    "de": "In Montréal hört man „bonjour“ als Hallo UND Tschüss, „char“ für Auto, „magasiner“ für einkaufen und „bienvenue“ für „gern geschehen“.",
+    "es": "En Montreal oirás «bonjour» para saludar Y despedirse, «char» para coche, «magasiner» para ir de compras y «bienvenue» como «de nada»."
+   }
+  },
+  {
+   "id": "fr-c-1789",
+   "title": {
+    "en": "Why 14 July?",
+    "bg": "Защо 14 юли?",
+    "de": "Warum der 14. Juli?",
+    "es": "¿Por qué el 14 de julio?"
+   },
+   "body": {
+    "en": "On 14 July 1789 Parisians stormed the Bastille, a royal fortress and prison. It became the symbol of the Revolution and France's national day.",
+    "bg": "На 14 юли 1789 г. парижани щурмуват Бастилията, кралска крепост и затвор. Тя става символ на Революцията, а денят е националният празник на Франция.",
+    "de": "Am 14. Juli 1789 stürmten Pariser die Bastille, eine königliche Festung und Gefängnis. Sie wurde zum Symbol der Revolution, der Tag zum Nationalfeiertag.",
+    "es": "El 14 de julio de 1789 los parisinos tomaron la Bastilla, fortaleza y prisión real. Se convirtió en símbolo de la Revolución y en la fiesta nacional."
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "fr-a1-01",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Bonjour !",
+    "bg": "Bonjour!",
+    "de": "Bonjour!",
+    "es": "¡Bonjour!"
+   },
+   "description": {
+    "en": "Greetings and politeness",
+    "bg": "Поздрави и учтивост",
+    "de": "Begrüßungen und Höflichkeit",
+    "es": "Saludos y cortesía"
+   },
+   "items": [
+    "fr-bonjour",
+    "fr-salut",
+    "fr-bonsoir",
+    "fr-au-revoir",
+    "fr-a-bientot",
+    "fr-merci",
+    "fr-sil-vous-plait",
+    "fr-de-rien",
+    "fr-excusez-moi"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "You walk into a bakery. First word?",
+      "bg": "Влизаш в пекарна. Първата дума?",
+      "de": "Du betrittst eine Bäckerei. Erstes Wort?",
+      "es": "Entras en una panadería. ¿Primera palabra?"
+     },
+     "options": [
+      "Bonjour !",
+      "Salut !",
+      "Au revoir !"
+     ],
+     "answer": "Bonjour !",
+     "itemId": "fr-bonjour"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Merci ! — De ___ !",
+     "answer": "rien",
+     "itemId": "fr-de-rien",
+     "options": [
+      "rien",
+      "bien",
+      "bientôt"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "au revoir et à bientôt",
+     "translation": {
+      "en": "goodbye and see you soon",
+      "bg": "довиждане и до скоро",
+      "de": "auf Wiedersehen und bis bald",
+      "es": "adiós y hasta pronto"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fr-a1-02",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Je m'appelle…",
+    "bg": "Казвам се…",
+    "de": "Ich heiße…",
+    "es": "Me llamo…"
+   },
+   "description": {
+    "en": "Introduce yourself; être, tu and vous",
+    "bg": "Представи се; être, tu и vous",
+    "de": "Sich vorstellen; être, tu und vous",
+    "es": "Presentarse; être, tu y vous"
+   },
+   "items": [
+    "fr-comment-ca-va",
+    "fr-ca-va-bien",
+    "fr-je-mappelle",
+    "fr-comment-tu-tappelles",
+    "fr-je-suis",
+    "fr-tu-es",
+    "fr-vous-etes",
+    "fr-il-est",
+    "fr-je-viens-de",
+    "fr-enchante"
+   ],
+   "grammar": [
+    "fr-g-etre"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Je ___ bulgare.",
+     "answer": "suis",
+     "itemId": "fr-je-suis",
+     "options": [
+      "suis",
+      "es",
+      "est"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Vous ___ français ?",
+     "answer": "êtes",
+     "itemId": "fr-vous-etes",
+     "options": [
+      "êtes",
+      "est",
+      "sommes"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Elle ___ de Lyon.",
+     "answer": "est",
+     "itemId": "fr-il-est",
+     "options": [
+      "est",
+      "es",
+      "sont"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "je viens de Bulgarie",
+     "translation": {
+      "en": "I come from Bulgaria",
+      "bg": "от България съм",
+      "de": "ich komme aus Bulgarien",
+      "es": "soy de Bulgaria"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fr-a1-03",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Au café",
+    "bg": "В кафенето",
+    "de": "Im Café",
+    "es": "En el café"
+   },
+   "description": {
+    "en": "Numbers 1–10, ordering and paying",
+    "bg": "Числа 1–10, поръчка и плащане",
+    "de": "Zahlen 1–10, bestellen und zahlen",
+    "es": "Números 1–10, pedir y pagar"
+   },
+   "items": [
+    "fr-un",
+    "fr-deux",
+    "fr-trois",
+    "fr-quatre",
+    "fr-cinq",
+    "fr-six",
+    "fr-sept",
+    "fr-huit",
+    "fr-neuf",
+    "fr-dix",
+    "fr-un-cafe",
+    "fr-je-voudrais",
+    "fr-une-baguette",
+    "fr-un-croissant",
+    "fr-de-leau",
+    "fr-combien",
+    "fr-laddition",
+    "fr-bon-appetit"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "trois + quatre = ___",
+     "answer": "sept",
+     "itemId": "fr-sept",
+     "options": [
+      "sept",
+      "six",
+      "huit"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Je ___ un croissant, s'il vous plaît.",
+     "answer": "voudrais",
+     "itemId": "fr-je-voudrais",
+     "options": [
+      "voudrais",
+      "veux",
+      "suis"
+     ],
+     "explanation": {
+      "en": "“Je voudrais” is polite; “je veux” sounds demanding.",
+      "bg": "„Je voudrais“ е учтиво; „je veux“ звучи настоятелно.",
+      "de": "„Je voudrais“ ist höflich; „je veux“ klingt fordernd.",
+      "es": "«Je voudrais» es educado; «je veux» suena exigente."
+     }
+    },
+    {
+     "type": "order_words",
+     "sentence": "l'addition, s'il vous plaît",
+     "translation": {
+      "en": "the bill, please",
+      "bg": "сметката, моля",
+      "de": "die Rechnung, bitte",
+      "es": "la cuenta, por favor"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fr-a1-04",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Où est la gare ?",
+    "bg": "Къде е гарата?",
+    "de": "Wo ist der Bahnhof?",
+    "es": "¿Dónde está la estación?"
+   },
+   "description": {
+    "en": "Directions and the metro",
+    "bg": "Посоки и метро",
+    "de": "Wegbeschreibung und Metro",
+    "es": "Direcciones y metro"
+   },
+   "items": [
+    "fr-ou-est",
+    "fr-la-gare",
+    "fr-le-metro",
+    "fr-les-toilettes",
+    "fr-a-gauche",
+    "fr-a-droite",
+    "fr-tout-droit",
+    "fr-pres-dici"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "“À droite” means…",
+      "bg": "„À droite“ значи…",
+      "de": "„À droite“ bedeutet…",
+      "es": "«À droite» significa…"
+     },
+     "options": [
+      "→",
+      "←",
+      "↑"
+     ],
+     "answer": "→",
+     "itemId": "fr-a-droite"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Allez tout ___ !",
+     "answer": "droit",
+     "itemId": "fr-tout-droit",
+     "options": [
+      "droit",
+      "gauche",
+      "près"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "où est le métro ?",
+     "translation": {
+      "en": "where is the metro?",
+      "bg": "къде е метрото?",
+      "de": "wo ist die Metro?",
+      "es": "¿dónde está el metro?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fr-a1-05",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Au travail",
+    "bg": "На работа",
+    "de": "Bei der Arbeit",
+    "es": "En el trabajo"
+   },
+   "description": {
+    "en": "Professional basics: meetings, colleagues, emails",
+    "bg": "Професионални основи: срещи, колеги, имейли",
+    "de": "Beruf: Meetings, Kollegen, E-Mails",
+    "es": "Lo básico profesional: reuniones, compañeros, correos"
+   },
+   "items": [
+    "fr-le-bureau",
+    "fr-un-collegue",
+    "fr-une-reunion",
+    "fr-un-rendez-vous",
+    "fr-enchante-faire-connaissance",
+    "fr-je-travaille-comme",
+    "fr-pourriez-vous",
+    "fr-cordialement",
+    "fr-tutoyer"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "How do you end a work email?",
+      "bg": "Как завършваш работен имейл?",
+      "de": "Wie beendest du eine geschäftliche E-Mail?",
+      "es": "¿Cómo terminas un correo de trabajo?"
+     },
+     "options": [
+      "Cordialement",
+      "Bisous",
+      "Salut"
+     ],
+     "answer": "Cordialement",
+     "itemId": "fr-cordialement"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "J'ai une ___ à dix heures. (meeting)",
+     "answer": "réunion",
+     "itemId": "fr-une-reunion",
+     "options": [
+      "réunion",
+      "collègue",
+      "gare"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___-vous m'envoyer le document ?",
+     "answer": "Pourriez",
+     "itemId": "fr-pourriez-vous",
+     "options": [
+      "Pourriez",
+      "Voudrais",
+      "Êtes"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "je travaille comme ingénieur",
+     "translation": {
+      "en": "I work as an engineer",
+      "bg": "работя като инженер",
+      "de": "ich arbeite als Ingenieur",
+      "es": "trabajo como ingeniero"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fr-h-01",
+   "section": "histoire",
+   "level": "B1",
+   "title": {
+    "en": "The Ancien Régime and the Revolution",
+    "bg": "Старият режим и Революцията",
+    "de": "Ancien Régime und Revolution",
+    "es": "El Antiguo Régimen y la Revolución"
+   },
+   "description": {
+    "en": "Kings, estates and 1789",
+    "bg": "Крале, съсловия и 1789 г.",
+    "de": "Könige, Stände und 1789",
+    "es": "Reyes, estamentos y 1789"
+   },
+   "items": [
+    "fr-le-roi",
+    "fr-la-reine",
+    "fr-la-monarchie",
+    "fr-le-peuple",
+    "fr-la-noblesse",
+    "fr-le-clerge",
+    "fr-le-tiers-etat",
+    "fr-la-revolution",
+    "fr-la-republique",
+    "fr-liberte",
+    "fr-le-siecle",
+    "fr-abolir"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "The three estates were the clergy, the nobility and…",
+      "bg": "Трите съсловия са духовенството, благородничеството и…",
+      "de": "Die drei Stände waren Klerus, Adel und…",
+      "es": "Los tres estamentos eran el clero, la nobleza y…"
+     },
+     "options": [
+      "le tiers état",
+      "la République",
+      "l'armée"
+     ],
+     "answer": "le tiers état",
+     "itemId": "fr-le-tiers-etat"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Liberté, égalité, ___",
+     "answer": "fraternité",
+     "itemId": "fr-liberte",
+     "options": [
+      "fraternité",
+      "monarchie",
+      "noblesse"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "La Révolution a lieu au XVIIIe ___.",
+     "answer": "siècle",
+     "itemId": "fr-le-siecle",
+     "options": [
+      "siècle",
+      "roi",
+      "peuple"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "le peuple prend la Bastille",
+     "translation": {
+      "en": "the people take the Bastille",
+      "bg": "народът превзема Бастилията",
+      "de": "das Volk stürmt die Bastille",
+      "es": "el pueblo toma la Bastilla"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fr-h-02",
+   "section": "histoire",
+   "level": "B1",
+   "title": {
+    "en": "Napoleon and the Empire",
+    "bg": "Наполеон и Империята",
+    "de": "Napoleon und das Kaiserreich",
+    "es": "Napoleón y el Imperio"
+   },
+   "description": {
+    "en": "Battles, coronation, exile, and reading the passé simple",
+    "bg": "Битки, коронация, изгнание и четене на passé simple",
+    "de": "Schlachten, Krönung, Exil und das passé simple",
+    "es": "Batallas, coronación, exilio y el passé simple"
+   },
+   "items": [
+    "fr-lempereur",
+    "fr-lempire",
+    "fr-le-sacre",
+    "fr-la-bataille",
+    "fr-larmee",
+    "fr-la-defaite",
+    "fr-la-victoire",
+    "fr-lexil",
+    "fr-le-code-civil",
+    "fr-il-fut",
+    "fr-il-devint",
+    "fr-il-prit"
+   ],
+   "grammar": [
+    "fr-g-passe-simple"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "“Il devint empereur en 1804” means…",
+      "bg": "„Il devint empereur en 1804“ значи…",
+      "de": "„Il devint empereur en 1804“ bedeutet…",
+      "es": "«Il devint empereur en 1804» significa…"
+     },
+     "options": [
+      "Il est devenu empereur en 1804.",
+      "Il deviendra empereur en 1804.",
+      "Il devient empereur en 1804."
+     ],
+     "answer": "Il est devenu empereur en 1804.",
+     "itemId": "fr-il-devint"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Waterloo fut une ___ pour Napoléon.",
+     "answer": "défaite",
+     "itemId": "fr-la-defaite",
+     "options": [
+      "défaite",
+      "victoire",
+      "république"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Napoléon ___ empereur. (était, passé simple)",
+     "answer": "fut",
+     "itemId": "fr-il-fut",
+     "options": [
+      "fut",
+      "fit",
+      "prit"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "il partit en exil à Sainte-Hélène",
+     "translation": {
+      "en": "he went into exile on Saint Helena",
+      "bg": "той замина в изгнание на остров Света Елена",
+      "de": "er ging ins Exil nach St. Helena",
+      "es": "partió al exilio en Santa Elena"
+     }
+    }
+   ]
+  }
+ ],
+ "phrasePacks": [
+  {
+   "id": "fr-pp-boulangerie",
+   "level": "A1",
+   "icon": "🥐",
+   "title": {
+    "en": "At the bakery",
+    "bg": "В пекарната",
+    "de": "In der Bäckerei",
+    "es": "En la panadería"
+   },
+   "description": {
+    "en": "Bonjour first, then your baguette",
+    "bg": "Първо „bonjour“, после багетата",
+    "de": "Erst „bonjour“, dann das Baguette",
+    "es": "Primero «bonjour», luego la baguette"
+   },
+   "items": [
+    "fr-bonjour",
+    "fr-je-voudrais",
+    "fr-une-baguette",
+    "fr-un-croissant",
+    "fr-combien",
+    "fr-merci",
+    "fr-au-revoir"
+   ]
+  },
+  {
+   "id": "fr-pp-survival",
+   "level": "A1",
+   "icon": "🆘",
+   "title": {
+    "en": "When you don't understand",
+    "bg": "Когато не разбираш",
+    "de": "Wenn du nichts verstehst",
+    "es": "Cuando no entiendes"
+   },
+   "description": {
+    "en": "Repeat, slower, in English?",
+    "bg": "Повторете, по-бавно, на английски?",
+    "de": "Wiederholen, langsamer, auf Englisch?",
+    "es": "Repetir, más despacio, ¿en inglés?"
+   },
+   "items": [
+    "fr-pardon",
+    "fr-vous-pouvez-repeter",
+    "fr-plus-lentement",
+    "fr-je-ne-comprends-pas",
+    "fr-comment-dit-on"
+   ]
+  },
+  {
+   "id": "fr-pp-travail",
+   "level": "A2",
+   "icon": "💼",
+   "title": {
+    "en": "At work",
+    "bg": "На работа",
+    "de": "Bei der Arbeit",
+    "es": "En el trabajo"
+   },
+   "description": {
+    "en": "Meetings, appointments and emails",
+    "bg": "Срещи, уговорки и имейли",
+    "de": "Meetings, Termine und E-Mails",
+    "es": "Reuniones, citas y correos"
+   },
+   "items": [
+    "fr-enchante-faire-connaissance",
+    "fr-une-reunion",
+    "fr-un-rendez-vous",
+    "fr-pourriez-vous",
+    "fr-cordialement",
+    "fr-tutoyer"
+   ]
+  }
+ ],
+ "dialogues": [
+  {
+   "id": "fr-d-boulangerie",
+   "level": "A1",
+   "icon": "🥐",
+   "title": {
+    "en": "A Paris bakery",
+    "bg": "Пекарна в Париж",
+    "de": "Eine Pariser Bäckerei",
+    "es": "Una panadería en París"
+   },
+   "situation": {
+    "en": "7:30 in the morning, Montmartre. The baker is busy.",
+    "bg": "7:30 сутринта, Монмартър. Хлебарката е заета.",
+    "de": "7:30 Uhr morgens, Montmartre. Die Bäckerin hat viel zu tun.",
+    "es": "7:30 de la mañana, Montmartre. La panadera está ocupada."
+   },
+   "speakers": {
+    "bou": {
+     "name": "Boulangère",
+     "accessory": "beret"
+    },
+    "you": {
+     "name": "Vous",
+     "accessory": "beret"
+    }
+   },
+   "lines": [
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Bonjour madame !",
+       "translations": {
+        "en": "Good morning, madam!",
+        "bg": "Добър ден, госпожо!",
+        "de": "Guten Morgen!",
+        "es": "¡Buenos días, señora!"
+       },
+       "correct": true
+      },
+      {
+       "text": "Une baguette.",
+       "translations": {
+        "en": "A baguette.",
+        "bg": "Една багета.",
+        "de": "Ein Baguette.",
+        "es": "Una baguette."
+       },
+       "correct": false,
+       "feedback": {
+        "en": "Always start with “bonjour”!",
+        "bg": "Винаги започвай с „bonjour“!",
+        "de": "Immer zuerst „bonjour“!",
+        "es": "¡Empieza siempre con «bonjour»!"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "bou",
+     "text": "Bonjour ! Qu'est-ce que je vous sers ?",
+     "translations": {
+      "en": "Hello! What can I get you?",
+      "bg": "Здравейте! Какво да ви дам?",
+      "de": "Guten Tag! Was darf es sein?",
+      "es": "¡Buenos días! ¿Qué le pongo?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Je voudrais une baguette et deux croissants, s'il vous plaît.",
+       "translations": {
+        "en": "I'd like a baguette and two croissants, please.",
+        "bg": "Бих искал една багета и два кроасана, моля.",
+        "de": "Ich hätte gern ein Baguette und zwei Croissants, bitte.",
+        "es": "Quisiera una baguette y dos cruasanes, por favor."
+       },
+       "correct": true
+      },
+      {
+       "text": "Je suis bulgare.",
+       "translations": {
+        "en": "I'm Bulgarian.",
+        "bg": "Българин съм.",
+        "de": "Ich bin Bulgare.",
+        "es": "Soy búlgaro."
+       },
+       "correct": false,
+       "feedback": {
+        "en": "She asked what you'd like!",
+        "bg": "Тя пита какво искаш!",
+        "de": "Sie fragt, was du möchtest!",
+        "es": "¡Te pregunta qué quieres!"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "bou",
+     "text": "Voilà. Ça fait trois euros cinquante.",
+     "translations": {
+      "en": "Here you are. That's three euros fifty.",
+      "bg": "Заповядайте. Три евро и петдесет.",
+      "de": "Bitte schön. Das macht drei Euro fünfzig.",
+      "es": "Aquí tiene. Son tres euros cincuenta."
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Merci ! Bonne journée !",
+       "translations": {
+        "en": "Thanks! Have a nice day!",
+        "bg": "Благодаря! Приятен ден!",
+        "de": "Danke! Schönen Tag!",
+        "es": "¡Gracias! ¡Buen día!"
+       },
+       "correct": true
+      },
+      {
+       "text": "L'addition, s'il vous plaît.",
+       "translations": {
+        "en": "The bill, please.",
+        "bg": "Сметката, моля.",
+        "de": "Die Rechnung, bitte.",
+        "es": "La cuenta, por favor."
+       },
+       "correct": false,
+       "feedback": {
+        "en": "That's for restaurants; here you just pay.",
+        "bg": "Това е за ресторант; тук просто плащаш.",
+        "de": "Das sagt man im Restaurant; hier zahlst du einfach.",
+        "es": "Eso es para restaurantes; aquí solo pagas."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "bou",
+     "text": "Merci, à vous aussi ! Au revoir !",
+     "translations": {
+      "en": "Thank you, you too! Goodbye!",
+      "bg": "Благодаря, и на вас! Довиждане!",
+      "de": "Danke, Ihnen auch! Auf Wiedersehen!",
+      "es": "¡Gracias, igualmente! ¡Adiós!"
+     }
+    }
+   ]
+  },
+  {
+   "id": "fr-d-bureau",
+   "level": "A2",
+   "icon": "💼",
+   "title": {
+    "en": "First day at the office",
+    "bg": "Първи ден в офиса",
+    "de": "Erster Tag im Büro",
+    "es": "Primer día en la oficina"
+   },
+   "situation": {
+    "en": "You start a new job in Lyon. Your manager introduces you to a colleague.",
+    "bg": "Започваш нова работа в Лион. Шефката те представя на колега.",
+    "de": "Du fängst einen neuen Job in Lyon an. Deine Chefin stellt dich einem Kollegen vor.",
+    "es": "Empiezas un trabajo nuevo en Lyon. Tu jefa te presenta a un compañero."
+   },
+   "speakers": {
+    "marc": {
+     "name": "Marc",
+     "accessory": "beret"
+    },
+    "you": {
+     "name": "Vous",
+     "accessory": "beret"
+    }
+   },
+   "lines": [
+    {
+     "speaker": "marc",
+     "text": "Bonjour, je suis Marc, je travaille dans l'équipe marketing.",
+     "translations": {
+      "en": "Hello, I'm Marc, I work in the marketing team.",
+      "bg": "Здравейте, аз съм Марк, работя в маркетинг екипа.",
+      "de": "Guten Tag, ich bin Marc, ich arbeite im Marketing-Team.",
+      "es": "Hola, soy Marc, trabajo en el equipo de marketing."
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Enchanté de faire votre connaissance. Je m'appelle Stoyan.",
+       "translations": {
+        "en": "Pleased to meet you. My name is Stoyan.",
+        "bg": "Приятно ми е да се запознаем. Казвам се Стоян.",
+        "de": "Sehr erfreut. Ich heiße Stoyan.",
+        "es": "Encantado de conocerle. Me llamo Stoyan."
+       },
+       "correct": true
+      },
+      {
+       "text": "Salut ! Ça roule ?",
+       "translations": {
+        "en": "Hey! How's it going?",
+        "bg": "Здрасти! Как върви?",
+        "de": "Hi! Läuft's?",
+        "es": "¡Hola! ¿Qué tal va?"
+       },
+       "correct": false,
+       "feedback": {
+        "en": "A bit too casual for the first day.",
+        "bg": "Малко прекалено неформално за първия ден.",
+        "de": "Etwas zu locker für den ersten Tag.",
+        "es": "Demasiado informal para el primer día."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "marc",
+     "text": "On a une réunion à dix heures. Vous venez ?",
+     "translations": {
+      "en": "We have a meeting at ten. Are you coming?",
+      "bg": "Имаме събрание в десет. Идвате ли?",
+      "de": "Wir haben um zehn ein Meeting. Kommen Sie?",
+      "es": "Tenemos una reunión a las diez. ¿Viene?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Oui, avec plaisir. Pourriez-vous m'envoyer l'ordre du jour ?",
+       "translations": {
+        "en": "Yes, gladly. Could you send me the agenda?",
+        "bg": "Да, с удоволствие. Бихте ли ми изпратили дневния ред?",
+        "de": "Ja, gern. Könnten Sie mir die Tagesordnung schicken?",
+        "es": "Sí, con gusto. ¿Podría enviarme el orden del día?"
+       },
+       "correct": true
+      },
+      {
+       "text": "Je voudrais une baguette.",
+       "translations": {
+        "en": "I'd like a baguette.",
+        "bg": "Бих искал една багета.",
+        "de": "Ich hätte gern ein Baguette.",
+        "es": "Quisiera una baguette."
+       },
+       "correct": false,
+       "feedback": {
+        "en": "Wrong place for that!",
+        "bg": "Не е мястото за това!",
+        "de": "Falscher Ort dafür!",
+        "es": "¡No es el lugar!"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "marc",
+     "text": "Bien sûr. Et… on se tutoie ?",
+     "translations": {
+      "en": "Of course. And… shall we say “tu”?",
+      "bg": "Разбира се. И… да си говорим ли на „ти“?",
+      "de": "Natürlich. Und… wollen wir uns duzen?",
+      "es": "Claro. Y… ¿nos tuteamos?"
+     }
+    },
+    {
+     "speaker": "you",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Oui, volontiers ! À tout à l'heure.",
+       "translations": {
+        "en": "Yes, gladly! See you in a bit.",
+        "bg": "Да, с удоволствие! До после.",
+        "de": "Ja, gern! Bis gleich.",
+        "es": "¡Sí, encantado! Hasta luego."
+       },
+       "correct": true
+      },
+      {
+       "text": "Non, vous êtes le roi.",
+       "translations": {
+        "en": "No, you are the king.",
+        "bg": "Не, Вие сте кралят.",
+        "de": "Nein, Sie sind der König.",
+        "es": "No, usted es el rey."
+       },
+       "correct": false,
+       "feedback": {
+        "en": "Funny, but probably not the best start…",
+        "bg": "Смешно, но едва ли е най-добрият старт…",
+        "de": "Lustig, aber kein guter Start…",
+        "es": "Gracioso, pero quizá no el mejor comienzo…"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "fr-r-paris",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Morning in Paris",
+    "bg": "Сутрин в Париж",
+    "de": "Morgen in Paris",
+    "es": "Mañana en París"
+   },
+   "sentences": [
+    {
+     "text": "Paris est la capitale de la France.",
+     "translations": {
+      "en": "Paris is the capital of France.",
+      "bg": "Париж е столицата на Франция.",
+      "de": "Paris ist die Hauptstadt Frankreichs.",
+      "es": "París es la capital de Francia."
+     }
+    },
+    {
+     "text": "Le matin, les Parisiens achètent une baguette à la boulangerie.",
+     "translations": {
+      "en": "In the morning, Parisians buy a baguette at the bakery.",
+      "bg": "Сутрин парижаните купуват багета от пекарната.",
+      "de": "Morgens kaufen die Pariser ein Baguette in der Bäckerei.",
+      "es": "Por la mañana, los parisinos compran una baguette en la panadería."
+     }
+    },
+    {
+     "text": "Ils prennent un café au comptoir et lisent le journal.",
+     "translations": {
+      "en": "They have a coffee at the counter and read the newspaper.",
+      "bg": "Пият кафе на бара и четат вестник.",
+      "de": "Sie trinken einen Kaffee an der Theke und lesen Zeitung.",
+      "es": "Toman un café en la barra y leen el periódico."
+     }
+    },
+    {
+     "text": "Puis ils prennent le métro pour aller au travail.",
+     "translations": {
+      "en": "Then they take the metro to go to work.",
+      "bg": "После хващат метрото, за да отидат на работа.",
+      "de": "Dann nehmen sie die Metro zur Arbeit.",
+      "es": "Luego toman el metro para ir al trabajo."
+     }
+    }
+   ],
+   "glossary": {
+    "capitale": {
+     "translations": {
+      "en": "capital",
+      "bg": "столица",
+      "de": "Hauptstadt",
+      "es": "capital"
+     }
+    },
+    "matin": {
+     "translations": {
+      "en": "morning",
+      "bg": "сутрин",
+      "de": "Morgen",
+      "es": "mañana"
+     }
+    },
+    "parisiens": {
+     "translations": {
+      "en": "Parisians",
+      "bg": "парижаните",
+      "de": "die Pariser",
+      "es": "los parisinos"
+     }
+    },
+    "achètent": {
+     "translations": {
+      "en": "buy",
+      "bg": "купуват",
+      "de": "kaufen",
+      "es": "compran"
+     }
+    },
+    "baguette": {
+     "item": "fr-une-baguette"
+    },
+    "boulangerie": {
+     "translations": {
+      "en": "bakery",
+      "bg": "пекарна",
+      "de": "Bäckerei",
+      "es": "panadería"
+     }
+    },
+    "prennent": {
+     "translations": {
+      "en": "take / have",
+      "bg": "взимат / пият",
+      "de": "nehmen",
+      "es": "toman"
+     }
+    },
+    "café": {
+     "item": "fr-un-cafe"
+    },
+    "comptoir": {
+     "translations": {
+      "en": "counter / bar",
+      "bg": "бар плот",
+      "de": "Theke",
+      "es": "barra"
+     }
+    },
+    "lisent": {
+     "translations": {
+      "en": "read",
+      "bg": "четат",
+      "de": "lesen",
+      "es": "leen"
+     }
+    },
+    "journal": {
+     "translations": {
+      "en": "newspaper",
+      "bg": "вестник",
+      "de": "Zeitung",
+      "es": "periódico"
+     }
+    },
+    "puis": {
+     "translations": {
+      "en": "then",
+      "bg": "после",
+      "de": "dann",
+      "es": "luego"
+     }
+    },
+    "métro": {
+     "item": "fr-le-metro"
+    },
+    "travail": {
+     "translations": {
+      "en": "work",
+      "bg": "работа",
+      "de": "Arbeit",
+      "es": "trabajo"
+     }
+    },
+    "aller": {
+     "translations": {
+      "en": "to go",
+      "bg": "да отидат",
+      "de": "gehen / fahren",
+      "es": "ir"
+     }
+    },
+    "est": {
+     "item": "fr-il-est"
+    },
+    "ils": {
+     "translations": {
+      "en": "they",
+      "bg": "те",
+      "de": "sie",
+      "es": "ellos"
+     }
+    },
+    "et": {
+     "translations": {
+      "en": "and",
+      "bg": "и",
+      "de": "und",
+      "es": "y"
+     }
+    }
+   }
+  },
+  {
+   "id": "fr-r-bastille",
+   "section": "histoire",
+   "level": "B1",
+   "title": {
+    "en": "The storming of the Bastille (adapted)",
+    "bg": "Превземането на Бастилията (адаптиран текст)",
+    "de": "Der Sturm auf die Bastille (vereinfacht)",
+    "es": "La toma de la Bastilla (adaptado)"
+   },
+   "sentences": [
+    {
+     "text": "Au printemps 1789, la France traversait une grave crise : le pain était cher et le peuple avait faim.",
+     "translations": {
+      "en": "In spring 1789 France was in a serious crisis: bread was expensive and the people were hungry.",
+      "bg": "През пролетта на 1789 г. Франция преживява тежка криза: хлябът е скъп, а народът гладува.",
+      "de": "Im Frühjahr 1789 steckte Frankreich in einer schweren Krise: Brot war teuer und das Volk hungerte.",
+      "es": "En la primavera de 1789 Francia atravesaba una grave crisis: el pan era caro y el pueblo pasaba hambre."
+     }
+    },
+    {
+     "text": "Le roi Louis XVI convoqua les États généraux à Versailles.",
+     "translations": {
+      "en": "King Louis XVI summoned the Estates-General to Versailles.",
+      "bg": "Крал Луи XVI свиква Генералните щати във Версай.",
+      "de": "König Ludwig XVI. berief die Generalstände nach Versailles ein.",
+      "es": "El rey Luis XVI convocó los Estados Generales en Versalles."
+     }
+    },
+    {
+     "text": "Le tiers état se proclama Assemblée nationale.",
+     "translations": {
+      "en": "The Third Estate proclaimed itself the National Assembly.",
+      "bg": "Третото съсловие се провъзгласява за Национално събрание.",
+      "de": "Der Dritte Stand erklärte sich zur Nationalversammlung.",
+      "es": "El tercer estado se proclamó Asamblea Nacional."
+     }
+    },
+    {
+     "text": "Le 14 juillet, les Parisiens prirent la Bastille, symbole du pouvoir royal.",
+     "translations": {
+      "en": "On 14 July, Parisians took the Bastille, a symbol of royal power.",
+      "bg": "На 14 юли парижани превземат Бастилията, символ на кралската власт.",
+      "de": "Am 14. Juli stürmten die Pariser die Bastille, Symbol der königlichen Macht.",
+      "es": "El 14 de julio los parisinos tomaron la Bastilla, símbolo del poder real."
+     }
+    },
+    {
+     "text": "Quelques semaines plus tard, l'Assemblée abolit les privilèges de la noblesse.",
+     "translations": {
+      "en": "A few weeks later, the Assembly abolished the privileges of the nobility.",
+      "bg": "Няколко седмици по-късно Събранието премахва привилегиите на благородниците.",
+      "de": "Einige Wochen später schaffte die Versammlung die Privilegien des Adels ab.",
+      "es": "Unas semanas más tarde, la Asamblea abolió los privilegios de la nobleza."
+     }
+    }
+   ],
+   "glossary": {
+    "printemps": {
+     "translations": {
+      "en": "spring",
+      "bg": "пролет",
+      "de": "Frühling",
+      "es": "primavera"
+     }
+    },
+    "traversait": {
+     "translations": {
+      "en": "was going through",
+      "bg": "преминаваше през",
+      "de": "durchlief",
+      "es": "atravesaba"
+     }
+    },
+    "grave": {
+     "translations": {
+      "en": "serious",
+      "bg": "тежка",
+      "de": "schwer",
+      "es": "grave"
+     }
+    },
+    "crise": {
+     "translations": {
+      "en": "crisis",
+      "bg": "криза",
+      "de": "Krise",
+      "es": "crisis"
+     }
+    },
+    "pain": {
+     "translations": {
+      "en": "bread",
+      "bg": "хляб",
+      "de": "Brot",
+      "es": "pan"
+     }
+    },
+    "cher": {
+     "translations": {
+      "en": "expensive",
+      "bg": "скъп",
+      "de": "teuer",
+      "es": "caro"
+     }
+    },
+    "peuple": {
+     "item": "fr-le-peuple"
+    },
+    "faim": {
+     "translations": {
+      "en": "hunger",
+      "bg": "глад",
+      "de": "Hunger",
+      "es": "hambre"
+     }
+    },
+    "roi": {
+     "item": "fr-le-roi"
+    },
+    "convoqua": {
+     "translations": {
+      "en": "summoned (passé simple)",
+      "bg": "свика (passé simple)",
+      "de": "berief ein (passé simple)",
+      "es": "convocó (passé simple)"
+     }
+    },
+    "états": {
+     "translations": {
+      "en": "estates",
+      "bg": "съсловия / щати",
+      "de": "Stände",
+      "es": "estados"
+     }
+    },
+    "généraux": {
+     "translations": {
+      "en": "general",
+      "bg": "генерални",
+      "de": "General-",
+      "es": "generales"
+     }
+    },
+    "tiers": {
+     "item": "fr-le-tiers-etat"
+    },
+    "état": {
+     "item": "fr-le-tiers-etat"
+    },
+    "proclama": {
+     "translations": {
+      "en": "proclaimed (passé simple)",
+      "bg": "провъзгласи (passé simple)",
+      "de": "rief aus (passé simple)",
+      "es": "proclamó (passé simple)"
+     }
+    },
+    "assemblée": {
+     "translations": {
+      "en": "assembly",
+      "bg": "събрание",
+      "de": "Versammlung",
+      "es": "asamblea"
+     }
+    },
+    "nationale": {
+     "translations": {
+      "en": "national",
+      "bg": "национално",
+      "de": "national",
+      "es": "nacional"
+     }
+    },
+    "juillet": {
+     "translations": {
+      "en": "July",
+      "bg": "юли",
+      "de": "Juli",
+      "es": "julio"
+     }
+    },
+    "prirent": {
+     "translations": {
+      "en": "took (passé simple)",
+      "bg": "превзеха (passé simple)",
+      "de": "nahmen (passé simple)",
+      "es": "tomaron (passé simple)"
+     }
+    },
+    "symbole": {
+     "translations": {
+      "en": "symbol",
+      "bg": "символ",
+      "de": "Symbol",
+      "es": "símbolo"
+     }
+    },
+    "pouvoir": {
+     "translations": {
+      "en": "power",
+      "bg": "власт",
+      "de": "Macht",
+      "es": "poder"
+     }
+    },
+    "royal": {
+     "translations": {
+      "en": "royal",
+      "bg": "кралски",
+      "de": "königlich",
+      "es": "real"
+     }
+    },
+    "semaines": {
+     "translations": {
+      "en": "weeks",
+      "bg": "седмици",
+      "de": "Wochen",
+      "es": "semanas"
+     }
+    },
+    "abolit": {
+     "item": "fr-abolir"
+    },
+    "privilèges": {
+     "translations": {
+      "en": "privileges",
+      "bg": "привилегии",
+      "de": "Privilegien",
+      "es": "privilegios"
+     }
+    },
+    "noblesse": {
+     "item": "fr-la-noblesse"
+    },
+    "tard": {
+     "translations": {
+      "en": "later",
+      "bg": "по-късно",
+      "de": "später",
+      "es": "tarde"
+     }
+    }
+   }
+  }
+ ],
+ "places": [
+  {
+   "id": "fr-p-paris",
+   "section": "core",
+   "name": "Paris",
+   "country": "France",
+   "lat": 48.86,
+   "lng": 2.35,
+   "description": {
+    "en": "Cafés, bakeries and the metro: where it all begins.",
+    "bg": "Кафенета, пекарни и метро: оттук започва всичко.",
+    "de": "Cafés, Bäckereien und die Metro: hier fängt alles an.",
+    "es": "Cafés, panaderías y metro: aquí empieza todo."
+   },
+   "localItems": [
+    "fr-bonjour",
+    "fr-un-cafe"
+   ],
+   "cultureNote": "fr-c-bise",
+   "reading": "fr-r-paris"
+  },
+  {
+   "id": "fr-p-lyon",
+   "section": "core",
+   "name": "Lyon",
+   "country": "France",
+   "lat": 45.76,
+   "lng": 4.84,
+   "unlockAfterLesson": "fr-a1-02",
+   "description": {
+    "en": "France's food capital, home of the “bouchon” restaurant.",
+    "bg": "Кулинарната столица на Франция, родината на ресторантите „bouchon“.",
+    "de": "Frankreichs Hauptstadt des Essens, Heimat der „Bouchons“.",
+    "es": "La capital gastronómica de Francia, cuna de los «bouchons»."
+   },
+   "localItems": [
+    "fr-bon-appetit",
+    "fr-un-bouchon"
+   ],
+   "cultureNote": "fr-c-vous-travail"
+  },
+  {
+   "id": "fr-p-marseille",
+   "section": "core",
+   "name": "Marseille",
+   "country": "France",
+   "lat": 43.3,
+   "lng": 5.37,
+   "unlockAfterLesson": "fr-a1-03",
+   "description": {
+    "en": "Sunny port city with a sing-song accent.",
+    "bg": "Слънчев пристанищен град с напевен акцент.",
+    "de": "Sonnige Hafenstadt mit singendem Akzent.",
+    "es": "Ciudad portuaria soleada con acento cantarín."
+   },
+   "localItems": [
+    "fr-peuchere"
+   ]
+  },
+  {
+   "id": "fr-p-bruxelles",
+   "section": "core",
+   "name": "Bruxelles",
+   "country": "Belgium",
+   "lat": 50.85,
+   "lng": 4.35,
+   "unlockAfterLesson": "fr-a1-04",
+   "description": {
+    "en": "Belgian French counts differently: 70 = septante, 90 = nonante.",
+    "bg": "Белгийският френски брои различно: 70 = septante, 90 = nonante.",
+    "de": "Belgisches Französisch zählt anders: 70 = septante, 90 = nonante.",
+    "es": "El francés belga cuenta distinto: 70 = septante, 90 = nonante."
+   },
+   "localItems": [
+    "fr-septante",
+    "fr-nonante"
+   ]
+  },
+  {
+   "id": "fr-p-montreal",
+   "section": "core",
+   "name": "Montréal",
+   "country": "Canada",
+   "lat": 45.5,
+   "lng": -73.57,
+   "unlockAfterLesson": "fr-a1-05",
+   "description": {
+    "en": "North American French with its own words and accent.",
+    "bg": "Северноамерикански френски със свои думи и акцент.",
+    "de": "Nordamerikanisches Französisch mit eigenen Wörtern.",
+    "es": "Francés norteamericano con sus propias palabras."
+   },
+   "localItems": [
+    "fr-magasiner",
+    "fr-bienvenue-quebec"
+   ],
+   "cultureNote": "fr-c-quebec"
+  },
+  {
+   "id": "fr-p-versailles",
+   "section": "histoire",
+   "name": "Versailles",
+   "country": "France",
+   "lat": 48.8,
+   "lng": 2.13,
+   "unlockAfterLesson": "fr-h-01",
+   "description": {
+    "en": "The palace of absolute monarchy, where the Estates-General met in 1789.",
+    "bg": "Дворецът на абсолютната монархия, където през 1789 г. заседават Генералните щати.",
+    "de": "Das Schloss der absoluten Monarchie, Tagungsort der Generalstände 1789.",
+    "es": "El palacio de la monarquía absoluta, donde se reunieron los Estados Generales en 1789."
+   },
+   "localItems": [
+    "fr-le-roi",
+    "fr-la-monarchie",
+    "fr-la-noblesse"
+   ],
+   "cultureNote": "fr-c-1789",
+   "reading": "fr-r-bastille"
+  }
+ ]
+}

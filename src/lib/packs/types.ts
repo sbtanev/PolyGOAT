@@ -45,8 +45,9 @@ export type AuthoredExercise =
       type: "choose";         // free multiple choice question
       prompt: Tr;
       target?: string;
-      options: string[];
-      answer: string;
+      /** Plain strings (target-language words) or translated objects (explanations, meanings). */
+      options: (string | Tr)[];
+      answer: string | Tr;
       explanation?: Tr;
       itemId?: string;
     };

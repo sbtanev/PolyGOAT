@@ -123,8 +123,8 @@ export function buildSteps({ items, pool, source, grammar = [], authored = [], w
         itemId: ex.itemId,
         prompt: tr(ex.prompt as Record<string, string>, source),
         target: ex.target,
-        options: shuffle(ex.options),
-        answer: ex.answer,
+        options: shuffle(ex.options.map((o) => (typeof o === "string" ? o : tr(o as Record<string, string>, source)))),
+        answer: typeof ex.answer === "string" ? ex.answer : tr(ex.answer as Record<string, string>, source),
         explanation: ex.explanation ? tr(ex.explanation as Record<string, string>, source) : undefined,
       });
     }
