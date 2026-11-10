@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-night: #14111f;
+  --color-panel: #1e1a2e;
+  --color-panel-2: #29233f;
+  --color-line: #3a3354;
+  --color-ink: #f6f1e7;
+  --color-muted: #a7a0bb;
+  --color-gold: #f2c84b;
+  --color-gold-deep: #d9a521;
+  --color-mint: #5ed3a5;
+  --color-coral: #ff7a6b;
+  --font-display: 'Unbounded Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Nunito Variable', ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-night);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Soft starry backdrop: a nod to the night-time mountain the goat climbs. */
+.backdrop {
+  background:
+    radial-gradient(1200px 500px at 85% -10%, rgb(242 200 75 / 0.10), transparent 60%),
+    radial-gradient(900px 500px at -10% 10%, rgb(94 211 165 / 0.08), transparent 60%),
+    var(--color-night);
+}
+
+@utility card {
+  @apply rounded-3xl border border-line bg-panel p-5 sm:p-6;
+}
+@utility btn {
+  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl px-5 font-bold transition active:translate-y-px disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-gold text-night shadow-[0_4px_0_var(--color-gold-deep)] hover:brightness-105;
+}
+@utility btn-ghost {
+  @apply btn border border-line bg-panel-2 text-ink hover:border-muted;
+}
+@utility input {
+  @apply min-h-12 w-full rounded-2xl border border-line bg-night px-4 text-ink placeholder:text-muted/70 outline-none focus:border-gold;
+}
+@utility label {
+  @apply mb-1.5 block text-sm font-bold text-ink;
+}
+@utility hint {
+  @apply mt-1 text-xs text-muted;
+}
+@utility chip {
+  @apply inline-flex items-center gap-1 rounded-full border border-line bg-panel-2 px-2.5 py-1 text-xs font-semibold;
+}
