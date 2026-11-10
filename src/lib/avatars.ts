@@ -17,6 +17,7 @@ export const AVATAR_PRESETS: AvatarPreset[] = [
   { id: "laurel", accessory: "laurel", fur: "#EDE3D1", background: "#5B2F3F" },
   { id: "crown", accessory: "crown", fur: "#F1E4CF", background: "#6B4E12" },
   { id: "night", accessory: "headphones", fur: "#6E6480", background: "#1D1A2B" },
+  { id: "martenitsa", accessory: "martenitsa", fur: "#F1E4CF", background: "#3D5A3C" },
 ];
 
 export function getPreset(id: string | null | undefined) {

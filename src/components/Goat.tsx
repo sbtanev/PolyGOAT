@@ -6,7 +6,8 @@ export type GoatAccessory =
   | "beanie"
   | "alpine"
   | "crown"
-  | "headphones";
+  | "headphones"
+  | "martenitsa";
 
 type Props = {
   accessory?: GoatAccessory | string | null;
@@ -158,6 +159,21 @@ function Accessory({ kind }: { kind: string }) {
           <circle cx="60" cy="27" r="3" fill="#E5484D" />
           <circle cx="48" cy="29" r="2" fill="#4C8DF6" />
           <circle cx="72" cy="29" r="2" fill="#4C8DF6" />
+        </g>
+      );
+    case "martenitsa":
+      // red-and-white twisted cord tied around the horn, with the two tassel dolls
+      return (
+        <g>
+          <path d="M28 22 Q36 30 44 28" stroke="#E5484D" strokeWidth="2.5" fill="none" strokeDasharray="3 3" />
+          <path d="M28 22 Q36 30 44 28" stroke="#FFFFFF" strokeWidth="2.5" fill="none" strokeDasharray="3 3" strokeDashoffset="3" />
+          <g stroke={INK} strokeWidth="1.5">
+            <circle cx="22" cy="34" r="4" fill="#FFFFFF" />
+            <path d="M19 37 L17 47 L27 47 L25 37 Z" fill="#FFFFFF" />
+            <circle cx="34" cy="36" r="4" fill="#E5484D" />
+            <path d="M31 39 L29 49 L39 49 L37 39 Z" fill="#E5484D" />
+          </g>
+          <path d="M22 30 Q26 24 30 23 M34 32 Q36 27 36 26" stroke="#E5484D" strokeWidth="1.5" fill="none" />
         </g>
       );
     case "headphones":

@@ -181,6 +181,7 @@ const bg: Dictionary = {
     tryAgain: "Опитай пак",
     hint: "Подсказка",
     quit: "Изход",
+    latinOk: "Може и на латиница",
     nativesSay: "Носителите казват:",
     reset: "Изчисти",
   },

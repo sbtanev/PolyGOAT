@@ -9,6 +9,7 @@ import { rateCard } from "../actions";
 export type ReviewCard = {
   id: number;
   front: string;
+  sub?: string;
   back: string;
   extra?: string;
   audio?: string | null;
@@ -66,6 +67,7 @@ export function ReviewSession({ lang, cards, labels }: { lang: string; cards: Re
               <p className="font-display text-3xl font-bold">{card.front}</p>
               <SpeakButton key={card.id} text={card.front} audio={card.audio} autoPlay />
             </div>
+            {card.sub && <p className="-mt-2 italic text-mint">{card.sub}</p>}
             {revealed && (
               <>
                 <div className="h-px w-24 bg-line" />

@@ -50,7 +50,10 @@ export default async function PlacePage({ params }: { params: Promise<{ lang: st
               <li key={it.id} className="flex items-center gap-3 rounded-2xl bg-panel-2 px-4 py-3">
                 <SpeakButton text={it.text} audio={it.audio_url} size="sm" />
                 <div className="min-w-0">
-                  <p className="font-bold">{it.text}</p>
+                  <p className="font-bold">
+                    {it.text}
+                    {typeof it.extras?.translit === "string" && <span className="ml-2 text-sm font-normal italic text-mint">{it.extras.translit}</span>}
+                  </p>
                   <p className="text-sm text-muted">
                     {tr(it.translations, source)}
                     {tr(it.notes, source) && ` · ${tr(it.notes, source)}`}

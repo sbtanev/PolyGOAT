@@ -1,0 +1,2086 @@
+{
+ "version": "1.0.0",
+ "language": {
+  "code": "bg",
+  "name": {
+   "en": "Bulgarian",
+   "bg": "Български",
+   "de": "Bulgarisch",
+   "fr": "bulgare",
+   "es": "búlgaro"
+  },
+  "nativeName": "Български",
+  "flag": "🇧🇬",
+  "script": "cyrillic",
+  "features": [
+   "gender",
+   "postfixed_article"
+  ],
+  "mascotAccessory": "martenitsa",
+  "ttsLocale": "bg-BG",
+  "active": true,
+  "mapBounds": [
+   [
+    22.2,
+    41.2
+   ],
+   [
+    28.7,
+    44.3
+   ]
+  ]
+ },
+ "sections": [
+  {
+   "slug": "core",
+   "title": {
+    "en": "Core course (A1)",
+    "de": "Grundkurs (A1)",
+    "fr": "Cours principal (A1)",
+    "es": "Curso principal (A1)"
+   }
+  }
+ ],
+ "items": [
+  {
+   "id": "bg-zdravey",
+   "text": "здравей",
+   "kind": "word",
+   "translations": {
+    "en": "hi / hello",
+    "de": "hallo",
+    "fr": "salut / bonjour",
+    "es": "hola"
+   },
+   "frequencyRank": 1,
+   "extras": {
+    "translit": "zdravey"
+   }
+  },
+  {
+   "id": "bg-zdraveyte",
+   "text": "здравейте",
+   "kind": "word",
+   "translations": {
+    "en": "hello (formal or to several people)",
+    "de": "guten Tag / hallo (Sie, ihr)",
+    "fr": "bonjour (vous)",
+    "es": "hola (usted, ustedes)"
+   },
+   "frequencyRank": 2,
+   "extras": {
+    "translit": "zdraveyte"
+   }
+  },
+  {
+   "id": "bg-dobro-utro",
+   "text": "добро утро",
+   "kind": "phrase",
+   "translations": {
+    "en": "good morning",
+    "de": "guten Morgen",
+    "fr": "bonjour (le matin)",
+    "es": "buenos días"
+   },
+   "frequencyRank": 3,
+   "extras": {
+    "translit": "dobro utro"
+   }
+  },
+  {
+   "id": "bg-dobar-den",
+   "text": "добър ден",
+   "kind": "phrase",
+   "translations": {
+    "en": "good day",
+    "de": "guten Tag",
+    "fr": "bonjour",
+    "es": "buenos días / buenas tardes"
+   },
+   "frequencyRank": 4,
+   "extras": {
+    "translit": "dobar den"
+   }
+  },
+  {
+   "id": "bg-dobar-vecher",
+   "text": "добър вечер",
+   "kind": "phrase",
+   "translations": {
+    "en": "good evening",
+    "de": "guten Abend",
+    "fr": "bonsoir",
+    "es": "buenas tardes / noches"
+   },
+   "frequencyRank": 5,
+   "extras": {
+    "translit": "dobar vecher"
+   }
+  },
+  {
+   "id": "bg-dovizhdane",
+   "text": "довиждане",
+   "kind": "word",
+   "translations": {
+    "en": "goodbye",
+    "de": "auf Wiedersehen",
+    "fr": "au revoir",
+    "es": "adiós"
+   },
+   "frequencyRank": 6,
+   "native": "чао",
+   "extras": {
+    "translit": "dovizhdane"
+   }
+  },
+  {
+   "id": "bg-blagodarya",
+   "text": "благодаря",
+   "kind": "word",
+   "translations": {
+    "en": "thank you",
+    "de": "danke",
+    "fr": "merci",
+    "es": "gracias"
+   },
+   "frequencyRank": 7,
+   "native": "мерси",
+   "notes": {
+    "en": "Bulgarians very often just say “merси” (from French).",
+    "de": "Bulgaren sagen sehr oft einfach „мерси“ (aus dem Französischen).",
+    "fr": "Les Bulgares disent très souvent « мерси », emprunté au français.",
+    "es": "Los búlgaros dicen muy a menudo «мерси», del francés."
+   },
+   "extras": {
+    "translit": "blagodarya"
+   }
+  },
+  {
+   "id": "bg-molya",
+   "text": "моля",
+   "kind": "word",
+   "translations": {
+    "en": "please / you're welcome",
+    "de": "bitte",
+    "fr": "s'il vous plaît / je vous en prie",
+    "es": "por favor / de nada"
+   },
+   "frequencyRank": 8,
+   "extras": {
+    "translit": "molya"
+   }
+  },
+  {
+   "id": "bg-izvinete",
+   "text": "извинете",
+   "kind": "word",
+   "translations": {
+    "en": "excuse me / sorry",
+    "de": "Entschuldigung",
+    "fr": "excusez-moi",
+    "es": "disculpe"
+   },
+   "frequencyRank": 9,
+   "native": "извинявай (informal)",
+   "extras": {
+    "translit": "izvinete"
+   }
+  },
+  {
+   "id": "bg-kak-si",
+   "text": "как си?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how are you?",
+    "de": "wie geht's?",
+    "fr": "comment ça va ?",
+    "es": "¿qué tal?"
+   },
+   "frequencyRank": 10,
+   "native": "кво става?",
+   "extras": {
+    "translit": "kak si?"
+   }
+  },
+  {
+   "id": "bg-dobre-sam",
+   "text": "добре съм, благодаря",
+   "kind": "phrase",
+   "translations": {
+    "en": "I'm fine, thanks",
+    "de": "mir geht's gut, danke",
+    "fr": "ça va bien, merci",
+    "es": "estoy bien, gracias"
+   },
+   "frequencyRank": 11,
+   "extras": {
+    "translit": "dobre sam, blagodarya"
+   }
+  },
+  {
+   "id": "bg-kak-se-kazvash",
+   "text": "как се казваш?",
+   "kind": "phrase",
+   "translations": {
+    "en": "what's your name?",
+    "de": "wie heißt du?",
+    "fr": "comment tu t'appelles ?",
+    "es": "¿cómo te llamas?"
+   },
+   "frequencyRank": 12,
+   "extras": {
+    "translit": "kak se kazvash?"
+   }
+  },
+  {
+   "id": "bg-kazvam-se",
+   "text": "казвам се …",
+   "kind": "phrase",
+   "translations": {
+    "en": "my name is …",
+    "de": "ich heiße …",
+    "fr": "je m'appelle …",
+    "es": "me llamo …"
+   },
+   "frequencyRank": 13,
+   "extras": {
+    "translit": "kazvam se …"
+   }
+  },
+  {
+   "id": "bg-priyatno-mi-e",
+   "text": "приятно ми е",
+   "kind": "phrase",
+   "translations": {
+    "en": "nice to meet you",
+    "de": "freut mich",
+    "fr": "enchanté",
+    "es": "mucho gusto"
+   },
+   "frequencyRank": 14,
+   "extras": {
+    "translit": "priyatno mi e"
+   }
+  },
+  {
+   "id": "bg-otkade-si",
+   "text": "откъде си?",
+   "kind": "phrase",
+   "translations": {
+    "en": "where are you from?",
+    "de": "woher kommst du?",
+    "fr": "d'où viens-tu ?",
+    "es": "¿de dónde eres?"
+   },
+   "frequencyRank": 15,
+   "extras": {
+    "translit": "otkade si?"
+   }
+  },
+  {
+   "id": "bg-ot-finlandiya-sam",
+   "text": "от Финландия съм",
+   "kind": "sentence",
+   "translations": {
+    "en": "I'm from Finland",
+    "de": "ich komme aus Finnland",
+    "fr": "je viens de Finlande",
+    "es": "soy de Finlandia"
+   },
+   "frequencyRank": 16,
+   "notes": {
+    "en": "Word order is flexible: “Аз съм от Финландия” also works.",
+    "de": "Die Wortstellung ist frei: „Аз съм от Финландия“ geht auch.",
+    "fr": "L'ordre des mots est souple : « Аз съм от Финландия » marche aussi.",
+    "es": "El orden es flexible: «Аз съм от Финландия» también vale."
+   },
+   "extras": {
+    "translit": "ot Finlandiya sam"
+   }
+  },
+  {
+   "id": "bg-az-sam",
+   "text": "аз съм",
+   "kind": "phrase",
+   "translations": {
+    "en": "I am",
+    "de": "ich bin",
+    "fr": "je suis",
+    "es": "yo soy"
+   },
+   "frequencyRank": 17,
+   "extras": {
+    "translit": "az sam"
+   }
+  },
+  {
+   "id": "bg-ti-si",
+   "text": "ти си",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (informal)",
+    "de": "du bist",
+    "fr": "tu es",
+    "es": "tú eres"
+   },
+   "frequencyRank": 18,
+   "extras": {
+    "translit": "ti si"
+   }
+  },
+  {
+   "id": "bg-toy-e",
+   "text": "той / тя е",
+   "kind": "phrase",
+   "translations": {
+    "en": "he / she is",
+    "de": "er / sie ist",
+    "fr": "il / elle est",
+    "es": "él / ella es"
+   },
+   "frequencyRank": 19,
+   "extras": {
+    "translit": "toy / tya e"
+   }
+  },
+  {
+   "id": "bg-vie-ste",
+   "text": "Вие сте",
+   "kind": "phrase",
+   "translations": {
+    "en": "you are (formal)",
+    "de": "Sie sind",
+    "fr": "vous êtes",
+    "es": "usted es"
+   },
+   "frequencyRank": 20,
+   "extras": {
+    "translit": "Vie ste"
+   }
+  },
+  {
+   "id": "bg-edno",
+   "text": "едно",
+   "kind": "word",
+   "translations": {
+    "en": "one",
+    "de": "eins",
+    "fr": "un",
+    "es": "uno"
+   },
+   "frequencyRank": 30,
+   "extras": {
+    "translit": "edno"
+   }
+  },
+  {
+   "id": "bg-dve",
+   "text": "две",
+   "kind": "word",
+   "translations": {
+    "en": "two",
+    "de": "zwei",
+    "fr": "deux",
+    "es": "dos"
+   },
+   "frequencyRank": 31,
+   "extras": {
+    "translit": "dve"
+   }
+  },
+  {
+   "id": "bg-tri",
+   "text": "три",
+   "kind": "word",
+   "translations": {
+    "en": "three",
+    "de": "drei",
+    "fr": "trois",
+    "es": "tres"
+   },
+   "frequencyRank": 32,
+   "extras": {
+    "translit": "tri"
+   }
+  },
+  {
+   "id": "bg-chetiri",
+   "text": "четири",
+   "kind": "word",
+   "translations": {
+    "en": "four",
+    "de": "vier",
+    "fr": "quatre",
+    "es": "cuatro"
+   },
+   "frequencyRank": 33,
+   "extras": {
+    "translit": "chetiri"
+   }
+  },
+  {
+   "id": "bg-pet",
+   "text": "пет",
+   "kind": "word",
+   "translations": {
+    "en": "five",
+    "de": "fünf",
+    "fr": "cinq",
+    "es": "cinco"
+   },
+   "frequencyRank": 34,
+   "extras": {
+    "translit": "pet"
+   }
+  },
+  {
+   "id": "bg-shest",
+   "text": "шест",
+   "kind": "word",
+   "translations": {
+    "en": "six",
+    "de": "sechs",
+    "fr": "six",
+    "es": "seis"
+   },
+   "frequencyRank": 35,
+   "extras": {
+    "translit": "shest"
+   }
+  },
+  {
+   "id": "bg-sedem",
+   "text": "седем",
+   "kind": "word",
+   "translations": {
+    "en": "seven",
+    "de": "sieben",
+    "fr": "sept",
+    "es": "siete"
+   },
+   "frequencyRank": 36,
+   "extras": {
+    "translit": "sedem"
+   }
+  },
+  {
+   "id": "bg-osem",
+   "text": "осем",
+   "kind": "word",
+   "translations": {
+    "en": "eight",
+    "de": "acht",
+    "fr": "huit",
+    "es": "ocho"
+   },
+   "frequencyRank": 37,
+   "extras": {
+    "translit": "osem"
+   }
+  },
+  {
+   "id": "bg-devet",
+   "text": "девет",
+   "kind": "word",
+   "translations": {
+    "en": "nine",
+    "de": "neun",
+    "fr": "neuf",
+    "es": "nueve"
+   },
+   "frequencyRank": 38,
+   "extras": {
+    "translit": "devet"
+   }
+  },
+  {
+   "id": "bg-deset",
+   "text": "десет",
+   "kind": "word",
+   "translations": {
+    "en": "ten",
+    "de": "zehn",
+    "fr": "dix",
+    "es": "diez"
+   },
+   "frequencyRank": 39,
+   "extras": {
+    "translit": "deset"
+   }
+  },
+  {
+   "id": "bg-edno-kafe",
+   "text": "едно кафе, моля",
+   "kind": "sentence",
+   "translations": {
+    "en": "a coffee, please",
+    "de": "einen Kaffee, bitte",
+    "fr": "un café, s'il vous plaît",
+    "es": "un café, por favor"
+   },
+   "frequencyRank": 40,
+   "extras": {
+    "translit": "edno kafe, molya"
+   }
+  },
+  {
+   "id": "bg-kolko-struva",
+   "text": "колко струва?",
+   "kind": "phrase",
+   "translations": {
+    "en": "how much is it?",
+    "de": "was kostet das?",
+    "fr": "combien ça coûte ?",
+    "es": "¿cuánto cuesta?"
+   },
+   "frequencyRank": 41,
+   "extras": {
+    "translit": "kolko struva?"
+   }
+  },
+  {
+   "id": "bg-smetkata",
+   "text": "сметката, моля",
+   "kind": "phrase",
+   "translations": {
+    "en": "the bill, please",
+    "de": "die Rechnung, bitte",
+    "fr": "l'addition, s'il vous plaît",
+    "es": "la cuenta, por favor"
+   },
+   "frequencyRank": 42,
+   "extras": {
+    "translit": "smetkata, molya"
+   }
+  },
+  {
+   "id": "bg-nazdrave",
+   "text": "наздраве!",
+   "kind": "phrase",
+   "translations": {
+    "en": "cheers!",
+    "de": "Prost!",
+    "fr": "santé !",
+    "es": "¡salud!"
+   },
+   "frequencyRank": 43,
+   "notes": {
+    "en": "Look people in the eye when you clink glasses.",
+    "de": "Beim Anstoßen schaut man sich in die Augen.",
+    "fr": "On se regarde dans les yeux en trinquant.",
+    "es": "Al brindar, se mira a los ojos."
+   },
+   "extras": {
+    "translit": "nazdrave!"
+   }
+  },
+  {
+   "id": "bg-dobar-apetit",
+   "text": "добър апетит!",
+   "kind": "phrase",
+   "translations": {
+    "en": "enjoy your meal!",
+    "de": "guten Appetit!",
+    "fr": "bon appétit !",
+    "es": "¡buen provecho!"
+   },
+   "frequencyRank": 44,
+   "extras": {
+    "translit": "dobar apetit!"
+   }
+  },
+  {
+   "id": "bg-shopska-salata",
+   "text": "шопска салата",
+   "kind": "phrase",
+   "translations": {
+    "en": "shopska salad (tomato, cucumber, pepper, white cheese)",
+    "de": "Schopska-Salat (Tomate, Gurke, Paprika, Schafskäse)",
+    "fr": "salade chopska (tomate, concombre, poivron, fromage blanc)",
+    "es": "ensalada shopska (tomate, pepino, pimiento, queso blanco)"
+   },
+   "frequencyRank": 45,
+   "extras": {
+    "translit": "shopska salata"
+   }
+  },
+  {
+   "id": "bg-banitsa",
+   "text": "баница",
+   "kind": "word",
+   "translations": {
+    "en": "banitsa (cheese pastry)",
+    "de": "Baniza (Käsegebäck)",
+    "fr": "banitsa (feuilleté au fromage)",
+    "es": "banitsa (hojaldre de queso)"
+   },
+   "frequencyRank": 46,
+   "extras": {
+    "translit": "banitsa"
+   }
+  },
+  {
+   "id": "bg-rakiya",
+   "text": "ракия",
+   "kind": "word",
+   "translations": {
+    "en": "rakia (fruit brandy)",
+    "de": "Rakija (Obstbrand)",
+    "fr": "rakia (eau-de-vie de fruits)",
+    "es": "rakia (aguardiente de frutas)"
+   },
+   "frequencyRank": 47,
+   "extras": {
+    "translit": "rakiya"
+   }
+  },
+  {
+   "id": "bg-voda",
+   "text": "вода",
+   "kind": "word",
+   "translations": {
+    "en": "water",
+    "de": "Wasser",
+    "fr": "eau",
+    "es": "agua"
+   },
+   "frequencyRank": 48,
+   "extras": {
+    "translit": "voda"
+   }
+  },
+  {
+   "id": "bg-da",
+   "text": "да",
+   "kind": "word",
+   "translations": {
+    "en": "yes",
+    "de": "ja",
+    "fr": "oui",
+    "es": "sí"
+   },
+   "frequencyRank": 50,
+   "notes": {
+    "en": "Careful: many Bulgarians shake their head side to side for YES and nod for NO!",
+    "de": "Achtung: Viele Bulgaren schütteln bei JA den Kopf und nicken bei NEIN!",
+    "fr": "Attention : beaucoup de Bulgares secouent la tête pour OUI et hochent pour NON !",
+    "es": "¡Ojo! Muchos búlgaros mueven la cabeza de lado a lado para SÍ y asienten para NO."
+   },
+   "extras": {
+    "translit": "da"
+   }
+  },
+  {
+   "id": "bg-ne",
+   "text": "не",
+   "kind": "word",
+   "translations": {
+    "en": "no",
+    "de": "nein",
+    "fr": "non",
+    "es": "no"
+   },
+   "frequencyRank": 51,
+   "extras": {
+    "translit": "ne"
+   }
+  },
+  {
+   "id": "bg-dobre",
+   "text": "добре",
+   "kind": "word",
+   "translations": {
+    "en": "OK / fine / well",
+    "de": "gut / okay",
+    "fr": "d'accord / bien",
+    "es": "vale / bien"
+   },
+   "frequencyRank": 52,
+   "extras": {
+    "translit": "dobre"
+   }
+  },
+  {
+   "id": "bg-razbiram",
+   "text": "разбирам",
+   "kind": "word",
+   "translations": {
+    "en": "I understand",
+    "de": "ich verstehe",
+    "fr": "je comprends",
+    "es": "entiendo"
+   },
+   "frequencyRank": 53,
+   "extras": {
+    "translit": "razbiram"
+   }
+  },
+  {
+   "id": "bg-ne-razbiram",
+   "text": "не разбирам",
+   "kind": "phrase",
+   "translations": {
+    "en": "I don't understand",
+    "de": "ich verstehe nicht",
+    "fr": "je ne comprends pas",
+    "es": "no entiendo"
+   },
+   "frequencyRank": 54,
+   "extras": {
+    "translit": "ne razbiram"
+   }
+  },
+  {
+   "id": "bg-po-bavno",
+   "text": "по-бавно, моля",
+   "kind": "phrase",
+   "translations": {
+    "en": "more slowly, please",
+    "de": "langsamer, bitte",
+    "fr": "plus lentement, s'il vous plaît",
+    "es": "más despacio, por favor"
+   },
+   "frequencyRank": 55,
+   "extras": {
+    "translit": "po-bavno, molya"
+   }
+  },
+  {
+   "id": "bg-povtorete",
+   "text": "може ли да повторите?",
+   "kind": "sentence",
+   "translations": {
+    "en": "could you repeat?",
+    "de": "können Sie das wiederholen?",
+    "fr": "vous pouvez répéter ?",
+    "es": "¿puede repetir?"
+   },
+   "frequencyRank": 56,
+   "extras": {
+    "translit": "mozhe li da povtorite?"
+   }
+  },
+  {
+   "id": "bg-govorite-li-angliyski",
+   "text": "говорите ли английски?",
+   "kind": "sentence",
+   "translations": {
+    "en": "do you speak English?",
+    "de": "sprechen Sie Englisch?",
+    "fr": "parlez-vous anglais ?",
+    "es": "¿habla inglés?"
+   },
+   "frequencyRank": 57,
+   "extras": {
+    "translit": "govorite li angliyski?"
+   }
+  },
+  {
+   "id": "bg-semeystvo",
+   "text": "семейство",
+   "kind": "word",
+   "translations": {
+    "en": "family",
+    "de": "Familie",
+    "fr": "famille",
+    "es": "familia"
+   },
+   "frequencyRank": 60,
+   "extras": {
+    "translit": "semeystvo"
+   }
+  },
+  {
+   "id": "bg-mayka",
+   "text": "майка",
+   "kind": "word",
+   "translations": {
+    "en": "mother",
+    "de": "Mutter",
+    "fr": "mère",
+    "es": "madre"
+   },
+   "frequencyRank": 61,
+   "native": "мама",
+   "extras": {
+    "translit": "mayka"
+   }
+  },
+  {
+   "id": "bg-bashta",
+   "text": "баща",
+   "kind": "word",
+   "translations": {
+    "en": "father",
+    "de": "Vater",
+    "fr": "père",
+    "es": "padre"
+   },
+   "frequencyRank": 62,
+   "native": "татко",
+   "extras": {
+    "translit": "bashta"
+   }
+  },
+  {
+   "id": "bg-brat",
+   "text": "брат",
+   "kind": "word",
+   "translations": {
+    "en": "brother",
+    "de": "Bruder",
+    "fr": "frère",
+    "es": "hermano"
+   },
+   "frequencyRank": 63,
+   "extras": {
+    "translit": "brat"
+   }
+  },
+  {
+   "id": "bg-sestra",
+   "text": "сестра",
+   "kind": "word",
+   "translations": {
+    "en": "sister",
+    "de": "Schwester",
+    "fr": "sœur",
+    "es": "hermana"
+   },
+   "frequencyRank": 64,
+   "extras": {
+    "translit": "sestra"
+   }
+  },
+  {
+   "id": "bg-baba",
+   "text": "баба",
+   "kind": "word",
+   "translations": {
+    "en": "grandmother",
+    "de": "Großmutter",
+    "fr": "grand-mère",
+    "es": "abuela"
+   },
+   "frequencyRank": 65,
+   "extras": {
+    "translit": "baba"
+   }
+  },
+  {
+   "id": "bg-dyado",
+   "text": "дядо",
+   "kind": "word",
+   "translations": {
+    "en": "grandfather",
+    "de": "Großvater",
+    "fr": "grand-père",
+    "es": "abuelo"
+   },
+   "frequencyRank": 66,
+   "extras": {
+    "translit": "dyado"
+   }
+  },
+  {
+   "id": "bg-imam",
+   "text": "имам",
+   "kind": "word",
+   "translations": {
+    "en": "I have",
+    "de": "ich habe",
+    "fr": "j'ai",
+    "es": "tengo"
+   },
+   "frequencyRank": 67,
+   "extras": {
+    "translit": "imam"
+   }
+  },
+  {
+   "id": "bg-nyamam",
+   "text": "нямам",
+   "kind": "word",
+   "translations": {
+    "en": "I don't have",
+    "de": "ich habe nicht / kein",
+    "fr": "je n'ai pas",
+    "es": "no tengo"
+   },
+   "frequencyRank": 68,
+   "notes": {
+    "en": "Bulgarian merges “not + have” into one word: нямам.",
+    "de": "Bulgarisch verschmilzt „nicht + haben“ zu einem Wort: нямам.",
+    "fr": "Le bulgare fusionne « ne pas + avoir » en un mot : нямам.",
+    "es": "El búlgaro une «no + tener» en una palabra: нямам."
+   },
+   "extras": {
+    "translit": "nyamam"
+   }
+  },
+  {
+   "id": "bg-aylyak",
+   "text": "айляк",
+   "kind": "word",
+   "translations": {
+    "en": "taking it easy (Plovdiv slang)",
+    "de": "gemütlich, ohne Eile (Plowdiw-Slang)",
+    "fr": "prendre son temps (argot de Plovdiv)",
+    "es": "tomárselo con calma (jerga de Plovdiv)"
+   },
+   "frequencyRank": 150,
+   "notes": {
+    "en": "Plovdiv's unofficial motto: enjoying life slowly, coffee in hand.",
+    "de": "Plowdiws inoffizielles Motto: das Leben langsam genießen, Kaffee in der Hand.",
+    "fr": "La devise officieuse de Plovdiv : profiter lentement de la vie, café à la main.",
+    "es": "El lema no oficial de Plovdiv: disfrutar la vida despacio, café en mano."
+   },
+   "extras": {
+    "translit": "aylyak"
+   }
+  },
+  {
+   "id": "bg-krepost",
+   "text": "крепост",
+   "kind": "word",
+   "translations": {
+    "en": "fortress",
+    "de": "Festung",
+    "fr": "forteresse",
+    "es": "fortaleza"
+   },
+   "frequencyRank": 151,
+   "extras": {
+    "translit": "krepost"
+   }
+  },
+  {
+   "id": "bg-tsar",
+   "text": "цар",
+   "kind": "word",
+   "translations": {
+    "en": "tsar / king",
+    "de": "Zar / König",
+    "fr": "tsar / roi",
+    "es": "zar / rey"
+   },
+   "frequencyRank": 152,
+   "extras": {
+    "translit": "tsar"
+   }
+  },
+  {
+   "id": "bg-more",
+   "text": "море",
+   "kind": "word",
+   "translations": {
+    "en": "sea",
+    "de": "Meer",
+    "fr": "mer",
+    "es": "mar"
+   },
+   "frequencyRank": 153,
+   "extras": {
+    "translit": "more"
+   }
+  },
+  {
+   "id": "bg-plazh",
+   "text": "плаж",
+   "kind": "word",
+   "translations": {
+    "en": "beach",
+    "de": "Strand",
+    "fr": "plage",
+    "es": "playa"
+   },
+   "frequencyRank": 154,
+   "extras": {
+    "translit": "plazh"
+   }
+  },
+  {
+   "id": "bg-manastir",
+   "text": "манастир",
+   "kind": "word",
+   "translations": {
+    "en": "monastery",
+    "de": "Kloster",
+    "fr": "monastère",
+    "es": "monasterio"
+   },
+   "frequencyRank": 155,
+   "extras": {
+    "translit": "manastir"
+   }
+  },
+  {
+   "id": "bg-planina",
+   "text": "планина",
+   "kind": "word",
+   "translations": {
+    "en": "mountain",
+    "de": "Berg / Gebirge",
+    "fr": "montagne",
+    "es": "montaña"
+   },
+   "frequencyRank": 156,
+   "extras": {
+    "translit": "planina"
+   }
+  }
+ ],
+ "grammarNotes": [
+  {
+   "id": "bg-g-alphabet",
+   "level": "A1",
+   "title": {
+    "en": "Reading Cyrillic",
+    "de": "Kyrillisch lesen",
+    "fr": "Lire le cyrillique",
+    "es": "Leer el cirílico"
+   },
+   "body": {
+    "en": "Bulgarian is written in Cyrillic, which was created in Bulgaria. Many letters look familiar:\n\n- Same as Latin: **а, е, к, м, о, т**\n- False friends: **в** = v, **н** = n, **р** = r, **с** = s, **у** = u, **х** = h\n- New: **б** b, **г** g, **д** d, **ж** zh, **з** z, **и** i, **й** y, **л** l, **п** p, **ф** f, **ц** ts, **ч** ch, **ш** sh, **щ** sht, **ю** yu, **я** ya\n- **ъ** is a short dull vowel, like the *u* in *but*.\n\nThe green Latin text under each word is the reading. You can type answers in Latin letters too.",
+    "de": "Bulgarisch wird kyrillisch geschrieben, ein Alphabet, das in Bulgarien entstand:\n\n- Wie im Lateinischen: **а, е, к, м, о, т**\n- Falsche Freunde: **в** = w, **н** = n, **р** = r, **с** = s, **у** = u, **х** = ch\n- Neu: **б** b, **г** g, **д** d, **ж** sch (stimmhaft), **з** s (stimmhaft), **и** i, **й** j, **л** l, **п** p, **ф** f, **ц** z, **ч** tsch, **ш** sch, **щ** scht, **ю** ju, **я** ja\n- **ъ** ist ein kurzer dumpfer Vokal.\n\nDer grüne lateinische Text unter jedem Wort zeigt die Aussprache. Du kannst auch in lateinischen Buchstaben antworten.",
+    "fr": "Le bulgare s'écrit en cyrillique, un alphabet né en Bulgarie :\n\n- Comme en latin : **а, е, к, м, о, т**\n- Faux amis : **в** = v, **н** = n, **р** = r, **с** = s, **у** = ou, **х** = h aspiré\n- Nouveaux : **б** b, **г** g, **д** d, **ж** j, **з** z, **и** i, **й** y, **л** l, **п** p, **ф** f, **ц** ts, **ч** tch, **ш** ch, **щ** cht, **ю** iou, **я** ia\n- **ъ** est une voyelle sourde, comme le *e* de *le*.\n\nLe texte vert en lettres latines indique la lecture. Tu peux aussi répondre en lettres latines.",
+    "es": "El búlgaro se escribe en cirílico, un alfabeto nacido en Bulgaria:\n\n- Como en latín: **а, е, к, м, о, т**\n- Falsos amigos: **в** = v, **н** = n, **р** = r, **с** = s, **у** = u, **х** = j\n- Nuevas: **б** b, **г** g, **д** d, **ж** zh, **з** z, **и** i, **й** y, **л** l, **п** p, **ф** f, **ц** ts, **ч** ch, **ш** sh, **щ** sht, **ю** iu, **я** ia\n- **ъ** es una vocal breve y apagada.\n\nEl texto verde en letras latinas indica la lectura. También puedes responder con letras latinas."
+   }
+  },
+  {
+   "id": "bg-g-sam",
+   "level": "A1",
+   "title": {
+    "en": "съм (to be)",
+    "de": "съм (sein)",
+    "fr": "съм (être)",
+    "es": "съм (ser)"
+   },
+   "body": {
+    "en": "- аз **съм** = I am\n- ти **си** = you are\n- той / тя / то **е** = he / she / it is\n- ние **сме** = we are\n- вие **сте** = you are (plural or polite **Вие**)\n- те **са** = they are\n\nThe pronoun is often dropped: *Казвам се Ана.* = My name is Ana.",
+    "de": "- аз **съм** = ich bin\n- ти **си** = du bist\n- той / тя / то **е** = er / sie / es ist\n- ние **сме** = wir sind\n- вие **сте** = ihr seid / **Вие** = Sie\n- те **са** = sie sind\n\nDas Pronomen fällt oft weg: *Казвам се Ана.*",
+    "fr": "- аз **съм** = je suis\n- ти **си** = tu es\n- той / тя / то **е** = il / elle est\n- ние **сме** = nous sommes\n- вие **сте** = vous êtes (**Вие** de politesse)\n- те **са** = ils sont\n\nLe pronom est souvent omis : *Казвам се Ана.*",
+    "es": "- аз **съм** = yo soy\n- ти **си** = tú eres\n- той / тя / то **е** = él / ella es\n- ние **сме** = somos\n- вие **сте** = vosotros / **Вие** = usted\n- те **са** = son\n\nEl pronombre se suele omitir: *Казвам се Ана.*"
+   }
+  },
+  {
+   "id": "bg-g-article",
+   "level": "A1",
+   "title": {
+    "en": "“The” goes at the end",
+    "de": "Der Artikel steht am Ende",
+    "fr": "L'article se met à la fin",
+    "es": "El artículo va al final"
+   },
+   "body": {
+    "en": "Unlike its neighbours, Bulgarian puts the definite article **at the end of the word**:\n\n- кафе → кафе**то** (the coffee)\n- сметка → сметка**та** (the bill)\n- град → град**ът** (the city)\n- салата → салата**та** (the salad)\n\nRough rule: -а/-я words take **-та**, -о/-е words take **-то**, consonant words take **-ът**.",
+    "de": "Anders als seine Nachbarn hängt Bulgarisch den bestimmten Artikel **ans Wortende**:\n\n- кафе → кафе**то** (der Kaffee)\n- сметка → сметка**та** (die Rechnung)\n- град → град**ът** (die Stadt)\n\nFaustregel: -а/-я → **-та**, -о/-е → **-то**, Konsonant → **-ът**.",
+    "fr": "Contrairement à ses voisins, le bulgare place l'article défini **à la fin du mot** :\n\n- кафе → кафе**то** (le café)\n- сметка → сметка**та** (l'addition)\n- град → град**ът** (la ville)\n\nRègle simple : -а/-я → **-та**, -о/-е → **-то**, consonne → **-ът**.",
+    "es": "A diferencia de sus vecinos, el búlgaro pone el artículo **al final de la palabra**:\n\n- кафе → кафе**то** (el café)\n- сметка → сметка**та** (la cuenta)\n- град → град**ът** (la ciudad)\n\nRegla: -а/-я → **-та**, -о/-е → **-то**, consonante → **-ът**."
+   }
+  }
+ ],
+ "cultureNotes": [
+  {
+   "id": "bg-c-head",
+   "title": {
+    "en": "Yes or no?",
+    "de": "Ja oder nein?",
+    "fr": "Oui ou non ?",
+    "es": "¿Sí o no?"
+   },
+   "body": {
+    "en": "Traditionally Bulgarians shake their head for “yes” and nod for “no”. Young people in cities often do it the “international” way, so listen to the words: да = yes, не = no.",
+    "de": "Traditionell schütteln Bulgaren für „ja“ den Kopf und nicken für „nein“. Junge Leute in Städten machen es oft „international“, also hör auf die Wörter: да = ja, не = nein.",
+    "fr": "Traditionnellement, les Bulgares secouent la tête pour « oui » et hochent pour « non ». Les jeunes en ville font souvent l'inverse, alors écoute les mots : да = oui, не = non.",
+    "es": "Tradicionalmente los búlgaros mueven la cabeza de lado a lado para «sí» y asienten para «no». Los jóvenes de ciudad lo hacen a menudo al revés, así que escucha: да = sí, не = no."
+   }
+  },
+  {
+   "id": "bg-c-martenitsa",
+   "title": {
+    "en": "Martenitsa",
+    "de": "Martenitsa",
+    "fr": "Martenitsa",
+    "es": "Martenitsa"
+   },
+   "body": {
+    "en": "On 1 March Bulgarians give each other red-and-white bracelets (мартеница) for health and spring. You wear it until you see a stork or a blossoming tree, then tie it to a branch. That's why our goat wears one!",
+    "de": "Am 1. März schenken sich Bulgaren rot-weiße Armbänder (мартеница) für Gesundheit und Frühling. Man trägt sie, bis man einen Storch oder einen blühenden Baum sieht, und bindet sie dann an einen Zweig. Deshalb trägt unsere Ziege eine!",
+    "fr": "Le 1er mars, les Bulgares s'offrent des bracelets rouges et blancs (мартеница) pour la santé et le printemps. On le porte jusqu'à voir une cigogne ou un arbre en fleurs, puis on l'accroche à une branche. Voilà pourquoi notre chèvre en porte une !",
+    "es": "El 1 de marzo los búlgaros se regalan pulseras rojas y blancas (мартеница) para la salud y la primavera. Se llevan hasta ver una cigüeña o un árbol en flor y luego se atan a una rama. ¡Por eso nuestra cabra lleva una!"
+   }
+  },
+  {
+   "id": "bg-c-rakia",
+   "title": {
+    "en": "Rakia and shopska",
+    "de": "Rakija und Schopska",
+    "fr": "Rakia et chopska",
+    "es": "Rakia y shopska"
+   },
+   "body": {
+    "en": "A classic Bulgarian evening starts with a small glass of rakia and a shopska salad, long before the main course. Наздраве!",
+    "de": "Ein klassischer bulgarischer Abend beginnt mit einem Gläschen Rakija und einem Schopska-Salat, lange vor dem Hauptgericht. Наздраве!",
+    "fr": "Une soirée bulgare classique commence par un petit verre de rakia et une salade chopska, bien avant le plat principal. Наздраве !",
+    "es": "Una velada búlgara clásica empieza con una copita de rakia y una ensalada shopska, mucho antes del plato principal. ¡Наздраве!"
+   }
+  }
+ ],
+ "lessons": [
+  {
+   "id": "bg-a1-01",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Hello! Здравей!",
+    "de": "Hallo! Здравей!",
+    "fr": "Bonjour ! Здравей !",
+    "es": "¡Hola! Здравей!"
+   },
+   "description": {
+    "en": "Cyrillic and greetings",
+    "de": "Kyrillisch und Begrüßungen",
+    "fr": "Le cyrillique et les salutations",
+    "es": "El cirílico y los saludos"
+   },
+   "items": [
+    "bg-zdravey",
+    "bg-zdraveyte",
+    "bg-dobro-utro",
+    "bg-dobar-den",
+    "bg-dobar-vecher",
+    "bg-dovizhdane",
+    "bg-blagodarya",
+    "bg-molya",
+    "bg-izvinete"
+   ],
+   "grammar": [
+    "bg-g-alphabet"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "It's 9 am. You meet your neighbour. What do you say?",
+      "de": "Es ist 9 Uhr. Du triffst deine Nachbarin. Was sagst du?",
+      "fr": "Il est 9 h. Tu croises ta voisine. Que dis-tu ?",
+      "es": "Son las 9. Ves a tu vecina. ¿Qué dices?"
+     },
+     "options": [
+      "добро утро",
+      "добър вечер",
+      "довиждане"
+     ],
+     "answer": "добро утро",
+     "itemId": "bg-dobro-utro"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "___, моля! (thank you → you're welcome)",
+     "answer": "Благодаря",
+     "itemId": "bg-blagodarya",
+     "options": [
+      "Благодаря",
+      "Довиждане",
+      "Здравей"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "добър ден, благодаря",
+     "translation": {
+      "en": "good day, thank you",
+      "de": "guten Tag, danke",
+      "fr": "bonjour, merci",
+      "es": "buenos días, gracias"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bg-a1-02",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Nice to meet you",
+    "de": "Freut mich",
+    "fr": "Enchanté",
+    "es": "Mucho gusto"
+   },
+   "description": {
+    "en": "Introduce yourself; the verb съм",
+    "de": "Sich vorstellen; das Verb съм",
+    "fr": "Se présenter ; le verbe съм",
+    "es": "Presentarse; el verbo съм"
+   },
+   "items": [
+    "bg-kak-si",
+    "bg-dobre-sam",
+    "bg-kak-se-kazvash",
+    "bg-kazvam-se",
+    "bg-priyatno-mi-e",
+    "bg-otkade-si",
+    "bg-ot-finlandiya-sam",
+    "bg-az-sam",
+    "bg-ti-si",
+    "bg-toy-e",
+    "bg-vie-ste"
+   ],
+   "grammar": [
+    "bg-g-sam"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "Аз ___ от Финландия.",
+     "answer": "съм",
+     "itemId": "bg-az-sam",
+     "options": [
+      "съм",
+      "си",
+      "е"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Ти ___ много мил.",
+     "answer": "си",
+     "itemId": "bg-ti-si",
+     "options": [
+      "си",
+      "съм",
+      "сме"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Тя ___ от София.",
+     "answer": "е",
+     "itemId": "bg-toy-e",
+     "options": [
+      "е",
+      "са",
+      "сте"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "казвам се Анна, приятно ми е",
+     "translation": {
+      "en": "my name is Anna, nice to meet you",
+      "de": "ich heiße Anna, freut mich",
+      "fr": "je m'appelle Anna, enchantée",
+      "es": "me llamo Anna, mucho gusto"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bg-a1-03",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "In the mehana",
+    "de": "In der Mehana",
+    "fr": "À la mehana",
+    "es": "En la mehana"
+   },
+   "description": {
+    "en": "Numbers 1–10, food and “the” at the end",
+    "de": "Zahlen 1–10, Essen und der Artikel am Ende",
+    "fr": "Nombres 1–10, cuisine et l'article final",
+    "es": "Números 1–10, comida y el artículo final"
+   },
+   "items": [
+    "bg-edno",
+    "bg-dve",
+    "bg-tri",
+    "bg-chetiri",
+    "bg-pet",
+    "bg-shest",
+    "bg-sedem",
+    "bg-osem",
+    "bg-devet",
+    "bg-deset",
+    "bg-edno-kafe",
+    "bg-kolko-struva",
+    "bg-smetkata",
+    "bg-nazdrave",
+    "bg-dobar-apetit",
+    "bg-shopska-salata",
+    "bg-banitsa",
+    "bg-rakiya",
+    "bg-voda"
+   ],
+   "grammar": [
+    "bg-g-article"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "две + три = ___",
+     "answer": "пет",
+     "itemId": "bg-pet",
+     "options": [
+      "пет",
+      "шест",
+      "четири"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Сметка___, моля. (the bill)",
+     "answer": "та",
+     "itemId": "bg-smetkata",
+     "options": [
+      "та",
+      "то",
+      "ът"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Кафе___ е много хубаво. (the coffee)",
+     "answer": "то",
+     "itemId": "bg-edno-kafe",
+     "options": [
+      "то",
+      "та",
+      "ът"
+     ]
+    },
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "You raise your glass of rakia. You say…",
+      "de": "Du hebst dein Glas Rakija. Du sagst…",
+      "fr": "Tu lèves ton verre de rakia. Tu dis…",
+      "es": "Levantas tu copa de rakia. Dices…"
+     },
+     "options": [
+      "наздраве!",
+      "добър апетит!",
+      "довиждане!"
+     ],
+     "answer": "наздраве!",
+     "itemId": "bg-nazdrave"
+    }
+   ]
+  },
+  {
+   "id": "bg-a1-04",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Yes means no?",
+    "de": "Ja heißt nein?",
+    "fr": "Oui veut dire non ?",
+    "es": "¿Sí significa no?"
+   },
+   "description": {
+    "en": "да, не and what to say when you don't understand",
+    "de": "да, не und was man sagt, wenn man nichts versteht",
+    "fr": "да, не et quoi dire quand on ne comprend pas",
+    "es": "да, не y qué decir cuando no entiendes"
+   },
+   "items": [
+    "bg-da",
+    "bg-ne",
+    "bg-dobre",
+    "bg-razbiram",
+    "bg-ne-razbiram",
+    "bg-po-bavno",
+    "bg-povtorete",
+    "bg-govorite-li-angliyski"
+   ],
+   "exercises": [
+    {
+     "type": "choose",
+     "prompt": {
+      "en": "“Не разбирам” means…",
+      "de": "„Не разбирам“ bedeutet…",
+      "fr": "« Не разбирам » veut dire…",
+      "es": "«Не разбирам» significa…"
+     },
+     "options": [
+      {
+       "en": "I don't understand",
+       "de": "ich verstehe nicht",
+       "fr": "je ne comprends pas",
+       "es": "no entiendo"
+      },
+      {
+       "en": "I don't have",
+       "de": "ich habe nicht",
+       "fr": "je n'ai pas",
+       "es": "no tengo"
+      },
+      {
+       "en": "I'm not from here",
+       "de": "ich bin nicht von hier",
+       "fr": "je ne suis pas d'ici",
+       "es": "no soy de aquí"
+      }
+     ],
+     "answer": {
+      "en": "I don't understand",
+      "de": "ich verstehe nicht",
+      "fr": "je ne comprends pas",
+      "es": "no entiendo"
+     },
+     "itemId": "bg-ne-razbiram"
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "По-___, моля! (more slowly)",
+     "answer": "бавно",
+     "itemId": "bg-po-bavno",
+     "options": [
+      "бавно",
+      "добре",
+      "много"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "говорите ли английски?",
+     "translation": {
+      "en": "do you speak English?",
+      "de": "sprechen Sie Englisch?",
+      "fr": "parlez-vous anglais ?",
+      "es": "¿habla inglés?"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bg-a1-05",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "My family",
+    "de": "Meine Familie",
+    "fr": "Ma famille",
+    "es": "Mi familia"
+   },
+   "description": {
+    "en": "Family and имам / нямам",
+    "de": "Familie und имам / нямам",
+    "fr": "La famille et имам / нямам",
+    "es": "La familia e имам / нямам"
+   },
+   "items": [
+    "bg-semeystvo",
+    "bg-mayka",
+    "bg-bashta",
+    "bg-brat",
+    "bg-sestra",
+    "bg-baba",
+    "bg-dyado",
+    "bg-imam",
+    "bg-nyamam"
+   ],
+   "exercises": [
+    {
+     "type": "fill_blank",
+     "prompt": "___ брат и сестра. (I have)",
+     "answer": "Имам",
+     "itemId": "bg-imam",
+     "options": [
+      "Имам",
+      "Нямам",
+      "Съм"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Аз ___ деца. (I don't have)",
+     "answer": "нямам",
+     "itemId": "bg-nyamam",
+     "options": [
+      "нямам",
+      "имам",
+      "не съм"
+     ]
+    },
+    {
+     "type": "fill_blank",
+     "prompt": "Майката на майка ми е моята ___.",
+     "answer": "баба",
+     "itemId": "bg-baba",
+     "options": [
+      "баба",
+      "сестра",
+      "дядо"
+     ]
+    },
+    {
+     "type": "order_words",
+     "sentence": "имам голямо семейство",
+     "translation": {
+      "en": "I have a big family",
+      "de": "ich habe eine große Familie",
+      "fr": "j'ai une grande famille",
+      "es": "tengo una familia grande"
+     }
+    }
+   ]
+  }
+ ],
+ "phrasePacks": [
+  {
+   "id": "bg-pp-mehana",
+   "level": "A1",
+   "icon": "🍷",
+   "title": {
+    "en": "At the mehana (tavern)",
+    "de": "In der Mehana (Taverne)",
+    "fr": "À la mehana (taverne)",
+    "es": "En la mehana (taberna)"
+   },
+   "description": {
+    "en": "Order, toast and pay like a Bulgarian",
+    "de": "Bestellen, anstoßen und zahlen wie ein Bulgare",
+    "fr": "Commander, trinquer et payer comme un Bulgare",
+    "es": "Pedir, brindar y pagar como un búlgaro"
+   },
+   "items": [
+    "bg-shopska-salata",
+    "bg-banitsa",
+    "bg-rakiya",
+    "bg-nazdrave",
+    "bg-dobar-apetit",
+    "bg-smetkata"
+   ]
+  },
+  {
+   "id": "bg-pp-survival",
+   "level": "A1",
+   "icon": "🆘",
+   "title": {
+    "en": "When you don't understand",
+    "de": "Wenn du nichts verstehst",
+    "fr": "Quand tu ne comprends pas",
+    "es": "Cuando no entiendes"
+   },
+   "description": {
+    "en": "Ask to repeat, slow down or switch to English",
+    "de": "Bitte um Wiederholung, langsamer oder auf Englisch",
+    "fr": "Demander de répéter, ralentir ou passer à l'anglais",
+    "es": "Pedir que repitan, más despacio o en inglés"
+   },
+   "items": [
+    "bg-izvinete",
+    "bg-ne-razbiram",
+    "bg-povtorete",
+    "bg-po-bavno",
+    "bg-govorite-li-angliyski",
+    "bg-blagodarya"
+   ]
+  }
+ ],
+ "dialogues": [
+  {
+   "id": "bg-d-kafene",
+   "level": "A1",
+   "icon": "☕",
+   "title": {
+    "en": "A café in Sofia",
+    "de": "Ein Café in Sofia",
+    "fr": "Un café à Sofia",
+    "es": "Un café en Sofía"
+   },
+   "situation": {
+    "en": "You sit down in a café on Vitosha Boulevard.",
+    "de": "Du setzt dich in ein Café am Witoscha-Boulevard.",
+    "fr": "Tu t'assois dans un café du boulevard Vitocha.",
+    "es": "Te sientas en un café del bulevar Vitosha."
+   },
+   "speakers": {
+    "servitorka": {
+     "name": "Сервитьорка",
+     "accessory": "martenitsa"
+    },
+    "ti": {
+     "name": "Ти",
+     "accessory": "martenitsa"
+    }
+   },
+   "lines": [
+    {
+     "speaker": "servitorka",
+     "text": "Добър ден! Какво ще желаете?",
+     "translations": {
+      "en": "Good afternoon! What would you like?",
+      "de": "Guten Tag! Was möchten Sie?",
+      "fr": "Bonjour ! Que désirez-vous ?",
+      "es": "¡Buenas tardes! ¿Qué desea?"
+     }
+    },
+    {
+     "speaker": "ti",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Добър ден! Едно кафе, моля.",
+       "translations": {
+        "en": "Good afternoon! A coffee, please.",
+        "de": "Guten Tag! Einen Kaffee, bitte.",
+        "fr": "Bonjour ! Un café, s'il vous plaît.",
+        "es": "¡Buenas tardes! Un café, por favor."
+       },
+       "correct": true
+      },
+      {
+       "text": "Довиждане!",
+       "translations": {
+        "en": "Goodbye!",
+        "de": "Auf Wiedersehen!",
+        "fr": "Au revoir !",
+        "es": "¡Adiós!"
+       },
+       "correct": false,
+       "feedback": {
+        "en": "You just sat down!",
+        "de": "Du hast dich gerade erst hingesetzt!",
+        "fr": "Tu viens de t'asseoir !",
+        "es": "¡Acabas de sentarte!"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "servitorka",
+     "text": "А нещо за хапване? Имаме баница.",
+     "translations": {
+      "en": "And something to eat? We have banitsa.",
+      "de": "Und etwas zu essen? Wir haben Baniza.",
+      "fr": "Et quelque chose à manger ? Nous avons de la banitsa.",
+      "es": "¿Y algo de comer? Tenemos banitsa."
+     }
+    },
+    {
+     "speaker": "ti",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Да, една баница, благодаря.",
+       "translations": {
+        "en": "Yes, one banitsa, thank you.",
+        "de": "Ja, eine Baniza, danke.",
+        "fr": "Oui, une banitsa, merci.",
+        "es": "Sí, una banitsa, gracias."
+       },
+       "correct": true
+      },
+      {
+       "text": "Казвам се Ана.",
+       "translations": {
+        "en": "My name is Ana.",
+        "de": "Ich heiße Ana.",
+        "fr": "Je m'appelle Ana.",
+        "es": "Me llamo Ana."
+       },
+       "correct": false,
+       "feedback": {
+        "en": "She asked about food!",
+        "de": "Sie hat nach Essen gefragt!",
+        "fr": "Elle parlait de nourriture !",
+        "es": "¡Te preguntó por la comida!"
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "servitorka",
+     "text": "Заповядайте! Добър апетит!",
+     "translations": {
+      "en": "Here you are! Enjoy your meal!",
+      "de": "Bitte schön! Guten Appetit!",
+      "fr": "Voilà ! Bon appétit !",
+      "es": "¡Aquí tiene! ¡Buen provecho!"
+     }
+    },
+    {
+     "speaker": "ti",
+     "text": "",
+     "translations": {},
+     "choices": [
+      {
+       "text": "Благодаря! Сметката, моля.",
+       "translations": {
+        "en": "Thank you! The bill, please.",
+        "de": "Danke! Die Rechnung, bitte.",
+        "fr": "Merci ! L'addition, s'il vous plaît.",
+        "es": "¡Gracias! La cuenta, por favor."
+       },
+       "correct": true
+      },
+      {
+       "text": "Наздраве!",
+       "translations": {
+        "en": "Cheers!",
+        "de": "Prost!",
+        "fr": "Santé !",
+        "es": "¡Salud!"
+       },
+       "correct": false,
+       "feedback": {
+        "en": "That's for drinks with friends, not for coffee with the waitress.",
+        "de": "Das sagt man beim Anstoßen mit Freunden, nicht beim Kaffee mit der Kellnerin.",
+        "fr": "C'est pour trinquer entre amis, pas pour un café avec la serveuse.",
+        "es": "Eso es para brindar con amigos, no para un café con la camarera."
+       }
+      }
+     ]
+    },
+    {
+     "speaker": "servitorka",
+     "text": "Пет лева. Приятен ден!",
+     "translations": {
+      "en": "Five leva. Have a nice day!",
+      "de": "Fünf Lewa. Schönen Tag noch!",
+      "fr": "Cinq levs. Bonne journée !",
+      "es": "Cinco levas. ¡Que tenga un buen día!"
+     }
+    }
+   ]
+  }
+ ],
+ "readings": [
+  {
+   "id": "bg-r-sofia",
+   "section": "core",
+   "level": "A1",
+   "title": {
+    "en": "Sofia",
+    "de": "Sofia",
+    "fr": "Sofia",
+    "es": "Sofía"
+   },
+   "sentences": [
+    {
+     "text": "София е столицата на България.",
+     "translations": {
+      "en": "Sofia is the capital of Bulgaria.",
+      "de": "Sofia ist die Hauptstadt Bulgariens.",
+      "fr": "Sofia est la capitale de la Bulgarie.",
+      "es": "Sofía es la capital de Bulgaria."
+     }
+    },
+    {
+     "text": "Градът е стар, но млад.",
+     "translations": {
+      "en": "The city is old but young.",
+      "de": "Die Stadt ist alt, aber jung.",
+      "fr": "La ville est vieille mais jeune.",
+      "es": "La ciudad es vieja pero joven."
+     }
+    },
+    {
+     "text": "До София има голяма планина – Витоша.",
+     "translations": {
+      "en": "Next to Sofia there is a big mountain: Vitosha.",
+      "de": "Neben Sofia gibt es einen großen Berg: Witoscha.",
+      "fr": "À côté de Sofia, il y a une grande montagne : Vitocha.",
+      "es": "Junto a Sofía hay una gran montaña: Vitosha."
+     }
+    },
+    {
+     "text": "Хората пият кафе и ядат баница сутрин.",
+     "translations": {
+      "en": "People drink coffee and eat banitsa in the morning.",
+      "de": "Die Leute trinken morgens Kaffee und essen Baniza.",
+      "fr": "Le matin, les gens boivent du café et mangent de la banitsa.",
+      "es": "Por la mañana la gente toma café y come banitsa."
+     }
+    },
+    {
+     "text": "Вечер приятелите казват „Наздраве!“.",
+     "translations": {
+      "en": "In the evening friends say “Cheers!”.",
+      "de": "Abends sagen Freunde „Prost!“.",
+      "fr": "Le soir, les amis disent « Santé ! ».",
+      "es": "Por la noche los amigos dicen «¡Salud!»."
+     }
+    }
+   ],
+   "glossary": {
+    "софия": {
+     "translations": {
+      "en": "Sofia",
+      "de": "Sofia",
+      "fr": "Sofia",
+      "es": "Sofía"
+     }
+    },
+    "е": {
+     "item": "bg-toy-e"
+    },
+    "столицата": {
+     "translations": {
+      "en": "the capital",
+      "de": "die Hauptstadt",
+      "fr": "la capitale",
+      "es": "la capital"
+     }
+    },
+    "на": {
+     "translations": {
+      "en": "of / on",
+      "de": "von / auf",
+      "fr": "de / sur",
+      "es": "de / en"
+     }
+    },
+    "българия": {
+     "translations": {
+      "en": "Bulgaria",
+      "de": "Bulgarien",
+      "fr": "Bulgarie",
+      "es": "Bulgaria"
+     }
+    },
+    "градът": {
+     "translations": {
+      "en": "the city",
+      "de": "die Stadt",
+      "fr": "la ville",
+      "es": "la ciudad"
+     }
+    },
+    "стар": {
+     "translations": {
+      "en": "old",
+      "de": "alt",
+      "fr": "vieux",
+      "es": "viejo"
+     }
+    },
+    "но": {
+     "translations": {
+      "en": "but",
+      "de": "aber",
+      "fr": "mais",
+      "es": "pero"
+     }
+    },
+    "млад": {
+     "translations": {
+      "en": "young",
+      "de": "jung",
+      "fr": "jeune",
+      "es": "joven"
+     }
+    },
+    "до": {
+     "translations": {
+      "en": "next to",
+      "de": "neben",
+      "fr": "à côté de",
+      "es": "junto a"
+     }
+    },
+    "има": {
+     "translations": {
+      "en": "there is",
+      "de": "es gibt",
+      "fr": "il y a",
+      "es": "hay"
+     }
+    },
+    "голяма": {
+     "translations": {
+      "en": "big",
+      "de": "groß",
+      "fr": "grande",
+      "es": "grande"
+     }
+    },
+    "планина": {
+     "translations": {
+      "en": "mountain",
+      "de": "Berg / Gebirge",
+      "fr": "montagne",
+      "es": "montaña"
+     }
+    },
+    "хората": {
+     "translations": {
+      "en": "the people",
+      "de": "die Leute",
+      "fr": "les gens",
+      "es": "la gente"
+     }
+    },
+    "пият": {
+     "translations": {
+      "en": "(they) drink",
+      "de": "trinken",
+      "fr": "boivent",
+      "es": "beben"
+     }
+    },
+    "кафе": {
+     "item": "bg-edno-kafe"
+    },
+    "и": {
+     "translations": {
+      "en": "and",
+      "de": "und",
+      "fr": "et",
+      "es": "y"
+     }
+    },
+    "ядат": {
+     "translations": {
+      "en": "(they) eat",
+      "de": "essen",
+      "fr": "mangent",
+      "es": "comen"
+     }
+    },
+    "баница": {
+     "item": "bg-banitsa"
+    },
+    "сутрин": {
+     "translations": {
+      "en": "in the morning",
+      "de": "morgens",
+      "fr": "le matin",
+      "es": "por la mañana"
+     }
+    },
+    "вечер": {
+     "translations": {
+      "en": "in the evening",
+      "de": "abends",
+      "fr": "le soir",
+      "es": "por la noche"
+     }
+    },
+    "приятелите": {
+     "translations": {
+      "en": "the friends",
+      "de": "die Freunde",
+      "fr": "les amis",
+      "es": "los amigos"
+     }
+    },
+    "казват": {
+     "translations": {
+      "en": "(they) say",
+      "de": "sagen",
+      "fr": "disent",
+      "es": "dicen"
+     }
+    },
+    "наздраве": {
+     "item": "bg-nazdrave"
+    }
+   }
+  }
+ ],
+ "places": [
+  {
+   "id": "bg-p-sofia",
+   "section": "core",
+   "name": "София",
+   "country": "Bulgaria",
+   "lat": 42.7,
+   "lng": 23.32,
+   "description": {
+    "en": "The capital, at the foot of Vitosha mountain.",
+    "de": "Die Hauptstadt am Fuß des Witoscha-Gebirges.",
+    "fr": "La capitale, au pied du mont Vitocha.",
+    "es": "La capital, al pie del monte Vitosha."
+   },
+   "localItems": [
+    "bg-zdravey",
+    "bg-blagodarya"
+   ],
+   "cultureNote": "bg-c-head",
+   "reading": "bg-r-sofia"
+  },
+  {
+   "id": "bg-p-plovdiv",
+   "section": "core",
+   "name": "Пловдив",
+   "country": "Bulgaria",
+   "lat": 42.15,
+   "lng": 24.75,
+   "unlockAfterLesson": "bg-a1-02",
+   "description": {
+    "en": "One of Europe's oldest cities, famous for its relaxed pace (“айляк”).",
+    "de": "Eine der ältesten Städte Europas, berühmt für ihre Gemütlichkeit („айляк“).",
+    "fr": "L'une des plus vieilles villes d'Europe, célèbre pour son rythme tranquille (« айляк »).",
+    "es": "Una de las ciudades más antiguas de Europa, famosa por su calma («айляк»)."
+   },
+   "localItems": [
+    "bg-aylyak"
+   ]
+  },
+  {
+   "id": "bg-p-veliko-tarnovo",
+   "section": "core",
+   "name": "Велико Търново",
+   "country": "Bulgaria",
+   "lat": 43.08,
+   "lng": 25.63,
+   "unlockAfterLesson": "bg-a1-03",
+   "description": {
+    "en": "Old royal capital on the hills above the Yantra river.",
+    "de": "Alte Zarenhauptstadt auf den Hügeln über der Jantra.",
+    "fr": "Ancienne capitale royale sur les collines au-dessus de la Yantra.",
+    "es": "Antigua capital real sobre las colinas del río Yantra."
+   },
+   "localItems": [
+    "bg-krepost",
+    "bg-tsar"
+   ],
+   "cultureNote": "bg-c-martenitsa"
+  },
+  {
+   "id": "bg-p-varna",
+   "section": "core",
+   "name": "Варна",
+   "country": "Bulgaria",
+   "lat": 43.21,
+   "lng": 27.91,
+   "unlockAfterLesson": "bg-a1-04",
+   "description": {
+    "en": "The sea capital on the Black Sea coast.",
+    "de": "Die Meereshauptstadt an der Schwarzmeerküste.",
+    "fr": "La capitale de la mer, sur la côte de la mer Noire.",
+    "es": "La capital del mar, en la costa del mar Negro."
+   },
+   "localItems": [
+    "bg-more",
+    "bg-plazh"
+   ],
+   "cultureNote": "bg-c-rakia"
+  },
+  {
+   "id": "bg-p-rila",
+   "section": "core",
+   "name": "Рилски манастир",
+   "country": "Bulgaria",
+   "lat": 42.13,
+   "lng": 23.34,
+   "unlockAfterLesson": "bg-a1-05",
+   "description": {
+    "en": "The most famous monastery, high in the Rila mountains.",
+    "de": "Das berühmteste Kloster, hoch im Rila-Gebirge.",
+    "fr": "Le monastère le plus célèbre, haut dans les montagnes de Rila.",
+    "es": "El monasterio más famoso, en lo alto de los montes Rila."
+   },
+   "localItems": [
+    "bg-manastir",
+    "bg-planina"
+   ]
+  }
+ ]
+}

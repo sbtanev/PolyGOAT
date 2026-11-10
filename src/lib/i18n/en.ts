@@ -179,6 +179,7 @@ const en = {
     tryAgain: "Try again",
     hint: "Hint",
     quit: "Quit",
+    latinOk: "Latin letters are fine too",
     nativesSay: "Natives say:",
     reset: "Reset",
   },

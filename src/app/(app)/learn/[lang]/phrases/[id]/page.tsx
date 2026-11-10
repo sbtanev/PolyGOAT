@@ -53,6 +53,7 @@ export default async function PhrasePackPage({ params }: { params: Promise<{ lan
               <div className="min-w-0 flex-1">
                 <p className="text-xs font-bold uppercase tracking-wide text-muted">{t.phrases.textbook}</p>
                 <p className="font-display text-lg font-bold">{it.text}</p>
+                {typeof it.extras?.translit === "string" && <p className="text-sm italic text-mint">{it.extras.translit}</p>}
                 <p className="text-muted">{tr(it.translations, source)}</p>
               </div>
             </div>

@@ -31,6 +31,7 @@ export default async function ReviewPage({ params }: { params: Promise<{ lang: s
       return [{
         id: r.id,
         front: r.items.text,
+        sub: typeof r.items.extras?.translit === "string" ? r.items.extras.translit : undefined,
         back: tr(r.items.translations, source),
         extra: r.items.native && r.items.native !== r.items.text ? `🗣️ ${r.items.native}` : tr(r.items.notes, source) || undefined,
         audio: r.items.audio_url,

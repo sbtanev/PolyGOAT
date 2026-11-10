@@ -5,11 +5,11 @@ import type { ItemRow, NoteRow } from "./learn";
 /** A ready-to-render step for the lesson player, already in the learner's source language. */
 export type Step =
   | { kind: "grammar"; title: string; body: string }
-  | { kind: "intro"; itemId: string; text: string; translation: string; native?: string; note?: string; audio?: string | null }
-  | { kind: "mc_translation"; itemId: string; prompt: string; audio?: string | null; options: string[]; answer: string }
+  | { kind: "intro"; itemId: string; text: string; translit?: string; translation: string; native?: string; note?: string; audio?: string | null }
+  | { kind: "mc_translation"; itemId: string; prompt: string; translit?: string; audio?: string | null; options: string[]; answer: string }
   | { kind: "mc_target"; itemId: string; prompt: string; options: string[]; answer: string; audio?: string | null }
   | { kind: "listen"; itemId: string; say: string; audio?: string | null; options: string[]; answer: string }
-  | { kind: "type_target"; itemId: string; prompt: string; answer: string }
+  | { kind: "type_target"; itemId: string; prompt: string; answer: string; alternatives?: string[] }
   | { kind: "fill"; itemId?: string; prompt: string; answer: string; alternatives: string[]; options?: string[]; hint?: string; explanation?: string }
   | { kind: "order"; itemId?: string; words: string[]; answer: string; translation: string }
   | { kind: "choose"; itemId?: string; prompt: string; target?: string; options: string[]; answer: string; explanation?: string };
@@ -26,6 +26,12 @@ function shuffle<T>(arr: T[]): T[] {
 function pickOptions(answer: string, candidates: string[], n = 4) {
   const others = shuffle([...new Set(candidates.filter((c) => c && c !== answer))]).slice(0, n - 1);
   return shuffle([answer, ...others]);
+}
+
+/** Latin-letter reading for non-Latin scripts (Cyrillic, kana, hangul…), stored in item.extras.translit. */
+export function translitOf(it: ItemRow) {
+  const t = it.extras?.translit;
+  return typeof t === "string" && t ? t : undefined;
 }
 
 function wordCount(s: string) {
@@ -56,6 +62,7 @@ export function buildSteps({ items, pool, source, grammar = [], authored = [], w
           kind: "intro",
           itemId: it.id,
           text: it.text,
+          translit: translitOf(it),
           translation: tr(it.translations, source),
           native: it.native && it.native !== it.text ? it.native : undefined,
           note: tr(it.notes, source) || undefined,
@@ -68,6 +75,7 @@ export function buildSteps({ items, pool, source, grammar = [], authored = [], w
           kind: "mc_translation",
           itemId: it.id,
           prompt: it.text,
+          translit: translitOf(it),
           audio: it.audio_url,
           answer,
           options: pickOptions(answer, translations),
@@ -84,11 +92,12 @@ export function buildSteps({ items, pool, source, grammar = [], authored = [], w
     .forEach((it, idx) => {
       const translation = tr(it.translations, source);
       if (!withIntros) {
-        mixed.push({ kind: "mc_translation", itemId: it.id, prompt: it.text, audio: it.audio_url, answer: translation, options: pickOptions(translation, translations) });
+        mixed.push({ kind: "mc_translation", itemId: it.id, prompt: it.text, translit: translitOf(it), audio: it.audio_url, answer: translation, options: pickOptions(translation, translations) });
       }
       const kind = idx % 3;
       if (kind === 2 && wordCount(it.text) <= 3 && !it.text.includes("…")) {
-        mixed.push({ kind: "type_target", itemId: it.id, prompt: translation, answer: it.text });
+        const tl = translitOf(it);
+        mixed.push({ kind: "type_target", itemId: it.id, prompt: translation, answer: it.text, alternatives: tl ? [tl] : undefined });
       } else if (kind === 1) {
         mixed.push({ kind: "listen", itemId: it.id, say: it.text, audio: it.audio_url, answer: it.text, options: pickOptions(it.text, texts) });
       } else {

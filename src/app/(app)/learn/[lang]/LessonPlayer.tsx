@@ -187,6 +187,7 @@ function StepView({
             <p className="font-display text-3xl font-bold">{step.text}</p>
             <SpeakButton text={step.text} audio={step.audio} autoPlay />
           </div>
+          {step.translit && <p className="-mt-2 italic text-mint">{step.translit}</p>}
           <p className="text-xl text-muted">{step.translation}</p>
           {step.native && (
             <p className="rounded-2xl bg-panel-2 px-4 py-2 text-sm">
@@ -205,6 +206,7 @@ function StepView({
             <span className="flex items-center gap-3">
               <span className="font-display text-2xl font-bold">{step.prompt}</span>
               <SpeakButton text={step.prompt} audio={step.audio} size="sm" />
+              {step.translit && <span className="italic text-mint">{step.translit}</span>}
             </span>
           }
           options={step.options}
@@ -255,8 +257,13 @@ function StepView({
       return (
         <Typed
           title={labels.typeWord.replace("{lang}", labels.langName)}
-          prompt={<span className="font-display text-2xl font-bold">{step.prompt}</span>}
-          answers={[step.answer]}
+          prompt={
+            <span>
+              <span className="block font-display text-2xl font-bold">{step.prompt}</span>
+              {step.alternatives?.length ? <span className="mt-1 block text-sm text-muted">⌨️ {labels.latinOk}</span> : null}
+            </span>
+          }
+          answers={[step.answer, ...(step.alternatives ?? [])]}
           verdict={verdict}
           onGrade={onGrade}
           labels={labels}
