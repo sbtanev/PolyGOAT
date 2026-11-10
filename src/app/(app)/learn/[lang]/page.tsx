@@ -2,13 +2,17 @@ import Link from "next/link";
 import { Goat } from "@/components/Goat";
 import { Markdownish } from "@/components/Markdownish";
 import { fmt, getDictionary, pickName } from "@/lib/i18n";
-import { getCourse, requireEnrollment, tr } from "@/lib/learn";
+import { JourneyMap } from "@/components/JourneyMap";
+import { getCourse, getJourney, requireEnrollment, tr } from "@/lib/learn";
+import { boundsFor } from "@/lib/mapBounds";
 
 export default async function CoursePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const { profile, language, enrollment, source } = await requireEnrollment(lang);
   const { t, locale } = await getDictionary();
-  const course = await getCourse(lang, profile.id);
+  const [course, places] = await Promise.all([getCourse(lang, profile.id), getJourney(lang, profile.id)]);
+  const unlockedPlaces = places.filter((p) => p.unlocked).length;
+  const mapConfig = (language as unknown as { map?: { bounds?: [[number, number], [number, number]] } }).map;
   const empty = course.lessons.length === 0 && course.phrasePacks.length === 0;
 
   return (
@@ -26,6 +30,22 @@ export default async function CoursePage({ params }: { params: Promise<{ lang: s
       </section>
 
       {empty && <p className="card text-muted">{t.learn.noContent}</p>}
+
+      {places.length > 0 && (
+        <Link href={`/learn/${lang}/map`} className="card block overflow-hidden p-0 transition hover:border-gold/60 sm:p-0">
+          <JourneyMap
+            bounds={boundsFor(mapConfig, places)}
+            accessory={language.mascot_accessory}
+            height={420}
+            highlight={[...new Set(places.map((p) => p.country).filter((c): c is string => Boolean(c)))]}
+            stops={places.map((p) => ({ id: p.id, name: p.name, lat: p.lat, lng: p.lng, unlocked: p.unlocked }))}
+          />
+          <div className="flex items-center justify-between px-5 py-3">
+            <span className="font-bold">🗺️ {t.map.title}</span>
+            <span className="text-sm text-muted">{fmt(t.map.unlocked, { n: unlockedPlaces, total: places.length })} →</span>
+          </div>
+        </Link>
+      )}
 
       {/* Review + practice + notebook */}
       <section className="grid gap-3 sm:grid-cols-3">
@@ -123,6 +143,25 @@ export default async function CoursePage({ params }: { params: Promise<{ lang: s
                   <span>
                     <span className="block font-bold">{tr(d.title, source)}</span>
                     <span className="block text-sm text-muted">{tr(d.situation, source)}</span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {course.readings.length > 0 && (
+        <section>
+          <h2 className="mb-3 font-display text-lg font-bold">{t.reading.title}</h2>
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {course.readings.map((r) => (
+              <li key={r.id}>
+                <Link href={`/learn/${lang}/read/${r.id}`} className="card flex items-center gap-4 p-4 transition hover:border-muted sm:p-4">
+                  <span className="text-3xl">📖</span>
+                  <span>
+                    <span className="block font-bold">{tr(r.title, source)}</span>
+                    <span className="chip mt-1">{r.level}</span>
                   </span>
                 </Link>
               </li>

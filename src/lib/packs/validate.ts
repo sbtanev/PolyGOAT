@@ -53,5 +53,29 @@ export function validatePack(pack: LanguagePack): string[] {
         errors.push(`dialogue ${d.id}: a choice line has no correct answer`);
     }
   }
+  const readingIds = new Set<string>();
+  for (const r of pack.readings ?? []) {
+    if (ids.has(r.id)) errors.push(`duplicate id: ${r.id}`);
+    ids.add(r.id);
+    readingIds.add(r.id);
+    if (r.section && !sectionSlugs.has(r.section)) errors.push(`reading ${r.id} uses unknown section ${r.section}`);
+    for (const [word, g] of Object.entries(r.glossary ?? {})) {
+      if (g.item && !itemIds.has(g.item)) errors.push(`reading ${r.id}: glossary "${word}" uses unknown item ${g.item}`);
+      if (!g.item && !g.translations) errors.push(`reading ${r.id}: glossary "${word}" needs an item or translations`);
+    }
+  }
+  const lessonIds = new Set((pack.lessons ?? []).map((l) => l.id));
+  const cultureIds = new Set((pack.cultureNotes ?? []).map((c) => c.id));
+  for (const p of pack.places ?? []) {
+    if (ids.has(p.id)) errors.push(`duplicate id: ${p.id}`);
+    ids.add(p.id);
+    if (typeof p.lat !== "number" || typeof p.lng !== "number") errors.push(`place ${p.id} needs lat and lng`);
+    if (p.unlockAfterLesson && !lessonIds.has(p.unlockAfterLesson))
+      errors.push(`place ${p.id} unlocks after unknown lesson ${p.unlockAfterLesson}`);
+    if (p.reading && !readingIds.has(p.reading)) errors.push(`place ${p.id} uses unknown reading ${p.reading}`);
+    if (p.cultureNote && !cultureIds.has(p.cultureNote)) errors.push(`place ${p.id} uses unknown culture note ${p.cultureNote}`);
+    if (p.section && !sectionSlugs.has(p.section)) errors.push(`place ${p.id} uses unknown section ${p.section}`);
+    checkRefs(`place ${p.id}`, p.localItems);
+  }
   return errors;
 }

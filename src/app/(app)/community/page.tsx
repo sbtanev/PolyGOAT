@@ -4,6 +4,7 @@ import { Avatar } from "@/components/Avatar";
 import { fmt, getDictionary } from "@/lib/i18n";
 import { getLanguages, isOnline, requireProfile, type Profile } from "@/lib/data";
 import { createClient } from "@/lib/supabase/server";
+import { getGoatOfWeek } from "@/lib/leaderboard";
 
 export const metadata: Metadata = { title: "Community" };
 
@@ -19,12 +20,13 @@ export default async function CommunityPage({
   const { q = "", lang = "" } = await searchParams;
 
   const supabase = await createClient();
-  const [{ data }, languages] = await Promise.all([
+  const [{ data }, languages, goat] = await Promise.all([
     supabase
       .from("profiles")
       .select("*, user_languages(language_code, level)")
       .order("last_seen_at", { ascending: false }),
     getLanguages(),
+    getGoatOfWeek(),
   ]);
   const all = (data ?? []) as Member[];
   const needle = q.trim().toLowerCase();
@@ -73,7 +75,10 @@ export default async function CommunityPage({
                 >
                   <Avatar url={m.avatar_url} preset={m.avatar_preset} size={56} online={online} alt={m.display_name} />
                   <div className="min-w-0 flex-1">
-                    <p className="truncate font-bold">{m.display_name}</p>
+                    <p className="truncate font-bold">
+                      {m.display_name}
+                      {goat?.user_id === m.id && <span title={t.leaderboard.goatOfWeek}> 👑</span>}
+                    </p>
                     <p className="truncate text-sm text-muted">
                       @{m.username}
                       {online && <span className="ml-2 text-mint">● {t.community.online}</span>}

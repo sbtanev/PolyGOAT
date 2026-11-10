@@ -116,7 +116,7 @@ export async function getDistractorPool(code: string, limit = 60): Promise<ItemR
 export async function getCourse(code: string, userId: string) {
   const supabase = await createClient();
   const now = new Date().toISOString();
-  const [sections, lessons, packs, dialogues, culture, progress, due, mistakes] = await Promise.all([
+  const [sections, lessons, packs, dialogues, culture, progress, due, mistakes, readings] = await Promise.all([
     supabase.from("sections").select("*").eq("language_code", code).order("sort_order"),
     supabase.from("lessons").select("*").eq("language_code", code).order("sort_order"),
     supabase.from("phrase_packs").select("*").eq("language_code", code).order("sort_order"),
@@ -130,6 +130,7 @@ export async function getCourse(code: string, userId: string) {
       .eq("language_code", code)
       .lte("due", now),
     supabase.from("mistakes").select("item_id, items!inner(language_code)").eq("user_id", userId).eq("items.language_code", code),
+    supabase.from("readings").select("id, level, title, section_id, sort_order").eq("language_code", code).order("sort_order"),
   ]);
   return {
     sections: (sections.data ?? []) as SectionRow[],
@@ -142,5 +143,48 @@ export async function getCourse(code: string, userId: string) {
     ),
     dueCount: due.count ?? 0,
     mistakeIds: (mistakes.data ?? []).map((m) => m.item_id as string),
+    readings: (readings.data ?? []) as Pick<ReadingRow, "id" | "level" | "title" | "section_id" | "sort_order">[],
   };
+}
+
+export type ReadingRow = {
+  id: string;
+  level: string;
+  section_id: string | null;
+  title: Tr;
+  sentences: { text: string; translations: Tr }[];
+  glossary: Record<string, { item?: string; translations?: Tr }>;
+  sort_order: number;
+};
+
+export type PlaceRow = {
+  id: string;
+  name: string;
+  country: string | null;
+  lat: number;
+  lng: number;
+  description: Tr;
+  unlock_after_lesson: string | null;
+  local_item_ids: string[];
+  culture_note_id: string | null;
+  reading_id: string | null;
+  section_id: string | null;
+  sort_order: number;
+};
+
+/** Places with their unlock state: a place opens when its lesson has been completed. */
+export async function getJourney(code: string, userId: string) {
+  const supabase = await createClient();
+  const [{ data: places }, { data: lessons }, { data: progress }] = await Promise.all([
+    supabase.from("map_places").select("*").eq("language_code", code).order("sort_order"),
+    supabase.from("lessons").select("id, title").eq("language_code", code),
+    supabase.from("lesson_progress").select("lesson_id, completed_at").eq("user_id", userId),
+  ]);
+  const done = new Set((progress ?? []).filter((p) => p.completed_at).map((p) => p.lesson_id as string));
+  const lessonTitles = new Map((lessons ?? []).map((l) => [l.id as string, l.title as Tr]));
+  return ((places ?? []) as PlaceRow[]).map((p) => ({
+    ...p,
+    unlocked: !p.unlock_after_lesson || done.has(p.unlock_after_lesson),
+    lessonTitle: p.unlock_after_lesson ? lessonTitles.get(p.unlock_after_lesson) : undefined,
+  }));
 }

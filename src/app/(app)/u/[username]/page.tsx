@@ -3,6 +3,7 @@ import { Goat } from "@/components/Goat";
 import { fmt, getDictionary, pickName } from "@/lib/i18n";
 import { getLanguages, isOnline, requireProfile, type Profile } from "@/lib/data";
 import { createClient } from "@/lib/supabase/server";
+import { getGoatOfWeek } from "@/lib/leaderboard";
 
 type Member = Profile & { user_languages: { language_code: string; level: string }[] };
 
@@ -28,7 +29,11 @@ export default async function PublicProfilePage({ params }: { params: Promise<{ 
     );
   }
 
-  const languages = await getLanguages();
+  const [languages, goat, { data: totalXp }] = await Promise.all([
+    getLanguages(),
+    getGoatOfWeek(),
+    supabase.rpc("total_xp", { p_user: member.id }),
+  ]);
   const since = new Date(member.created_at).toLocaleDateString(locale === "bg" ? "bg-BG" : "en-GB", {
     month: "long",
     year: "numeric",
@@ -47,6 +52,10 @@ export default async function PublicProfilePage({ params }: { params: Promise<{ 
         <div className="min-w-0 flex-1 sm:pl-3">
           <h1 className="font-display text-2xl font-bold break-words">{member.display_name}</h1>
           <p className="text-muted">@{member.username}</p>
+          <p className="mt-1 flex flex-wrap justify-center gap-2 sm:justify-start">
+            <span className="chip">🏔️ {Number(totalXp ?? 0)} XP</span>
+            {goat?.user_id === member.id && <span className="chip border-gold text-gold">👑 {t.leaderboard.goatOfWeek}</span>}
+          </p>
           {member.bio && <p className="mt-3 italic">“{member.bio}”</p>}
           <p className="mt-2 text-xs text-muted">{fmt(t.publicProfile.memberSince, { date: since })}</p>
         </div>

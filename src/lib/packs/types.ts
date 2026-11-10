@@ -83,6 +83,8 @@ export type LanguagePack = {
     varieties?: string[];
     ttsLocale?: string;
     active?: boolean;
+    /** Journey map view: [[west, south], [east, north]] in degrees */
+    mapBounds?: [[number, number], [number, number]];
   };
   sections?: { slug: string; title: Tr; description?: Tr; unlockAfterLevel?: string }[];
   items: PackItem[];
@@ -99,4 +101,30 @@ export type LanguagePack = {
     speakers: Record<string, { name: string; accessory?: string }>;
     lines: DialogueLine[];
   }[];
+  readings?: PackReading[];
+  places?: PackPlace[];
+};
+
+export type PackReading = {
+  id: string;
+  section?: string;
+  level?: string;
+  title: Tr;
+  sentences: { text: string; translations: Tr }[];
+  /** Clickable words. Key = word as it appears (lowercase). Link to an item to allow "add to review". */
+  glossary?: Record<string, { item?: string; translations?: Tr }>;
+};
+
+export type PackPlace = {
+  id: string;
+  section?: string;
+  name: string;
+  country?: string;
+  lat: number;
+  lng: number;
+  description?: Tr;
+  unlockAfterLesson?: string; // lesson id; empty = open from the start
+  localItems?: string[];
+  cultureNote?: string;
+  reading?: string;
 };

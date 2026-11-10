@@ -4,6 +4,10 @@ import { redirect } from "next/navigation";
 import { Goat } from "@/components/Goat";
 import { fmt, getDictionary, pickName } from "@/lib/i18n";
 import { getBaseLanguages, getLanguages, getUserLanguages, requireProfile } from "@/lib/data";
+import { StreakCard } from "@/components/StreakCard";
+import { createClient } from "@/lib/supabase/server";
+import { getStats } from "@/lib/xp";
+import { getGoatOfWeek } from "@/lib/leaderboard";
 
 export const metadata: Metadata = { title: "Home" };
 
@@ -16,18 +20,23 @@ export default async function HomePage() {
     getBaseLanguages(),
   ]);
   if (mine.length === 0) redirect("/onboarding");
+  const supabase = await createClient();
+  const [stats, goat] = await Promise.all([getStats(supabase, profile.id), getGoatOfWeek()]);
+  const isGoat = goat?.user_id === profile.id;
 
   return (
     <div className="flex flex-col gap-6">
       <section className="card flex items-center gap-4">
-        <Goat accessory="crown" size={84} />
+        <Goat accessory={isGoat ? "crown" : "none"} size={84} />
         <div>
           <h1 className="font-display text-xl font-bold sm:text-2xl">
             {fmt(t.home.greeting, { name: profile.display_name })}
           </h1>
-          <p className="mt-1 text-muted">{t.home.motivation}</p>
+          <p className="mt-1 text-muted">{isGoat ? `👑 ${t.leaderboard.goatOfWeek}!` : t.home.motivation}</p>
         </div>
       </section>
+
+      <StreakCard stats={stats} t={t.stats} />
 
       <section>
         <div className="mb-3 flex items-center justify-between">

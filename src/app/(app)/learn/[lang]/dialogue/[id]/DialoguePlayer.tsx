@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Goat } from "@/components/Goat";
 import { SpeakButton, SpeedToggle, useSpeak } from "@/components/Speak";
+import { completeDialogue } from "../../actions";
 
 type Line = {
   speaker: string;
@@ -22,6 +23,7 @@ type Labels = {
 };
 
 export function DialoguePlayer({
+  id,
   lang,
   title,
   situation,
@@ -31,6 +33,7 @@ export function DialoguePlayer({
   learnerAccessory,
   labels,
 }: {
+  id: string;
   lang: string;
   title: string;
   situation: string;
@@ -79,6 +82,14 @@ export function DialoguePlayer({
     speak(c.text);
     setPos((p) => p + 1);
   }
+
+  const rewarded = useRef(false);
+  useEffect(() => {
+    if (done && !rewarded.current) {
+      rewarded.current = true;
+      completeDialogue(lang, id);
+    }
+  }, [done, lang, id]);
 
   const learnerKey = lines.find((l) => l.choices)?.speaker;
 

@@ -29,6 +29,7 @@ export default async function DialoguePage({ params }: { params: Promise<{ lang:
 
   return (
     <DialoguePlayer
+      id={d.id}
       lang={lang}
       title={tr(d.title, source)}
       situation={tr(d.situation, source)}

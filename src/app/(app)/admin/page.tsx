@@ -10,6 +10,9 @@ export default async function AdminHome() {
   const links = [
     { href: "/admin/invites", icon: "🎟️", title: t.adminHome.invites, desc: t.adminHome.invitesDesc },
     { href: "/admin/packs", icon: "📦", title: t.adminHome.packs, desc: t.adminHome.packsDesc },
+    { href: "/admin/content", icon: "✏️", title: t.adminContent.content, desc: t.adminContent.contentDesc },
+    { href: "/admin/users", icon: "👥", title: t.adminContent.users, desc: t.adminContent.usersDesc },
+    { href: "/admin/stats", icon: "📊", title: t.adminContent.statsTitle, desc: t.adminContent.statsDesc },
   ];
   return (
     <div className="flex flex-col gap-5">

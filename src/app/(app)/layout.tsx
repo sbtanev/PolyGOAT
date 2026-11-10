@@ -16,6 +16,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
 
   const links = [
     { href: "/home", label: t.nav.home, icon: "🏔️" },
+    { href: "/leaderboard", label: t.nav.leaderboard, icon: "🏆" },
     { href: "/community", label: t.nav.community, icon: "🐐" },
     { href: "/profile", label: t.nav.profile, icon: "🎒" },
     ...(profile.role === "admin" ? [{ href: "/admin", label: t.nav.admin, icon: "🛠️" }] : []),

@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import { requireProfile } from "@/lib/data";
 import { cardToRow, newCard, Rating, rowToCard, scheduler, type CardRow } from "@/lib/srs";
+import { awardXp, XP } from "@/lib/xp";
 
 type Result = { itemId?: string; correct: boolean };
 
@@ -32,6 +33,12 @@ export async function finishSession(input: {
       best_score: Math.max(prev?.best_score ?? 0, score),
       completed_at: prev?.completed_at ?? new Date().toISOString(),
     });
+  }
+
+  if (input.lessonId) {
+    await awardXp(supabase, profile.id, XP.lesson + (score >= 90 ? XP.lessonPerfectBonus : 0), "lesson", input.lang, input.lessonId);
+  } else if (input.total > 0) {
+    await awardXp(supabase, profile.id, XP.practice, "practice", input.lang);
   }
 
   // Per item: wrong at least once → mistake; otherwise right
@@ -86,6 +93,29 @@ export async function rateCard(cardId: number, grade: 1 | 2 | 3 | 4) {
   const { card } = scheduler.next(rowToCard(row), new Date(), grade);
   await supabase.from("review_cards").update(cardToRow(card)).eq("id", cardId);
   await supabase.from("review_log").insert({ user_id: profile.id, card_id: cardId, rating: grade, state: row.state });
+  await awardXp(supabase, profile.id, XP.review, "review", row.language_code);
+}
+
+export async function completeDialogue(lang: string, dialogueId: string) {
+  const profile = await requireProfile();
+  const supabase = await createClient();
+  await awardXp(supabase, profile.id, XP.dialogue, "dialogue", lang, dialogueId);
+}
+
+export async function completeReading(lang: string, readingId: string) {
+  const profile = await requireProfile();
+  const supabase = await createClient();
+  await awardXp(supabase, profile.id, XP.reading, "reading", lang, readingId);
+  revalidatePath(`/learn/${lang}`);
+}
+
+/** Click-to-translate in readings: save a word that isn't a course item into the notebook. */
+export async function saveWordToNotebook(lang: string, text: string, translation: string, sentence: string) {
+  const fd = new FormData();
+  fd.set("text", text);
+  fd.set("translation", translation);
+  fd.set("context_sentence", sentence);
+  await addNotebookEntry(lang, fd);
 }
 
 export async function addNotebookEntry(lang: string, formData: FormData) {
