@@ -8,8 +8,26 @@ const MAX_INPUT_BYTES = 10 * 1024 * 1024;
 const OUTPUT_SIZE = 320;
 
 /** Crops the picked image to a centered square and shrinks it before upload. */
+/** Decode the picked file. Falls back to an <img> element, which Safari handles for more formats. */
+async function decode(file: File): Promise<{ source: CanvasImageSource; width: number; height: number }> {
+  try {
+    const bitmap = await createImageBitmap(file);
+    return { source: bitmap, width: bitmap.width, height: bitmap.height };
+  } catch {
+    const url = URL.createObjectURL(file);
+    try {
+      const img = new Image();
+      img.src = url;
+      await img.decode();
+      return { source: img, width: img.naturalWidth, height: img.naturalHeight };
+    } finally {
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }
+  }
+}
+
 async function toSquareImage(file: File): Promise<Blob> {
-  const bitmap = await createImageBitmap(file);
+  const bitmap = await decode(file);
   const side = Math.min(bitmap.width, bitmap.height);
   const canvas = document.createElement("canvas");
   canvas.width = OUTPUT_SIZE;
@@ -17,7 +35,7 @@ async function toSquareImage(file: File): Promise<Blob> {
   const ctx = canvas.getContext("2d");
   if (!ctx) throw new Error("no canvas");
   ctx.drawImage(
-    bitmap,
+    bitmap.source,
     (bitmap.width - side) / 2,
     (bitmap.height - side) / 2,
     side,
@@ -53,8 +71,10 @@ export function AvatarUpload({
 
     setBusy(true);
     setError(null);
+    let stage = "read";
     try {
       const blob = await toSquareImage(file);
+      stage = "upload";
       const ext = blob.type === "image/webp" ? "webp" : "jpg";
       const path = `${userId}/${Date.now()}.${ext}`;
       const supabase = createClient();
@@ -62,12 +82,16 @@ export function AvatarUpload({
         .from("avatars")
         .upload(path, blob, { contentType: blob.type, upsert: false });
       if (upErr) throw upErr;
+      stage = "save";
       const { data } = supabase.storage.from("avatars").getPublicUrl(path);
       await setAvatarUrl(data.publicUrl);
     } catch (e) {
-      console.error("avatar upload failed", e);
-      const detail = e instanceof Error ? e.message : typeof e === "object" && e && "message" in e ? String((e as { message: unknown }).message) : "";
-      setError(detail ? `${labels.failed} (${detail})` : labels.failed);
+      console.error("avatar upload failed", stage, e);
+      const msg =
+        e instanceof Error || (typeof e === "object" && e && "message" in e)
+          ? String((e as { message: unknown }).message || (e as { name?: string }).name || "")
+          : String(e);
+      setError(`${labels.failed} (${stage}${msg ? `: ${msg}` : ""}; ${file.type || "unknown type"})`);
     } finally {
       setBusy(false);
     }
