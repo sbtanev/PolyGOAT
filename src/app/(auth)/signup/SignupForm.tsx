@@ -71,7 +71,7 @@ export function SignupForm({ t, code }: { t: Dictionary["auth"]; code: string })
         <p className="hint">{t.passwordHint}</p>
       </div>
 
-      <FormMessage error={err ? t.errors[err] : undefined} />
+      <FormMessage error={err ? t.errors[err] + (state?.detail ? ` (${state.detail})` : "") : undefined} />
 
       <button disabled={pending} className="btn-primary">
         {t.signupButton}

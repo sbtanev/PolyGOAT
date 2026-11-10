@@ -4,7 +4,7 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 
-export type AuthState = { error?: string; info?: string } | undefined;
+export type AuthState = { error?: string; info?: string; detail?: string } | undefined;
 
 const USERNAME_RE = /^[A-Za-z0-9_]{3,20}$/;
 
@@ -67,10 +67,18 @@ export async function signUp(_: AuthState, formData: FormData): Promise<AuthStat
 
   const supabase = await createClient();
 
-  const { data: inviteOk } = await supabase.rpc("check_invite_code", { p_code: inviteCode });
+  const { data: inviteOk, error: inviteErr } = await supabase.rpc("check_invite_code", { p_code: inviteCode });
+  if (inviteErr) {
+    console.error("check_invite_code failed", inviteErr);
+    return { error: "generic", detail: `invite check: ${inviteErr.message}` };
+  }
   if (!inviteOk) return { error: "invalidInvite" };
 
-  const { data: free } = await supabase.rpc("username_available", { p_username: username });
+  const { data: free, error: nameErr } = await supabase.rpc("username_available", { p_username: username });
+  if (nameErr) {
+    console.error("username_available failed", nameErr);
+    return { error: "generic", detail: `username check: ${nameErr.message}` };
+  }
   if (!free) return { error: "usernameTaken" };
 
   const { data, error } = await supabase.auth.signUp({
@@ -83,8 +91,8 @@ export async function signUp(_: AuthState, formData: FormData): Promise<AuthStat
   });
 
   if (error) {
-    if (/database error/i.test(error.message)) return { error: "invalidInvite" };
-    return { error: "generic" };
+    console.error("signUp failed", error);
+    return { error: "generic", detail: `sign up: ${error.code ?? error.status ?? ""} ${error.message}` };
   }
   if (data.session) redirect("/onboarding");
   return { info: "checkEmail" };
