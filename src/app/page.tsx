@@ -11,10 +11,8 @@ export default async function Landing() {
 
   if (isSupabaseConfigured) {
     const supabase = await createClient();
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-    if (user) redirect("/home");
+    const { data } = await supabase.auth.getClaims();
+    if (data?.claims?.sub) redirect("/home");
   }
 
   const route = [

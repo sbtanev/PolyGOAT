@@ -1,11 +1,12 @@
 import Link from "next/link";
+import { after } from "next/server";
 import { LocaleSwitcher, LogoLink } from "@/components/Brand";
 import { Avatar } from "@/components/Avatar";
 import { NavLinks } from "./NavLinks";
 import { signOut } from "../actions";
 import { getDictionary } from "@/lib/i18n";
 import { requireProfile } from "@/lib/data";
-import { createClient } from "@/lib/supabase/server";
+import { createClient, createDetachedClient } from "@/lib/supabase/server";
 import { autoImportUpdatedPacks } from "@/lib/packs/autoImport";
 import { Goat } from "@/components/Goat";
 
@@ -37,10 +38,15 @@ export default async function AppLayout({ children }: { children: React.ReactNod
     );
   }
 
-  await supabase.rpc("touch_last_seen");
+  // Bookkeeping that the page doesn't need to wait for: runs after the response is sent.
+  const background = await createDetachedClient();
+  after(async () => {
+    await background.rpc("touch_last_seen");
+    if (profile.role === "admin") await autoImportUpdatedPacks(background);
+  });
+
   let pendingCount = 0;
   if (profile.role === "admin") {
-    await autoImportUpdatedPacks(supabase);
     const { count } = await supabase
       .from("profiles")
       .select("id", { count: "exact", head: true })

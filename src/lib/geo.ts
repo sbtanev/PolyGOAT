@@ -25,7 +25,27 @@ export type MapPoint = { id: string; lat: number; lng: number };
  * Projects the countries and places that fall inside `bounds` onto a width×height canvas.
  * Returns plain SVG path strings and pixel positions, so the page can draw a stylized map.
  */
+const mapCache = new Map<string, ReturnType<typeof computeMap>>();
+
+/** Maps only depend on the pack data, so each one is computed once per server instance. */
 export function buildMap(
+  bounds: [[number, number], [number, number]],
+  points: MapPoint[],
+  width = 800,
+  height = 560,
+  highlight: string[] = [],
+) {
+  const key = JSON.stringify([bounds, points.map((p) => [p.id, p.lat, p.lng]), width, height, highlight]);
+  let map = mapCache.get(key);
+  if (!map) {
+    map = computeMap(bounds, points, width, height, highlight);
+    if (mapCache.size > 50) mapCache.clear();
+    mapCache.set(key, map);
+  }
+  return map;
+}
+
+function computeMap(
   bounds: [[number, number], [number, number]],
   points: MapPoint[],
   width = 800,
@@ -53,7 +73,7 @@ export function buildMap(
   ]);
   const path = geoPath(projection).digits(1);
 
-  const shapes = getCountries(e - w < 45)
+  const shapes = getCountries(e - w < 20)
     .map((c) => ({ name: c.properties.name, d: path(c) ?? "" }))
     .filter((c) => c.d && c.d.length > 0);
 
